@@ -1,0 +1,75 @@
+ANSI 2.5
+MCP 2.1
+[#0:bf_read] to set reading_input property
+[$player.reading_input] to indicate when read() is actively occurring
+[$command_utils:reading_input] verb to access .reading_input
+[$prog:@add-option] to add options to option packages
+[$time_utils.{minute, hour, day, week, month, year}] convenience properties for the number of seconds in the desired time period
+Ported MCP help database from Waterpoint
+[$generic_options.namewidth] set to a default of 25 since it's 2018
+[$wiz:@code-replace] to globally replace strings in code
+[$waif] Added with support for creation and initialization
+[$object_utils:isa] Modified to support waifs
+[#1, #3, #6, #7 :recycle()] Renamed pre_destroy
+[#0:bf_recycle recycle] Renamed to bf_destroy and destroy
+[#4:_recycle] Changed references to recycle to destroy
+[#57:@toad] Change recycle to pre_destroy
+[#57:mcd_2] Rename recycle to destroy
+[$server_options.protect_recycle] Renamed to protect_destroy
+[$dump_interval] Moved to $server_options
+[$prog_options] Added "//_comments" and edited simpleedit:verbcode_external_to_internal to match. Also edited $prog:prog_options to allow simpleedit as a caller
+[simpleedit:edit_set_program] Disabled line ~84 (split_verb_code) and wrote an appropriate 'what' variable
+[$code_utils] Added commentify
+[$mcp.client] Added
+Ran $quota_utils:schedule_measurement_task and cleared $quota_utils:schedule_measurement_task
+[$anon] Added with support for creating children and clearing owned_objects
+[$mcp.session] Chparented to $anon
+[$mcp:create_session] Changed creation to use this.session:new()
+[$mcp.session:send] Changed line 12 to catch E_INVIND
+[$root_class:set_name] Add error catching to is_player to catch anons
+[$string_utils:explode] Replace with builtin explode()
+[$object_utils:ancestors] Replace with builtin ancestors()
+[$object_utils:descendants] Replace with builtin descendants()
+[$object_utils:has_callable_verb] Replace with builtin respond_to
+[$string_utils:prefix_to_value] Add map symbol and _tomap call
+[$string_utils:_tomap] Added
+[#0:sin] Added as alias for suspend_if_needed
+[$cord] Replaced with $mcp.cord
+[$player:@version] Pimp ToastStunt
+[#0:bf_match and #0:bf_rmatch] Remove code paths that are impossible to reach.
+[#0.force_input_count and #0:bf_force_input] Remove force_input_count.
+[$login.goaway_message] Deleted (LambdaMOO vestige)
+[#0.max_ticks, #0.max_seconds] Deleted
+[#0.shutdown_task] Moved to $wiz_utils
+[#0.shutdown_message] Moved to $wiz_utils
+[#0.gripe_recipients] Moved to $wiz_utils
+[#0.no_connect_message] Moved to $login
+[$ftp, $gopher] Recycled.
+[$password_verifier:check_dictionary] Removed references to $gopher
+[#0.server] Added to hold server related information that doesn't fit anywhere else: last_restart_time, shutdown_time, server name, core_history
+[#6:@version, #10:version] Use $server["name"]
+[#24:boot_idlers] Replace LambdaMOO with $network.moo_name
+[#0.class_registry and #4:@classes] Deleted.
+[#0.help_db] Move #0.*_help into this map
+[#0.options] Move #0.*_options into this map and change associated verbs.
+[$login:maybe_limit_commands] Use a map instead of lists. Also clear in $login:server_started.
+[$code_utils.error_names and error_list] Add Stunt errors
+[$code_utils.builtin_props] Add last_move
+[$player:@set-note-text] When editing a property value, default to processing by value. If that fails, assume it's all strings.
+[#113:edit_set_note_value] Modified to parse property values
+[$note_editor:local_editing_info] Changed reference from str to val when halfway appropriate. (This would be a good spot to match the @set-note-text behavior if appropriate. Maybe a @prog-o?)
+[$mcp.parser:unparse] Modified to pass lists instead of tracing back
+[$note_editor:note_text] Trimmed down the type check since we support more types now.
+[$code_utils:parse_sysobj_map] Added. Attempt to parse a map string into a map value.
+[$code_utils:parse_propref] Parse maps given as objects (e.g. @edit $options["ansi"].show_color)
+[$code_utils:parse_verbref] Same as propref, only verbier.
+[$string_utils:literal_object] Support matching to sysobj maps.
+[$code_utils:corify_object] Return objects found in maps on $sysobj. Keeping with our current ghetto namespaces theme. (This may not be desirable, depending on what you store on #0.)
+[$verb_editor:local_editing_info] Make it aware of simpleedit's v_filter_out.
+[$login:connect] Verify password using argon2
+[$login:encrypt_password] Encrypt using argon2b
+[#6@registerme, #6:@password, #10:create, #24:make_player, #24:do_new_password] Encrypt using $login:encrypt_password
+[$help_db["toaststunt"]] Created, added to $prog.help, and added to #6:init_for_core
+[$composed] Added from Stunt
+[$shapes] Added from Stunt
+[$proto, $map_proto, $string_proto, $list_proto, $int_proto, $obj_proto] Lovingly ported from ChatMUD
