@@ -260683,6 +260683,7 @@ endif
 if (!player.programmer)
 return E_PERM;
 endif
+set_task_perms(player);
 package = player:my_match_object(iobjstr);
 if ((package == $failed_match) || (isa(package, $generic_options) == 0))
 return player:tell("You need to specify an option package.");
