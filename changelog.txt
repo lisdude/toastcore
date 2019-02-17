@@ -73,3 +73,11 @@ Ran $quota_utils:schedule_measurement_task and cleared $quota_utils:schedule_mea
 [$composed] Added from Stunt
 [$shapes] Added from Stunt
 [$proto, $map_proto, $string_proto, $list_proto, $int_proto, $obj_proto] Lovingly ported from ChatMUD
+[$spell] Purged the dictionary, changed the parent to #1, removed database verbs, and modified valid / guess_word to use builtin spellcheck.
+[#88:@spell] Remove @complete
+[#92] Remove help files for removed $spell stuff.
+[$object_utils:has_callable_verb] Catch all errors.
+[#0] Add .frobs
+[$prog:@remove-option] Added.
+[$verb_editor:parse_invoke] Function like @list and find the first matching verb on all ancestors.
+[#0:core_objects] Recognize maps
