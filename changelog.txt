@@ -81,3 +81,14 @@ Ran $quota_utils:schedule_measurement_task and cleared $quota_utils:schedule_mea
 [$prog:@remove-option] Added.
 [$verb_editor:parse_invoke] Function like @list and find the first matching verb on all ancestors.
 [#0:core_objects] Recognize maps
+[#0:lookup] Added as part of Composed
+[$help_db["toaststunt"]] Add FileIO help
+[$composed] Add audit verb to check packages for errors (this was removed from Composed in Improvise, so there is probably a good reason, but for now it seems handy)
+[$ansi_utils] Update version string
+[$composed:_set_seconds_and_ticks] Updated to check for and add appropriate server options.
+[$composed:_reset_seconds_and_ticks] Delete server options if we manually added the properties.
+[$shapes] Update to the latest dump from Improvise
+[$options[prog]:show_verb_perms, check_verb_perms, parse_verb_perms and $prog:@verb] Add programmer option for default verb permissions.
+[#0:s ies es] Added to "pluralize" a word based on a number.
+[$composed:_lookup_by_label] Manually define __wizard__, which may not be appropriate at all. But it fixed one of many Composed tracebacks so I'm going with it.
+[$login.argon2] Set parameters to server defaults.

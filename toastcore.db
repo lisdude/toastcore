@@ -9,7 +9,7 @@
 0 values pending finalization
 0 clocks
 1 queued tasks
-0 1 1550476800 168382251
+0 1 1550563200 1444610854
 0
 -111
 1
@@ -111,7 +111,7 @@ The System Object
 1
 4
 0
-25
+27
 do_login_command
 2
 173
@@ -209,6 +209,14 @@ bf_read
 173
 -1
 sin
+2
+173
+-1
+lookup
+2
+173
+-1
+s ies es
 2
 173
 -1
@@ -715,7 +723,7 @@ LambdaCore
 2
 last_restart_time
 0
-1550439138
+1550514904
 2
 name
 2
@@ -862,9 +870,9 @@ The known universe.
 4
 2
 0
-35524
+39015
 0
-1550439210
+1550515218
 36
 1
 #1
@@ -1111,7 +1119,7 @@ object_size
 0
 30727
 0
-1550439210
+1550515218
 36
 1
 #2
@@ -1125,11 +1133,11 @@ Wizard
 2
 source
 1
-49
+15
 2
 time
 0
-1550387207
+1550453134
 4
 0
 1
@@ -1535,9 +1543,9 @@ mcp_snoop
 0
 50000
 0
-1112628
+1122001
 0
-1550439210
+1550515218
 0
 800
 36
@@ -1571,7 +1579,7 @@ Wizard
 0
 6507
 0
-1550439210
+1550515218
 36
 1
 #3
@@ -1865,7 +1873,7 @@ generic room
 0
 41196
 0
-1550439210
+1550515218
 36
 1
 #4
@@ -2307,7 +2315,7 @@ You see a player who should type '@describe me as ...'.
 0
 47434
 0
-1550439210
+1550515218
 36
 1
 #5
@@ -2420,7 +2428,7 @@ generic thing
 0
 6771
 0
-1550439210
+1550515218
 36
 1
 #6
@@ -3107,7 +3115,7 @@ You see a player who should type '@describe me as ...'.
 0
 133045
 0
-1550439210
+1550515218
 36
 1
 #7
@@ -3233,7 +3241,7 @@ generic exit
 0
 10413
 0
-1550439210
+1550515218
 36
 1
 #8
@@ -3451,7 +3459,7 @@ generic container
 0
 13863
 0
-1550439210
+1550515218
 36
 1
 #9
@@ -3574,7 +3582,7 @@ There appears to be some writing on the note ...
 0
 9283
 0
-1550439210
+1550515218
 36
 1
 #10
@@ -3973,7 +3981,19 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 2
 4
 4
-28
+30
+4
+2
+0
+1550514904
+0
+0
+4
+2
+0
+1550439500
+0
+0
 4
 2
 0
@@ -4205,15 +4225,15 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 2
 iterations
 0
-120
+3
 2
 memory
 0
-12000
+4096
 2
 threads
 0
-4
+1
 2
 5
 5
@@ -4232,9 +4252,9 @@ This provides everything needed by #0:do_login_command.  See `help $login' on $c
 4
 2
 0
-58280
+58408
 0
-1550439210
+1550515218
 36
 1
 #11
@@ -4288,7 +4308,7 @@ A repository of last-resort player verbs to be called by $player:last_huh
 0
 6294
 0
-1550439210
+1550515218
 36
 1
 #12
@@ -4351,7 +4371,7 @@ Guest Log
 0
 5330
 0
-1550439210
+1550515218
 36
 1
 #13
@@ -4687,7 +4707,7 @@ This is the Generic BigList Utilities utility package.  See `help $biglist' for 
 0
 29877
 0
-1550439210
+1550515218
 36
 1
 #14
@@ -5063,7 +5083,7 @@ Calling #OBJ:restore_from(...) COMPLETELY AND IRREVOCABLY REMOVES ALL MESSAGES f
 0
 51966
 0
-1550439210
+1550515218
 36
 1
 #15
@@ -5122,7 +5142,7 @@ The Body Bag
 0
 3584
 0
-1550439210
+1550515218
 36
 1
 #16
@@ -5254,7 +5274,7 @@ Registration Database
 0
 12978
 0
-1550439210
+1550515218
 36
 1
 #17
@@ -5448,7 +5468,7 @@ Log of player creations.
 0
 5497
 0
-1550439210
+1550515218
 36
 1
 #18
@@ -5551,7 +5571,7 @@ A `help database' that knows about all of the documented verbs.
 0
 5292
 0
-1550439210
+1550515218
 36
 1
 #19
@@ -9039,7 +9059,7 @@ Help database for LambdaCore utility objects and generics.
 0
 121232
 0
-1550439210
+1550515218
 36
 1
 #20
@@ -9619,7 +9639,7 @@ This is the string utilities utility package.  See `help $string_utils' for more
 0
 101088
 0
-1550439210
+1550515218
 36
 1
 #21
@@ -9789,7 +9809,7 @@ This is the building utilities utility package.  See `help $building_utils' for 
 0
 19066
 0
-1550439210
+1550515218
 36
 1
 #22
@@ -12604,7 +12624,7 @@ This provides help on the programmer commands available on $prog and related top
 0
 103005
 0
-1550439210
+1550515218
 36
 1
 #23
@@ -13743,7 +13763,7 @@ This describes the various commands available on $wiz.
 0
 36730
 0
-1550439210
+1550515218
 36
 1
 #24
@@ -14451,7 +14471,7 @@ This is the Wizard Utilities utility package.  See `help $wiz_utils' for more de
 0
 73331
 0
-1550439210
+1550515218
 36
 1
 #25
@@ -14596,7 +14616,7 @@ The site blacklist and the graylist live as well (see `help blacklist').
 0
 17985
 0
-1550439210
+1550515218
 36
 1
 #26
@@ -16890,7 +16910,7 @@ This is the Math Utilities utility package.  See `help $math_utils' for more det
 0
 55523
 0
-1550439210
+1550515218
 36
 1
 #27
@@ -17012,7 +17032,7 @@ This is the Set Utilities utility package.  See `help $set_utils' for more detai
 0
 7782
 0
-1550439210
+1550515218
 36
 1
 #28
@@ -19498,7 +19518,7 @@ For the {"*verb*",...} form, the current verbs available are
 0
 106091
 0
-1550439210
+1550515218
 36
 1
 #29
@@ -19662,7 +19682,7 @@ Record of who's been made a @programmer.
 0
 9059
 0
-1550439210
+1550515218
 36
 1
 #30
@@ -19782,7 +19802,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 13195
 0
-1550439210
+1550515218
 36
 1
 #31
@@ -20218,7 +20238,7 @@ By definition, guests appear nondescript.
 0
 21642
 0
-1550439210
+1550515218
 36
 1
 #32
@@ -20278,7 +20298,7 @@ For help on using the speller, use 'help spelling' and 'help @spell'.
 0
 6042
 0
-1550439210
+1550515218
 36
 1
 #33
@@ -20486,7 +20506,7 @@ This is the sequence utilities utility package.  See `help $seq_utils' for more 
 0
 22892
 0
-1550439210
+1550515218
 36
 1
 #34
@@ -20627,7 +20647,7 @@ Record of whose quota has been messed with and why.
 0
 2286
 0
-1550439210
+1550515218
 36
 1
 #35
@@ -20797,7 +20817,7 @@ An object useful for pronoun substitution for switching between third and second
 0
 9531
 0
-1550439210
+1550515218
 36
 1
 #36
@@ -21101,7 +21121,7 @@ init_for_core
 0
 100000008
 0
--28423944
+-28408390
 0
 1008125633
 0
@@ -21138,7 +21158,7 @@ A system character used to own non-wizardly system verbs , properties, and objec
 0
 4156
 0
-1550439210
+1550515218
 36
 1
 #37
@@ -21285,7 +21305,7 @@ A generic `database' (well, really more like a string-indexed array if you want 
 0
 23185
 0
-1550439210
+1550515218
 36
 1
 #38
@@ -21520,7 +21540,7 @@ Everyman ($no_one) can not receive mail.
 0
 0
 0
-1550390400
+1550476800
 0
 0
 36
@@ -21561,7 +21581,7 @@ The character used for "safe" evals.
 0
 8391
 0
-1550439210
+1550515218
 36
 1
 #39
@@ -21821,7 +21841,7 @@ See `help $player_db' for more information.
 0
 12184
 0
-1550439210
+1550515218
 36
 1
 #40
@@ -22313,7 +22333,7 @@ Generic Mail Receiving Player
 0
 97211
 0
-1550439210
+1550515218
 36
 1
 #41
@@ -22806,7 +22826,7 @@ This is the gender utilities utility package.  See `help $gender_utils' for more
 0
 17787
 0
-1550439210
+1550515218
 36
 1
 #42
@@ -22895,7 +22915,7 @@ This is the permissions utilities utility package.  See `help $perm_utils' for m
 0
 4790
 0
-1550439210
+1550515218
 36
 1
 #43
@@ -23490,7 +23510,7 @@ This is the time utilities utility package.  See `help $time_utils' for more det
 0
 30642
 0
-1550439210
+1550515218
 36
 1
 #44
@@ -24438,7 +24458,7 @@ Editor Help
 0
 26270
 0
-1550439210
+1550515218
 36
 1
 #45
@@ -24736,7 +24756,7 @@ This can either be a mailing list or a mail folder, depending on what mood you'r
 0
 44127
 0
-1550439210
+1550515218
 36
 1
 #46
@@ -25091,7 +25111,7 @@ Avaliable aliases:
 0
 69430
 0
-1550439210
+1550515218
 36
 1
 #47
@@ -25537,7 +25557,7 @@ Mail Room
 0
 31755
 0
-1550439210
+1550515218
 36
 1
 #48
@@ -25866,7 +25886,7 @@ nedit
 0
 14786
 0
-1550439210
+1550515218
 36
 1
 #49
@@ -26195,7 +26215,7 @@ verb edit
 0
 20107
 0
-1550439210
+1550515218
 36
 1
 #50
@@ -26834,7 +26854,7 @@ edit
 0
 74141
 0
-1550439210
+1550515218
 36
 1
 #51
@@ -26989,7 +27009,7 @@ matching utilities
 0
 12588
 0
-1550439210
+1550515218
 36
 1
 #52
@@ -27247,7 +27267,7 @@ This is the object utilities utility package.  See `help $object_utils' for more
 0
 29793
 0
-1550439210
+1550515218
 36
 1
 #53
@@ -27384,7 +27404,7 @@ This the lock utilities package, used by the MOOwide locking mechanisms. See `he
 0
 13212
 0
-1550439210
+1550515218
 36
 1
 #54
@@ -27488,7 +27508,7 @@ Some writing on the letter explains that you should 'read letter', and when you'
 0
 3579
 0
-1550439210
+1550515218
 36
 1
 #55
@@ -27803,7 +27823,7 @@ This is the list utilities utility package.  See `help $list_utils' for more det
 0
 41608
 0
-1550439210
+1550515218
 36
 1
 #56
@@ -27900,25 +27920,29 @@ feature_task
 4
 9
 0
-1008690619
+949035663
 2
-2edit
+@list-
 4
-1
+3
 2
-#58:@add-option
+packages
 2
-#58:@add-option
+with
+2
+$composed
+2
+packages with $composed
 1
 -3
 2
-#58:@add-option
+packages
 2
-
+with
 1
--1
+-3
 2
-
+$composed
 36
 0
 4
@@ -28016,9 +28040,9 @@ This is the command utilities utility package.  See `help $command_utils' for mo
 4
 2
 0
-25159
+25214
 0
-1550439210
+1550515218
 36
 1
 #57
@@ -28541,7 +28565,7 @@ You see a wizard who chooses not to reveal its true appearance.
 0
 77267
 0
-1550439210
+1550515218
 36
 1
 #58
@@ -29041,9 +29065,9 @@ You see a player who is too experienced to have any excuse for not having a desc
 4
 2
 0
-82605
+82690
 0
-1550439210
+1550515218
 36
 1
 #59
@@ -29795,7 +29819,7 @@ This is the code utilities utility package.  See `help $code_utils' for more det
 0
 81855
 0
-1550439210
+1550515218
 36
 1
 #60
@@ -32455,7 +32479,7 @@ See the description of $generic_help for more detail.
 0
 96627
 0
-1550439210
+1550515218
 36
 1
 #61
@@ -32975,7 +32999,7 @@ It's the current issue of the News, dated %d.
 0
 28263
 0
-1550439210
+1550515218
 36
 1
 #62
@@ -33074,7 +33098,7 @@ This is all there is right now.
 0
 6359
 0
-1550439210
+1550515218
 36
 1
 #63
@@ -33235,7 +33259,7 @@ Object reuse. Call $recycler:_create() to create an object (semantics the same a
 0
 17056
 0
-1550439210
+1550515218
 36
 1
 #64
@@ -33651,7 +33675,7 @@ Options for mailing
 0
 20503
 0
-1550439210
+1550515218
 36
 1
 #66
@@ -33760,7 +33784,7 @@ Edit Options
 0
 2824
 0
-1550439210
+1550515218
 36
 1
 #67
@@ -33845,7 +33869,7 @@ Display Options
 0
 1273
 0
-1550439210
+1550515218
 36
 1
 #68
@@ -33963,7 +33987,7 @@ an option package in need of a description.  See `help $generic_option'...
 0
 16982
 0
-1550439210
+1550515218
 36
 1
 #69
@@ -34161,7 +34185,7 @@ raise(error) actually raises the error.
 0
 11680
 0
-1550439210
+1550515218
 36
 1
 #70
@@ -34272,7 +34296,7 @@ Notes on annoying sites.
 0
 1824
 0
-1550439210
+1550515218
 36
 1
 #71
@@ -34774,7 +34798,7 @@ Impossible password to type
 0
 31475
 0
-1549958400
+1550439210
 0
 0
 36
@@ -34810,7 +34834,7 @@ A very clean, neat, tidy person who doesn't mind lugging players and their gear 
 0
 31475
 0
-1550439210
+1550515218
 36
 1
 #72
@@ -35244,7 +35268,7 @@ Parameters:
 0
 31183
 0
-1550439210
+1550515218
 36
 1
 #73
@@ -35331,7 +35355,7 @@ This is the object you want to use as a parent in order to @create a place for y
 0
 5344
 0
-1550439210
+1550515218
 36
 1
 #74
@@ -35473,7 +35497,7 @@ This is the Generic Feature Object.  It is not meant to be used as a feature obj
 0
 10943
 0
-1550439210
+1550515218
 36
 1
 #75
@@ -35501,95 +35525,95 @@ time
 23
 _log
 2
-173
+172
 -1
 _suspend_if_necessary
 2
-173
+172
 -1
-_controls
+_controls controls
 2
-165
+164
 -1
 _controls_verb
 2
-165
+164
 -1
 _controls_property
 2
-165
+164
 -1
 objects
 2
-173
+172
 -1
 read_object
 2
-173
+172
 -1
 write_object
 2
-173
+172
 -1
 _parent_property_info
 2
-173
+172
 -1
 _values
 2
-173
+172
 -1
 values
 2
-173
+172
 -1
 read_value
 2
-173
+172
 -1
 write_value
 2
-173
+172
 -1
 _write_parents
 2
-173
+172
 -1
 _write_player
 2
-173
+172
 -1
 read_verb
 2
-173
+172
 -1
 write_verb
 2
-173
+172
 -1
 read_property
 2
-173
+172
 -1
 write_property
 2
-173
+172
 -1
 bare_object
 2
-173
+172
 -1
 add_value
 2
-173
+172
 -1
 add_property_definition
 2
-173
+172
 -1
 add_verb_definition
 2
-173
+172
 -1
 0
 0
@@ -35607,7 +35631,7 @@ Programmer Options
 68
 4
 0
-8
+11
 actual
 36
 173
@@ -35637,6 +35661,18 @@ check_@prop_flags
 173
 -1
 parse_@prop_flags
+2
+173
+-1
+check_verb_perms
+2
+173
+-1
+show_verb_perms
+2
+173
+-1
+parse_verb_perms
 2
 173
 -1
@@ -35713,7 +35749,7 @@ Comments shown in editors will begin with //
 36
 5
 4
-9
+10
 2
 list_all_parens
 2
@@ -35725,6 +35761,8 @@ copy_expert
 2
 verb_args
 2
+verb_perms
+2
 @prop_flags
 2
 list_show_permissions
@@ -35735,7 +35773,7 @@ rmverb_mail_backup
 36
 1
 2
-!list_all_parens!list_no_numbers!list_show_permissions!eval_time!copy_expert!list_numbers!verb_args!@prop_flags!rmverb_mail_backup!//_comments!
+!list_all_parens!list_no_numbers!list_show_permissions!eval_time!copy_expert!list_numbers!verb_args!@prop_flags!rmverb_mail_backup!//_comments!verb_perms!
 36
 1
 4
@@ -35767,9 +35805,9 @@ Option package for $prog commands.  See `help @prog-options'.
 4
 2
 0
-7749
+10068
 0
-1550439210
+1550515218
 36
 1
 #77
@@ -35898,7 +35936,7 @@ Option package for $builder commands.  See `help @build-options'.
 0
 5909
 0
-1550439210
+1550515218
 36
 1
 #78
@@ -35986,7 +36024,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 835
 0
-1550439210
+1550515218
 36
 1
 #79
@@ -36190,7 +36228,7 @@ measurement_task_running
 36
 5
 1
-38
+96
 36
 5
 0
@@ -36392,7 +36430,7 @@ This is the Byte Quota Utilities utility package.  See `help $quota_utils' for m
 0
 43435
 0
-1550439210
+1550515218
 36
 1
 #80
@@ -36516,7 +36554,7 @@ Internal:
 0
 8754
 0
-1550439210
+1550515218
 36
 1
 #81
@@ -36622,7 +36660,7 @@ This is the Object Quota Utilities utility package.  See `help $object_quota_uti
 0
 9928
 0
-1550439210
+1550515218
 36
 1
 #82
@@ -36821,7 +36859,7 @@ Server Options
 0
 8456
 0
-1550439210
+1550515218
 36
 1
 #83
@@ -36948,7 +36986,7 @@ warehouse
 0
 2586
 0
-1550439210
+1550515218
 36
 1
 #84
@@ -38261,7 +38299,7 @@ This help database contains topics about the generic builder and building comman
 0
 46286
 0
-1550439210
+1550515218
 36
 1
 #85
@@ -39494,7 +39532,7 @@ This help database contains topics relating to the general use of the mail syste
 0
 42114
 0
-1550439210
+1550515218
 36
 1
 #86
@@ -39520,7 +39558,7 @@ time
 4
 0
 0
-47
+72
 binary_hmac
 string_hmac
 decode_base64
@@ -39568,7 +39606,32 @@ spellcheck
 threads
 thread_info
 waif_stats
-53
+fio
+fileio
+file_version
+file_open
+file_close
+file_name
+file_openmode
+file_readline
+file_readlines
+file_writeline
+file_read
+file_write
+file_tell
+file_seek
+file_eof
+file_rename
+file_remove
+file_mkdir
+file_rmdir
+file_list
+file_type
+file_mode
+file_chmod
+file_stat
+toaststunt-index
+78
 4
 8
 2
@@ -40717,10 +40780,575 @@ Syntax:  waif_stats()   => MAP
 Returns a MAP of statistics about instantiated waifs. Each waif class will be a key in the MAP and its value will be the number of waifs of that class currently instantiated. Additionally, there is a `total' key that will return the total number of instantiated waifs, and a `pending_recycle' key that will return the number of waifs that have been destroyed and are awaiting the call of their :recycle verb.
 36
 5
+4
+2
+2
+*forward*
+2
+fileio
+36
 5
+4
+40
+2
+General-purpose functions:
+2
+
+2
+STR file_version()
+2
+FHANDLE file_open(STR pathname, STR mode)
+2
+void file_close(FHANDLE fh)
+2
+STR file_name(FHANDLE fh)
+2
+STR file_openmode(FHANDLE fh)
+2
+STR file_readline(FHANDLE fh)
+2
+LIST file_readlines(FHANDLE fh, INT start, INT end)
+2
+void file_writeline(FHANDLE fh, STR line)
+2
+STR file_read(FHANDLE fh, INT bytes)
+2
+INT file_write(FHANDLE fh, STR data)
+2
+INT file_tell(FHANDLE fh)
+2
+void file_seek(FHANDLE fh, INT loc, STR whence)
+2
+INT file_eof(FHANDLE fh)
+2
+void file_rename(STR oldpath, STR newpath)
+2
+void file_remove(STR pathname)
+2
+void file_mkdir(STR pathname)
+2
+void file_rmdir(STR pathname)
+2
+LIST file_list(STR pathname, [ANY detailed])
+2
+STR file_type(STR pathname)
+2
+STR file_mode(STR filename)
+2
+void file_chmod(STR filename, STR mode)
+2
+
+2
+
+2
+Attribute functions:
+2
+
+2
+INT file_size(STR pathname)
+2
+STR file_mode(STR pathname)
+2
+INT file_last_access(STR pathname)
+2
+INT file_last_modify(STR pathname)
+2
+INT file_last_change(STR pathname)
+2
+INT file_size(FHANDLE fh)
+2
+STR file_mode(FHANDLE fh)
+2
+INT file_last_access(FHANDLE fh)
+2
+INT file_last_modify(FHANDLE fh)
+2
+INT file_last_change(FHANDLE fh)
+2
+
+2
+void file_stat(STR pathname)
+2
+void file_stat(FHANDLE fh)
+36
+5
+3
+93896575025153
+36
+5
+4
+47
+2
+ Function: FHANDLE file_open(STR pathname, STR mode)
+2
+
+2
+  Raises: E_INVARG if mode is not a valid mode, E_QUOTA if too many files are open.
+2
+  This opens a file specified by pathname and returns an FHANDLE for it.
+2
+  It ensures pathname is legal.  Mode is a string of characters indicating what mode the file is opened in. 
+2
+  The mode string is four characters.
+2
+
+2
+  The first character must be (r)ead, (w)rite, or (a)ppend.  The second must be '+' or '-'.  This modifies the previous argument.
+2
+
+2
+  o  r- opens the file for reading and fails if the file does not exist.
+2
+
+2
+  o  r+ opens the file for reading and writing and fails if the file
+2
+     does not exist.
+2
+
+2
+  o  w- opens the file for writing, truncating if it exists and creating
+2
+     if not.
+2
+
+2
+  o  w+ opens the file for reading and writing, truncating if it exists
+2
+     and creating if not.
+2
+
+2
+  o  a- opens a file for writing, creates it if it does not exist and
+2
+     positions the stream at the end of the file.
+2
+
+2
+  o  a+ opens the file for reading and writing, creates it if does not
+2
+     exist and positions the stream at the end of the file.
+2
+
+2
+     The third character is either (t)ext or (b)inary.  In text mode,
+2
+     data is written as-is from the MOO and data read in by the MOO is
+2
+     stripped of unprintable characters.  In binary mode, data is
+2
+     written filtered through the binary-string->raw-bytes conversion
+2
+     and data is read filtered through the raw-bytes->binary-string
+2
+     conversion.  For example, in text mode writing " 1B" means three
+2
+     bytes are written: ' ' Similarly, in text mode reading " 1B" means
+2
+     the characters ' ' '1' 'B' were present in the file.  In binary
+2
+     mode reading " 1B" means an ASCII ESC was in the file.  In text
+2
+     mode, reading an ESC from a file results in the ESC getting
+2
+     stripped.
+2
+
+2
+  It is not recommended that files containing unprintable ASCII  data be
+2
+  read in text mode, for obvious reasons.
+2
+
+2
+  The final character is either 'n' or 'f'.  If this character is 'f',
+2
+  whenever data is written to the file, the MOO will force it to finish
+2
+  writing to the physical disk before returning.  If it is 'n' then
+2
+  this won't happen.
+2
+
+2
+  This is implemented using fopen().
+36
+5
+4
+5
+2
+ Function: void file_close(FHANDLE fh)
+2
+
+2
+  Closes the file associated with fh.
+2
+
+2
+  This is implemented using fclose().
+36
+5
+4
+5
+2
+Function: STR file_name(FHANDLE fh)
+2
+
+2
+  Returns the pathname originally associated with fh by file_open().
+2
+  This is not necessarily the file's current name if it was renamed or
+2
+  unlinked after the fh was opened.
+36
+5
+4
+3
+2
+Function: STR file_openmode(FHANDLE fh)
+2
+
+2
+  Returns the mode the file associated with fh was opened in.
+36
+5
+4
+7
+2
+Function: STR file_readline(FHANDLE fh)
+2
+
+2
+  Reads the next line in the file and returns it (without the newline).
+2
+
+2
+  Not recommended for use on files in binary mode.
+2
+
+2
+  This is implemented using fgetc().
+36
+5
+4
+9
+2
+  Function: LIST file_readlines(FHANDLE fh, INT start, INT end)
+2
+
+2
+  Rewinds the file and then reads the specified lines from the file,
+2
+  returning them as a list of strings.  After this operation, the stream
+2
+  is positioned right after the last line read.
+2
+
+2
+  Not recommended for use on files in binary mode.
+2
+
+2
+  This is implemented using fgetc().
+36
+5
+4
+7
+2
+  Function: void file_writeline(FHANDLE fh, STR line)
+2
+
+2
+  Writes the specified line to the file (adding a newline).
+2
+
+2
+  Not recommended for use on files in binary mode.
+2
+
+2
+  This is implemented using fputs()
+36
+5
+4
+8
+2
+Function: STR file_read(FHANDLE fh, INT bytes)
+2
+
+2
+  Reads up to the specified number of bytes from the file and returns
+2
+  them.
+2
+
+2
+  Not recommended for use on files in text mode.
+2
+
+2
+  This is implemented using fread().
+36
+5
+4
+8
+2
+Function: INT file_write(FHANDLE fh, STR data)
+2
+
+2
+  Writes the specified data to the file.  Returns number of bytes
+2
+  written.
+2
+
+2
+  Not recommended for use on files in text mode.
+2
+
+2
+  This is implemented using fwrite().
+36
+5
+4
+5
+2
+Function: INT file_tell(FHANDLE fh)
+2
+
+2
+  Returns position in file.
+2
+
+2
+  This is implemented using ftell().
+36
+5
+4
+12
+2
+Function: void file_seek(FHANDLE fh, INT loc, STR whence)
+2
+
+2
+  Seeks to a particular location in a file.  whence is one of the
+2
+  strings:
+2
+
+2
+  o  "SEEK_SET" - seek to location relative to beginning
+2
+
+2
+  o  "SEEK_CUR" - seek to location relative to current
+2
+
+2
+  o  "SEEK_END" - seek to location relative to end
+2
+
+2
+  This is implemented using fseek().
+36
+5
+4
+5
+2
+Function: INT file_eof(FHANDLE fh)
+2
+
+2
+  Returns true if and only if fh's stream is positioned at EOF.
+2
+
+2
+  This is implemented using feof().
+36
+5
+4
+5
+2
+Function: void file_rename(STR oldpath, STR newpath)
+2
+
+2
+  Attempts to rename the oldpath to newpath.
+2
+
+2
+  This is implemented using rename().
+36
+5
+4
+5
+2
+Function: void file_remove(STR pathname)
+2
+
+2
+  Attempts to remove the given file.
+2
+
+2
+  This is implemented using remove().
+36
+5
+4
+5
+2
+Function: void file_mkdir(STR pathname)
+2
+
+2
+  Attempts to create the given directory.
+2
+
+2
+  This is implemented using mkdir().
+36
+5
+4
+5
+2
+Function: void file_rmdir(STR pathname)
+2
+
+2
+  Attempts to remove the given directory.
+2
+
+2
+  This is implemented using rmdir().
+36
+5
+4
+13
+2
+Function: LIST file_list(STR pathname, [ANY detailed])
+2
+
+2
+  Attempts to list the contents of the given directory.  Returns a list
+2
+  of files in the directory.  If the detailed argument is provided and
+2
+  true, then the list contains detailed entries, otherwise it contains a
+2
+  simple list of names.
+2
+
+2
+  detailed entry:
+2
+    {STR filename, STR file type, STR file mode, INT file size}
+2
+  normal entry:
+2
+    STR filename
+2
+
+2
+  This is implemented using scandir().
+36
+5
+4
+6
+2
+Function: STR file_type(STR pathname)
+2
+
+2
+  Returns the type of the given pathname, one of "reg", "dir", "dev",
+2
+  "fifo", or "socket".
+2
+
+2
+  This is implemented using stat().
+36
+5
+4
+5
+2
+ Function: STR file_mode(STR filename)
+2
+
+2
+  Returns octal mode for a file (e.g. "644").
+2
+
+2
+  This is implemented using stat().
+36
+5
+4
+6
+2
+Function: void file_chmod(STR filename, STR mode)
+2
+
+2
+  Attempts to set mode of a file using mode as an octal string of
+2
+  exactly three characters.
+2
+
+2
+  This is implemented using chmod().
+36
+5
+4
+16
+2
+ Function: void file_stat(STR pathname)
+2
+  Function: void file_stat(FHANDLE fh)
+2
+
+2
+  Returns the result of stat() (or fstat()) on the given file.
+2
+  Specifically a list as follows:
+2
+
+2
+  {file size in bytes, file type, file access mode, owner, group,
+2
+       last access, last modify, and last change}
+2
+
+2
+  owner and group are always the empty string.
+2
+
+2
+  It is recommended that the specific information functions file_size,
+2
+  file_type, file_mode, file_last_access, file_last_modify, and
+2
+  file_last_change be used instead.  In most cases only one of these
+2
+  elements is desired and in those cases there's no reason to make and
+2
+  free a list.
+36
+5
+4
+2
+2
+*index*
+2
+Stunt / ToastStunt Functions
 36
 5
 5
+36
+5
+4
+1
+2
+toaststunt-index
 36
 1
 0
@@ -40748,9 +41376,9 @@ A help database of the standard form in need of a description. See `help $generi
 4
 2
 0
-45221
+58456
 0
-1550439210
+1550515218
 36
 1
 #87
@@ -40932,7 +41560,7 @@ The password verifier verifies passwords.
 0
 14668
 0
-1550439210
+1550515218
 36
 1
 #88
@@ -41615,7 +42243,7 @@ You see a player who should type '@describe me as ...'.
 0
 91875
 0
-1550439210
+1550515218
 36
 1
 #89
@@ -41725,7 +42353,7 @@ This feature contains various verbs used in stage talk, which allows players to 
 0
 5959
 0
-1550439210
+1550515218
 36
 1
 #90
@@ -41819,7 +42447,7 @@ Verbs useful to people using a windowing system to paste text at people.
 0
 5734
 0
-1550439210
+1550515218
 36
 1
 #91
@@ -42107,7 +42735,7 @@ This is a utilities package for dealing with lists as representations of vectors
 0
 38343
 0
-1550439210
+1550515218
 36
 1
 #92
@@ -42992,7 +43620,7 @@ Frand Help DB
 0
 30023
 0
-1550439210
+1550515218
 36
 1
 #93
@@ -45132,7 +45760,7 @@ This is a utilities package for converting from one unit of measurement to anoth
 0
 44958
 0
-1550439210
+1550515218
 36
 1
 #94
@@ -45239,7 +45867,7 @@ Generic Gendered Object
 0
 3568
 0
-1550439210
+1550515218
 36
 1
 #95
@@ -45553,7 +46181,7 @@ List Editor
 0
 17357
 0
-1550439210
+1550515218
 36
 1
 #96
@@ -45854,7 +46482,7 @@ impossible password to type
 0
 129945
 0
-1549958400
+1550439210
 0
 0
 36
@@ -45891,7 +46519,7 @@ This player owns all editor-related verbs.
 0
 3554
 0
-1550439210
+1550515218
 36
 1
 #97
@@ -46062,7 +46690,7 @@ HTTP Server
 0
 8230
 0
-1550439210
+1550515218
 36
 1
 #98
@@ -46082,39 +46710,7 @@ time
 0
 1550360970
 4
-16
-1
-99
-1
-100
-1
-101
-1
-102
-1
-103
-1
-104
-1
-105
-1
-106
-1
-107
-1
-108
-1
-109
-1
-110
-1
-113
-1
-116
-1
-121
-1
-123
+0
 1
 58
 4
@@ -46420,9 +47016,9 @@ time
 0
 50000
 0
-230169
+230382
 0
-1550439210
+1550515218
 0
 100
 36
@@ -46453,7 +47049,7 @@ time
 0
 3637
 0
-1550439210
+1550515218
 36
 1
 #99
@@ -46461,17 +47057,17 @@ ANSI Utilities
 0
 98
 1
-98
+-1
 10
 2
 2
 source
 1
--1
+98
 2
 time
 0
-1541028244
+1550466018
 4
 0
 1
@@ -46949,7 +47545,7 @@ beep
 98
 1
 2
-2.4
+2.5
 98
 1
 2
@@ -47275,7 +47871,7 @@ First version, added $emu and hacked $player:notify to call it.
 98
 1
 4
-6
+14
 0
 1173755677
 0
@@ -47288,6 +47884,22 @@ First version, added $emu and hacked $player:notify to call it.
 928622741
 0
 1373029887
+0
+1808337941
+0
+1290390605
+0
+1756048750
+0
+697373335
+0
+1368057863
+0
+874979774
+0
+1345122694
+0
+291348798
 98
 1
 4
@@ -47471,9 +48083,9 @@ au
 4
 2
 0
-71221
+71349
 0
-1550439210
+1550515218
 36
 1
 #100
@@ -47481,17 +48093,17 @@ ANSI PC
 0
 98
 1
-98
+-1
 10
 2
 2
 source
 1
--1
+98
 2
 time
 0
-1541028249
+1550466018
 4
 0
 1
@@ -47753,7 +48365,7 @@ A player with the ability to see things in [red]c[bold][yellow]o[green]l[blue]o[
 0
 29070
 0
-1550439210
+1550515218
 36
 1
 #101
@@ -47761,17 +48373,17 @@ ANSI Help
 16
 98
 1
-98
+-1
 10
 2
 2
 source
 1
--1
+98
 2
 time
 0
-1541028251
+1550466018
 4
 0
 1
@@ -48415,7 +49027,10 @@ $ansi_pc
 5
 98
 5
-5
+4
+1
+2
+ansi-index
 36
 1
 0
@@ -48437,9 +49052,9 @@ A help database of the standard form in need of a description. See `help $generi
 4
 2
 0
-26743
+26786
 0
-1550439210
+1550515218
 36
 1
 #102
@@ -48447,17 +49062,17 @@ ANSI Options
 16
 98
 1
-98
+-1
 10
 2
 2
 source
 1
--1
+98
 2
 time
 0
-1541028253
+1550466018
 4
 0
 1
@@ -48666,7 +49281,7 @@ An option package for controlling and customizing the ANSI PC.
 0
 5619
 0
-1550439210
+1550515218
 36
 1
 #103
@@ -48674,17 +49289,17 @@ generic message dispatch object
 0
 98
 1
-98
+-1
 10
 2
 2
 source
 1
--1
+98
 2
 time
 0
-1541058878
+1550466018
 4
 0
 1
@@ -48738,7 +49353,7 @@ dispatch
 0
 5192
 0
-1550439210
+1550515218
 36
 1
 #104
@@ -48746,17 +49361,17 @@ generic MCP package
 0
 98
 1
-98
+-1
 10
 2
 2
 source
 1
--1
+98
 2
 time
 0
-1541058925
+1550466018
 4
 0
 1
@@ -48853,7 +49468,7 @@ package
 0
 6825
 0
-1550439210
+1550515218
 36
 1
 #105
@@ -48861,17 +49476,17 @@ mcp-negotiate
 0
 98
 1
-98
+-1
 10
 2
 2
 source
 1
--1
+98
 2
 time
 0
-1541058957
+1550466018
 4
 0
 1
@@ -48968,7 +49583,7 @@ negotiate
 0
 3228
 0
-1550439210
+1550515218
 36
 1
 #106
@@ -48976,17 +49591,17 @@ mcp-cord
 0
 98
 1
-98
+-1
 10
 2
 2
 source
 1
--1
+98
 2
 time
 0
-1541059205
+1550466018
 4
 0
 1
@@ -49138,7 +49753,7 @@ cord
 0
 7348
 0
-1550439210
+1550515218
 36
 1
 #107
@@ -49146,17 +49761,17 @@ MCP 2.1 parser
 0
 98
 1
-98
+-1
 10
 2
 2
 source
 1
--1
+98
 2
 time
 0
-1541059256
+1550466018
 4
 0
 1
@@ -49193,7 +49808,7 @@ next_datakey
 unquoted_string
 6
 0
-9911
+9938
 98
 1
 2
@@ -49220,7 +49835,7 @@ parser
 0
 6696
 0
-1550439210
+1550515218
 36
 1
 #108
@@ -49228,17 +49843,17 @@ generic MCP 2.1 session
 0
 98
 1
-98
+-1
 10
 2
 2
 source
 1
--1
+98
 2
 time
 0
-1541059278
+1550466018
 4
 0
 1
@@ -49380,17 +49995,17 @@ MCP package registry
 0
 98
 1
-98
+-1
 10
 2
 2
 source
 1
--1
+98
 2
 time
 0
-1541059335
+1550466018
 4
 0
 1
@@ -49491,7 +50106,7 @@ registry
 0
 7206
 0
-1550439210
+1550515218
 36
 1
 #110
@@ -49499,17 +50114,17 @@ MCP 2.1
 0
 98
 1
-98
+-1
 10
 2
 2
 source
 1
--1
+98
 2
 time
 0
-1541059388
+1550466018
 4
 0
 1
@@ -49648,7 +50263,7 @@ mcp
 0
 10478
 0
-1550439210
+1550515218
 36
 1
 #111
@@ -49702,7 +50317,7 @@ time
 1
 4
 0
-48
+50
 _log
 2
 172
@@ -49895,6 +50510,14 @@ _undo_instructions
 2
 172
 -1
+_lookup_by_object_number
+2
+172
+-1
+audit
+2
+172
+-1
 7
 packages
 provides_cache
@@ -49917,7 +50540,7 @@ archive_sources
 98
 0
 0
-1550383200
+1550501682
 98
 0
 10
@@ -51596,9 +52219,9 @@ Component
 4
 2
 0
-89149
+94763
 0
-1550439210
+1550515218
 36
 1
 #113
@@ -51606,17 +52229,17 @@ dns-org-mud-moo-simpleedit
 0
 98
 1
-98
+-1
 10
 2
 2
 source
 1
--1
+98
 2
 time
 0
-1541060903
+1550466018
 4
 0
 1
@@ -51863,7 +52486,7 @@ Non JHCore installations might choose to set .v_filter_in / .v_filter_out to fal
 0
 15923
 0
-1550439210
+1550515218
 36
 1
 #114
@@ -51945,17 +52568,17 @@ MCP Help Database
 16
 98
 1
-98
+-1
 10
 2
 2
 source
 1
--1
+98
 2
 time
 0
-1541167335
+1550466018
 4
 0
 1
@@ -52859,7 +53482,10 @@ MCP help topics
 5
 98
 5
-5
+4
+1
+2
+mcp-index
 36
 1
 0
@@ -52878,9 +53504,9 @@ MCP Help Database
 4
 2
 0
-23245
+23287
 0
-1550439210
+1550515218
 36
 1
 #117
@@ -52994,7 +53620,7 @@ Generic Waif
 0
 2521
 0
-1550439210
+1550515218
 36
 1
 #119
@@ -53074,17 +53700,17 @@ dns-com-vmoo-client
 0
 98
 1
-98
+-1
 10
 2
 2
 source
 1
--1
+98
 2
 time
 0
-1542091080
+1550466018
 4
 0
 1
@@ -53129,7 +53755,7 @@ client_stats
 4
 3
 0
-1550439145
+1550514912
 1
 2
 4
@@ -53222,7 +53848,7 @@ dns-com-vmoo-client
 0
 6384
 0
-1550439210
+1550515218
 36
 1
 #122
@@ -53261,17 +53887,17 @@ dns-com-awns-status
 0
 98
 1
-98
+-1
 10
 2
 2
 source
 1
--1
+98
 2
 time
 0
-1542226986
+1550466018
 4
 0
 1
@@ -53329,11 +53955,11 @@ dns-com-awns-status
 0
 1354
 0
-1550439210
+1550515218
 36
 1
 0
-1953
+1959
 #0:0
 "...This code should only be run as a server task...";
 if (callers())
@@ -53787,6 +54413,89 @@ return ((typeof(input) == ERR) && $code_utils:dflag_on()) ? raise(input) | input
 #0:24
 {?time = 0, @ann} = args;
 return $command_utils:suspend_if_needed(time, @ann);
+.
+#0:25
+{reference, ?options = []} = args;
+"get package info...";
+packages = $composed.packages;
+provides_cache = $composed.provides_cache;
+requires_cache = $composed.requires_cache;
+"...then drop perms...";
+set_task_perms(perms = caller_perms());
+enclosing_package = `options["package"] ! E_RANGE';
+dynamic_scope = `options["dynamic"] ! E_RANGE';
+if ((typeof(enclosing_package) != ERR) && (typeof(dynamic_scope) != ERR))
+raise(E_INVARG);
+"If the caller has wiz-perms, it can set the enclosing package";
+"explicitly.  The enclosing package is the point-of-view from";
+"which we look up references.";
+elseif (typeof(enclosing_package) != ERR)
+if ((perms.wizard && valid(enclosing_package)) && (enclosing_package in packages))
+elseif (perms.wizard)
+raise(E_INVARG);
+else
+raise(E_PERM);
+endif
+else
+"If `dynamic_scope' is true, set the scope of the search to";
+"the point of use rather than the point of definition.";
+if (dynamic_scope)
+enclosing_package = callers()[1][1];
+else
+enclosing_package = callers()[1][4];
+endif
+while (valid(enclosing_package) && (!(enclosing_package in packages)))
+enclosing_package = enclosing_package.location;
+endwhile
+endif
+"Raise an error if we make it to the top without finding an";
+"enclosing package -- this typically means that `$lookup()' has been";
+"called from a verb on an object that is in a package that has not";
+"yet been _installed_.";
+if (typeof(enclosing_package) != OBJ)
+raise(E_TYPE, "Type mismatch", enclosing_package);
+elseif (!valid(enclosing_package))
+raise(E_INVIND, "No enclosing package", enclosing_package);
+endif
+"find the reference";
+if (reference == "__package__")
+return enclosing_package;
+elseif (reference == "__owner__")
+return enclosing_package.owner;
+elseif (r = match(reference, "^%([a-z_][a-z0-9_]*%)%(|%([a-z][a-z0-9_]*%)%)?$"))
+reference = r[4][r[3][1][1]..r[3][1][2]];
+package = `r[4][r[3][3][1]..r[3][3][2]] ! E_RANGE';
+if ((!package) || (package == enclosing_package.identifier))
+package = enclosing_package;
+else
+if (`versions = requires_cache[package] ! E_RANGE')
+for packages, version in (versions)
+if (enclosing_package in packages)
+package = provides_cache[package][version][1];
+break;
+endif
+endfor
+else
+package = $nothing;
+endif
+endif
+for entry in (`package.manifest ! ANY => {}')
+{object, label} = entry;
+if (reference == label)
+return object;
+endif
+endfor
+endif
+return $failed_match;
+.
+#0:26
+"A quick and dirty way to pluralize a word based on a number (oftentimes the result of a length() check).";
+"Usage: $verb(word, amount)";
+"$s(\"credit\", 2) => \"credits\"";
+"$ies(\"battery\", 2) => \"batteries\";";
+"$es(\"watch\", 2) => \"watches\";";
+{word, value} = args;
+return (value in {1, 1.0}) ? word | (((verb == "ies") ? word[1..$ - 1] | word) + verb);
 .
 #1:0
 if (typeof(this.owner.owned_objects) == LIST)
@@ -78166,9 +78875,12 @@ verbargs = pas[1] || (player:prog_option("verb_args") || {});
 verbargs = {@verbargs, "none", "none", "none"}[1..3];
 rest = pas[2];
 if (verbargs == {"this", "none", "this"})
-perms = "rxd";
+perms = player:prog_option("verb_perms") || "rxd";
+if (!index(perms, "x"))
+perms = perms + "x";
+endif
 else
-perms = "rd";
+perms = player:prog_option("verb_perms") || "rd";
 endif
 if (rest)
 perms = $perm_utils:apply(perms, rest[1]);
@@ -83379,10 +84091,6 @@ notify(player, tostr(@args));
 #75:1
 ((ticks_left() < 10000) || (seconds_left() < 2)) && suspend(0);
 .
-#75:2
-{who, what} = args;
-return (who == what.owner) || who.wizard;
-.
 #75:3
 {who, what, name} = args;
 return (who == verb_info(what, name)[1]) || who.wizard;
@@ -83401,7 +84109,7 @@ return r;
 #75:6
 {o, ?options = []} = args;
 ((ticks_left() < 2000) || (seconds_left() < 2)) && suspend(0);
-if (`valid(o) ! E_TYPE => 0')
+if (`valid(o) ! E_TYPE')
 pcount = length(properties(o));
 vcount = length(verbs(o));
 set_task_perms(caller_perms());
@@ -83410,14 +84118,16 @@ v = parents(o);
 m = ["id" -> "parents"];
 m["status"] = this:_controls(caller_perms(), o) ? "writable" | "readable";
 r["Attributes"]["parents"] = ["Meta" -> m, "Value" -> ["value" -> v]];
-v = `is_player(o) ! ANY => 0';
+if (typeof(o) == OBJ)
+v = is_player(o);
 m = ["id" -> "player"];
 m["status"] = `caller_perms().wizard ! E_INVIND' ? "writable" | "readable";
 r["Attributes"]["player"] = ["Meta" -> m, "Value" -> ["value" -> v]];
+endif
 r["Values"] = [];
 for a in (this:_values(o))
 this:_suspend_if_necessary();
-r["Values"][a] = this:read_value(o, a);
+r["Values"][a] = this:read_value(o, a, options);
 endfor
 r["Properties"] = {};
 for p in [1..pcount]
@@ -83429,24 +84139,32 @@ for v in [1..vcount]
 this:_suspend_if_necessary();
 r["Verbs"] = {@r["Verbs"], this:read_verb(o, v)};
 endfor
-if (o.r)
-status = "readable";
-elseif (p = o.w || this:_controls(caller_perms(), o))
+if (p = o.w || this:_controls(caller_perms(), o))
 status = "writable";
+elseif (o.r)
+status = "readable";
 else
 status = "";
 endif
-r["Meta"] = ["id" -> `toint(o) ! ANY => 0', "status" -> status];
+if (typeof(o) == OBJ)
+r["Meta"] = ["id" -> toint(o), "status" -> status];
+else
+r["Meta"] = ["status" -> status];
+endif
 return r;
 else
+if (typeof(o) == OBJ)
 r = ["Meta" -> ["id" -> toint(o), "status" -> "invalid"]];
+else
+r = ["Meta" -> ["status" -> "invalid"]];
+endif
 return r;
 endif
 .
 #75:7
-{o, r} = args;
+{o, r, ?options = []} = args;
 ((ticks_left() < 2000) || (seconds_left() < 2)) && suspend(0);
-if (`valid(o) ! E_TYPE => 0')
+if (`valid(o) ! E_TYPE')
 properties = properties(o);
 verbs = verbs(o);
 set_task_perms(caller_perms());
@@ -83463,7 +84181,7 @@ errors = errors + ("Error" in mapkeys(x));
 endif
 location = `r["Values"]["location"]["Value"]["value"] ! E_RANGE => o.location';
 if (o.location != location)
-x = this:write_value(o, "location", ["Value" -> ["value" -> #-1]]);
+x = this:write_value(o, "location", ["Value" -> ["value" -> $nothing]]);
 errors = errors + ("Error" in mapkeys(x));
 endif
 owner = `r["Values"]["owner"]["Value"]["value"] ! E_RANGE => o.owner';
@@ -83517,7 +84235,7 @@ endif
 endfor
 for v in [1..length(r["Verbs"])]
 this:_suspend_if_necessary();
-r["Verbs"][v] = this:write_verb(o, v, r["Verbs"][v]);
+r["Verbs"][v] = this:write_verb(o, v, r["Verbs"][v], `options["verbs"] ! E_RANGE => []');
 if ("Error" in mapkeys(r["Verbs"][v]))
 if ((lv1 < lv2) && (r["Verbs"][v]["Error"]["diagnostic"] == "verb is invalid"))
 r["Verbs"][v]["Error"]["diagnostic"] = "permission denied";
@@ -83528,7 +84246,7 @@ endfor
 values = setremove(setremove(mapkeys(r["Values"]), "location"), "owner");
 for a in (values)
 this:_suspend_if_necessary();
-r["Values"][a] = this:write_value(o, a, r["Values"][a]);
+r["Values"][a] = this:write_value(o, a, r["Values"][a], options);
 errors = errors + ("Error" in mapkeys(r["Values"][a]));
 endfor
 if (errors < 1)
@@ -83572,7 +84290,7 @@ y = {z, @y};
 endfor
 x = {@y, @x};
 endfor
-x = {"name", "owner", "location", "programmer", "wizard", "r", "w", "f", @x};
+x = {"name", "owner", "location", "programmer", "wizard", "r", "w", "f", "a", @x};
 return x;
 .
 #75:10
@@ -83586,7 +84304,8 @@ endfor
 return r;
 .
 #75:11
-{o, a} = args;
+{o, a, ?options = []} = args;
+strip_clear_values = `options["strip_clear_values"] ! E_RANGE';
 set_task_perms(caller_perms());
 try
 if (a == "location")
@@ -83594,8 +84313,8 @@ v = o.location;
 p = this:_controls(caller_perms(), o) ? "rw" | "r";
 elseif (a in {"owner", "programmer", "wizard"})
 v = o.(a);
-p = `caller_perms().wizard ! E_INVIND => 0' ? "rw" | "r";
-elseif (a in {"r", "w", "f"})
+p = `caller_perms().wizard ! E_INVIND' ? "rw" | "r";
+elseif (a in {"r", "w", "f", "a"})
 v = o.(a);
 p = this:_controls(caller_perms(), o) ? "rw" | "r";
 elseif (a in {"name"})
@@ -83617,7 +84336,9 @@ endtry
 m = ["id" -> a];
 m["status"] = index(p, "w") ? "writable" | "readable";
 r = ["Meta" -> m, "Value" -> ["value" -> v]];
-`r["Value"]["clear"] = c ! E_VARNF';
+if (`r["Value"]["clear"] = c ! E_VARNF' && strip_clear_values)
+r["Value"] = mapdelete(r["Value"], "value");
+endif
 if (`pi ! E_VARNF')
 if ((ppi = this:_parent_property_info(o, a)) && (ppi != pi))
 r["Value"]["owner"] = pi[1];
@@ -83627,20 +84348,20 @@ endif
 return r;
 .
 #75:12
-{o, a, r} = args;
+{o, a, r, ?options = []} = args;
 set_task_perms(caller_perms());
 mk = mapkeys(r);
 if ((!("Meta" in mk)) && (!("Value" in mk)))
 r["Error"] = ["diagnostic" -> "bad message format"];
 return r;
 endif
-old = this:read_value(o, a);
+old = this:read_value(o, a, options);
 if (`old["Value"] ! E_RANGE' == `r["Value"] ! E_RANGE')
 return old;
 endif
 try
 mk = mapkeys(r["Value"]);
-if (a in {"name", "owner", "location", "programmer", "wizard", "r", "w", "f"})
+if (a in {"name", "owner", "location", "programmer", "wizard", "r", "w", "f", "a"})
 if ("clear" in mk)
 r["Error"] = ["diagnostic" -> "clear is not applicable"];
 return r;
@@ -83690,7 +84411,7 @@ except (E_RECMOVE)
 r["Error"] = ["diagnostic" -> "recursive move"];
 return r;
 endtry
-return this:read_value(o, a);
+return this:read_value(o, a, options);
 .
 #75:13
 {o, r} = args;
@@ -83741,7 +84462,7 @@ m["status"] = `caller_perms().wizard ! E_INVIND' ? "writable" | "readable";
 return ["Meta" -> m, "Value" -> ["value" -> v]];
 .
 #75:15
-{o, v} = args;
+{o, v, ?options = []} = args;
 try
 vx = verbs(o);
 except (E_TYPE, E_INVARG)
@@ -83756,10 +84477,14 @@ return r;
 endtry
 set_task_perms(caller_perms());
 try
-vi = verb_info(o, v);
-va = verb_args(o, v);
-vc = verb_code(o, v);
-p = (index(vi[2], "w") || this:_controls_verb(caller_perms(), o, v)) ? "rw" | "r";
+vd = $verb_detail(o, v);
+code = verb_code(o, v);
+doc = $verb_doc(o, v);
+d = ["owner" -> vd["owner"], "perms" -> vd["perms"], "names" -> vd["names"], "dobj" -> vd["dobj"], "prep" -> vd["prep"], "iobj" -> vd["iobj"]];
+d["code"] = code;
+doc && (d["documentation"] = doc);
+`d["content_type"] = vd["content_type"] ! E_RANGE';
+p = (index(d["perms"], "w") || this:_controls_verb(caller_perms(), o, v)) ? "rw" | "r";
 except (E_TYPE, E_INVARG, E_VERBNF)
 r = ["Meta" -> ["id" -> v, "status" -> "invalid"]];
 return r;
@@ -83769,11 +84494,11 @@ return r;
 endtry
 m = ["id" -> v];
 m["status"] = index(p, "w") ? "writable" | "readable";
-r = ["Meta" -> m, "Verb" -> ["owner" -> vi[1], "perms" -> vi[2], "names" -> vi[3], "dobj" -> va[1], "prep" -> va[2], "iobj" -> va[3], "code" -> vc]];
+r = ["Meta" -> m, "Verb" -> d];
 return r;
 .
 #75:16
-{o, v, r} = args;
+{o, v, r, ?options = []} = args;
 error1 = error2 = 0;
 try
 vx = verbs(o);
@@ -83803,9 +84528,11 @@ r1 = r["Verb"];
 set_verb_info(o, v, {`r1["owner"] ! E_RANGE => caller_perms()', r1["perms"], r1["names"]});
 set_verb_args(o, v, {r1["dobj"], r1["prep"], r1["iobj"]});
 vc = `r1["code"] ! E_RANGE => {}';
+if (vc != E_RANGE)
 if (set_verb_code(o, v, vc))
 r["Error"] = ["diagnostic" -> "compilation errors"];
 return r;
+endif
 endif
 except (E_RANGE)
 r["Error"] = ["diagnostic" -> "bad message format"];
@@ -83823,7 +84550,7 @@ endtry
 return this:read_verb(o, v);
 .
 #75:17
-{o, p} = args;
+{o, p, ?options = []} = args;
 try
 px = properties(o);
 except (E_TYPE, E_INVARG)
@@ -83854,7 +84581,7 @@ r = ["Meta" -> m, "Property" -> ["owner" -> pi[1], "perms" -> pi[2], "name" -> p
 return r;
 .
 #75:18
-{o, p, r} = args;
+{o, p, r, ?options = []} = args;
 error1 = error2 = 0;
 try
 px = properties(o);
@@ -84001,6 +84728,40 @@ return "Must be a string composed of the characters `rwc'.";
 endif
 endfor
 return {oname, raw};
+.
+#76:8
+value = args[1];
+if (typeof(value) != STR)
+return "Must be a string composed of the characters `RWXD'.";
+elseif ((stripped = $string_utils:subst(value, {{"R", ""}, {"W", ""}, {"X", ""}, {"D", ""}})) != "")
+"I know you can strip_all_but, but we want to report invalid values.";
+return tostr("Invalid permission ", $s("character", length(stripped)), ": ", stripped);
+else
+return {value};
+endif
+.
+#76:9
+if (value = this:get(@args))
+return {value, {tostr("Default permissions for @verb:  ", value)}};
+else
+return {0, {"Default permissions for @verb:  rd"}};
+endif
+.
+#76:10
+{oname, raw, data} = args;
+if (typeof(raw) == STR)
+raw = {raw};
+elseif (typeof(raw) == INT)
+return raw ? {oname, "rxd"} | {oname, 0};
+endif
+value = this:check_verb_perms(raw[1]);
+if (typeof(value) == STR)
+return value;
+endif
+if (value[1] == "")
+value = "RD";
+endif
+return {oname, (value[1] == "RD") ? 0 | value[1]};
 .
 #77:0
 value = args[1];
@@ -90614,6 +91375,8 @@ elseif ("__owner__" == label)
 return caller_perms();
 elseif ("__package__" == label)
 return package;
+elseif (("__wizard__" == label) && #2.wizard)
+return #2;
 elseif (r = match(label, "^%([a-z_][a-z0-9_]*%)%(|%([a-z][a-z0-9_]*%)%)?$"))
 reference = label[r[3][1][1]..r[3][1][2]];
 identifier = label[r[3][3][1]..r[3][3][2]];
@@ -90798,8 +91561,20 @@ return errors || 0;
 .
 #112:29
 (caller != this) && raise(E_PERM);
+if (!$object_utils:has_property($server_options, "bg_seconds"))
+add_property($server_options, "bg_seconds", seconds_left(), {#2, "rc"});
+bg_seconds = $nothing;
+else
 bg_seconds = $server_options.bg_seconds;
+endif
+if (!$object_utils:has_property($server_options, "bg_ticks"))
+suspend(0);
+max_ticks = ticks_left() + 2;
+add_property($server_options, "bg_ticks", max_ticks, {#2, "rc"});
+bg_ticks = $nothing;
+else
 bg_ticks = $server_options.bg_ticks;
+endif
 $server_options.bg_seconds = 60 * 60;
 $server_options.bg_ticks = (1024 * 1024) * 1024;
 suspend(0);
@@ -90809,8 +91584,16 @@ return {bg_seconds, bg_ticks};
 (caller != this) && raise(E_PERM);
 if (args != {0})
 {bg_seconds, bg_ticks} = args;
+if (bg_seconds == $nothing)
+delete_property($server_options, "bg_seconds");
+else
 $server_options.bg_seconds = bg_seconds;
+endif
+if (bg_ticks == $nothing)
+delete_property($server_options, "bg_ticks");
+else
 $server_options.bg_ticks = bg_ticks;
+endif
 endif
 .
 #112:31
@@ -91584,6 +92367,190 @@ endif
 endfor
 endif
 endfor
+.
+#112:48
+{object, global, local, package, ?target = ""} = args;
+if (typeof(object) == LIST)
+return this:_map(verb, @args);
+endif
+if (`ret = local[object] ! E_RANGE' != E_RANGE)
+return ret;
+elseif (`ret = global[object] ! E_RANGE' != E_RANGE)
+return ret;
+elseif (`object.wizard ! E_INVIND')
+return "__wizard__";
+elseif (object == caller_perms())
+return "__owner__";
+elseif (object == package)
+return "__package__";
+endif
+if (target)
+raise(E_INVARG, tostr("Lookup failed for:  ", object, " on ", target));
+else
+raise(E_INVARG, tostr("Lookup failed for:  ", object));
+endif
+.
+#112:49
+{package, ?options = []} = args;
+set_task_perms(caller_perms());
+dictionary = `options["dictionary"] ! E_RANGE => ""';
+no_properties = `options["no-properties"] ! E_RANGE => 0';
+no_verbs = `options["no-verbs"] ! E_RANGE => 0';
+errors = {};
+warnings = {};
+requires = `package.requires ! E_PROPNF => {}';
+manifest = `package.manifest ! E_PROPNF => {}';
+relocate = `package.relocate ! E_PROPNF => {}';
+global = [];
+for specifier in (requires)
+this:_suspend_if_necessary();
+{other, ?identifier, ?version} = this:_match(@specifier, this.provides_cache);
+if (#-3 == package)
+raise(E_INVARG, tostr("Failed match:  ", toliteral(specifier)));
+elseif (#-2 == package)
+raise(E_INVARG, tostr("Ambiguous match:  ", toliteral(specifier)));
+endif
+for item in (`other.manifest ! E_PROPNF => {}')
+{object, label} = item;
+global[object] = tostr(label, "|", identifier);
+global[tostr(label, "|", identifier)] = object;
+endfor
+endfor
+global[#-1] = "__nothing__";
+global["__nothing__"] = #-1;
+local = [];
+for item in (manifest)
+this:_suspend_if_necessary();
+{object, label} = item;
+local[object] = label;
+local[label] = object;
+endfor
+for object in (this:_contents(package))
+if (`local[object] ! E_RANGE' == E_RANGE)
+local[object] = tostr("__", toint(object), "__");
+local[tostr("__", toint(object), "__")] = object;
+endif
+endfor
+if (dictionary)
+dictionary = `this:_lookup_by_label(dictionary, global, local, package) ! E_INVARG => #-1';
+endif
+objects = this:_contents(package);
+for item in (manifest)
+{object, label} = item;
+if (!(object in objects))
+errors = {@errors, tostr(package, ".manifest lists non-member \"", label, "\"")};
+endif
+endfor
+for item in (relocate)
+if (((i = index(item, ".")) && (object = item[1..i - 1])) && (property = item[i + 1..$]))
+if (valid(`object = this:_lookup_by_label(object, global, local, package) ! E_INVARG => #-1'))
+if ((("owner" == property) || ("parents" == property)) || ("location" == property))
+continue;
+endif
+try
+info = property_info(object, property);
+if ((caller_perms().wizard || (caller_perms() == info[1])) || index(info[2], "w"))
+continue;
+endif
+except (ANY)
+endtry
+endif
+endif
+errors = {@errors, tostr(package, ".relocate lists unknown reference \"", item, "\"")};
+endfor
+for object in (objects)
+this:_suspend_if_necessary();
+if (dictionary != object)
+parents = parents(object);
+try
+value = this:_lookup_by_object_number(parents, global, local, package);
+except (E_INVARG)
+errors = {@errors, tostr(object, ".parents = ", toliteral(parents))};
+endtry
+endif
+if (dictionary != object)
+location = object.location;
+try
+value = this:_lookup_by_object_number(location, global, local, package);
+except (E_INVARG)
+errors = {@errors, tostr(object, ".location = ", location)};
+endtry
+endif
+if (!no_properties)
+properties = {};
+ancestors = {object, @ancestors(object)};
+for ancestor in (ancestors)
+try
+ancestor_properties = properties(ancestor);
+for property in (ancestor_properties)
+this:_suspend_if_necessary();
+try
+info = property_info(ancestor, property);
+if ((caller_perms().wizard || (caller_perms() == info[1])) || index(info[2], "w"))
+properties = {@properties, property};
+else
+warnings = {@warnings, tostr("can't write property \"", property, "\" on ", ancestor)};
+endif
+except (E_PERM)
+warnings = {@warnings, tostr("can't read property \"", property, "\" on ", ancestor)};
+endtry
+endfor
+except (E_PERM)
+warnings = {@warnings, tostr("can't read properties on ", ancestor)};
+endtry
+if (dictionary == object)
+break;
+endif
+endfor
+label = this:_lookup_by_object_number(object, global, local, package);
+for property in (properties)
+this:_suspend_if_necessary();
+value = object.(property);
+if (typeof(value) == OBJ)
+if (!(tostr(label, ".", property) in relocate))
+warnings = {@warnings, tostr("property \"", property, "\" on ", object, " references ", value, ", but relocate does not include \"", label, ".", property, "\"")};
+elseif (!`this:_lookup_by_object_number(value, global, local, package) ! E_INVARG => 0')
+warnings = {@warnings, tostr("property \"", property, "\" on ", object, " references ", value, " which can't be relocated because it can't be resolved locally or globally")};
+endif
+endif
+endfor
+endif
+if (!no_verbs)
+verbs = {};
+try
+object_verbs = verbs(object);
+for verb in [1..length(object_verbs)]
+this:_suspend_if_necessary();
+try
+info = verb_info(object, verb);
+if ((caller_perms().wizard || (caller_perms() == info[1])) || index(info[2], "w"))
+verbs = {@verbs, verb};
+else
+warnings = {@warnings, tostr("can't write verb \"", object_verbs[verb], "\" on ", object)};
+endif
+except (E_PERM)
+warnings = {@warnings, tostr("can't read verb \"", object_verbs[verb], "\" on ", object)};
+endtry
+endfor
+except (E_PERM)
+warnings = {@warnings, tostr("can't read verbs on ", object)};
+endtry
+for verb in (verbs)
+this:_suspend_if_necessary();
+info = verb_info(object, verb);
+code = verb_code(object, verb, 0, 0);
+for line in (code)
+if (r = match(line, "#-?[0-9]+"))
+warnings = {@warnings, tostr("verb \"", info[3], "\" on ", object, " references ", r[4][r[1]..r[2]], " (\"", line, "\")")};
+endif
+endfor
+endfor
+endif
+endfor
+out = [];
+errors && (out["errors"] = errors);
+warnings && (out["warnings"] = warnings);
+return out;
 .
 #113:0
 "Usage:  :send_content()";
