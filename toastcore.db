@@ -9,7 +9,7 @@
 0 values pending finalization
 0 clocks
 1 queued tasks
-0 5 1550908801 1647785310
+0 5 1551686401 209855621
 0
 -111
 1
@@ -102,7 +102,7 @@ this.measurement_task_running = 0;
 0 interrupted tasks
 1 active connections with listeners
 2 0
-124
+127
 #0
 The System Object
 24
@@ -226,7 +226,7 @@ s ies es
 2
 173
 -1
-108
+111
 builder
 login
 last_huh
@@ -335,7 +335,10 @@ list_proto
 int_proto
 obj_proto
 frobs
-112
+edit_utils
+edit_state
+menu_utils
+115
 1
 4
 2
@@ -729,7 +732,7 @@ LambdaCore
 2
 last_restart_time
 0
-1550879976
+1551563333
 2
 name
 2
@@ -860,6 +863,18 @@ prog
 0
 2
 5
+1
+124
+2
+1
+1
+125
+2
+1
+1
+126
+2
+1
 5
 2
 4
@@ -876,9 +891,9 @@ The known universe.
 4
 2
 0
-39015
+39192
 0
-1550881051
+1551642304
 36
 1
 #1
@@ -1125,7 +1140,7 @@ object_size
 0
 30727
 0
-1550881051
+1551642304
 36
 1
 #2
@@ -1139,13 +1154,19 @@ Wizard
 2
 source
 1
-15
+49
 2
 time
 0
-1550880172
+1551642280
 4
-0
+3
+1
+124
+1
+125
+1
+126
 1
 57
 4
@@ -1356,7 +1377,7 @@ mcp_snoop
 36
 1
 4
-45
+48
 1
 0
 1
@@ -1447,6 +1468,12 @@ mcp_snoop
 120
 1
 122
+1
+124
+1
+125
+1
+126
 2
 1
 5
@@ -1549,11 +1576,11 @@ mcp_snoop
 0
 50000
 0
-1122065
+1184297
 0
-1550881051
+1551642304
 0
-800
+900
 36
 0
 5
@@ -1585,7 +1612,7 @@ Wizard
 0
 6507
 0
-1550881051
+1551642304
 36
 1
 #3
@@ -1879,7 +1906,7 @@ generic room
 0
 41196
 0
-1550881051
+1551642304
 36
 1
 #4
@@ -2321,7 +2348,7 @@ You see a player who should type '@describe me as ...'.
 0
 47434
 0
-1550881051
+1551642304
 36
 1
 #5
@@ -2434,7 +2461,7 @@ generic thing
 0
 6771
 0
-1550881051
+1551642304
 36
 1
 #6
@@ -3121,7 +3148,7 @@ You see a player who should type '@describe me as ...'.
 0
 133045
 0
-1550881051
+1551642304
 36
 1
 #7
@@ -3247,7 +3274,7 @@ generic exit
 0
 10413
 0
-1550881051
+1551642304
 36
 1
 #8
@@ -3465,7 +3492,7 @@ generic container
 0
 13863
 0
-1550881051
+1551642304
 36
 1
 #9
@@ -3588,7 +3615,7 @@ There appears to be some writing on the note ...
 0
 9283
 0
-1550881051
+1551642304
 36
 1
 #10
@@ -3973,9 +4000,9 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 10
 1
 1
--6
+-3
 0
-2
+1
 2
 5
 0
@@ -3987,7 +4014,19 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 2
 4
 4
-31
+33
+4
+2
+0
+1551563333
+0
+0
+4
+2
+0
+1550882883
+0
+0
 4
 2
 0
@@ -4264,9 +4303,9 @@ This provides everything needed by #0:do_login_command.  See `help $login' on $c
 4
 2
 0
-58472
+58600
 0
-1550881051
+1551642304
 36
 1
 #11
@@ -4320,7 +4359,7 @@ A repository of last-resort player verbs to be called by $player:last_huh
 0
 6294
 0
-1550881051
+1551642304
 36
 1
 #12
@@ -4383,7 +4422,7 @@ Guest Log
 0
 5330
 0
-1550881051
+1551642304
 36
 1
 #13
@@ -4719,7 +4758,7 @@ This is the Generic BigList Utilities utility package.  See `help $biglist' for 
 0
 29877
 0
-1550881051
+1551642304
 36
 1
 #14
@@ -5095,7 +5134,7 @@ Calling #OBJ:restore_from(...) COMPLETELY AND IRREVOCABLY REMOVES ALL MESSAGES f
 0
 51966
 0
-1550881051
+1551642304
 36
 1
 #15
@@ -5154,7 +5193,7 @@ The Body Bag
 0
 3584
 0
-1550881051
+1551642304
 36
 1
 #16
@@ -5286,7 +5325,7 @@ Registration Database
 0
 12978
 0
-1550881051
+1551642304
 36
 1
 #17
@@ -5480,7 +5519,7 @@ Log of player creations.
 0
 5497
 0
-1550881051
+1551642304
 36
 1
 #18
@@ -5583,7 +5622,7 @@ A `help database' that knows about all of the documented verbs.
 0
 5292
 0
-1550881051
+1551642304
 36
 1
 #19
@@ -9071,7 +9110,7 @@ Help database for LambdaCore utility objects and generics.
 0
 121232
 0
-1550881051
+1551642304
 36
 1
 #20
@@ -9088,7 +9127,7 @@ string utilities
 78
 4
 0
-75
+78
 space(noansi)
 36
 173
@@ -9389,6 +9428,18 @@ _tomap
 2
 173
 -1
+autofit fit_to_screen
+2
+173
+-1
+adjust_column_lengths
+2
+173
+-1
+neat
+2
+173
+-1
 6
 digits
 ascii
@@ -9649,9 +9700,9 @@ This is the string utilities utility package.  See `help $string_utils' for more
 4
 2
 0
-101088
+104957
 0
-1550881051
+1551642304
 36
 1
 #21
@@ -9821,7 +9872,7 @@ This is the building utilities utility package.  See `help $building_utils' for 
 0
 19066
 0
-1550881051
+1551642304
 36
 1
 #22
@@ -12636,7 +12687,7 @@ This provides help on the programmer commands available on $prog and related top
 0
 103005
 0
-1550881051
+1551642304
 36
 1
 #23
@@ -13775,7 +13826,7 @@ This describes the various commands available on $wiz.
 0
 36730
 0
-1550881051
+1551642304
 36
 1
 #24
@@ -14485,7 +14536,7 @@ This is the Wizard Utilities utility package.  See `help $wiz_utils' for more de
 0
 73347
 0
-1550881051
+1551642304
 36
 1
 #25
@@ -14630,7 +14681,7 @@ The site blacklist and the graylist live as well (see `help blacklist').
 0
 17985
 0
-1550881051
+1551642304
 36
 1
 #26
@@ -16924,7 +16975,7 @@ This is the Math Utilities utility package.  See `help $math_utils' for more det
 0
 55523
 0
-1550881051
+1551642304
 36
 1
 #27
@@ -17046,7 +17097,7 @@ This is the Set Utilities utility package.  See `help $set_utils' for more detai
 0
 7782
 0
-1550881051
+1551642304
 36
 1
 #28
@@ -19532,7 +19583,7 @@ For the {"*verb*",...} form, the current verbs available are
 0
 106091
 0
-1550881051
+1551642304
 36
 1
 #29
@@ -19696,7 +19747,7 @@ Record of who's been made a @programmer.
 0
 9059
 0
-1550881051
+1551642304
 36
 1
 #30
@@ -19816,7 +19867,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 13195
 0
-1550881051
+1551642304
 36
 1
 #31
@@ -20252,7 +20303,7 @@ By definition, guests appear nondescript.
 0
 21642
 0
-1550881051
+1551642304
 36
 1
 #32
@@ -20312,7 +20363,7 @@ For help on using the speller, use 'help spelling' and 'help @spell'.
 0
 6042
 0
-1550881051
+1551642304
 36
 1
 #33
@@ -20520,7 +20571,7 @@ This is the sequence utilities utility package.  See `help $seq_utils' for more 
 0
 22892
 0
-1550881051
+1551642304
 36
 1
 #34
@@ -20661,7 +20712,7 @@ Record of whose quota has been messed with and why.
 0
 2286
 0
-1550881051
+1551642304
 36
 1
 #35
@@ -20831,7 +20882,7 @@ An object useful for pronoun substitution for switching between third and second
 0
 9531
 0
-1550881051
+1551642304
 36
 1
 #36
@@ -21135,11 +21186,11 @@ init_for_core
 0
 100000008
 0
--28408390
+-28408262
 0
 1008125633
 0
-1510996
+1510998
 36
 0
 5
@@ -21172,7 +21223,7 @@ A system character used to own non-wizardly system verbs , properties, and objec
 0
 4156
 0
-1550881051
+1551642304
 36
 1
 #37
@@ -21319,7 +21370,7 @@ A generic `database' (well, really more like a string-indexed array if you want 
 0
 23185
 0
-1550881051
+1551642304
 36
 1
 #38
@@ -21554,7 +21605,7 @@ Everyman ($no_one) can not receive mail.
 0
 0
 0
-1550880180
+1551600148
 0
 0
 36
@@ -21595,7 +21646,7 @@ The character used for "safe" evals.
 0
 8391
 0
-1550881051
+1551642304
 36
 1
 #39
@@ -21855,7 +21906,7 @@ See `help $player_db' for more information.
 0
 12184
 0
-1550881051
+1551642304
 36
 1
 #40
@@ -22347,7 +22398,7 @@ Generic Mail Receiving Player
 0
 97211
 0
-1550881051
+1551642304
 36
 1
 #41
@@ -22840,7 +22891,7 @@ This is the gender utilities utility package.  See `help $gender_utils' for more
 0
 17787
 0
-1550881051
+1551642304
 36
 1
 #42
@@ -22929,7 +22980,7 @@ This is the permissions utilities utility package.  See `help $perm_utils' for m
 0
 4790
 0
-1550881051
+1551642304
 36
 1
 #43
@@ -23524,7 +23575,7 @@ This is the time utilities utility package.  See `help $time_utils' for more det
 0
 30642
 0
-1550881051
+1551642304
 36
 1
 #44
@@ -24472,7 +24523,7 @@ Editor Help
 0
 26270
 0
-1550881051
+1551642304
 36
 1
 #45
@@ -24770,7 +24821,7 @@ This can either be a mailing list or a mail folder, depending on what mood you'r
 0
 44127
 0
-1550881051
+1551642304
 36
 1
 #46
@@ -25125,7 +25176,7 @@ Avaliable aliases:
 0
 69430
 0
-1550881051
+1551642304
 36
 1
 #47
@@ -25571,7 +25622,7 @@ Mail Room
 0
 31755
 0
-1550881051
+1551642304
 36
 1
 #48
@@ -25900,7 +25951,7 @@ nedit
 0
 14786
 0
-1550881051
+1551642304
 36
 1
 #49
@@ -26229,7 +26280,7 @@ verb edit
 0
 20107
 0
-1550881051
+1551642304
 36
 1
 #50
@@ -26868,7 +26919,7 @@ edit
 0
 74141
 0
-1550881051
+1551642304
 36
 1
 #51
@@ -27023,7 +27074,7 @@ matching utilities
 0
 12588
 0
-1550881051
+1551642304
 36
 1
 #52
@@ -27281,7 +27332,7 @@ This is the object utilities utility package.  See `help $object_utils' for more
 0
 29793
 0
-1550881051
+1551642304
 36
 1
 #53
@@ -27418,7 +27469,7 @@ This the lock utilities package, used by the MOOwide locking mechanisms. See `he
 0
 13212
 0
-1550881051
+1551642304
 36
 1
 #54
@@ -27522,7 +27573,7 @@ Some writing on the letter explains that you should 'read letter', and when you'
 0
 3579
 0
-1550881051
+1551642304
 36
 1
 #55
@@ -27837,7 +27888,7 @@ This is the list utilities utility package.  See `help $list_utils' for more det
 0
 41608
 0
-1550881051
+1551642304
 36
 1
 #56
@@ -27934,29 +27985,25 @@ feature_task
 4
 9
 0
-949035663
+1825803121
 2
-@list-
+@Mcps
 4
-3
-2
-packages
-2
-with
-2
-$composed
-2
-packages with $composed
 1
--3
 2
-packages
+me
 2
-with
+me
 1
--3
 2
-$composed
+2
+me
+2
+
+1
+-1
+2
+
 36
 0
 4
@@ -28054,9 +28101,9 @@ This is the command utilities utility package.  See `help $command_utils' for mo
 4
 2
 0
-25214
+25310
 0
-1550881051
+1551642304
 36
 1
 #57
@@ -28579,7 +28626,7 @@ You see a wizard who chooses not to reveal its true appearance.
 0
 77251
 0
-1550881051
+1551642304
 36
 1
 #58
@@ -29079,9 +29126,9 @@ You see a player who is too experienced to have any excuse for not having a desc
 4
 2
 0
-82690
+82950
 0
-1550881051
+1551642304
 36
 1
 #59
@@ -29833,7 +29880,7 @@ This is the code utilities utility package.  See `help $code_utils' for more det
 0
 81855
 0
-1550881051
+1551642304
 36
 1
 #60
@@ -32493,7 +32540,7 @@ See the description of $generic_help for more detail.
 0
 96627
 0
-1550881051
+1551642304
 36
 1
 #61
@@ -33013,7 +33060,7 @@ It's the current issue of the News, dated %d.
 0
 28263
 0
-1550881051
+1551642304
 36
 1
 #62
@@ -33112,7 +33159,7 @@ This is all there is right now.
 0
 6359
 0
-1550881051
+1551642304
 36
 1
 #63
@@ -33222,7 +33269,19 @@ lost_souls
 36
 0
 4
-0
+2
+4
+2
+1
+2
+1
+124
+4
+2
+1
+2
+1
+125
 36
 0
 4
@@ -33271,9 +33330,9 @@ Object reuse. Call $recycler:_create() to create an object (semantics the same a
 4
 2
 0
-17056
+17184
 0
-1550881051
+1551642304
 36
 1
 #64
@@ -33689,7 +33748,7 @@ Options for mailing
 0
 20503
 0
-1550881051
+1551642304
 36
 1
 #66
@@ -33798,7 +33857,7 @@ Edit Options
 0
 2824
 0
-1550881051
+1551642304
 36
 1
 #67
@@ -33883,7 +33942,7 @@ Display Options
 0
 1273
 0
-1550881051
+1551642304
 36
 1
 #68
@@ -34001,7 +34060,7 @@ an option package in need of a description.  See `help $generic_option'...
 0
 16982
 0
-1550881051
+1551642304
 36
 1
 #69
@@ -34199,7 +34258,7 @@ raise(error) actually raises the error.
 0
 11680
 0
-1550881051
+1551642304
 36
 1
 #70
@@ -34310,7 +34369,7 @@ Notes on annoying sites.
 0
 1824
 0
-1550881051
+1551642304
 36
 1
 #71
@@ -34812,7 +34871,7 @@ Impossible password to type
 0
 31475
 0
-1550515218
+1551563520
 0
 0
 36
@@ -34848,7 +34907,7 @@ A very clean, neat, tidy person who doesn't mind lugging players and their gear 
 0
 31475
 0
-1550881051
+1551642304
 36
 1
 #72
@@ -35282,7 +35341,7 @@ Parameters:
 0
 31183
 0
-1550881051
+1551642304
 36
 1
 #73
@@ -35369,7 +35428,7 @@ This is the object you want to use as a parent in order to @create a place for y
 0
 5344
 0
-1550881051
+1551642304
 36
 1
 #74
@@ -35511,7 +35570,7 @@ This is the Generic Feature Object.  It is not meant to be used as a feature obj
 0
 10943
 0
-1550881051
+1551642304
 36
 1
 #75
@@ -35821,7 +35880,7 @@ Option package for $prog commands.  See `help @prog-options'.
 0
 10068
 0
-1550881051
+1551642304
 36
 1
 #77
@@ -35950,7 +36009,7 @@ Option package for $builder commands.  See `help @build-options'.
 0
 5909
 0
-1550881051
+1551642304
 36
 1
 #78
@@ -35966,7 +36025,7 @@ Generic Utilities Package
 1
 1
 4
-21
+23
 1
 20
 1
@@ -36009,6 +36068,10 @@ Generic Utilities Package
 93
 1
 99
+1
+124
+1
+126
 0
 1
 help_msg
@@ -36038,7 +36101,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 835
 0
-1550881051
+1551642304
 36
 1
 #79
@@ -36242,7 +36305,7 @@ measurement_task_running
 36
 5
 1
-98
+71
 36
 5
 0
@@ -36444,7 +36507,7 @@ This is the Byte Quota Utilities utility package.  See `help $quota_utils' for m
 0
 43435
 0
-1550881051
+1551642304
 36
 1
 #80
@@ -36568,7 +36631,7 @@ Internal:
 0
 8754
 0
-1550881051
+1551642304
 36
 1
 #81
@@ -36674,7 +36737,7 @@ This is the Object Quota Utilities utility package.  See `help $object_quota_uti
 0
 9928
 0
-1550881051
+1551642304
 36
 1
 #82
@@ -36873,7 +36936,7 @@ Server Options
 0
 8456
 0
-1550881051
+1551642304
 36
 1
 #83
@@ -37000,7 +37063,7 @@ warehouse
 0
 2586
 0
-1550881051
+1551642304
 36
 1
 #84
@@ -38313,7 +38376,7 @@ This help database contains topics about the generic builder and building comman
 0
 46286
 0
-1550881051
+1551642304
 36
 1
 #85
@@ -39546,7 +39609,7 @@ This help database contains topics relating to the general use of the mail syste
 0
 42114
 0
-1550881051
+1551642304
 36
 1
 #86
@@ -41392,7 +41455,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 58456
 0
-1550881051
+1551642304
 36
 1
 #87
@@ -41574,7 +41637,7 @@ The password verifier verifies passwords.
 0
 14668
 0
-1550881051
+1551642304
 36
 1
 #88
@@ -42257,7 +42320,7 @@ You see a player who should type '@describe me as ...'.
 0
 91875
 0
-1550881051
+1551642304
 36
 1
 #89
@@ -42367,7 +42430,7 @@ This feature contains various verbs used in stage talk, which allows players to 
 0
 5959
 0
-1550881051
+1551642304
 36
 1
 #90
@@ -42461,7 +42524,7 @@ Verbs useful to people using a windowing system to paste text at people.
 0
 5734
 0
-1550881051
+1551642304
 36
 1
 #91
@@ -42749,7 +42812,7 @@ This is a utilities package for dealing with lists as representations of vectors
 0
 38343
 0
-1550881051
+1551642304
 36
 1
 #92
@@ -43634,7 +43697,7 @@ Frand Help DB
 0
 30023
 0
-1550881051
+1551642304
 36
 1
 #93
@@ -45774,7 +45837,7 @@ This is a utilities package for converting from one unit of measurement to anoth
 0
 44958
 0
-1550881051
+1551642304
 36
 1
 #94
@@ -45881,7 +45944,7 @@ Generic Gendered Object
 0
 3568
 0
-1550881051
+1551642304
 36
 1
 #95
@@ -46195,7 +46258,7 @@ List Editor
 0
 17357
 0
-1550881051
+1551642304
 36
 1
 #96
@@ -46496,7 +46559,7 @@ impossible password to type
 0
 129945
 0
-1550515218
+1551563523
 0
 0
 36
@@ -46533,7 +46596,7 @@ This player owns all editor-related verbs.
 0
 3554
 0
-1550881051
+1551642304
 36
 1
 #97
@@ -46704,7 +46767,7 @@ HTTP Server
 0
 8230
 0
-1550881051
+1551642304
 36
 1
 #98
@@ -47030,9 +47093,9 @@ time
 0
 50000
 0
-230398
+230190
 0
-1550881051
+1551642304
 0
 100
 36
@@ -47063,7 +47126,7 @@ time
 0
 3637
 0
-1550881051
+1551642304
 36
 1
 #99
@@ -47483,7 +47546,7 @@ e[37m
 98
 1
 0
-1160441120
+1860210732
 98
 1
 4
@@ -47885,37 +47948,11 @@ First version, added $emu and hacked $player:notify to call it.
 98
 1
 4
-15
+2
 0
-1173755677
+173750073
 0
-1756192981
-0
-2112888275
-0
-644871407
-0
-928622741
-0
-1373029887
-0
-1808337941
-0
-1290390605
-0
-1756048750
-0
-697373335
-0
-1368057863
-0
-874979774
-0
-1345122694
-0
-291348798
-0
-2035558669
+613567095
 98
 1
 4
@@ -48099,9 +48136,9 @@ au
 4
 2
 0
-71365
+71157
 0
-1550881051
+1551642304
 36
 1
 #100
@@ -48381,7 +48418,7 @@ A player with the ability to see things in [red]c[bold][yellow]o[green]l[blue]o[
 0
 29070
 0
-1550881051
+1551642304
 36
 1
 #101
@@ -49070,7 +49107,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 26786
 0
-1550881051
+1551642304
 36
 1
 #102
@@ -49297,7 +49334,7 @@ An option package for controlling and customizing the ANSI PC.
 0
 5619
 0
-1550881051
+1551642304
 36
 1
 #103
@@ -49369,7 +49406,7 @@ dispatch
 0
 5192
 0
-1550881051
+1551642304
 36
 1
 #104
@@ -49484,7 +49521,7 @@ package
 0
 6825
 0
-1550881051
+1551642304
 36
 1
 #105
@@ -49599,7 +49636,7 @@ negotiate
 0
 3228
 0
-1550881051
+1551642304
 36
 1
 #106
@@ -49769,7 +49806,7 @@ cord
 0
 7348
 0
-1550881051
+1551642304
 36
 1
 #107
@@ -49851,7 +49888,7 @@ parser
 0
 6696
 0
-1550881051
+1551642304
 36
 1
 #108
@@ -50122,7 +50159,7 @@ registry
 0
 7206
 0
-1550881051
+1551642304
 36
 1
 #110
@@ -50279,7 +50316,7 @@ mcp
 0
 10478
 0
-1550881051
+1551642304
 36
 1
 #111
@@ -52237,7 +52274,7 @@ Component
 0
 94763
 0
-1550881051
+1551642304
 36
 1
 #113
@@ -52502,7 +52539,7 @@ Non JHCore installations might choose to set .v_filter_in / .v_filter_out to fal
 0
 15923
 0
-1550881051
+1551642304
 36
 1
 #114
@@ -53522,7 +53559,7 @@ MCP Help Database
 0
 23287
 0
-1550881051
+1551642304
 36
 1
 #117
@@ -53636,7 +53673,7 @@ Generic Waif
 0
 2521
 0
-1550881051
+1551642304
 36
 1
 #119
@@ -53864,7 +53901,7 @@ dns-com-vmoo-client
 0
 6384
 0
-1550881051
+1551642304
 36
 1
 #122
@@ -53888,9 +53925,11 @@ time
 1
 -1
 4
-1
+2
 1
 108
+1
+125
 1
 new
 2
@@ -53971,11 +54010,606 @@ dns-com-awns-status
 0
 1354
 0
-1550881051
+1551642304
+36
+1
+#124
+Generic Editor Utilities
+0
+2
+1
+2
+10
+2
+2
+source
+1
+-1
+2
+time
+0
+1551563600
+4
+0
+1
+78
+4
+0
+34
+editor
+2
+173
+-1
+parse_range
+2
+172
+-1
+get_opt*ion
+2
+173
+-1
+options
+2
+172
+-1
+log_last_edit
+2
+172
+-1
+get_last_edit
+2
+172
+-1
+refresh_last_edits
+2
+172
+-1
+save
+2
+172
+-1
+session_for
+2
+172
+-1
+is_editing
+2
+172
+-1
+program_verb
+2
+173
+-1
+cmd_insert
+2
+173
+-1
+cmd_load
+2
+173
+-1
+cmd_save
+2
+173
+-1
+cmd_pass
+2
+173
+-1
+cmd_reload
+2
+173
+-1
+cmd_changeline
+2
+173
+-1
+cmd_grep
+2
+173
+-1
+cmd_quit
+2
+173
+-1
+cmd_delete
+2
+173
+-1
+cmd_list
+2
+173
+-1
+cmd_count
+2
+173
+-1
+cmd_help
+2
+173
+-1
+cmd_paste_letter
+2
+173
+-1
+cmd_commentify
+2
+173
+-1
+cmd_uncommentify
+2
+173
+-1
+cmd_traceback
+2
+173
+-1
+cmd_print_traceback
+2
+173
+-1
+cmd_format
+2
+173
+-1
+do_add_line
+2
+173
+-1
+set_option
+2
+173
+-1
+cmd_show_clipboard
+2
+173
+-1
+cmd_localedit
+2
+173
+-1
+cmd_replace
+2
+173
+-1
+7
+user_options
+default_options
+beta
+opted_out
+last_edits
+sessions
+help
+12
+4
+0
+2
+5
+10
+9
+2
+buffer_external_output
+0
+0
+2
+cmd_char
+2
+/
+2
+color_indicator
+2
+
+2
+color_line
+2
+
+2
+default_editor
+0
+0
+2
+escape_char
+2
+\
+2
+expert
+0
+0
+2
+jump_to_error
+0
+0
+2
+no_line_notifies
+0
+1
+2
+5
+4
+0
+2
+5
+4
+0
+2
+5
+4
+1
+4
+3
+1
+2
+0
+163013527
+9
+1551642295.92872262
+2
+5
+4
+0
+2
+4
+4
+24
+4
+2
+2
+insert
+2
+Change the insertion point.
+4
+2
+2
+del
+2
+Delete a line or multiple lines using ranges.
+4
+2
+2
+pass
+2
+Pass a command through the editor to your character. (For example, '/pass say Hello.' would allow you to say hello while still editing text.)
+4
+2
+2
+list
+2
+View text written so far. To change what is shown, insert at a different line. You can use line ranges with this command. Providing 'all' as an argument will list everything.
+4
+2
+2
+abort
+2
+Throw away text.
+4
+2
+2
+done
+2
+ Same as hitting period (.).
+4
+2
+2
+help
+2
+This help.
+4
+4
+2
+find
+2
+Search text from the insertion point onward. Will place the caret on any results located.
+2
+
+2
+If the insertion point is at the very end, it will search from the beginning of the text.
+4
+2
+2
+format
+2
+Format lines correctly so they don't go off the screen, based on your linelength preferences.
+4
+2
+2
+set
+2
+Change editor options; is a shortcut for the EDIT-OPTIONS command.
+4
+2
+2
+spellcheck
+2
+Check the text you've written for spelling errors.
+4
+2
+2
+count
+2
+Displays how many <lines|words|characters> are written so far.
+4
+2
+2
+import
+2
+Insert the text of a note or letter that's in your hand. (You can only insert notes that you can read.)
+4
+2
+2
+change
+2
+Replace <line-number> with <text>.
+4
+2
+2
+tb
+2
+Jump to the line indicated in the last traceback.
+4
+2
+2
+ptb
+2
+Print the last traceback.
+4
+2
+2
+verb
+2
+Display the verb you're currently editing.
+4
+2
+2
+compile
+2
+Send the editor contents to the MOO as code for the currently edited verb. Does NOT close the editor session.
+4
+2
+2
+copy
+2
+By default, copies the full text of the buffer to a temporary clipboard. You can optionally specify a range (e.g. COPY 2..5). You can then PASTE it in another edit session.
+4
+2
+2
+paste
+2
+Paste copied text.
+4
+2
+2
+clipboard
+2
+Review text that's currently on your clipboard.
+4
+2
+2
+comment
+2
+Turn a verb line into a comment.
+4
+2
+2
+uncomment
+2
+Turn a comment into a line of code.
+4
+3
+2
+replace
+2
+Run a Perl Compatible Regular Expressions replacement on the body of the text.
+2
+For information on how PCRE replacements work, check https://www.regular-expressions.info/perl.html
+2
+5
+4
+8
+2
+The inline editor is a vastly improved version of the current prompt that accepts multiple lines. It allows for insert and delete operations, text pasting or auto-formatting, as well as spell checking and other functions. 
+2
+
+2
+The editor is highly customizable. To change different aspects of editing, type EDIT-OPTIONS (or simply EDIT-O). For help on the different commands available to you while editing, you can use the HELP command inside the editor. This is accessible by typing your command character, which is a forward slash (/) by default, followed by the word HELP.
+2
+
+2
+Credit goes to:
+2
+
+2
+        - Initially created in 2015 by Victor@Toastsoft.net.
+2
+        - Improved by Lisdude in 2017-2018 in numerous ways.
+2
+5
+0
+0
+2
+4
+4
+10
+2
+generic inline editor
+2
+inline editor
+2
+inline
+2
+flexible editor interface utilities
+2
+editor interface utilities
+2
+interface utilities
+2
+utilities
+2
+editor
+2
+interface
+2
+flexible
+2
+5
+2
+This is a placeholder parent for all the $..._utils packages, to more easily find them and manipulate them. At present this object defines no useful verbs or properties. (Filfre.)
+2
+5
+4
+2
+0
+49796
+0
+1551642304
+36
+1
+#125
+Generic Editing State Anon
+0
+2
+1
+2
+10
+2
+2
+source
+1
+-1
+2
+time
+0
+1551564082
+4
+0
+1
+122
+4
+0
+1
+new
+2
+173
+-1
+11
+text
+cursor
+error_line
+verb
+extra
+ins
+command
+arg
+verb_name
+traceback
+traceback_line
+11
+4
+0
+2
+5
+0
+0
+2
+5
+0
+0
+2
+5
+0
+0
+2
+5
+0
+0
+2
+5
+0
+0
+2
+5
+0
+0
+2
+5
+0
+0
+2
+5
+0
+0
+2
+5
+0
+0
+2
+5
+0
+0
+2
+5
+#126
+Menu Utilities
+0
+2
+1
+2
+10
+2
+2
+source
+1
+-1
+2
+time
+0
+1551564794
+4
+0
+1
+78
+4
+0
+3
+menu
+2
+173
+-1
+return_map_verb
+36
+173
+-1
+options_menu
+2
+173
+-1
+0
+5
+5
+2
+5
+0
+0
+2
+4
+4
+1
+2
+Menu Utilities
+2
+5
+5
+2
+5
+4
+2
+0
+7906
+0
+1551642304
 36
 1
 0
-1959
+1999
 #0:0
 "...This code should only be run as a server task...";
 if (callers())
@@ -63877,6 +64511,92 @@ else
 return {length(rest), ", or ] expected"};
 endif
 endwhile
+.
+#20:75
+":fit_to_screen({elements}, ?padding = 2, ?underline = 0, ?separator = \" \") => Returns a columnized display that is adapted to the linelength of the viewers screen.";
+"If underline is set to 1, the first list is assumed to be a list of column headings and the code will insert an appropriate amount of dashes for you. e.g. {ur, mom, lawlz} will add {--, ---, -----}";
+"If separator is set to a character, it will be passed to :neat. e.g. those things that use lots of periods instead of spaces";
+"Verb Created by Lisdude@Toastsoft, 10/13/15";
+{elements, ?padding = 2, ?underline = 0, ?separator = " "} = args;
+ansi_utils = $ansi_utils;
+command_utils = $command_utils;
+if (underline)
+lines = {};
+for x in (elements[1])
+lines = {@lines, ansi_utils:space(length(x), "-")};
+endfor
+elements = listinsert(elements, lines, 2);
+endif
+max = $list_utils:make(length(elements[1]));
+for x in (elements)
+command_utils:suspend_if_needed(0);
+for y in [1..length(x)]
+if ((len = ansi_utils:length(x[y])) > max[y])
+max[y] = len;
+endif
+endfor
+endfor
+"Add padding.";
+for x in [1..length(max)]
+max[x] = max[x] + padding;
+endfor
+ret = {};
+max = this:adjust_column_lengths(max);
+for x in (elements)
+command_utils:suspend_if_needed(0);
+neat = {};
+for y in [1..length(x)]
+neat = {@neat, {x[y], max[y], separator}};
+endfor
+ret = {@ret, this:neat(@neat)};
+endfor
+return ret;
+.
+#20:76
+":adjust_column_lengths({lengths}) => Takes a list of numbers that are assumed to be column lengths. Then, if the sum";
+"                                       of those lengths exceeds the player's linelength, beginning systematically lowering";
+"                                      individual columns until we fit on their screen.";
+{ret, ?increment = 5, ?player = player} = args;
+variable_picker = 0;
+len = length(ret);
+iterations = 0;
+linelen = player:linelen();
+while (1)
+$sin(0);
+iterations = iterations + 1;
+if (iterations >= 500000)
+break;
+endif
+sum = 0;
+for x in (ret)
+sum = sum + x;
+endfor
+if (sum <= linelen)
+return ret;
+else
+variable_picker = variable_picker + 1;
+if (variable_picker > len)
+variable_picker = len;
+endif
+if ((ret[variable_picker] - increment) <= 4)
+continue;
+endif
+endif
+ret[variable_picker] = ret[variable_picker] - increment;
+endwhile
+return ret;
+.
+#20:77
+"{string, length, [seperator]}";
+AU = $ansi_utils;
+ret = "";
+for x in (args)
+NUM = toint(x[2]);
+x[1] = tostr(x[1]);
+ret = tostr(ret, tostr(AU:left((AU:length(x[1]) >= NUM) ? AU:cutoff(x[1], 1, NUM - 1) | x[1], NUM, (length(x) == 3) ? x[3] | " ")));
+$sin(0);
+endfor
+return ret;
 .
 #21:0
 "make_exit(spec, source, dest[, use-$recycler-pool [, kind]])";
@@ -76688,6 +77408,10 @@ endtry
 "";
 "Returns a list of strings, the (up to MAX, if given) lines typed by the player.  Returns E_PERM if the current task is not a command task that has never called suspend().";
 "In order that one may enter arbitrary lines, including \"@abort\" or \".\", if the first character in an input line is `.' and there is some nonwhitespace afterwords, the `.' is dropped and the rest of the line is taken verbatim, so that, e.g., \".@abort\" enters as \"@abort\" and \"..\" enters as \".\".";
+"--- Inline editor ---";
+return $edit_utils:editor();
+"--- Inline editor ---";
+"(Remove the above line if you wish for normal read_lines prompts.)";
 {?max = 0} = args;
 c = callers();
 p = c[$][5];
@@ -79351,6 +80075,10 @@ lines = $command_utils:read_lines_escape((active = player in $verb_editor.active
 if (lines[1] == "@edit")
 $verb_editor:invoke(args[1], "@program", lines[2]);
 return;
+endif
+simpleedit = $mcp.registry:match_package("dns-org-mud-moo-simpleedit");
+if ((simpleedit != $failed_match) && simpleedit.v_filter_in)
+lines[2] = simpleedit.v_filter_in[1]:(simpleedit.v_filter_in[2])(lines[2]);
 endif
 try
 if (result = set_verb_code(object, verbname, lines[2]))
@@ -93083,5 +93811,1079 @@ return create(this, owner, 1);
 {session, text} = args;
 if ((caller == this) || $perm_utils:controls(caller_perms(), session.connection))
 return this:send_(session, text);
+endif
+.
+#124:0
+{?text = {}, ?prompt = "[Type lines of input; use `.' to end.]", ?commandchar = this:get_opt("cmd_char", player), ?verb = 0, ?extra = {}} = args;
+"Arguments:";
+"  text: The text to be edited.";
+"  prompt: The prompt displayed to the player to ask for input.";
+"  commandchar: The character used to indicate an editor command vs text to be added.";
+"  verb: A flag indicating whether or not this is verb code, which will add editor commands for compilation and commenting.";
+"  extra: Extra information passed in, primarily for verb info to use with the compile command.";
+if (typeof(text) == STR)
+text = {text};
+elseif (typeof(text) != LIST)
+return raise(E_TYPE, "Invalid datatype");
+endif
+this:log_last_edit(player, task_id());
+state = $edit_state:new(text, verb, extra);
+"NOTE: The waif is created AND destroyed in-verb. It is NOT persistant!";
+player:tell(prompt);
+if (state.verb && state.extra)
+verb_name = tostr($string_utils:nn(state.extra[1][1]), ":", state.extra[1][2]);
+player:tell("Now editing ", verb_name, ".");
+state.verb_name = verb_name;
+endif
+state.ins = length(state.text) + 1;
+player:tell("Insertion point is before line ", state.ins, ".");
+if (this:get_option("expert") == 0)
+player:tell();
+player:tell("Type '", commandchar, "help' for assistance, '", commandchar, "abort' to abandon.");
+endif
+while loop (1)
+try
+if (!player:is_listening())
+return;
+endif
+cont = 1;
+(!this:get_option("no_line_notifies")) && player:tell("  >");
+line = read(player);
+if (typeof(line) != STR)
+return state.text;
+endif
+if (line == "@abort")
+player:tell(">> Command Aborted <<");
+kill_task(task_id());
+elseif (line == "..")
+line = ".";
+elseif (line == ".")
+line = this:get_option("cmd_char") + "done";
+endif
+if (`line[1] ! ANY' == commandchar)
+cmd = $string_utils:explode(line[2..$]);
+if ((commandchar == ".") && (!cmd))
+line = this:get_option("cmd_char") + "done";
+elseif (!cmd)
+player:tell("You must enter a command. (", commandchar, "help for help.)");
+continue;
+endif
+state.command = cmd[1];
+state.arg = cmd[2..$];
+if (state.command in {"insert", "ins", "inse", "inser"})
+this:cmd_insert(state);
+elseif (state.command in {"paste", "load"})
+this:cmd_load(state);
+elseif (state.command in {"copy", "save"})
+this:cmd_save(state);
+elseif (state.command == "pass")
+this:cmd_pass(state);
+elseif (state.command in {"reload", "rehash"})
+return this:cmd_reload(@args, state);
+elseif (state.command in {"change", "changeline"})
+this:cmd_changeline(state);
+elseif (state.command in {"replace", "repl", "re"})
+this:cmd_replace(state);
+elseif (state.command in {"find", "search", "GREP", "f", "s"})
+this:cmd_grep(state);
+elseif (state.command in {"done", "quit", "q"})
+if (typeof(ret = this:cmd_quit(state)) == ERR)
+continue;
+else
+return state.text;
+endif
+elseif (state.command in {"abort", "abandon", "q!"})
+player:tell(">> Command Aborted <<");
+kill_task(task_id());
+elseif ((state.verb && state.extra) && (state.command in {"what", "verb"}))
+player:tell("Currently editing: ", state.extra[1][1]:nn(), ":", state.extra[1][2], ".");
+elseif ((state.verb && state.extra) && (state.command in {"compile", "w", "send"}))
+{object, verbname} = state.extra[1];
+program = this:program_verb(object, verbname, state);
+elseif (state.verb && (state.command[1] == "/"))
+"Assume they want to make a verb comment.";
+line = ("\"" + line[3..$]) + "\";";
+cont = 0;
+elseif (state.command == "import")
+this:cmd_paste_letter(state);
+elseif (state.command == "set")
+this:options($string_utils:from_list(state.arg, " "));
+elseif (state.command in {"del", "dele", "delet", "delete", "erase", "rm"})
+this:cmd_delete(state);
+elseif (state.command in {"list", "l", "view", "p"})
+this:cmd_list(state);
+elseif (state.verb && (state.command in {"comment", "commentify"}))
+this:cmd_commentify(state);
+elseif (state.verb && (state.command in {"uncomment", "uncommentify"}))
+this:cmd_uncommentify(state);
+elseif (state.command in {"spellcheck", "spell"})
+state.text = $spell:interactive_spellcheck(state.text);
+player:tell("Spell check completed.");
+elseif (state.command == "count")
+this:cmd_count(state);
+elseif (state.verb && (state.command in {"tb", "jtb"}))
+this:cmd_traceback(state);
+elseif (state.verb && (state.command in {"ptb", "print_traceback"}))
+this:cmd_print_traceback(state);
+elseif (state.verb && (state.command in {"local", "localedit"}))
+this:cmd_localedit(state);
+elseif (state.command in {"format", "form"})
+this:cmd_format(state);
+elseif (state.command in {"help", "?"})
+this:cmd_help(state);
+elseif (state.command in {"clipboard", "saved", "clip"})
+this:cmd_show_clipboard(state);
+else
+player:tell("Unrecognized command. (", commandchar, "help for help.)");
+endif
+if (cont != 0)
+continue;
+endif
+endif
+this:do_add_line(state, line);
+except error (ANY)
+player:tell("Something has gone wrong...");
+player:tell(toliteral(error));
+break;
+continue;
+endtry
+endwhile
+.
+#124:1
+{arg, maxrange, insertion} = args;
+if (typeof(arg) == LIST)
+arg = $string_utils:from_list(arg, " ");
+endif
+range = {0, 0};
+explode_by = {"..", " ", "-", "+"};
+exploded_by = 0;
+for x in (explode_by)
+expl = $string_utils:explode(arg, x);
+if (length(expl) > 1)
+exploded_by = x;
+break;
+endif
+endfor
+if (length(expl) > 2)
+return tostr("Junk at end of command: ", $string_utils:from_list(expl[3..$], " "), ".");
+elseif (length(expl) == 1)
+if ((single = expl[1]) == "$")
+range = {maxrange, maxrange};
+elseif (single == "^")
+range = {insertion, insertion};
+elseif ((toint(single) > 0) && (toint(single) <= maxrange))
+range = {toint(single), toint(single)};
+endif
+else
+for x in (expl)
+if (x == "$")
+line = maxrange;
+elseif (x == "^")
+line = insertion;
+elseif (!$string_utils:is_numeric(x))
+return tostr("Garbled Range: ", arg, " - should be integers");
+elseif ((toint(x) <= 0) || (toint(x) > maxrange))
+return tostr("Lines range from 1 to ", maxrange, ".");
+else
+line = toint(x);
+endif
+range[x in expl] = line;
+endfor
+endif
+if (exploded_by == "+")
+increment_line = range[1] + range[2];
+range = {increment_line, increment_line};
+endif
+if (range[1] > range[2])
+return tostr("Garbled Range: ", range[1], " greater than ", range[2], ". Put smallest index first.");
+elseif (0 in range)
+return tostr("Garbled Range: ", arg);
+endif
+return range;
+.
+#124:2
+"-1 == option not found";
+{option, ?player = player} = args;
+opt = `player.inline_editor_options[option] ! ANY => $nothing';
+if (opt != $nothing)
+return opt;
+else
+return $edit_utils.default_options[option];
+endif
+.
+#124:3
+{?argstr = 0} = args;
+options = {};
+options = {@options, ["name" -> "Set Command Prefix", "identifier" -> "prefix", "state" -> tostr(this:get_option("cmd_char"))]};
+options = {@options, ["name" -> "Set Escape Character", "identifier" -> "escape", "state" -> tostr(this:get_option("escape_char"))]};
+options = {@options, ["name" -> "Advanced Mode (suppresses warnings and help prompts)", "identifier" -> "expert", "state" -> this:get_option("expert")]};
+options = {@options, ["name" -> "Suppress Line Added Notifications", "identifier" -> "suppress", "state" -> this:get_option("no_line_notifies")]};
+options = {@options, ["name" -> "Color Line Numbers", "identifier" -> "color_line", "state" -> ((color = this:get_option("color_line")) != "") ? tostr($ansi_utils:hr_to_code(color), color, "") | 0]};
+options = {@options, ["name" -> "Color Line Indicator", "identifier" -> "color_indicator", "state" -> ((color = this:get_option("color_indicator")) != "") ? tostr($ansi_utils:hr_to_code(color), color, "") | 0]};
+options = {@options, ["name" -> "Set As Default Editor For Verbs and Notes", "identifier" -> "default_editor", "state" -> this:get_option("default_editor")]};
+if (player.programmer)
+options = {@options, ["name" -> "Jump to Error Line", "identifier" -> "jump_to_error", "state" -> this:get_option("jump_to_error")]};
+endif
+opt = $menu_utils:options_menu(options);
+if (opt == 0)
+return;
+endif
+if (opt == "prefix")
+player:tell("Enter a single character that you wish to begin editor commands with. It should preferably be a symbol, not a letter or number.");
+cmd = $command_utils:read();
+if (((length(cmd) > 1) || (cmd in $string_utils:char_list($string_utils.alphabet + $string_utils.digits))) || (length(cmd) <= 0))
+return player:tell("Invalid command prefix. It should not be a number or letter and must be one (1) character in length.");
+endif
+result = this:set_option(player, "cmd_char", cmd);
+if (typeof(result) != STR)
+player:tell("There was an error setting your command prefix.");
+else
+player:tell("Command prefix set.");
+endif
+elseif (opt == "escape")
+player:tell("Enter a single character that you wish to escape lines with. When lines are started with this character, any editor parsing will be bypassed. It should preferably be a symbol, not a letter or number.");
+esc = $command_utils:read();
+if (((length(esc) > 1) || (esc in $string_utils:char_list($string_utils.alphabet + $string_utils.digits))) || (length(esc) <= 0))
+return player:tell("Invalid escape character. It should not be a number or letter and must be one (1) character in length.");
+endif
+result = this:set_option(player, "escape_char", esc);
+if (typeof(result) != STR)
+player:tell("There was an error setting your escape character.");
+else
+player:tell("Escape character set.");
+endif
+elseif (opt == "expert")
+opt = !this:get_option("expert");
+result = this:set_option(player, "expert", opt);
+player:tell("You ", opt ? "activate" | "deactivate", " advanced mode.");
+elseif (opt == "suppress")
+opt = !this:get_option("no_line_notifies");
+result = this:set_option(player, "no_line_notifies", opt);
+player:tell(opt ? "You will no longer receive a message when a line has been added to the working text." | "You will once again receive a message when a line has been added to the working text.");
+elseif (opt == "default_editor")
+opt = !this:get_option("default_editor");
+result = this:set_option(player, "default_editor", opt);
+player:tell(opt ? "When editing verbs or notes, you will now use the inline editor by default." | "You will no longer use the inline editor to edit verbs and notes.");
+elseif (opt == "jump_to_error")
+opt = !this:get_option("jump_to_error");
+result = this:set_option(player, "jump_to_error", opt);
+player:tell(opt ? "When editing verbs, the cursor will move to the line indicated in the traceback if an error occurs." | "The cursor will no longer move to the traceback line when errors occur.");
+elseif (opt == "color_line")
+option = "color_line";
+status = this:get_option(option);
+if (((status != "") && ($command_utils:yes_or_no("Would you like to select a different color?") == 1)) || (status == ""))
+choice = $ansi_utils:color_selector();
+this:set_option(player, option, choice);
+player:tell("Color set.");
+else
+this:set_option(player, option, "");
+player:tell("Color cleared.");
+endif
+elseif (opt == "color_indicator")
+option = "color_indicator";
+status = this:get_option(option);
+if (((status != "") && ($command_utils:yes_or_no("Would you like to select a different color?") == 1)) || (status == ""))
+choice = $ansi_utils:color_selector();
+this:set_option(player, option, choice);
+player:tell("Color set.");
+else
+this:set_option(player, option, "");
+player:tell("Color cleared.");
+endif
+endif
+.
+#124:4
+{player, task} = args;
+this:refresh_last_edits();
+if (pos = player in $list_utils:slice(this.last_edits))
+this.last_edits[pos][2] = task;
+this.last_edits[pos][3] = ftime();
+else
+this.last_edits = setadd(this.last_edits, {player, task, ftime()});
+endif
+.
+#124:5
+{player} = args;
+return `this.last_edits[player in $list_utils:slice(this.last_edits)][3] ! ANY => 0';
+.
+#124:6
+edits = this.last_edits;
+"Clear out invalid editor sessions.";
+for x in (edits)
+if ((!$code_utils:task_valid(x[2])) || (!x[1]:is_listening()))
+edits = setremove(edits, x);
+endif
+endfor
+this.last_edits = edits;
+.
+#124:8
+{player, ?create = 0} = args;
+if (!caller_perms().wizard)
+return E_PERM;
+endif
+session = 0;
+for x in (this.sessions)
+if ((x.last_modified != 0) && ((time() - x.last_modified) > $time_utils.week))
+this.sessions = setremove(this.sessions, x);
+endif
+if (x.player == player)
+return x;
+endif
+endfor
+if (create)
+session = $edit_session:new();
+session.player = player;
+this.sessions = {@this.sessions, session};
+return session;
+endif
+return $nothing;
+.
+#124:9
+{player} = args;
+return `$code_utils:task_valid(this.last_edits[player in $list_utils:slice(this.last_edits)][2]) ! ANY => 0';
+.
+#124:10
+{object, verbname, state} = args;
+ret = 0;
+try
+set_task_perms(player);
+if (result = set_verb_code(object, verbname, $simpleedit:verbcode_external_to_internal(state.text)))
+player:notify_lines(result);
+player:notify(tostr(length(result), " error(s)."));
+player:notify("Verb not programmed.");
+state.traceback = result;
+line_error = $string_utils:match_string(result[1], "Line *: *");
+if (line_error != 0)
+line_error = toint(line_error[1]);
+state.traceback_line = line_error;
+if (this:get_option("jump_to_error") && (line_error != 0))
+if ((line_error > 0) && (line_error <= (length(state.text) + 1)))
+state.ins = line_error;
+endif
+endif
+endif
+else
+player:notify("0 errors.");
+player:notify(tostr(object, ":", verbname, " successfully compiled."));
+endif
+except error (ANY)
+player:notify(error[2]);
+player:notify("Verb not programmed.");
+endtry
+.
+#124:11
+{state} = args;
+if (!state.arg)
+player:tell("Insert where? (Use a positive integer or '$' for the last line.)");
+return E_INVARG;
+elseif (((state.arg[1] != "$") && (toint(state.arg[1]) <= 0)) || (toint(state.arg[1]) > (length(state.text) + 1)))
+player:tell("Insertion ranges from line 1 to ", length(state.text) + 1, ".");
+return E_INVARG;
+endif
+if (state.arg[1] == "$")
+state.ins = length(state.text) + 1;
+else
+state.ins = toint(state.arg[1]);
+endif
+player:tell("Now inserting before line ", state.ins, ".");
+.
+#124:12
+{state} = args;
+if (this:session_for(player) == $nothing)
+player:tell("You have no text saved.");
+return E_INVARG;
+endif
+if (state.text && ($command_utils:yes_or_no("The current text will be lost. Are you sure you wish to load saved text?") == 0))
+player:tell("Aborted.");
+return E_INVARG;
+endif
+state.text = this:session_for(player).text;
+player:tell("Saved text loaded.");
+.
+#124:13
+{state} = args;
+if (this:session_for(player, 1).text && ($command_utils:yes_or_no("You already have text saved. Do you wish to overwrite it?") == 0))
+player:tell("Aborted.");
+return E_INVARG;
+endif
+if (!(state.arg in {0, {}}))
+range = this:parse_range(state.arg, length(state.text), state.ins);
+if (typeof(range) == STR)
+player:tell(range);
+return E_INVARG;
+endif
+{start, end} = range;
+text = state.text[start..end];
+else
+text = state.text;
+endif
+this:session_for(player, 1).text = text;
+this:session_for(player).last_modified = time();
+player:tell("The text has been successfully saved. To load it in for editing later, type ", this:get_opt("cmd_char"), "paste.");
+.
+#124:14
+{state} = args;
+passthrough = $string_utils:from_list(state.arg, " ");
+force_input(player, passthrough);
+suspend(0);
+while ($player_utils:reading_input(player) && player:is_listening())
+$sin();
+endwhile
+.
+#124:15
+text = args[$].text;
+args = args[1..$ - 1];
+player:tell("Reloading...");
+"Maintain text through reloads.";
+if (length(args) >= 1)
+args[1] = text;
+endif
+return this:editor(@args);
+.
+#124:16
+{state} = args;
+if (length(state.arg) < 2)
+player:tell("Usage: ", this:get_option("cmd_char"), "", state.command, " <line-number> <new-text>");
+return E_INVARG;
+elseif (!state.text)
+player:tell("There is no text to change.");
+return E_INVARG;
+else
+if (state.arg[1] == "$")
+NUM = length(state.text);
+elseif (state.arg[1] == "^")
+NUM = state.ins;
+else
+NUM = toint(state.arg[1]);
+endif
+if ((NUM < 1) || (NUM > length(state.text)))
+player:tell("There is no line with that number. Lines range from 1 to ", length(state.text), ".");
+return E_INVARG;
+else
+newline = $string_utils:from_list(state.arg[2..$], " ");
+state.text[NUM] = newline;
+player:tell("Line ", NUM, " changed.");
+endif
+endif
+.
+#124:17
+{state} = args;
+if (!state.text)
+player:tell("There is no text to search.");
+return E_INVARG;
+elseif (!state.arg)
+player:tell("Usage: FIND <text>");
+return E_INVARG;
+endif
+hohum = (state.ins == (length(state.text) + 1)) ? 1 | state.ins;
+"Note: If the caret is at the bottom, search the full text instead of nothing.";
+found = 0;
+for x in (state.text[hohum..$])
+if (index(x, hoargs = $string_utils:from_list(state.arg, " ")))
+found = hohum;
+break;
+endif
+hohum = hohum + 1;
+endfor
+if (!found)
+player:tell("No text matching `", $string_utils:from_list(state.arg, " "), "'.");
+return E_INVARG;
+endif
+state.ins = found + 1;
+player:tell(found, ": ", state.text[found]);
+.
+#124:18
+{state} = args;
+if (state.verb && state.extra)
+{object, verbname} = state.extra[1];
+if ((verb_code(object, verbname) != state.text) && ($command_utils:yes_or_no("If you proceed, the text of the working verb could be lost due to failed compilation. Are you sure you wish to continue?") != 1))
+player:tell("Aborted.");
+return E_INVARG;
+endif
+program = this:program_verb(object, verbname, state);
+endif
+.
+#124:19
+{state} = args;
+if (!state.text)
+player:tell("There is no text to delete.");
+else
+range = this:parse_range(state.arg, length(state.text), state.ins);
+if (!state.arg)
+if ((state.ins - 1) <= 0)
+range = {state.ins, state.ins};
+else
+range = {state.ins - 1, state.ins - 1};
+endif
+endif
+if (typeof(range) == STR)
+player:tell(range);
+return E_INVARG;
+endif
+{start, end} = range;
+for x in [start..end]
+player:tell("   ", state.text[start]);
+state.text = listdelete(state.text, start);
+endfor
+state.ins = start;
+if (state.ins > (length(state.text) + 1))
+state.ins = length(state.text) + 1;
+endif
+player:tell("---Line", (end > start) ? "s" | "", " deleted. Insertion point is before line ", state.ins, ".");
+endif
+.
+#124:20
+{state} = args;
+if (!state.text)
+player:tell("No text to list.");
+return E_INVARG;
+"     elseif (!state.arg)";
+"       player:tell(\"List what lines? (Line ranges from 1 to \", state.ins-1, \".)\");";
+else
+if (!state.arg)
+if ((state.ins + 8) > length(state.text))
+listuntil = length(state.text);
+else
+listuntil = state.ins + 8;
+endif
+if ((state.ins - 8) <= 0)
+listfrom = 1;
+else
+listfrom = state.ins - 8;
+endif
+range = {listfrom, listuntil};
+elseif (state.arg == {"all"})
+range = {1, length(state.text)};
+else
+range = this:parse_range(state.arg, length(state.text), state.ins);
+if (typeof(range) == STR)
+player:tell(range);
+return E_INVARG;
+endif
+endif
+{start, end} = range;
+ind = start;
+"Since we don't want to introduce ANSI into the actual text, we'll create a temp variable.";
+if (state.verb && ("highlight_syntax" in player.prog_options))
+list_text = $code_utils:highlight_syntax(state.text[start..end]);
+else
+list_text = state.text[start..end];
+endif
+for x in (list_text)
+$command_utils:suspend_if_needed(0);
+line_color = this:get_opt("color_line");
+player:tell((line_color != "") ? $ansi_utils:hr_to_code(line_color) | "", ind, (line_color != "") ? "" | "", ": ", (typeof(x) != STR) ? toliteral(x) | x);
+ind = ind + 1;
+if (ind == state.ins)
+ind_color = this:get_opt("color_indicator");
+player:tell((ind_color != "") ? $ansi_utils:hr_to_code(ind_color) | "", "^^^^", (ind_color != "") ? "" | "");
+endif
+endfor
+endif
+.
+#124:21
+{state} = args;
+if (((length(state.arg) == 1) && (state.arg[1] in {"line", "lines"})) || (!state.arg))
+player:tell("Lines: ", length(state.text));
+endif
+if (((length(state.arg) == 1) && (state.arg[1] in {"character", "letters", "chars", "char", "characters"})) || (!state.arg))
+chars = 0;
+for x in (state.text)
+chars = chars + length(x);
+endfor
+player:tell("Characters: ", chars);
+endif
+if (((length(state.arg) == 1) && (state.arg[1] in {"word", "words"})) || (!state.arg))
+words = 0;
+for x in (state.text)
+words = words + length($string_utils:words(x));
+endfor
+player:tell("Words: ", words);
+endif
+.
+#124:22
+{state} = args;
+player:tell("Command Help");
+player:tell(dashes = "-------------");
+cmds = vcmds = {};
+for x in (verb_code(this, "editor"))
+line = $string_utils:trim(x);
+if (match = $string_utils:match_string(line, "*f (state.command in {*})"))
+"cmds = {@cmds, @$string_utils:to_value(match)[2]};";
+cmds = {@cmds, $string_utils:explode($string_utils:strip_all_but(match[2], $string_utils.alphabet + ",?/"), ",")};
+elseif (match = $string_utils:match_string(line, "*f (state.command == \"*\")"))
+cmds = {@cmds, {match[2]}};
+elseif (match = $string_utils:match_string(line, "elseif (state.verb && state.command == \"*\")"))
+vcmds = {@vcmds, {match[1]}};
+elseif (match = $string_utils:match_string(line, "elseif (state.verb && state.command in {*})"))
+vcmds = {@vcmds, $string_utils:explode($string_utils:strip_all_but(match[1], $string_utils.alphabet + ",?/"), ",")};
+elseif (match = $string_utils:match_string(line, "elseif (state.verb && state.extra && state.command == \"*\")"))
+vcmds = {@vcmds, {match[1]}};
+elseif (match = $string_utils:match_string(line, "elseif (state.verb && state.extra && state.command in {*})"))
+vcmds = {@vcmds, $string_utils:explode($string_utils:strip_all_but(match[1], $string_utils.alphabet + ",?/"), ",")};
+endif
+endfor
+ret = {};
+if (!state.arg)
+ret = {@ret, "Help is available on the following topics:", ""};
+ret = {@ret, @$string_utils:columnize($list_utils:slice(player.programmer ? {@cmds, @vcmds} | cmds), 3)};
+else
+for x in ({@cmds, @vcmds})
+if (((x in vcmds) && ((player.programmer != 1) || (!state.verb))) || (state.arg && ((state.arg[1] in x) == 0)))
+continue x;
+endif
+ret = {@ret, tostr(x[1], "", (length(x) > 1) ? tostr(" (Aliases: ", $string_utils:english_list(x[2..$]), ")") | "", ":")};
+if (ind = x[1] in $list_utils:slice(this.help))
+"                ret = {@ret, tostr($list_utils:slice(help, 2)[ind])};";
+ret = {@ret, @this.help[ind][2..$]};
+else
+ret = {@ret, "No help available."};
+endif
+endfor
+endif
+if (!ret)
+ret = {@ret, tostr("No help on that command is presently available. To see a list of commands, type ", this:get_opt("cmd_char", player), "help without arguments.")};
+endif
+player:tell_lines(ret);
+player:tell(dashes);
+if (!state.arg)
+player:tell();
+player:tell("To work with ranges, do one of the following:");
+player:tell("/delete 1..4 -- Erases lines 1 through 4.");
+player:tell("/delete 8..$ -- Erases up until the end of the text, starting at line 8.");
+player:tell("/list 3 4 -- Lists lines 3-4.");
+player:tell("/delete 1 -- Erases line 1.");
+player:tell("/list 40+40 -- Lists the contents of line 80.");
+endif
+.
+#124:23
+{state} = args;
+letters = {};
+for x in (player.contents)
+if (((x != 0) && (isa(x, $note) || isa(x, $letter))) && x:is_readable_by(player))
+letters = {@letters, x};
+endif
+endfor
+if (letters == {})
+player:tell("You are not carrying any notes.");
+else
+if (length(letters) > 1)
+player:tell("Pick a note to paste into the working text.");
+letter = letters[$command_utils:menu(letters)];
+else
+letter = letters[1];
+endif
+if ($command_utils:yes_or_no(tostr("Really insert the text of ", letter:title(), "?")) == 1)
+state.text = {@state.text[1..state.ins - 1], @letter:text(), @state.text[state.ins..$]};
+player:tell("Text inserted.");
+endif
+endif
+.
+#124:24
+{state} = args;
+if (!state.arg)
+player:tell("You must include what lines you wish to comment.");
+return E_INVARG;
+endif
+range = this:parse_range(state.arg, length(state.text), state.ins);
+if (typeof(range) == STR)
+player:tell(range);
+return E_INVARG;
+endif
+{start, end} = range;
+for x in [start..end]
+state.text[x] = ("" + toliteral(state.text[x])) + ";";
+endfor
+player:tell("Line", (end < start) ? "s" | "", " commented.");
+.
+#124:25
+{state} = args;
+if (!state.arg)
+player:tell("You must include what lines you wish to uncomment.");
+return E_INVARG;
+endif
+range = this:parse_range(state.arg, length(state.text), state.ins);
+if (typeof(range) == STR)
+player:tell(range);
+return E_INVARG;
+endif
+{start, end} = range;
+bogus = {};
+for x in [start..end]
+if (((length(state.text[x]) > 3) && (state.text[x][1] == "\"")) && (state.text[x][$ - 1..$] == "\";"))
+state.text[x] = state.text[x][2..$ - 2];
+else
+bogus = {@bogus, state.text[x]};
+endif
+endfor
+player:tell("Line", (end < start) ? "s" | "", " uncommented.");
+if (bogus)
+player:tell("---", length(bogus), " ", $s("line", length(bogus)), " ", (start < end) ? "were" | "was", " not comments.");
+endif
+.
+#124:26
+{state} = args;
+if (!state.traceback_line)
+player:tell("There are no recorded tracebacks.");
+return E_INVARG;
+else
+if ((state.traceback_line > 0) && (state.traceback_line <= (length(state.text) + 1)))
+state.ins = state.traceback_line;
+player:tell("Insertion point is now at line '", state.ins, "'.");
+else
+player:tell("The recorded traceback line is no longer valid.");
+endif
+endif
+.
+#124:27
+{state} = args;
+if (!state.traceback)
+player:tell("There are no recorded tracebacks.");
+return E_INVARG;
+else
+player:tell("Last recorded traceback:");
+player:tell_lines(state.traceback);
+endif
+.
+#124:28
+{state} = args;
+if (!state.text)
+player:tell("No text to format.");
+return E_INVARG;
+endif
+ind = 1;
+reformatted = {};
+player:tell("Formatting...");
+for x in (state.text)
+if (length(x) > abs(player:linelen()))
+player:tell("Line ", ind, " too long: reformatting.");
+reformatted = {@reformatted, @player:linesplit(x, abs(player:linelen()))};
+else
+reformatted = {@reformatted, x};
+endif
+ind = ind + 1;
+endfor
+state.text = reformatted;
+player:tell("Done.");
+.
+#124:29
+{state, line} = args;
+if (`line[1] == this:get_option("escape_char") ! ANY' && (length(line) > 1))
+line = line[2..$];
+endif
+if (state.ins > length(state.text))
+state.text = {@state.text, line};
+else
+state.text = {@state.text[1..state.ins - 1], line, @state.text[state.ins..$]};
+endif
+(!this:get_option("no_line_notifies")) && player:tell("Line ", state.ins, " added.");
+this:log_last_edit(player, task_id());
+state.ins = state.ins + 1;
+.
+#124:30
+{player, option, value} = args;
+if (!caller_perms().wizard)
+return E_PERM;
+endif
+options = player.inline_editor_options;
+if (this.default_options[option] == #-1)
+return -1;
+endif
+if (options == 0)
+player.inline_editor_options = [];
+endif
+if ((this.default_options[option] == value) && (option in player.inline_editor_options:keys()))
+player.inline_editor_options = player.inline_editor_options:delete(option);
+else
+player.inline_editor_options[option] = value;
+endif
+"Sacrificing sanity checks for tick savings.";
+if (this:get_opt(option, player) == value)
+return value;
+endif
+return -1;
+.
+#124:31
+{state} = args;
+saved = this:session_for(player, 1);
+if (!saved.text)
+player:tell("You have no text saved.");
+return E_INVARG;
+else
+player:tell("You have the following text saved:");
+player:tell();
+player:tell_lines_suspended(saved.text);
+player:tell();
+player:tell("(end of saved text)");
+endif
+.
+#124:32
+{state} = args;
+oldoption = this:get_option("edit_verbs");
+this:set_option(player, "edit_verbs", 0);
+$verb_editor:invoke((tostr(state.extra[1][1]) + ":") + state.extra[1][2], "@program", state.text);
+this:set_option(player, "edit_verbs", oldoption);
+kill_task(task_id());
+.
+#124:33
+{state} = args;
+if (length(state.arg) < 1)
+player:tell("Usage: ", this:get_option("cmd_char"), "", state.command, " <PCRE replacement>");
+return E_INVARG;
+elseif (!state.text)
+player:tell("There is no text to change.");
+return E_INVARG;
+else
+changed = 0;
+success = 1;
+range = {1, length(state.text)};
+#2:tell(toliteral(state.arg));
+if ((length(state.arg) >= 2) && (typeof(this:parse_range(state.arg[$], length(state.text), state.ins)) == LIST))
+range = this:parse_range(state.arg[$], length(state.text), state.ins);
+player:tell("(Running replacement", (range[1] != range[2]) ? "s" | "", " on ", (range[1] == range[2]) ? "line " + tostr(range[1]) | tostr("lines ", range[1], " to ", range[2]), ".)");
+endif
+for I in [range[1]..range[2]]
+try
+newline = pcre_replace(state.text[I], $string_utils:from_list(state.arg));
+except e (ANY)
+player:tell("Error on line ", I, ": ", e[2]);
+success = 0;
+break;
+endtry
+if (newline != state.text[I])
+changed = changed + 1;
+state.text[I] = newline;
+endif
+$sin();
+endfor
+player:tell("Replacement ", success ? "complete" | "failed", ". ", changed, " ", $s("line", changed), " affected.");
+endif
+.
+#125:0
+{text, verb, extra, @overflow} = args;
+new = pass(player);
+new.text = text;
+new.verb = verb;
+new.extra = extra;
+return new;
+.
+#126:0
+"Usage: $menu_utils:menu(menu, options)";
+"Menu: Should be a list of strings.";
+"Options: A map containing option modifiers.";
+"You can insert an _ in your menu if you wish to create a blank line and not include it in the numeric output.";
+"Similarly, you can include ##<header> as a menu item if you want to render an automatically capitalized heading in the midst of your menu.";
+SU = $string_utils;
+{menu, ?options = 0} = args;
+default_options = ["invalid_selection_msg" -> "Invalid selection.", "prompt" -> "Enter your selection:", "map_verb" -> "title", "kill_after_invalid_selection" -> 1, "expires_in" -> 0, "expired_msg" -> "Selection time expired; menu closed.", "target" -> player, "header_msg" -> 0, "blank_input_msg" -> 0, "input" -> 0, "hidden_menu" -> 0, "autofit_header" -> {}, "autofit_padding" -> 2, "columns" -> 0, "capitalize_string_entries" -> 1];
+if (options == 0)
+options = default_options;
+else
+for x in (mapkeys(default_options))
+if ((x in mapkeys(options)) == 0)
+options[x] = default_options[x];
+endif
+endfor
+endif
+if (typeof(options["prompt"]) == STR)
+options["  prompt"] = {options["prompt"]};
+endif
+player = options["target"];
+names = {};
+i = 0;
+for x in (menu)
+number = 0;
+if (x == "_")
+"Blank Line";
+name = "";
+menu = setremove(menu, x);
+elseif ((((typeof(x) in {OBJ, ANON, WAIF}) == 0) && (length(x) > 2)) && (x[1..2] == "##"))
+name = SU:capitalize_each(x[3..$]);
+menu = setremove(menu, x);
+elseif (typeof(x) in {OBJ, ANON, WAIF})
+i = i + 1;
+name = this:return_map_verb(x, options["map_verb"]);
+number = 1;
+elseif (typeof(x) == STR)
+i = i + 1;
+name = options["capitalize_string_entries"] ? x:capitalize_each() | x;
+number = 1;
+else
+name = x;
+endif
+if (number)
+name = tostr("[", i, "] ", name);
+endif
+names = {@names, name};
+$sin();
+endfor
+if (!options["hidden_menu"])
+(options["header_msg"] != 0) && player:tell(options["header_msg"]);
+if (typeof(`menu[1] ! ANY => STR') == LIST)
+"Autofit the menu according to lengths.";
+for x in [1..length(names)]
+names[x] = {tostr("[", x, "]"), @names[x]};
+endfor
+header = options["autofit_header"];
+names = SU:autofit(header ? {header, @names} | names, options["autofit_padding"], header);
+if (header)
+"If we have a header, we need to move it to the right of the numeric options so that it's not a heading for the numbers.";
+space = SU:space(length(tostr(length(names))) + 4);
+"Two for brackets, two for space, the rest for how many numbers display";
+for x in [1..2]
+player:tell(space, names[x]);
+endfor
+names = names[3..$];
+endif
+endif
+if (options["columns"])
+player:tell_lines($ansi_utils:columnize(names, options["columns"], player:linelen()));
+else
+player:tell_lines(names);
+endif
+endif
+"Fork a task to kill the menu if a selection wasn't chosen in the given time period.";
+if ((options["expires_in"] > 0) && (!options["hidden_menu"]))
+menu_task_id = task_id();
+fork (options["expires_in"])
+if ($code_utils:task_valid(menu_task_id))
+kill_task(menu_task_id);
+player:tell(options["expired_msg"]);
+endif
+endfork
+endif
+if (!options["input"])
+options["hidden_menu"] && player:tell();
+player:tell_lines(options["prompt"]);
+player:notify(tostr("[Type a line of input or `@abort' to abort the command.]"));
+selection = read(player);
+else
+selection = tostr(options["input"]);
+endif
+if ((!selection) && options["blank_input_msg"])
+player:tell(options["blank_input_msg"]);
+if (options["kill_after_invalid_selection"])
+return kill_task(task_id());
+else
+return 0;
+endif
+elseif (SU:is_numeric(selection))
+selection = toint(selection);
+if ((selection <= 0) || (selection > length(menu)))
+player:tell(options["invalid_selection_msg"]);
+if (options["kill_after_invalid_selection"])
+return kill_task(task_id());
+else
+return -1;
+endif
+endif
+return selection;
+elseif (selection == "$")
+return length(menu);
+elseif (selection == "^")
+return 1;
+else
+if (selection != "")
+if (selection == "@abort")
+player:tell(">> Command Aborted <<");
+return kill_task(task_id());
+endif
+i = 0;
+matches = {};
+for x in (menu)
+if ((x == "") || ((length(x) > 2) && (x[1..2] == "##")))
+continue;
+elseif (typeof(x) == LIST)
+x = x[1];
+"       x = $string_utils:from_list(x, \" \");";
+endif
+i = i + 1;
+for y in ($string_utils:words(x:strip_ansi()))
+if (index(y, selection) == 1)
+matches = {@matches, i};
+endif
+endfor
+endfor
+if (matches)
+if (length(matches) == 1)
+return matches[1];
+else
+match_menu = {};
+for x in (matches)
+match_menu = {@match_menu, menu[x]};
+endfor
+player:tell("Multiple matches were detected. Please be more specific.");
+for x in ({"hidden_menu", "input"})
+`options = options:delete(x) ! ANY';
+endfor
+return matches[this:menu(match_menu, options)];
+endif
+endif
+endif
+player:tell(options["invalid_selection_msg"]);
+if (options["kill_after_invalid_selection"])
+return kill_task(task_id());
+else
+return -1;
+endif
+endif
+.
+#126:1
+{OBJ, verb} = args;
+return `OBJ:(verb)() ! ANY => "Unknown"';
+.
+#126:2
+"$menu_utils:options_menu(options[,input[,  menu_op]])";
+"This is a menu verb, specifically intended for option menus that need complexity and robustness not provided by $option_utils.";
+"It's only real purpose is option matching, not setting. Setting is left as an exercise to the programmer.";
+"Options: This should be a list of maps with the following keys-";
+"";
+"       Name: The name, as displayed to the user";
+"       Identifier: An internal identifier that's returned with the selection.";
+"       State: The state of the option that should be displayed to the user, such as on or off.";
+"       If the state is an integer, we'll automatically assume \"[red]Off[normal]\" for false booleans and \"[green]On[normal]\" for true ones.";
+"";
+"Input: Defaults to argstr, which should be set by the server before this verb is executed. This is used to optionally match on option names rather than printing a menu.";
+"Menu_op: This is a map of options to pass to the corresponding menu call later.";
+"This verb simply returns the corresponding number.";
+"If the option has a corresponding identifier, this returns the identifier instead of the index.";
+{options, ?input = argstr, ?menu_op = []} = args;
+default_off = "[red]Off[normal]";
+default_on = "[green]On[normal]";
+if (input)
+menu_op["hidden_menu"] = 1;
+menu_op["invalid_selection_msg"] = "Invalid option.";
+menu_op["input"] = input;
+menu_op["kill_after_invalid_selection"] = 0;
+endif
+menu = {};
+IDs = [];
+names = {};
+for x in (options)
+name = x["name"];
+names = {@names, name};
+if ("identifier" in x:keys())
+IDs[name] = x["identifier"];
+endif
+state = x["state"];
+if (typeof(state) == INT)
+display = state ? default_on | default_off;
+elseif ((typeof(state) in {STR, ANON, OBJ}) == 0)
+display = toliteral(state);
+else
+display = state;
+endif
+display = ("[" + display) + "]";
+menu = {@menu, {name, display}};
+endfor
+ret = this:menu(menu, menu_op);
+if (ret == -1)
+return 0;
+else
+if (names[ret] in IDs:keys())
+return IDs[names[ret]];
+else
+return ret;
+endif
 endif
 .
