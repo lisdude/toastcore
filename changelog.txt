@@ -92,3 +92,11 @@ Ran $quota_utils:schedule_measurement_task and cleared $quota_utils:schedule_mea
 [#0:s ies es] Added to "pluralize" a word based on a number.
 [$composed:_lookup_by_label] Manually define __wizard__, which may not be appropriate at all. But it fixed one of many Composed tracebacks so I'm going with it.
 [$login.argon2] Set parameters to server defaults.
+[$edit_utils] Add the inline editor used by ChatMUD and Miriani.
+[$edit_state] Add $edit_state for editor state storage.
+[$player.inline_editor_options] To store inline editor options.
+[$edit_utils:options] Calling $edit_utils:options() will return the editor options menu, but there is no frontend verb to accomplish this at the moment.
+[$menu_utils] Features menu and options_menu verbs for rendering input menus, with appropriate documentation in comments.
+[$string_utils:fit_to_screen, $string_utils:adjust_column_lengths, $string_utils:neat] Programmatically produce nicely aligned columns with headers.
+Alter $command_utils:read_lines to use the inline editor. You can remove the appropriately commented block to reverse this.
+Properly transform //-style comments when using @program (primarily for LambdaCore local edit).
