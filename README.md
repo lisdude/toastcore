@@ -10,6 +10,7 @@
 - Stunt Composed package manager
 - Stunt Shapes object serializer
 - MCP SimpleEdit support for lists and // comments
+- Inline editor used on ChatMUD and Miriani (previously known as 'Flexible Editor')
 - Poor man's namespaces
     - Maps on #0 can be expanded when matching
     - e.g. `@edit $help_db["toaststunt"].argon2`
