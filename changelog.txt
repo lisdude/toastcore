@@ -100,3 +100,5 @@ Ran $quota_utils:schedule_measurement_task and cleared $quota_utils:schedule_mea
 [$string_utils:fit_to_screen, $string_utils:adjust_column_lengths, $string_utils:neat] Programmatically produce nicely aligned columns with headers.
 Alter $command_utils:read_lines to use the inline editor. You can remove the appropriately commented block to reverse this.
 Properly transform //-style comments when using @program (primarily for LambdaCore local edit).
+[#0.gopher] Removed.
+[$code_utils:parse_verbref] Add support for $verb matching. (e.g. HELP $S now works)
