@@ -102,3 +102,5 @@ Alter $command_utils:read_lines to use the inline editor. You can remove the app
 Properly transform //-style comments when using @program (primarily for LambdaCore local edit).
 [#0.gopher] Removed.
 [$code_utils:parse_verbref] Add support for $verb matching. (e.g. HELP $S now works)
+[$builder:@show] Update to work with new parse_verbref
+[$wiz_utils:set_owner] Check if owner and newowner are already the same
