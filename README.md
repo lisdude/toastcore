@@ -1,4 +1,4 @@
-# ToastCore v1.0
+# ToastCore v1.1
 - Updated core verbs with ToastStunt equivalents where appropriate
 - ANSI 2.5
 - MCP 2.1
@@ -15,6 +15,5 @@
     - Maps on #0 can be expanded when matching
     - e.g. `@edit $help_db["toaststunt"].argon2`
 - General cleanup of antiquated / unused things in LambdaCore
-
 
 An exhaustive list of changes can be found in the [changelog](changelog.txt).

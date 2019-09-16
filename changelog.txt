@@ -104,3 +104,7 @@ Properly transform //-style comments when using @program (primarily for LambdaCo
 [$code_utils:parse_verbref] Add support for $verb matching. (e.g. HELP $S now works)
 [$builder:@show] Update to work with new parse_verbref
 [$wiz_utils:set_owner] Check if owner and newowner are already the same
+[$prog:@forked] Properly display threaded tasks that are still working.
+[$list_utils:slice] Use the built-in slice(). Threading is disabled to stay in line with LambdaCore.
+[$list_utils:sort] Use the built-in sort() with threading disabled.
+[$list_utils:sort_suspended] Use the built-in sort(). The interval argument does nothing but remains for LambdaCore compatibility.
