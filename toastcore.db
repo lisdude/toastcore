@@ -155,7 +155,7 @@ bf_add_property add_property
 2
 173
 -1
-bf_destroy destroy
+bf_recycle recycle
 2
 173
 -1
@@ -974,7 +974,7 @@ initialize
 2
 173
 -1
-pre_destroy
+recycle
 2
 173
 -1
@@ -1731,7 +1731,7 @@ remove_entrance
 2
 25
 -1
-pre_destroy
+recycle
 2
 173
 -1
@@ -2866,7 +2866,7 @@ _chparent
 2
 89
 -2
-pre_destroy
+recycle
 2
 173
 -1
@@ -3175,7 +3175,7 @@ move
 2
 173
 -1
-pre_destroy
+recycle
 2
 173
 -1
@@ -36811,7 +36811,7 @@ init_for_core
 protect_chparent
 protect_add_verb
 protect_add_property
-protect_destroy
+protect_recycle
 permit_writable_verbs
 protect_set_verb_info
 queued_task_limit
@@ -54937,7 +54937,7 @@ endif
 return ((typeof(retval) == ERR) && $code_utils:dflag_on()) ? raise(retval) | retval;
 .
 #0:9
-"destroy(object) -- see help on the builtin. This verb is called by the server when $server_options.protect_destroy exists and is true and caller_perms() are not wizardly.";
+"recycle(object) -- see help on the builtin. This verb is called by the server when $server_options.protect_recycle exists and is true and caller_perms() are not wizardly.";
 {what} = args;
 if (!valid(what))
 retval = E_INVARG;
@@ -54953,7 +54953,7 @@ if (p)
 $wiz_utils:unset_player(what);
 endif
 $recycler:kill_all_tasks(what);
-retval = `destroy(what) ! ANY';
+retval = `recycle(what) ! ANY';
 endif
 return ((typeof(retval) == ERR) && $code_utils:dflag_on()) ? raise(retval) | retval;
 .
@@ -56718,7 +56718,7 @@ endif
 #4:22
 set_task_perms(caller_perms());
 if (this:build_option("bi_create"))
-return destroy(@args);
+return recycle(@args);
 else
 return $recycler:(verb)(@args);
 endif
@@ -77903,7 +77903,7 @@ endif
 "----------------------------------------";
 player:notify("Messing with server options...");
 spi = {};
-for p in ({"protect_destroy", "protect_set_property_info", "protect_add_property", "protect_chparent", "bg_ticks"})
+for p in ({"protect_recycle", "protect_set_property_info", "protect_add_property", "protect_chparent", "bg_ticks"})
 spi = {@spi, {p, $server_options.(p)}};
 $server_options.(p) = 0;
 endfor
@@ -78016,11 +78016,11 @@ set_property_info(o, p, info);
 endfor
 endfor
 "----------------------------------------";
-player:notify("Removing all unsaved :recycle, :exitfunc, and :pre_destroy verbs ...");
+player:notify("Removing all unsaved :recycle, :exitfunc, and :recycle verbs ...");
 for o in [#0..max_object()]
 $command_utils:suspend_if_needed(0, "... ", o);
 if (valid(o) && (!(o in saved)))
-for v in ({"recycle", "exitfunc", "pre_destroy"})
+for v in ({"recycle", "exitfunc", "recycle"})
 while ($object_utils:defines_verb(o, v))
 delete_verb(o, v);
 endwhile
@@ -78147,7 +78147,7 @@ endif
 if (!(o in skipped_parents))
 chparent(o, #-1);
 endif
-destroy(o);
+recycle(o);
 endif
 endfor
 delete_property(this, "__mcd__pos");
@@ -78271,8 +78271,8 @@ endif
 if ($wiz_utils:rename_all_instances(who, "disfunc", "toad_disfunc"))
 player:notify(tostr(who, ":disfunc renamed."));
 endif
-if ($wiz_utils:rename_all_instances(who, "pre_destroy", "toad_pre_destroy"))
-player:notify(tostr(who, ":pre_destroy renamed."));
+if ($wiz_utils:rename_all_instances(who, "recycle", "toad_recycle"))
+player:notify(tostr(who, ":recycle renamed."));
 endif
 "MOO-specific cleanup while still a player object.";
 this:toad_cleanup(who);
@@ -92324,7 +92324,7 @@ endif
 endif
 if (valid(object))
 for item in (this:_contents(object))
-destroy(item);
+recycle(item);
 endfor
 endif
 return errors || 0;
