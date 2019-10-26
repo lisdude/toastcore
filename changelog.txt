@@ -108,3 +108,20 @@ Properly transform //-style comments when using @program (primarily for LambdaCo
 [$list_utils:slice] Use the built-in slice(). Threading is disabled to stay in line with LambdaCore.
 [$list_utils:sort] Use the built-in sort() with threading disabled.
 [$list_utils:sort_suspended] Use the built-in sort(). The interval argument does nothing but remains for LambdaCore compatibility.
+[$recycler] Modified (and removed) various verbs to utilize recycle() and recreate()
+  - removed :request
+  - removed :resurrect
+  - removed :look_self
+  - recycled $garbage
+  - modified _recycle
+  - modified kill_all_tasks
+  - modified valid
+  - modified setup_toad
+  - modified _recreate
+  - modified addhist
+  - modified _create
+[$command_utils:object_match_failed] Add optional allow_invalid flag to let @recreate do its work.
+[$byte_quota_utils:preliminary_reimburse_quota] Removed
+[$builder:@recreate] Allow it to accept invalid objects.
+[$building_utils:recreate] Removed a lot of redundant code for things that are taken care of in the server with recycle(). Also modified so that either argument could be invalid.
+[$everyman:bad_eval] Removed references to $garbage

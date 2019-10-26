@@ -9,7 +9,7 @@
 0 values pending finalization
 0 clocks
 1 queued tasks
-0 5 1570867201 2071665628
+0 1 1572163200 796442013
 0
 -111
 1
@@ -24,7 +24,7 @@ Parse
 Infos
 schedule_measurement_task
 schedule_measurement_task
-23 variables
+21 variables
 NUM
 0
 0
@@ -88,12 +88,6 @@ ANON
 WAIF
 0
 13
-day
-0
-86400
-hour_of_day_GMT
-0
-8
 this:schedule_measurement_task();
 this.measurement_task_running = task_id();
 this:measurement_task(this.task_time_limit);
@@ -227,7 +221,7 @@ s ies es
 2
 173
 -1
-111
+110
 builder
 login
 last_huh
@@ -287,7 +281,6 @@ room
 player_start
 root_class
 recycler
-garbage
 generic_options
 maxint
 minint
@@ -339,7 +332,7 @@ frobs
 edit_utils
 edit_state
 menu_utils
-115
+114
 1
 4
 2
@@ -577,10 +570,6 @@ menu_utils
 2
 5
 1
-64
-2
-5
-1
 68
 2
 5
@@ -733,7 +722,7 @@ LambdaCore
 2
 last_restart_time
 0
-1570806257
+1572133356
 2
 name
 2
@@ -892,9 +881,9 @@ The known universe.
 4
 2
 0
-39192
+39136
 0
-1570806399
+1572133374
 36
 1
 #1
@@ -1141,7 +1130,7 @@ object_size
 0
 30723
 0
-1570806399
+1572133374
 36
 1
 #2
@@ -1563,9 +1552,9 @@ mcp_snoop
 0
 50000
 0
-1188217
+1185217
 0
-1570806399
+1572133374
 0
 900
 36
@@ -1597,9 +1586,9 @@ Wizard
 4
 2
 0
-6507
+6608
 0
-1570806399
+1572133374
 36
 1
 #3
@@ -1893,7 +1882,7 @@ generic room
 0
 41192
 0
-1570806399
+1572133374
 36
 1
 #4
@@ -2333,9 +2322,9 @@ You see a player who should type '@describe me as ...'.
 4
 2
 0
-47434
+47443
 0
-1570806399
+1572133374
 36
 1
 #5
@@ -2448,7 +2437,7 @@ generic thing
 0
 6771
 0
-1570806399
+1572133374
 36
 1
 #6
@@ -3135,7 +3124,7 @@ You see a player who should type '@describe me as ...'.
 0
 133041
 0
-1570806399
+1572133374
 36
 1
 #7
@@ -3261,7 +3250,7 @@ generic exit
 0
 10409
 0
-1570806399
+1572133374
 36
 1
 #8
@@ -3479,7 +3468,7 @@ generic container
 0
 13863
 0
-1570806399
+1572133374
 36
 1
 #9
@@ -3602,7 +3591,7 @@ There appears to be some writing on the note ...
 0
 9283
 0
-1570806399
+1572133374
 36
 1
 #10
@@ -4001,288 +3990,6 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 2
 4
 4
-47
-4
-2
-0
-1570806257
-0
-0
-4
-2
-0
-1570609908
-0
-0
-4
-2
-0
-1570609847
-0
-0
-4
-2
-0
-1570609764
-0
-0
-4
-2
-0
-1570430284
-0
-0
-4
-2
-0
-1568651159
-0
-0
-4
-2
-0
-1559962845
-0
-0
-4
-2
-0
-1559962775
-0
-0
-4
-2
-0
-1558122619
-0
-0
-4
-2
-0
-1558121713
-0
-0
-4
-2
-0
-1557979225
-0
-0
-4
-2
-0
-1557978876
-0
-0
-4
-2
-0
-1556333354
-0
-0
-4
-2
-0
-1551705604
-0
-0
-4
-2
-0
-1551563333
-0
-0
-4
-2
-0
-1550882883
-0
-0
-4
-2
-0
-1550879976
-0
-0
-4
-2
-0
-1550514904
-0
-0
-4
-2
-0
-1550439500
-0
-0
-4
-2
-0
-1550439138
-0
-0
-4
-2
-0
-1550439068
-0
-0
-4
-2
-0
-1550438731
-0
-0
-4
-2
-0
-1550388621
-0
-0
-4
-2
-0
-1550387775
-0
-0
-4
-2
-0
-1550387379
-0
-0
-4
-2
-0
-1550385930
-0
-0
-4
-2
-0
-1550384700
-0
-0
-4
-2
-0
-1550215063
-0
-0
-4
-2
-0
-1550177864
-0
-0
-4
-2
-0
-1549606455
-0
-0
-4
-2
-0
-1549478139
-0
-0
-4
-2
-0
-1542365910
-0
-0
-4
-2
-0
-1542300610
-0
-0
-4
-2
-0
-1542300214
-0
-0
-4
-2
-0
-1542299031
-0
-0
-4
-2
-0
-1542298535
-0
-0
-4
-2
-0
-1542298487
-0
-0
-4
-2
-0
-1541346793
-0
-0
-4
-2
-0
-1541288739
-0
-0
-4
-2
-0
-1541276245
-0
-0
-4
-2
-0
-1541256548
-0
-0
-4
-2
-0
-1541247269
-0
-0
-4
-2
-0
-1541058187
-0
-0
-4
-2
-0
-1541044793
-0
-0
-4
-2
-0
-1541027595
-0
-0
-4
-2
-0
-1529543472
-0
-0
-4
-2
-0
-1529444307
-0
 0
 2
 5
@@ -4374,9 +4081,9 @@ This provides everything needed by #0:do_login_command.  See `help $login' on $c
 4
 2
 0
-59496
+56616
 0
-1570806399
+1572133374
 36
 1
 #11
@@ -4430,7 +4137,7 @@ A repository of last-resort player verbs to be called by $player:last_huh
 0
 6294
 0
-1570806399
+1572133374
 36
 1
 #12
@@ -4493,7 +4200,7 @@ Guest Log
 0
 5330
 0
-1570806399
+1572133374
 36
 1
 #13
@@ -4829,7 +4536,7 @@ This is the Generic BigList Utilities utility package.  See `help $biglist' for 
 0
 29877
 0
-1570806399
+1572133374
 36
 1
 #14
@@ -5205,7 +4912,7 @@ Calling #OBJ:restore_from(...) COMPLETELY AND IRREVOCABLY REMOVES ALL MESSAGES f
 0
 51966
 0
-1570806399
+1572133374
 36
 1
 #15
@@ -5264,7 +4971,7 @@ The Body Bag
 0
 3584
 0
-1570806399
+1572133374
 36
 1
 #16
@@ -5396,7 +5103,7 @@ Registration Database
 0
 12978
 0
-1570806399
+1572133374
 36
 1
 #17
@@ -5590,7 +5297,7 @@ Log of player creations.
 0
 5497
 0
-1570806399
+1572133374
 36
 1
 #18
@@ -5693,7 +5400,7 @@ A `help database' that knows about all of the documented verbs.
 0
 5292
 0
-1570806399
+1572133374
 36
 1
 #19
@@ -9181,7 +8888,7 @@ Help database for LambdaCore utility objects and generics.
 0
 121232
 0
-1570806399
+1572133374
 36
 1
 #20
@@ -9773,7 +9480,7 @@ This is the string utilities utility package.  See `help $string_utils' for more
 0
 104957
 0
-1570806399
+1572133374
 36
 1
 #21
@@ -9941,9 +9648,9 @@ This is the building utilities utility package.  See `help $building_utils' for 
 4
 2
 0
-19066
+18699
 0
-1570806399
+1572133374
 36
 1
 #22
@@ -12758,7 +12465,7 @@ This provides help on the programmer commands available on $prog and related top
 0
 103005
 0
-1570806399
+1572133374
 36
 1
 #23
@@ -13897,7 +13604,7 @@ This describes the various commands available on $wiz.
 0
 36730
 0
-1570806399
+1572133374
 36
 1
 #24
@@ -14607,7 +14314,7 @@ This is the Wizard Utilities utility package.  See `help $wiz_utils' for more de
 0
 73488
 0
-1570806399
+1572133374
 36
 1
 #25
@@ -14752,7 +14459,7 @@ The site blacklist and the graylist live as well (see `help blacklist').
 0
 17985
 0
-1570806399
+1572133374
 36
 1
 #26
@@ -17046,7 +16753,7 @@ This is the Math Utilities utility package.  See `help $math_utils' for more det
 0
 55523
 0
-1570806399
+1572133374
 36
 1
 #27
@@ -17168,7 +16875,7 @@ This is the Set Utilities utility package.  See `help $set_utils' for more detai
 0
 7782
 0
-1570806399
+1572133374
 36
 1
 #28
@@ -19654,7 +19361,7 @@ For the {"*verb*",...} form, the current verbs available are
 0
 106091
 0
-1570806399
+1572133374
 36
 1
 #29
@@ -19818,7 +19525,7 @@ Record of who's been made a @programmer.
 0
 9059
 0
-1570806399
+1572133374
 36
 1
 #30
@@ -19938,7 +19645,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 13195
 0
-1570806399
+1572133374
 36
 1
 #31
@@ -20374,7 +20081,7 @@ By definition, guests appear nondescript.
 0
 21642
 0
-1570806399
+1572133374
 36
 1
 #32
@@ -20434,7 +20141,7 @@ For help on using the speller, use 'help spelling' and 'help @spell'.
 0
 6042
 0
-1570806399
+1572133374
 36
 1
 #33
@@ -20642,7 +20349,7 @@ This is the sequence utilities utility package.  See `help $seq_utils' for more 
 0
 22892
 0
-1570806399
+1572133374
 36
 1
 #34
@@ -20783,7 +20490,7 @@ Record of whose quota has been messed with and why.
 0
 2286
 0
-1570806399
+1572133374
 36
 1
 #35
@@ -20953,7 +20660,7 @@ An object useful for pronoun substitution for switching between third and second
 0
 9531
 0
-1570806399
+1572133374
 36
 1
 #36
@@ -21257,7 +20964,7 @@ init_for_core
 0
 100000008
 0
--28400743
+-28399925
 0
 1008125633
 0
@@ -21294,7 +21001,7 @@ A system character used to own non-wizardly system verbs , properties, and objec
 0
 4156
 0
-1570806399
+1572133374
 36
 1
 #37
@@ -21441,7 +21148,7 @@ A generic `database' (well, really more like a string-indexed array if you want 
 0
 23185
 0
-1570806399
+1572133374
 36
 1
 #38
@@ -21676,7 +21383,7 @@ Everyman ($no_one) can not receive mail.
 0
 0
 0
-1570806257
+1572128666
 0
 0
 36
@@ -21715,9 +21422,9 @@ The character used for "safe" evals.
 4
 2
 0
-8391
+8366
 0
-1570806399
+1572133374
 36
 1
 #39
@@ -21977,7 +21684,7 @@ See `help $player_db' for more information.
 0
 12184
 0
-1570806399
+1572133374
 36
 1
 #40
@@ -22469,7 +22176,7 @@ Generic Mail Receiving Player
 0
 97211
 0
-1570806399
+1572133374
 36
 1
 #41
@@ -22962,7 +22669,7 @@ This is the gender utilities utility package.  See `help $gender_utils' for more
 0
 17787
 0
-1570806399
+1572133374
 36
 1
 #42
@@ -23051,7 +22758,7 @@ This is the permissions utilities utility package.  See `help $perm_utils' for m
 0
 4790
 0
-1570806399
+1572133374
 36
 1
 #43
@@ -23646,7 +23353,7 @@ This is the time utilities utility package.  See `help $time_utils' for more det
 0
 30642
 0
-1570806399
+1572133374
 36
 1
 #44
@@ -24594,7 +24301,7 @@ Editor Help
 0
 26270
 0
-1570806399
+1572133374
 36
 1
 #45
@@ -24892,7 +24599,7 @@ This can either be a mailing list or a mail folder, depending on what mood you'r
 0
 44127
 0
-1570806399
+1572133374
 36
 1
 #46
@@ -25247,7 +24954,7 @@ Avaliable aliases:
 0
 69430
 0
-1570806399
+1572133374
 36
 1
 #47
@@ -25693,7 +25400,7 @@ Mail Room
 0
 31755
 0
-1570806399
+1572133374
 36
 1
 #48
@@ -26022,7 +25729,7 @@ nedit
 0
 14786
 0
-1570806399
+1572133374
 36
 1
 #49
@@ -26351,7 +26058,7 @@ verb edit
 0
 20107
 0
-1570806399
+1572133374
 36
 1
 #50
@@ -26990,7 +26697,7 @@ edit
 0
 74141
 0
-1570806399
+1572133374
 36
 1
 #51
@@ -27145,7 +26852,7 @@ matching utilities
 0
 12588
 0
-1570806399
+1572133374
 36
 1
 #52
@@ -27403,7 +27110,7 @@ This is the object utilities utility package.  See `help $object_utils' for more
 0
 29793
 0
-1570806399
+1572133374
 36
 1
 #53
@@ -27540,7 +27247,7 @@ This the lock utilities package, used by the MOOwide locking mechanisms. See `he
 0
 13212
 0
-1570806399
+1572133374
 36
 1
 #54
@@ -27644,7 +27351,7 @@ Some writing on the letter explains that you should 'read letter', and when you'
 0
 3579
 0
-1570806399
+1572133374
 36
 1
 #55
@@ -27959,7 +27666,7 @@ This is the list utilities utility package.  See `help $list_utils' for more det
 0
 41070
 0
-1570806399
+1572133374
 36
 1
 #56
@@ -28056,9 +27763,9 @@ feature_task
 4
 9
 0
-2120216896
+1153345886
 2
-.
+@update-toaststunt-documentation
 4
 0
 2
@@ -28170,9 +27877,9 @@ This is the command utilities utility package.  See `help $command_utils' for mo
 4
 2
 0
-25283
+25476
 0
-1570806399
+1572133374
 36
 1
 #57
@@ -28699,7 +28406,7 @@ You see a wizard who chooses not to reveal its true appearance.
 0
 80085
 0
-1570806399
+1572133374
 36
 1
 #58
@@ -29201,7 +28908,7 @@ You see a player who is too experienced to have any excuse for not having a desc
 0
 83072
 0
-1570806399
+1572133374
 36
 1
 #59
@@ -29953,7 +29660,7 @@ This is the code utilities utility package.  See `help $code_utils' for more det
 0
 81926
 0
-1570806399
+1572133374
 36
 1
 #60
@@ -32602,7 +32309,7 @@ See the description of $generic_help for more detail.
 0
 96153
 0
-1570806399
+1572133374
 36
 1
 #61
@@ -33122,7 +32829,7 @@ It's the current issue of the News, dated %d.
 0
 28263
 0
-1570806399
+1572133374
 36
 1
 #62
@@ -33221,7 +32928,7 @@ This is all there is right now.
 0
 6359
 0
-1570806399
+1572133374
 36
 1
 #63
@@ -33238,7 +32945,7 @@ Recycling Center
 5
 4
 0
-18
+15
 _recreate
 2
 173
@@ -33259,10 +32966,6 @@ show*-history
 2
 45
 -1
-request
-2
-157
-5
 setup_toad
 2
 173
@@ -33283,16 +32986,8 @@ init_for_core
 2
 173
 -1
-resurrect
-2
-173
--1
 reclaim_lost_souls
 2
-173
--1
-look_self
-36
 173
 -1
 check_quota_scam
@@ -33331,19 +33026,7 @@ lost_souls
 36
 0
 4
-2
-4
-2
-1
-2
-1
-124
-4
-2
-1
-2
-1
-125
+0
 36
 0
 4
@@ -33392,55 +33075,12 @@ Object reuse. Call $recycler:_create() to create an object (semantics the same a
 4
 2
 0
-17184
+12640
 0
-1570806399
+1572133374
 36
 1
-#64
-Generic Garbage Object
-16
-36
-1
--1
-0
-0
-4
-0
-1
--1
-4
-0
-5
-description
-2
-173
--1
-look_self
-2
-173
--1
-title titlec
-2
-173
--1
-tell
-2
-173
--1
-do_examine
-2
-13
--1
-1
-aliases
-1
-4
-1
-2
-garbage
-36
-1
+# 64 recycled
 #65
 Mail Options
 16
@@ -33810,7 +33450,7 @@ Options for mailing
 0
 20503
 0
-1570806399
+1572133374
 36
 1
 #66
@@ -33919,7 +33559,7 @@ Edit Options
 0
 2824
 0
-1570806399
+1572133374
 36
 1
 #67
@@ -34004,7 +33644,7 @@ Display Options
 0
 1273
 0
-1570806399
+1572133374
 36
 1
 #68
@@ -34122,7 +33762,7 @@ an option package in need of a description.  See `help $generic_option'...
 0
 16982
 0
-1570806399
+1572133374
 36
 1
 #69
@@ -34320,7 +33960,7 @@ raise(error) actually raises the error.
 0
 11680
 0
-1570806399
+1572133374
 36
 1
 #70
@@ -34431,7 +34071,7 @@ Notes on annoying sites.
 0
 1824
 0
-1570806399
+1572133374
 36
 1
 #71
@@ -34933,7 +34573,7 @@ Impossible password to type
 0
 31475
 0
-1570609970
+1572128666
 0
 0
 36
@@ -34969,7 +34609,7 @@ A very clean, neat, tidy person who doesn't mind lugging players and their gear 
 0
 31475
 0
-1570806399
+1572133374
 36
 1
 #72
@@ -35403,7 +35043,7 @@ Parameters:
 0
 31183
 0
-1570806399
+1572133374
 36
 1
 #73
@@ -35490,7 +35130,7 @@ This is the object you want to use as a parent in order to @create a place for y
 0
 5344
 0
-1570806399
+1572133374
 36
 1
 #74
@@ -35632,7 +35272,7 @@ This is the Generic Feature Object.  It is not meant to be used as a feature obj
 0
 10943
 0
-1570806399
+1572133374
 36
 1
 #75
@@ -35934,7 +35574,7 @@ Option package for $prog commands.  See `help @prog-options'.
 0
 10068
 0
-1570806399
+1572133374
 36
 1
 #77
@@ -36063,7 +35703,7 @@ Option package for $builder commands.  See `help @build-options'.
 0
 5909
 0
-1570806399
+1572133374
 36
 1
 #78
@@ -36155,7 +35795,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 835
 0
-1570806399
+1572133374
 36
 1
 #79
@@ -36172,7 +35812,7 @@ Byte Quota Utilities
 78
 4
 0
-36
+35
 initialize_quota
 36
 173
@@ -36238,10 +35878,6 @@ display_quota_summary
 173
 -1
 quota_remaining
-36
-173
--1
-preliminary_reimburse_quota
 36
 173
 -1
@@ -36359,7 +35995,7 @@ measurement_task_running
 36
 5
 1
-38
+96
 36
 5
 0
@@ -36559,9 +36195,9 @@ This is the Byte Quota Utilities utility package.  See `help $quota_utils' for m
 4
 2
 0
-43435
+42575
 0
-1570806399
+1572133374
 36
 1
 #80
@@ -36685,7 +36321,7 @@ Internal:
 0
 8754
 0
-1570806399
+1572133374
 36
 1
 #81
@@ -36791,7 +36427,7 @@ This is the Object Quota Utilities utility package.  See `help $object_quota_uti
 0
 9928
 0
-1570806399
+1572133374
 36
 1
 #82
@@ -36990,7 +36626,7 @@ Server Options
 0
 8456
 0
-1570806399
+1572133374
 36
 1
 #83
@@ -37117,7 +36753,7 @@ warehouse
 0
 2586
 0
-1570806399
+1572133374
 36
 1
 #84
@@ -38430,7 +38066,7 @@ This help database contains topics about the generic builder and building comman
 0
 46286
 0
-1570806399
+1572133374
 36
 1
 #85
@@ -39663,11 +39299,11 @@ This help database contains topics relating to the general use of the mail syste
 0
 42114
 0
-1570806399
+1572133374
 36
 1
 #86
-ToastStunt Builtin Function Help
+ToastStunt Help Database
 16
 36
 1
@@ -39681,7 +39317,7 @@ ToastStunt Builtin Function Help
 4
 0
 0
-83
+86
 binary_hmac
 string_hmac
 decode_base64
@@ -39765,7 +39401,10 @@ chr
 recycled_objects
 next_recycled_object
 all_members
-89
+pcre_match
+sqlite_limit
+curl
+92
 4
 8
 2
@@ -40427,7 +40066,7 @@ working.
 36
 5
 4
-61
+64
 2
 LambdaMOO-Stunt adds the following built-in functions:
 2
@@ -40550,6 +40189,12 @@ recycled_objects      - Return a list of all invalid objects in the database.
 next_recycled_object  - Return the first available invalid object.
 2
 all_members           - Return the indices of all instances of an element in a list.
+2
+owned_objects         - Return a list of all objects owned by the specified player.
+2
+sqlite_limit          - Specify limits on various SQLite constructs.
+2
+curl                  - Return websites as strings.
 36
 5
 4
@@ -40711,7 +40356,7 @@ This function identifies the row ID of the last insert command executed on the d
 36
 5
 4
-8
+9
 2
 SQLite allows you to store information in locally hosted SQLite databases. The following functions (see HELP <function name> for detailed information) are available:
 2
@@ -40728,6 +40373,8 @@ sqlite_info         Returns information about an open SQLite database.
 sqlite_query        Runs a raw SQL query on the database.
 2
 sqlite_execute      Executes an SQL prepared statement on the database.
+2
+sqlite_limit        Set limits on various SQL constructs.
 36
 5
 4
@@ -41694,6 +41341,156 @@ Example:
 ;all_members("a", {"a", "b", "a", "c", "a", "d"}) => {1, 3, 5}
 36
 5
+4
+17
+2
+Syntax:	  pcre_match (STR <subject>, STR <pattern> [, <case matters> 0] [, <repeat until no matches> 1]	=> LIST
+2
+
+2
+The function `pcre_match()' searches <subject> for <pattern> using the Perl Compatible Regular Expressions library. The return value is a list of maps containing each match. Each returned map will have a key which corresponds to either a named capture group or the number of the capture group being matched. The full match is always found in the key "0". The value of each key will be another map containing the keys 'match' and 'position'. Match corresponds to the text that was matched and position will return the indices of the substring within <subject>.
+2
+
+2
+If <repeat until no matches> is 1, the expression will continue to be evaluated until no further matches can be found or it exhausts the iteration limit. This defaults to 1.
+2
+
+2
+Additionally, wizards can control how many iterations of the loop are possible by adding a property to $server_options. $server_options.pcre_match_max_iterations is the maximum number of loops allowed before giving up and allowing other tasks to proceed. CAUTION: It's recommended to keep this value fairly low. The default value is 1000. The minimum value is 100.
+2
+
+2
+Examples:
+2
+
+2
+Extract dates from a string:
+2
+pcre_match("09/12/1999 other random text 01/21/1952", "([0-9]{2})/([0-9]{2})/([0-9]{4})")
+2
+=> {["0" -> ["match" -> "09/12/1999", "position" -> {1, 10}], "1" -> ["match" -> "09", "position" -> {1, 2}], "2" -> ["match" -> "12", "position" -> {4, 5}], "3" -> ["match" -> "1999", "position" -> {7, 10}]], ["0" -> ["match" -> "01/21/1952", "position" -> {30, 39}], "1" -> ["match" -> "01", "position" -> {30, 31}], "2" -> ["match" -> "21", "position" -> {33, 34}], "3" -> ["match" -> "1952", "position" -> {36, 39}]]}
+2
+
+2
+Explode a string (albeit a contrived example):
+2
+;;ret = {}; for x in (pcre_match("This is a string of words, with punctuation, that should be exploded. By space. --zippy--", "[a-zA-Z]+", 0, 1)) ret = {@ret, x["0"]["match"]}; endfor return ret;
+2
+=> {"This", "is", "a", "string", "of", "words", "with", "punctuation", "that", "should", "be", "exploded", "By", "space", "zippy"}
+36
+5
+4
+47
+2
+Syntax:	  sqlite_limit(INT <database handle>, STR <category> INT <new value>) => INT
+2
+
+2
+This function allows you to specify various construct limitations on a per-database basis.
+2
+
+2
+If <new value> is a negative number, the limit is unchanged. Each limit category has a hardcoded upper bound. Attempts to increase a limit above its hard upper bound are silently truncated to the hard upper bound.
+2
+
+2
+Regardless of whether or not the limit was changed, the sqlite_limit() function returns the prior value of the limit. Hence, to find the current value of a limit without changing it, simply invoke this interface with the third parameter set to -1.
+2
+
+2
+As of this writing, the following limits exist:
+2
+
+2
+LIMIT_LENGTH
+2
+    The maximum size of any string or BLOB or table row, in bytes.
+2
+
+2
+LIMIT_SQL_LENGTH
+2
+    The maximum length of an SQL statement, in bytes.
+2
+
+2
+LIMIT_COLUMN
+2
+    The maximum number of columns in a table definition or in the result set of a SELECT or the maximum number of columns in an index or in an ORDER BY or GROUP BY clause.
+2
+
+2
+LIMIT_EXPR_DEPTH
+2
+    The maximum depth of the parse tree on any expression.
+2
+
+2
+LIMIT_COMPOUND_SELECT
+2
+    The maximum number of terms in a compound SELECT statement.
+2
+
+2
+LIMIT_VDBE_OP
+2
+    The maximum number of instructions in a virtual machine program used to implement an SQL statement. If sqlite3_prepare_v2() or the equivalent tries to allocate space for more than this many opcodes in a single prepared statement, an SQLITE_NOMEM error is returned.
+2
+
+2
+LIMIT_FUNCTION_ARG
+2
+    The maximum number of arguments on a function.
+2
+
+2
+LIMIT_ATTACHED
+2
+    The maximum number of attached databases.
+2
+
+2
+LIMIT_LIKE_PATTERN_LENGTH
+2
+    The maximum length of the pattern argument to the LIKE or GLOB operators.
+2
+
+2
+LIMIT_VARIABLE_NUMBER
+2
+    The maximum index number of any parameter in an SQL statement.
+2
+
+2
+LIMIT_TRIGGER_DEPTH
+2
+    The maximum depth of recursion for triggers.
+2
+
+2
+LIMIT_WORKER_THREADS
+2
+    The maximum number of auxiliary worker threads that a single prepared statement may start.
+2
+
+2
+For an up-to-date list of limits, see the SQLite documentation here: https://www.sqlite.org/c3ref/c_limit_attached.html
+36
+5
+4
+5
+2
+Syntax:	  curl(STR <url> [, INT <include_headers>]) => STR
+2
+
+2
+The curl builtin will download a webpage and return it as a string. If <include_headers> is true, the HTTP headers will be included in the return string.
+2
+
+2
+It's worth noting that the data you get back will be binary encoded. In particular, you will find that line breaks appear as ~0A. You can easily convert a page into a list by passing the return string into the decode_binary() function.
+36
+5
 5
 36
 5
@@ -41708,17 +41505,9 @@ toaststunt-index
 36
 4
 4
-5
+1
 2
 ToastStunt Help Database
-2
-Help Database
-2
-Database
-2
-Help
-2
-ToastStunt
 36
 5
 2
@@ -41728,9 +41517,9 @@ A help database of the standard form in need of a description. See `help $generi
 4
 2
 0
-66916
+73163
 0
-1570806399
+1572133374
 36
 1
 #87
@@ -41912,7 +41701,7 @@ The password verifier verifies passwords.
 0
 14668
 0
-1570806399
+1572133374
 36
 1
 #88
@@ -42595,7 +42384,7 @@ You see a player who should type '@describe me as ...'.
 0
 91875
 0
-1570806399
+1572133374
 36
 1
 #89
@@ -42705,7 +42494,7 @@ This feature contains various verbs used in stage talk, which allows players to 
 0
 5959
 0
-1570806399
+1572133374
 36
 1
 #90
@@ -42799,7 +42588,7 @@ Verbs useful to people using a windowing system to paste text at people.
 0
 5734
 0
-1570806399
+1572133374
 36
 1
 #91
@@ -43087,7 +42876,7 @@ This is a utilities package for dealing with lists as representations of vectors
 0
 38343
 0
-1570806399
+1572133374
 36
 1
 #92
@@ -43972,7 +43761,7 @@ Frand Help DB
 0
 30023
 0
-1570806399
+1572133374
 36
 1
 #93
@@ -46112,7 +45901,7 @@ This is a utilities package for converting from one unit of measurement to anoth
 0
 44958
 0
-1570806399
+1572133374
 36
 1
 #94
@@ -46219,7 +46008,7 @@ Generic Gendered Object
 0
 3568
 0
-1570806399
+1572133374
 36
 1
 #95
@@ -46533,7 +46322,7 @@ List Editor
 0
 17357
 0
-1570806399
+1572133374
 36
 1
 #96
@@ -46834,7 +46623,7 @@ impossible password to type
 0
 129945
 0
-1570609970
+1572128666
 0
 0
 36
@@ -46871,7 +46660,7 @@ This player owns all editor-related verbs.
 0
 3554
 0
-1570806399
+1572133374
 36
 1
 #97
@@ -47034,7 +46823,7 @@ HTTP Server
 0
 8230
 0
-1570806399
+1572133374
 36
 1
 #98
@@ -47352,9 +47141,9 @@ Core
 0
 50000
 0
-230286
+230510
 0
-1570806399
+1572133374
 0
 100
 36
@@ -47385,7 +47174,7 @@ Core
 0
 3637
 0
-1570806399
+1572133374
 36
 1
 #99
@@ -48199,7 +47988,7 @@ First version, added $emu and hacked $player:notify to call it.
 98
 1
 4
-8
+22
 0
 173750073
 0
@@ -48216,6 +48005,34 @@ First version, added $emu and hacked $player:notify to call it.
 394713457
 0
 1842383888
+0
+1307986860
+0
+575136161
+0
+809464346
+0
+651093888
+0
+715366440
+0
+1823048444
+0
+1108068153
+0
+1451003411
+0
+1122329482
+0
+1552457280
+0
+130114203
+0
+1109596309
+0
+11833933
+0
+113634739
 98
 1
 4
@@ -48399,9 +48216,9 @@ au
 4
 2
 0
-71253
+71477
 0
-1570806399
+1572133374
 36
 1
 #100
@@ -48673,7 +48490,7 @@ A player with the ability to see things in [red]c[bold][yellow]o[green]l[blue]o[
 0
 29070
 0
-1570806399
+1572133374
 36
 1
 #101
@@ -49354,7 +49171,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 26786
 0
-1570806399
+1572133374
 36
 1
 #102
@@ -49573,7 +49390,7 @@ An option package for controlling and customizing the ANSI PC.
 0
 5619
 0
-1570806399
+1572133374
 36
 1
 #103
@@ -49637,7 +49454,7 @@ dispatch
 0
 5192
 0
-1570806399
+1572133374
 36
 1
 #104
@@ -49744,7 +49561,7 @@ package
 0
 6825
 0
-1570806399
+1572133374
 36
 1
 #105
@@ -49851,7 +49668,7 @@ negotiate
 0
 3228
 0
-1570806399
+1572133374
 36
 1
 #106
@@ -50013,7 +49830,7 @@ cord
 0
 7348
 0
-1570806399
+1572133374
 36
 1
 #107
@@ -50060,7 +49877,7 @@ next_datakey
 unquoted_string
 6
 0
-9960
+9980
 98
 1
 2
@@ -50087,7 +49904,7 @@ parser
 0
 6696
 0
-1570806399
+1572133374
 36
 1
 #108
@@ -50342,7 +50159,7 @@ registry
 0
 7206
 0
-1570806399
+1572133374
 36
 1
 #110
@@ -50491,7 +50308,7 @@ mcp
 0
 10478
 0
-1570806399
+1572133374
 36
 1
 #111
@@ -52433,7 +52250,7 @@ Component
 0
 94763
 0
-1570806399
+1572133374
 36
 1
 #113
@@ -52690,7 +52507,7 @@ Non JHCore installations might choose to set .v_filter_in / .v_filter_out to fal
 0
 15923
 0
-1570806399
+1572133374
 36
 1
 #114
@@ -53686,7 +53503,7 @@ MCP Help Database
 0
 23287
 0
-1570806399
+1572133374
 36
 1
 #117
@@ -53784,7 +53601,7 @@ Generic Waif
 0
 2521
 0
-1570806399
+1572133374
 36
 1
 #119
@@ -53895,7 +53712,7 @@ client_stats
 4
 3
 0
-1570806265
+1572133362
 1
 2
 4
@@ -53988,7 +53805,7 @@ dns-com-vmoo-client
 0
 6384
 0
-1570806399
+1572133374
 36
 1
 #122
@@ -54081,7 +53898,7 @@ dns-com-awns-status
 0
 1354
 0
-1570806399
+1572133374
 36
 1
 #124
@@ -54523,7 +54340,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 49766
 0
-1570806399
+1572133374
 36
 1
 #125
@@ -54652,11 +54469,11 @@ Menu Utilities
 0
 7906
 0
-1570806399
+1572133374
 36
 1
 0
-2000
+1991
 #0:0
 "...This code should only be run as a server task...";
 if (callers())
@@ -56328,9 +56145,9 @@ endif
 if ((named <= (as + 1)) || (named == length(args)))
 player:notify_lines({tostr("Usage:  ", verb, " <object> as <parent-class> named [name:]alias,...,alias"), "", "where <parent-class> is one of the standard classes ($note, $letter, $thing, or $container) or an object number (e.g., #999), or the name of some object in the current room.  The [name:]alias... specification is as in @create.", "", "You can use \"called\" instead of \"named\", if you wish."});
 return;
-elseif ($command_utils:object_match_failed(dobj = player:my_match_object(dobjstr), dobjstr))
+elseif ($command_utils:object_match_failed(dobj = player:my_match_object(dobjstr), dobjstr, 1))
 return;
-elseif (is_player(dobj))
+elseif (valid(dobj) && is_player(dobj))
 player:notify("You really *don't* want to do that!");
 return;
 endif
@@ -64694,48 +64511,32 @@ return object:set_name(name) && object:set_aliases(names[2]);
 .
 #21:2
 ":recreate(object,newparent) -- effectively recycle and recreate the specified object as a child of parent.  Returns true if successful.";
+"In any circumstance, either object OR newparent has to be a valid object.";
+"If object is valid and newparent is invalid, object is effectively just recycled.";
+"If object is invalid and newparent is valid, an attempt will be made to recreate the invalid object as newparent.";
 {object, parent} = args;
 who = caller_perms();
-if (!(valid(object) && valid(parent)))
-return E_INVARG;
-elseif (who.wizard)
+if (who.wizard)
 "no problemo";
-elseif ((who != object.owner) || ((who != parent.owner) && (!parent.f)))
+elseif ((valid(object) && (who != object.owner)) || (valid(parent) && ((who != parent.owner) && (!parent.f))))
 return E_PERM;
 endif
-"Chparent any children to their grandparent instead of orphaning them horribly.  Have to do the chparent with wizperms, in case the children are owned by others, so do this before set_task_perms.";
-"Because this is done before set_task_perms() -- thus with wizard perms -- we save ticks and use chparent() instead of #0:chparent().  This will save many more ticks, if this is an object with many children.";
-grandpa = parent(object);
-for c in (children(object))
-chparent(c, grandpa);
-endfor
-for item in (object.contents)
-if (!is_player(item))
-move(item, #-1);
-else
-move(item, $player_start);
-endif
-endfor
+"No need to worry about orphans or contents, as recycle() will handle all of that for us.";
 set_task_perms(who);
-if ($object_utils:has_callable_verb(object, "recycle"))
-object:recycle();
+if (valid(object))
+recycle(object);
 endif
-chparent(object, #-1);
-for p in (properties(object))
-delete_property(object, p);
-endfor
-for v in (verbs(object))
-delete_verb(object, 1);
-endfor
-chparent(object, parent);
+if (!valid(parent))
+"We're done here. All we wanted to do was recycle with who's permissions.";
+return 1;
+else
+recreate(object, parent, who);
 object.name = "";
 object.r = 0;
 object.f = 0;
 object.w = 0;
-if ($object_utils:has_callable_verb(parent, "initialize"))
-object:initialize();
-endif
 return 1;
+endif
 .
 #21:3
 "$building_utils:parse_names(spec)";
@@ -69090,7 +68891,7 @@ return args[1]:(args[2])(@args[3]);
 .
 #38:4
 ":bad_eval(exp)";
-"  Returns 1 if the `exp' is inappropriate for use by $no_one.  In particular, if `exp' contains calls to `eval', `fork', `suspend', or `call_function' it is bad.  Similarly, if `player' is a nonvalid object (or a child of $garbage) the expression is considered `bad' because it is likely an attempt to anonymously spoof.";
+"  Returns 1 if the `exp' is inappropriate for use by $no_one.  In particular, if `exp' contains calls to `eval', `fork', `suspend', or `call_function' it is bad.  Similarly, if `player' is a nonvalid object the expression is considered `bad' because it is likely an attempt to anonymously spoof.";
 "  At present, the checks for bad builtins are overzealous.  It should check for delimited uses of the above calls, in case someone has a variable called `prevalent'.";
 {exp} = args;
 if (((index(exp, "eval") || index(exp, "fork")) || index(exp, "suspend")) || index(exp, "call_function"))
@@ -77320,13 +77121,16 @@ endfor
 return alist;
 .
 #56:0
-"Usage: object_match_failed(object, string)";
+"Usage: object_match_failed(object, string, allow invalid)";
 "Prints a message if string does not match object.  Generally used after object is derived from a :match_object(string).";
-{match_result, string} = args;
+"If allow invalid is true, invalid objects > #0 are not considered a failure.";
+{match_result, string, ?allow_invalid = 0} = args;
 tell = $perm_utils:controls(caller_perms(), player) ? "notify" | "tell";
 if ((index(string, "#") == 1) && ($code_utils:toobj(string) != E_TYPE))
 "...avoid the `I don't know which `#-2' you mean' message...";
-if (!valid(match_result))
+if ((allow_invalid && (match_result > #0)) && (!valid(match_result)))
+return 0;
+elseif (!valid(match_result))
 player:(tell)(tostr(string, " does not exist."));
 endif
 return !valid(match_result);
@@ -77336,7 +77140,7 @@ elseif (match_result == $failed_match)
 player:(tell)(tostr("I see no \"", string, "\" here."));
 elseif (match_result == $ambiguous_match)
 player:(tell)(tostr("I don't know which \"", string, "\" you mean."));
-elseif (!valid(match_result))
+elseif ((!allow_invalid) && (!valid(match_result)))
 player:(tell)(tostr(match_result, " does not exist."));
 else
 return 0;
@@ -82958,17 +82762,15 @@ return E_INVARG;
 elseif ((((who != what.owner) && (!what.f)) && (!who.wizard)) && (!caller_perms().wizard))
 return E_PERM;
 endif
-for potential in (this.contents)
-if (((potential.owner == $hacker) && (parent(potential) == $garbage)) && (!children(potential)))
+potential = next_recycled_object();
+if (typeof(potential) == OBJ)
 return this:setup_toad(potential, who, what);
-endif
-endfor
+else
 return E_NONE;
+endif
 .
 #63:1
-"Take the object in args[1], and turn it into a child of #1 owned by $hacker.";
-"If the object is a player, decline.";
-item = args[1];
+{item} = args;
 if (!$perm_utils:controls(caller_perms(), item))
 raise(E_PERM);
 elseif (is_player(item))
@@ -82978,13 +82780,9 @@ this:addhist(caller_perms(), item);
 "...recreate can fail (:recycle can crash)...";
 this:add_orphan(item);
 this:kill_all_tasks(item);
-$quota_utils:preliminary_reimburse_quota(item.owner, item);
-$building_utils:recreate(item, $garbage);
+$quota_utils:reimburse_quota(item.owner, item);
+$building_utils:recreate(item, $nothing);
 this:remove_orphan(item);
-"...";
-$wiz_utils:set_owner(item, $hacker);
-item.name = tostr("Recyclable ", item);
-`move(item, this) ! ANY => 0';
 .
 #63:2
 e = `set_task_perms(caller_perms()) ! ANY';
@@ -83016,36 +82814,6 @@ player:tell("Sorry.");
 endif
 .
 #63:5
-"added check that obj is already $garbage - Bits 12/16/5";
-if (!(caller_perms() in {player, #-1}))
-raise(E_PERM);
-endif
-dobj = valid(dobj) ? dobj | $string_utils:match_object(dobjstr, player.location);
-if (!valid(dobj))
-dobj = (n = toint(dobjstr)) ? toobj(n) | #-1;
-endif
-if (!valid(dobj))
-player:tell("Couldn't parse ", dobjstr, " as a valid object number.");
-elseif (!(dobj in this.contents))
-player:tell("Couldn't find ", dobj, " in ", this.name, ".");
-elseif (!$object_utils:isa(dobj, $garbage))
-player:tell("Sorry, that isn't recyclable.");
-elseif ($object_utils:has_callable_verb(this, "request_refused") && (msg = this:request_refused(player, dobj)))
-player:tell("Sorry, can't do that:  ", msg);
-else
-if (typeof(emsg = this:setup_toad(dobj, player, $root_class)) != ERR)
-dobj:moveto(player);
-dobj.aliases = {dobj.name = "Object " + tostr(dobj)};
-player:tell("You now have ", dobj, " ready for @recreation.");
-if (this.announce_removal_msg)
-player.location:announce($string_utils:pronoun_sub(this.announce_removal_msg));
-endif
-else
-player:tell(emsg);
-endif
-endif
-.
-#63:6
 "this:setup_toad(objnum,new_owner,parent)";
 "Called by :_create and :request.";
 if (caller != this)
@@ -83054,9 +82822,9 @@ endif
 {potential, who, what} = args;
 if (!$quota_utils:creation_permitted(who))
 return E_QUOTA;
+elseif (valid(potential))
+return E_INVARG;
 else
-$wiz_utils:set_owner(potential, who);
-move(potential, #-1);
 set_task_perms({@callers(), {#-1, "", player}}[2][3]);
 "... if :initialize crashes...";
 this:add_orphan(potential);
@@ -83067,22 +82835,22 @@ this:remove_orphan(potential);
 return potential;
 endif
 .
-#63:7
+#63:6
 if (caller == this)
 this.orphans = setadd(this.orphans, args[1]);
 endif
 .
-#63:8
+#63:7
 if (caller == this)
 this.orphans = setremove(this.orphans, args[1]);
 endif
 .
-#63:9
+#63:8
 "Usage:  valid(object)";
-"True if object is valid and not $garbage.";
-return valid(args[1]) && (parent(args[1]) != $garbage);
+"True if object is valid.";
+return valid(args[1]);
 .
-#63:10
+#63:9
 if (caller_perms().wizard)
 this.orphans = {};
 this.history = {};
@@ -83090,25 +82858,7 @@ this.lost_souls = {};
 pass(@args);
 endif
 .
-#63:11
-who = caller_perms();
-if (!valid(parent = {@args, $garbage}[1]))
-return E_INVARG;
-elseif (!who.wizard)
-return E_PERM;
-elseif (typeof(o = renumber($quota_utils:bi_create(parent, $hacker))) == ERR)
-"..death...";
-elseif (parent == $garbage)
-$recycler:_recycle(o);
-else
-o.aliases = {o.name = tostr("Resurrectee ", o)};
-$wiz_utils:set_owner(o, who);
-move(o, who);
-endif
-reset_max_object();
-return o;
-.
-#63:12
+#63:10
 if (!caller_perms().wizard)
 raise(E_PERM);
 endif
@@ -83124,22 +82874,7 @@ endif
 $command_utils:suspend_if_needed(0);
 endfor
 .
-#63:13
-if (prepstr in {"in", "inside", "into"})
-recycler = this;
-linelen = ((linelen = abs(player.linelen)) < 20) ? 78 | linelen;
-intercolumn_gap = 2;
-c_width = length(tostr(max_object())) + intercolumn_gap;
-n_columns = (linelen + (c_width - 1)) / c_width;
-things = $list_utils:sort_suspended(0, this.contents);
-header = tostr(this.name, " (", this, ") contains:");
-player:tell_lines({header, @$string_utils:columnize_suspended(0, things, n_columns)});
-else
-return pass(@args);
-endif
-"This code contributed by Mickey.";
-.
-#63:14
+#63:11
 who = args[1];
 if ($quota_utils.byte_based && (is_clear_property(who, "size_quota") || is_clear_property(who, "owned_objects")))
 raise(E_QUOTA);
@@ -83173,23 +82908,23 @@ endfork
 endif
 endif
 .
-#63:15
+#63:12
 for x in (this.orphans)
 if ((!valid(x)) || ((x.owner != $hacker) && (x in x.owner.owned_objects)))
 this.orphans = setremove(this.orphans, x);
 endif
 endfor
 .
-#63:16
+#63:13
 pass(#-1);
 .
-#63:17
+#63:14
 "kill_all_tasks ( object being recycled )";
 " -- kill all tasks involving this now-recycled object";
 ((caller == this) || (caller == #0)) || raise(E_PERM);
 {object} = args;
 (typeof(object) == OBJ) || raise(E_INVARG);
-if ((!valid(object)) || (parent(object) != $garbage))
+if (!valid(object))
 fork (0)
 for t in (queued_tasks())
 for c in (`task_stack(t[1]) ! E_INVARG => {}')
@@ -83201,21 +82936,6 @@ endfor
 endfor
 endfork
 endif
-.
-#64:0
-return ("Garbage object " + tostr(this)) + ".";
-.
-#64:1
-player:tell(this:description());
-.
-#64:2
-return tostr("Recyclable ", this);
-.
-#64:3
-return;
-.
-#64:4
-args[1]:notify(tostr(this, " is a garbage object, ready for reuse."));
 .
 #65:0
 if (i = args[1] in {"noinclude", "sender"})
@@ -85830,14 +85550,11 @@ endif
 .
 #79:12
 "reimburse args[1] for the quota required to own args[2]";
-"If it is a $garbage, then if who = $hacker, then we mostly ignore everything.  Who cares what $hacker's quota looks like.";
 {who, what} = args;
 if ((caller == this) || caller_perms().wizard)
 usage_index = 2;
 unmeasured_index = 4;
-if (parent(what) == $garbage)
-return 0;
-elseif (((valid(who) && is_player(who)) && $object_utils:has_property(what, "object_size")) && (!is_clear_property(who, "size_quota")))
+if (((valid(who) && is_player(who)) && $object_utils:has_property(what, "object_size")) && (!is_clear_property(who, "size_quota")))
 object_size = what.object_size[1];
 if (object_size <= 0)
 who.size_quota[unmeasured_index] = who.size_quota[unmeasured_index] - 1;
@@ -85904,14 +85621,6 @@ return q[1] - q[2];
 endif
 .
 #79:17
-"This does the reimbursement work of the recycler, since we ignore $garbage in ordinary reimbursement.";
-if (caller_perms().wizard)
-this:reimburse_quota(@args);
-else
-return E_PERM;
-endif
-.
-#79:18
 return value_bytes(args[1]);
 set_task_perms(caller_perms());
 v = args[1];
@@ -85929,7 +85638,7 @@ else
 return 0;
 endif
 .
-#79:19
+#79:18
 "No need for lengthy algorithms to measure an object, we have a builtin now. Ho_Yan 10/31/96";
 set_task_perms($wiz_utils:random_wizard());
 o = args[1];
@@ -85957,7 +85666,7 @@ this.large_objects = setadd(this.large_objects, o);
 endif
 return b;
 .
-#79:20
+#79:19
 who = args[1];
 results = this:summarize_one_user(who);
 {total, nuncounted, nzeros, oldest, eldest} = results;
@@ -85969,7 +85678,7 @@ player:tell("  Number of objects with no statistics recorded:  ");
 player:tell("      ", nzeros, " recently created, ", nuncounted, " not descendents of #1");
 endif
 .
-#79:21
+#79:20
 "Summarizes total space usage by one user (args[1]).  Optional second argument is a flag to say whether to re-measure all objects for this user; specify the number of seconds out of date you are willing to accept.  If negative, will only re-measure objects which have no recorded data.";
 "Returns a list of four values:";
 "  total : total measured space in bytes";
@@ -86028,19 +85737,19 @@ who.size_quota[4] = (nuncounted * this.unmeasured_multiplier) + nzeros;
 endif
 return {total, nuncounted, nzeros, oldest, eldest};
 .
-#79:22
+#79:21
 ":recent_object_bytes(x, n) -- return object size of x, guaranteed to be no more than n days old.  N defaults to this.cycle_days.";
 {object, ?since = this.cycle_days} = args;
 if (!valid(object))
 return 0;
 elseif (`object.object_size[2] ! ANY => 0' > (time() - (((since * 24) * 60) * 60)))
-"Trap error when doesn't have .object_size for some oddball reason ($garbage). Ho_Yan 11/19/96";
+"Trap error when doesn't have .object_size for some oddball reason. Ho_Yan 11/19/96";
 return object.object_size[1];
 else
 return this:object_bytes(object);
 endif
 .
-#79:23
+#79:22
 if (!caller_perms().wizard)
 return E_PERM;
 else
@@ -86062,13 +85771,13 @@ endif
 $mail_agent:send_message(player, this.report_recipients, "quota-utils report", {tostr("About to measure objects of player ", this.working.name, " (", this.working, "), ", $string_utils:ordinal(this.working in players), " out of ", lengthp, ".  We processed ", num_processed + (lengthp * num_repetitions), " players in this run in ", num_repetitions, " time", (num_repetitions == 1) ? "" | "s", " through all players.  Total time spent:  ", $time_utils:dhms(time() - start_time), ".")});
 endif
 .
-#79:24
+#79:23
 return (args[1] == this.owner) || $perm_utils:controls(args[1], args[2]);
 .
-#79:25
+#79:24
 return args[1].wizard;
 .
-#79:26
+#79:25
 dobj = args[1];
 who = valid(caller_perms()) ? caller_perms() | player;
 if (!this:can_peek(who, dobj.owner))
@@ -86130,27 +85839,27 @@ output = {@output, tostr("Grand total:  ", grand_total)};
 return output;
 "Last modified Sun Dec 31 10:12:14 2006 PST, by Roebare (#109000) @ LM.";
 .
-#79:27
+#79:26
 object = args[1];
 return ((13 * 4) + length(object.name)) + 1;
 .
-#79:28
+#79:27
 {o, ?ps = $object_utils:all_properties_suspended(o)} = args;
 return (value_bytes(properties(o)) - 4) + ((length(ps) * 4) * 4);
 .
-#79:29
+#79:28
 o = args[1];
 vs = verbs(o);
 return (length(vs) * 5) * 4;
 .
-#79:30
+#79:29
 ":add_owned_object(who, what) -- adds what to whose .owned_objects.";
 {who, what} = args;
 if ((typeof(who.owned_objects) == LIST) && (what.owner == who))
 who.owned_objects = setadd(who.owned_objects, what);
 endif
 .
-#79:31
+#79:30
 "This is a one-shot run of the measurement task, as opposed to :measurement_task, which will fork once per day.";
 if (!caller_perms().wizard)
 return E_PERM;
@@ -86159,7 +85868,7 @@ else
 $mail_agent:send_message(player, player, "quota-utils report", {"finished one shot run of measurement task: processed ", num_processed, " players in ", num_repetitions, " runs through all players."});
 endif
 .
-#79:32
+#79:31
 if (!caller_perms().wizard)
 return E_PERM;
 else
@@ -86258,7 +85967,7 @@ endwhile
 return {num_processed, num_repetitions};
 endif
 .
-#79:33
+#79:32
 if ((caller == this) || caller_perms().wizard)
 day = 24 * 3600;
 hour_of_day_GMT = 8;
@@ -86270,12 +85979,12 @@ this.measurement_task_running = 0;
 endfork
 endif
 .
-#79:34
+#79:33
 "Put all your wizards in $byte_quota_utils.wizards.  Then various long-running tasks will cycle among the permissions, spreading out the scheduler-induced personal lag.";
 $wiz_utils.old_task_perms_user = setadd($wiz_utils.old_task_perms_user, caller);
 return $wiz_utils:random_wizard();
 .
-#79:35
+#79:34
 "this:property_exists(object, property)";
 " => does the specified property exist?";
 return !(!`property_info(@args) ! ANY');
