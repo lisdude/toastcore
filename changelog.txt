@@ -125,3 +125,21 @@ Properly transform //-style comments when using @program (primarily for LambdaCo
 [$builder:@recreate] Allow it to accept invalid objects.
 [$building_utils:recreate] Removed a lot of redundant code for things that are taken care of in the server with recycle(). Also modified so that either argument could be invalid.
 [$everyman:bad_eval] Removed references to $garbage
+[$mcp:do_out_of_band_command, :user_created, user_disconnected] Replace assoc() of listeners() with listeners(caller).
+[$server_options] Add no_name_lookup (true) to disable the server's built-in DNS lookups.
+[#0:do_login_command] Call connection_name_lookup to do DNS name resolution in a threaded task (thereby preventing the server from blocking on a bad lookup). Since name lookup suspends, also replace 'return <obj>' calls with switch_player.
+[$login.name_lookup_players] Added as a list of connections that have already called connection_name_lookup.
+[$login:init_for_core] Clear .name_lookup_players
+[$login:server_started] Clear $login.name_lookup_players
+[$login:connection_name_lookup] Added to perform name lookups.
+[$login:delete_name_lookup] Added to clear connections that have already been looked up.
+[$string_utils:connection_hostname_bsd] Removed
+[$string_utils:connection_hostnane] Made wizardly and changed to recognize objects as well as legacy connection strings.
+[#28.disassemble()] Add some minor documentation about the meaning of the output.
+[#28.connection_name()] Updated to reflect the second argument and changes to the default string.
+[#28.listen()] Add the IPv6 argument.
+[#28.open_network_connection()] Mention IPv6.
+[#28.listeners()] Update for maps and new keys.
+[$server_options.help_msg] Mention no_name_lookup.
+[$code_utils:help_db_search] Give verb help matches the lowest priority so that things like 'help $login' return the right help file.
+[...] Changed ':connection_hostname(connection_name(player))' to ':connection_hostname(player)' on: #0:do_login_command, #6:@registerme, #10:connect, #10:player_creation_enabled, #10:record_connection, #10:request_character, #24:show_netwho_listing, #31:defer, #31:confunc, #31:log_disconnect, #57:@guests, #97:handle_connection

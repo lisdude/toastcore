@@ -9,7 +9,7 @@
 0 values pending finalization
 0 clocks
 1 queued tasks
-0 1 1572163200 796442013
+0 1 1574064000 842933494
 0
 -111
 1
@@ -722,7 +722,7 @@ LambdaCore
 2
 last_restart_time
 0
-1572133356
+1574036629
 2
 name
 2
@@ -881,9 +881,9 @@ The known universe.
 4
 2
 0
-39136
+39487
 0
-1572133374
+1574036738
 36
 1
 #1
@@ -1130,7 +1130,7 @@ object_size
 0
 30723
 0
-1572133374
+1574036738
 36
 1
 #2
@@ -1552,9 +1552,9 @@ mcp_snoop
 0
 50000
 0
-1185217
+1188167
 0
-1572133374
+1574036738
 0
 900
 36
@@ -1586,9 +1586,9 @@ Wizard
 4
 2
 0
-6608
+6652
 0
-1572133374
+1574036738
 36
 1
 #3
@@ -1882,7 +1882,7 @@ generic room
 0
 41192
 0
-1572133374
+1574036738
 36
 1
 #4
@@ -2324,7 +2324,7 @@ You see a player who should type '@describe me as ...'.
 0
 47443
 0
-1572133374
+1574036738
 36
 1
 #5
@@ -2437,7 +2437,7 @@ generic thing
 0
 6771
 0
-1572133374
+1574036738
 36
 1
 #6
@@ -3122,9 +3122,9 @@ You see a player who should type '@describe me as ...'.
 4
 2
 0
-133041
+133038
 0
-1572133374
+1574036738
 36
 1
 #7
@@ -3250,7 +3250,7 @@ generic exit
 0
 10409
 0
-1572133374
+1574036738
 36
 1
 #8
@@ -3468,7 +3468,7 @@ generic container
 0
 13863
 0
-1572133374
+1574036738
 36
 1
 #9
@@ -3591,7 +3591,7 @@ There appears to be some writing on the note ...
 0
 9283
 0
-1572133374
+1574036738
 36
 1
 #10
@@ -3608,7 +3608,7 @@ Login Commands
 1
 4
 0
-46
+48
 ?
 2
 93
@@ -3793,7 +3793,15 @@ encrypt_password
 2
 173
 -1
-40
+connection_name_lookup
+2
+173
+-1
+delete_name_lookup
+2
+173
+-1
+41
 welcome_message
 newt_registration_string
 registration_string
@@ -3834,7 +3842,8 @@ intercepted_actions
 checkpoint_in_progress
 no_connect_message
 argon2
-44
+name_lookup_players
+45
 4
 5
 2
@@ -3974,11 +3983,7 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 2
 0
 10
-1
-1
--2
 0
-2
 2
 5
 0
@@ -4065,6 +4070,10 @@ threads
 1
 2
 5
+4
+0
+2
+5
 5
 2
 4
@@ -4081,9 +4090,9 @@ This provides everything needed by #0:do_login_command.  See `help $login' on $c
 4
 2
 0
-56616
+58714
 0
-1572133374
+1574036738
 36
 1
 #11
@@ -4137,7 +4146,7 @@ A repository of last-resort player verbs to be called by $player:last_huh
 0
 6294
 0
-1572133374
+1574036738
 36
 1
 #12
@@ -4200,7 +4209,7 @@ Guest Log
 0
 5330
 0
-1572133374
+1574036738
 36
 1
 #13
@@ -4536,7 +4545,7 @@ This is the Generic BigList Utilities utility package.  See `help $biglist' for 
 0
 29877
 0
-1572133374
+1574036738
 36
 1
 #14
@@ -4912,7 +4921,7 @@ Calling #OBJ:restore_from(...) COMPLETELY AND IRREVOCABLY REMOVES ALL MESSAGES f
 0
 51966
 0
-1572133374
+1574036738
 36
 1
 #15
@@ -4971,7 +4980,7 @@ The Body Bag
 0
 3584
 0
-1572133374
+1574036738
 36
 1
 #16
@@ -5103,7 +5112,7 @@ Registration Database
 0
 12978
 0
-1572133374
+1574036738
 36
 1
 #17
@@ -5297,7 +5306,7 @@ Log of player creations.
 0
 5497
 0
-1572133374
+1574036738
 36
 1
 #18
@@ -5400,7 +5409,7 @@ A `help database' that knows about all of the documented verbs.
 0
 5292
 0
-1572133374
+1574036738
 36
 1
 #19
@@ -8888,7 +8897,7 @@ Help database for LambdaCore utility objects and generics.
 0
 121232
 0
-1572133374
+1574036738
 36
 1
 #20
@@ -8905,7 +8914,7 @@ string utilities
 78
 4
 0
-78
+77
 space(noansi)
 36
 173
@@ -9114,12 +9123,8 @@ regexp_quote
 36
 173
 -1
-connection_hostname_bsd
-36
-173
--1
 connection_hostname
-36
+2
 173
 -1
 from_value_suspended
@@ -9478,9 +9483,9 @@ This is the string utilities utility package.  See `help $string_utils' for more
 4
 2
 0
-104957
+104469
 0
-1572133374
+1574036738
 36
 1
 #21
@@ -9650,7 +9655,7 @@ This is the building utilities utility package.  See `help $building_utils' for 
 0
 18699
 0
-1572133374
+1574036738
 36
 1
 #22
@@ -12465,7 +12470,7 @@ This provides help on the programmer commands available on $prog and related top
 0
 103005
 0
-1572133374
+1574036738
 36
 1
 #23
@@ -13604,7 +13609,7 @@ This describes the various commands available on $wiz.
 0
 36730
 0
-1572133374
+1574036738
 36
 1
 #24
@@ -14314,7 +14319,7 @@ This is the Wizard Utilities utility package.  See `help $wiz_utils' for more de
 0
 73488
 0
-1572133374
+1574036738
 36
 1
 #25
@@ -14459,7 +14464,7 @@ The site blacklist and the graylist live as well (see `help blacklist').
 0
 17985
 0
-1572133374
+1574036738
 36
 1
 #26
@@ -16753,7 +16758,7 @@ This is the Math Utilities utility package.  See `help $math_utils' for more det
 0
 55523
 0
-1572133374
+1574036738
 36
 1
 #27
@@ -16875,7 +16880,7 @@ This is the Set Utilities utility package.  See `help $set_utils' for more detai
 0
 7782
 0
-1572133374
+1574036738
 36
 1
 #28
@@ -17161,9 +17166,9 @@ Server Built-in Functions
 36
 5
 4
-13
+15
 2
-Syntax:  open_network_connection (<value>, ... [, <listener>])   => obj
+Syntax:  open_network_connection (<value>, ... [, <use_ipv6>, <listener>])   => obj
 2
 
 2
@@ -17179,7 +17184,11 @@ For the TCP/IP network implementations (the only ones as of this writing that su
 2
 
 2
-Beginning with version 1.8.3, an optional third argument may be supplied, `listener' must be an object, whose listening verbs will be called at appropriate points.  See the description in `listen()' for more details.
+An optional third agument can be supplied indicating that the connection should be created on the destination's IPv6 interface rather than IPv4.
+2
+
+2
+Finally, an optional fourth argument may be supplied, `listener' must be an object, whose listening verbs will be called at appropriate points.  See the description in `listen()' for more details.
 2
 
 2
@@ -17191,9 +17200,9 @@ It is worth mentioning one tricky point concerning the use of this function.  Si
 36
 5
 4
-17
+13
 2
-Syntax:  connection_name (obj <player>)   => str
+Syntax:  connection_name (obj <player> [, <method>])   => str
 2
 
 2
@@ -17201,7 +17210,15 @@ Returns a network-specific string identifying the connection being used by the g
 2
 
 2
-For the TCP/IP networking configurations, for in-bound connections, the string has the form
+For the TCP/IP networking configurations, for in-bound connections, the string contains the resolved DNS hostname of the connection.
+2
+
+2
+If <method> is set to 1, the string will always contain the numeric IP address of the connection.
+2
+
+2
+If <method> is set to 2, the string will contain the full legacy connection_name string with the form:
 2
 
 2
@@ -17210,22 +17227,6 @@ For the TCP/IP networking configurations, for in-bound connections, the string h
 
 2
 where <lport> is the listening port on which the connection arrived, <host> is either the name or decimal TCP address of the host to which the connection was opened, and <port> is the decimal TCP port of the connection on that host.
-2
-
-2
-For the System V 'local' networking configuration, the string is the UNIX login name of the connecting user or, if no such name can be found, something of the form
-2
-
-2
-  "User <#number>"
-2
-
-2
-where <#number> is a UNIX numeric user ID.
-2
-
-2
-For the other networking configurations, the string is the same for all connections and, thus, useless.
 36
 5
 4
@@ -18949,17 +18950,45 @@ decode_binary("foo~0D~0A", 1)      =>  {102, 111, 111, 13, 10}
 36
 5
 4
-5
+19
 2
 Syntax:  disassemble (OBJ object, STR verb-desc)   => LIST
 2
 
 2
-Returns a (longish) list of strings giving a listing of the server's internal "compiled" form of the verb as specified by <verb-desc> on <object>. This format is not documented and may indeed change from release to release, but some programmers may nonetheless find the output of `disassemble()' interesting to peruse as a way to gain a deeper appreciation of how the server works.
+Returns a (longish) list of strings giving a listing of the server's internal "compiled" form of the verb as specified by <verb-desc> on <object>. This format may indeed change from release to release, but some programmers may nonetheless find the output of `disassemble()' interesting to peruse as a way to gain a deeper appreciation of how the server works.
 2
 
 2
 If <object> is not valid, then E_INVARG is raised. If <object> does not define a verb as specified by <verb-desc>, then E_VERBNF is raised. If the programmer does not have read permission on the verb in question, then disassemble() raises E_PERM.
+2
+
+2
+Each line of output roughly follows the form: <frame number>: <opcode byte> <opcode arguments (if any)> <ticks?> <human readable opcode mnemonic and arguments>
+2
+
+2
+For example:
+2
+
+2
+1: 004 000 022	* FORK_NAMED 0 foo
+2
+	1: Frame number
+2
+	2. Opcode byte 4
+2
+	3. ARGUMENT 1: Forked vector number to switch to.
+2
+	4. ARGUMENT 2: Reference to the fork's label.
+2
+	5. *, indicating that the tick counter will be decremented.
+2
+	6. The human readable name of the opcode.
+2
+	7. ARGUMENT 1: The forked vector number to switch to.
+2
+	8. ARGUMENT 2: The name of the fork's label.
 36
 5
 4
@@ -19069,9 +19098,9 @@ where <name> is the name of the built-in function, <min-args> is the minimum num
 36
 5
 4
-11
+13
 2
-Syntax:  listen (OBJ object, point [, print-messages])   => value
+Syntax:  listen (OBJ object, point [, print-messages, use_ipv6])   => value
 2
 
 2
@@ -19092,24 +19121,32 @@ For the local multi-user configurations, <point> is the UNIX file name to be use
 
 2
 In the single-user configuration, there can be only one listening point at a time; <point> can be any value at all and <canon> is always zero.
+2
+
+2
+If <use_ipv6> is true, the connection will listen on the IPv6 interface.  
 36
 5
 4
-7
+9
 2
-Syntax:  listeners ()  => LIST
-2
-
-2
-Returns a list describing all existing listening points, including the default one set up automatically by the server when it was started (unless that one has since been destroyed by a call to `unlisten()'). Each element of the list has the following form:
+Syntax:  listeners ([<obj>])  => LIST
 2
 
 2
-  {<object>, <canon>, <print-messages>}
+Returns a list of maps describing all existing listening points, including the default one set up automatically by the server when it was started (unless that one has since been destroyed by a call to `unlisten()'). Each element of the list has the following keys:
 2
 
 2
-where <object> is the first argument given in the call to `listen()' to create this listening point, <print-messages> is true if the third argument in that call was provided and true, and <canon> was the value returned by that call. (For the initial listening point, <object> is #0, <canon> is determined by the command-line arguments or a network-configuration-specific default, and <print-messages> is true.)
+[<object>, <port>, <print-messages>, <ipv6>]
+2
+
+2
+where <object> is the first argument given in the call to `listen()' to create this listening point, <print-messages> is true if the third argument in that call was provided and true, <ipv6> is true if the connection is listening on the IPv6 interface, and <port> was the value returned by that call. (For the initial listening point, <object> is #0, <port> is determined by the command-line arguments or a network-configuration-specific default, and <print-messages> is true.)
+2
+
+2
+An optional argument, <obj>, can be supplied to filter the list of listeners by that object only.
 36
 5
 4
@@ -19359,9 +19396,9 @@ For the {"*verb*",...} form, the current verbs available are
 4
 2
 0
-106091
+107206
 0
-1572133374
+1574036738
 36
 1
 #29
@@ -19525,7 +19562,7 @@ Record of who's been made a @programmer.
 0
 9059
 0
-1572133374
+1574036738
 36
 1
 #30
@@ -19645,7 +19682,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 13195
 0
-1572133374
+1574036738
 36
 1
 #31
@@ -20079,9 +20116,9 @@ By definition, guests appear nondescript.
 4
 2
 0
-21642
+21613
 0
-1572133374
+1574036738
 36
 1
 #32
@@ -20141,7 +20178,7 @@ For help on using the speller, use 'help spelling' and 'help @spell'.
 0
 6042
 0
-1572133374
+1574036738
 36
 1
 #33
@@ -20349,7 +20386,7 @@ This is the sequence utilities utility package.  See `help $seq_utils' for more 
 0
 22892
 0
-1572133374
+1574036738
 36
 1
 #34
@@ -20490,7 +20527,7 @@ Record of whose quota has been messed with and why.
 0
 2286
 0
-1572133374
+1574036738
 36
 1
 #35
@@ -20660,7 +20697,7 @@ An object useful for pronoun substitution for switching between third and second
 0
 9531
 0
-1572133374
+1574036738
 36
 1
 #36
@@ -20964,7 +21001,7 @@ init_for_core
 0
 100000008
 0
--28399925
+-28398606
 0
 1008125633
 0
@@ -21001,7 +21038,7 @@ A system character used to own non-wizardly system verbs , properties, and objec
 0
 4156
 0
-1572133374
+1574036738
 36
 1
 #37
@@ -21148,7 +21185,7 @@ A generic `database' (well, really more like a string-indexed array if you want 
 0
 23185
 0
-1572133374
+1574036738
 36
 1
 #38
@@ -21383,7 +21420,7 @@ Everyman ($no_one) can not receive mail.
 0
 0
 0
-1572128666
+1573954933
 0
 0
 36
@@ -21424,7 +21461,7 @@ The character used for "safe" evals.
 0
 8366
 0
-1572133374
+1574036738
 36
 1
 #39
@@ -21684,7 +21721,7 @@ See `help $player_db' for more information.
 0
 12184
 0
-1572133374
+1574036738
 36
 1
 #40
@@ -22176,7 +22213,7 @@ Generic Mail Receiving Player
 0
 97211
 0
-1572133374
+1574036738
 36
 1
 #41
@@ -22669,7 +22706,7 @@ This is the gender utilities utility package.  See `help $gender_utils' for more
 0
 17787
 0
-1572133374
+1574036738
 36
 1
 #42
@@ -22758,7 +22795,7 @@ This is the permissions utilities utility package.  See `help $perm_utils' for m
 0
 4790
 0
-1572133374
+1574036738
 36
 1
 #43
@@ -23353,7 +23390,7 @@ This is the time utilities utility package.  See `help $time_utils' for more det
 0
 30642
 0
-1572133374
+1574036738
 36
 1
 #44
@@ -24301,7 +24338,7 @@ Editor Help
 0
 26270
 0
-1572133374
+1574036738
 36
 1
 #45
@@ -24599,7 +24636,7 @@ This can either be a mailing list or a mail folder, depending on what mood you'r
 0
 44127
 0
-1572133374
+1574036738
 36
 1
 #46
@@ -24954,7 +24991,7 @@ Avaliable aliases:
 0
 69430
 0
-1572133374
+1574036738
 36
 1
 #47
@@ -25400,7 +25437,7 @@ Mail Room
 0
 31755
 0
-1572133374
+1574036738
 36
 1
 #48
@@ -25729,7 +25766,7 @@ nedit
 0
 14786
 0
-1572133374
+1574036738
 36
 1
 #49
@@ -26058,7 +26095,7 @@ verb edit
 0
 20107
 0
-1572133374
+1574036738
 36
 1
 #50
@@ -26697,7 +26734,7 @@ edit
 0
 74141
 0
-1572133374
+1574036738
 36
 1
 #51
@@ -26852,7 +26889,7 @@ matching utilities
 0
 12588
 0
-1572133374
+1574036738
 36
 1
 #52
@@ -27110,7 +27147,7 @@ This is the object utilities utility package.  See `help $object_utils' for more
 0
 29793
 0
-1572133374
+1574036738
 36
 1
 #53
@@ -27247,7 +27284,7 @@ This the lock utilities package, used by the MOOwide locking mechanisms. See `he
 0
 13212
 0
-1572133374
+1574036738
 36
 1
 #54
@@ -27351,7 +27388,7 @@ Some writing on the letter explains that you should 'read letter', and when you'
 0
 3579
 0
-1572133374
+1574036738
 36
 1
 #55
@@ -27666,7 +27703,7 @@ This is the list utilities utility package.  See `help $list_utils' for more det
 0
 41070
 0
-1572133374
+1574036738
 36
 1
 #56
@@ -27763,23 +27800,29 @@ feature_task
 4
 9
 0
-1153345886
+2050250389
 2
-@update-toaststunt-documentation
+@copt
 4
-0
+3
 2
-
+$login:connection_name_lookup
+2
+to
+2
+$login:delete_name_lookup
+2
+$login:connection_name_lookup to $login:delete_name_lookup
 1
--1
+-3
 2
-
+$login:connection_name_lookup
 2
-
+to
 1
--1
+-3
 2
-
+$login:delete_name_lookup
 36
 0
 4
@@ -27877,9 +27920,9 @@ This is the command utilities utility package.  See `help $command_utils' for mo
 4
 2
 0
-25476
+25670
 0
-1572133374
+1574036738
 36
 1
 #57
@@ -28404,9 +28447,9 @@ You see a wizard who chooses not to reveal its true appearance.
 4
 2
 0
-80085
+80082
 0
-1572133374
+1574036738
 36
 1
 #58
@@ -28908,7 +28951,7 @@ You see a player who is too experienced to have any excuse for not having a desc
 0
 83072
 0
-1572133374
+1574036738
 36
 1
 #59
@@ -29187,7 +29230,7 @@ error_list
 prepositions
 15
 2
-2.5.2
+2.6.0
 36
 5
 4
@@ -29658,9 +29701,9 @@ This is the code utilities utility package.  See `help $code_utils' for more det
 4
 2
 0
-81926
+82159
 0
-1572133374
+1574036738
 36
 1
 #60
@@ -32309,7 +32352,7 @@ See the description of $generic_help for more detail.
 0
 96153
 0
-1572133374
+1574036738
 36
 1
 #61
@@ -32829,7 +32872,7 @@ It's the current issue of the News, dated %d.
 0
 28263
 0
-1572133374
+1574036738
 36
 1
 #62
@@ -32928,7 +32971,7 @@ This is all there is right now.
 0
 6359
 0
-1572133374
+1574036738
 36
 1
 #63
@@ -33077,7 +33120,7 @@ Object reuse. Call $recycler:_create() to create an object (semantics the same a
 0
 12640
 0
-1572133374
+1574036738
 36
 1
 # 64 recycled
@@ -33450,7 +33493,7 @@ Options for mailing
 0
 20503
 0
-1572133374
+1574036738
 36
 1
 #66
@@ -33559,7 +33602,7 @@ Edit Options
 0
 2824
 0
-1572133374
+1574036738
 36
 1
 #67
@@ -33644,7 +33687,7 @@ Display Options
 0
 1273
 0
-1572133374
+1574036738
 36
 1
 #68
@@ -33762,7 +33805,7 @@ an option package in need of a description.  See `help $generic_option'...
 0
 16982
 0
-1572133374
+1574036738
 36
 1
 #69
@@ -33960,7 +34003,7 @@ raise(error) actually raises the error.
 0
 11680
 0
-1572133374
+1574036738
 36
 1
 #70
@@ -34071,7 +34114,7 @@ Notes on annoying sites.
 0
 1824
 0
-1572133374
+1574036738
 36
 1
 #71
@@ -34573,7 +34616,7 @@ Impossible password to type
 0
 31475
 0
-1572128666
+1573954933
 0
 0
 36
@@ -34609,7 +34652,7 @@ A very clean, neat, tidy person who doesn't mind lugging players and their gear 
 0
 31475
 0
-1572133374
+1574036738
 36
 1
 #72
@@ -35043,7 +35086,7 @@ Parameters:
 0
 31183
 0
-1572133374
+1574036738
 36
 1
 #73
@@ -35130,7 +35173,7 @@ This is the object you want to use as a parent in order to @create a place for y
 0
 5344
 0
-1572133374
+1574036738
 36
 1
 #74
@@ -35272,7 +35315,7 @@ This is the Generic Feature Object.  It is not meant to be used as a feature obj
 0
 10943
 0
-1572133374
+1574036738
 36
 1
 #75
@@ -35574,7 +35617,7 @@ Option package for $prog commands.  See `help @prog-options'.
 0
 10068
 0
-1572133374
+1574036738
 36
 1
 #77
@@ -35703,7 +35746,7 @@ Option package for $builder commands.  See `help @build-options'.
 0
 5909
 0
-1572133374
+1574036738
 36
 1
 #78
@@ -35795,7 +35838,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 835
 0
-1572133374
+1574036738
 36
 1
 #79
@@ -35995,7 +36038,7 @@ measurement_task_running
 36
 5
 1
-96
+98
 36
 5
 0
@@ -36197,7 +36240,7 @@ This is the Byte Quota Utilities utility package.  See `help $quota_utils' for m
 0
 42575
 0
-1572133374
+1574036738
 36
 1
 #80
@@ -36321,7 +36364,7 @@ Internal:
 0
 8754
 0
-1572133374
+1574036738
 36
 1
 #81
@@ -36427,7 +36470,7 @@ This is the Object Quota Utilities utility package.  See `help $object_quota_uti
 0
 9928
 0
-1572133374
+1574036738
 36
 1
 #82
@@ -36453,7 +36496,7 @@ init_for_core
 2
 173
 -1
-17
+18
 protect_chparent
 protect_add_verb
 protect_add_property
@@ -36471,7 +36514,8 @@ bg_ticks
 boot_msg
 protect_read
 dump_interval
-21
+no_name_lookup
+22
 0
 1
 2
@@ -36501,7 +36545,7 @@ dump_interval
 2
 5
 4
-34
+36
 2
                 Server Options <$server_options>
 2
@@ -36569,6 +36613,10 @@ If those properties exist and are numbers, the server use them instead of the co
 2
 'protect_...' On every call to a built-in function 'foo', if the property $server_options.protect_foo exists and is true, and the programmer is not a wizard, then the server checks for the existence of #0:bf_<fuction> and calls that. If it doesn't exist then E_PERM is raised, i.e. the built-in function is made wiz-only.
 2
+
+2
+'no_name_lookup' If this property exists and is true, the server will no longer automatically handle DNS name lookups. Instead, you'll have to use the 'connection_name_lookup()' function. This has the advantage of performing name lookups in a separate thread (thus not locking the main MOO until it finishes), but it also has the disadvantage of preventing '#0:do_login_command()' from working properly. To mitigate this, you must use the 'switch_player()' function instead of returning an object number. Note that this is the default behavior of ToastCore.
+2
                 --------------------------------
 2
 5
@@ -36609,6 +36657,10 @@ If those properties exist and are numbers, the server use them instead of the co
 2
 5
 0
+1
+2
+5
+0
 0
 2
 4
@@ -36624,9 +36676,9 @@ Server Options
 4
 2
 0
-8456
+9110
 0
-1572133374
+1574036738
 36
 1
 #83
@@ -36753,7 +36805,7 @@ warehouse
 0
 2586
 0
-1572133374
+1574036738
 36
 1
 #84
@@ -38066,7 +38118,7 @@ This help database contains topics about the generic builder and building comman
 0
 46286
 0
-1572133374
+1574036738
 36
 1
 #85
@@ -39299,7 +39351,7 @@ This help database contains topics relating to the general use of the mail syste
 0
 42114
 0
-1572133374
+1574036738
 36
 1
 #86
@@ -41519,7 +41571,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 73163
 0
-1572133374
+1574036738
 36
 1
 #87
@@ -41701,7 +41753,7 @@ The password verifier verifies passwords.
 0
 14668
 0
-1572133374
+1574036738
 36
 1
 #88
@@ -42384,7 +42436,7 @@ You see a player who should type '@describe me as ...'.
 0
 91875
 0
-1572133374
+1574036738
 36
 1
 #89
@@ -42494,7 +42546,7 @@ This feature contains various verbs used in stage talk, which allows players to 
 0
 5959
 0
-1572133374
+1574036738
 36
 1
 #90
@@ -42588,7 +42640,7 @@ Verbs useful to people using a windowing system to paste text at people.
 0
 5734
 0
-1572133374
+1574036738
 36
 1
 #91
@@ -42876,7 +42928,7 @@ This is a utilities package for dealing with lists as representations of vectors
 0
 38343
 0
-1572133374
+1574036738
 36
 1
 #92
@@ -43761,7 +43813,7 @@ Frand Help DB
 0
 30023
 0
-1572133374
+1574036738
 36
 1
 #93
@@ -45901,7 +45953,7 @@ This is a utilities package for converting from one unit of measurement to anoth
 0
 44958
 0
-1572133374
+1574036738
 36
 1
 #94
@@ -46008,7 +46060,7 @@ Generic Gendered Object
 0
 3568
 0
-1572133374
+1574036738
 36
 1
 #95
@@ -46322,7 +46374,7 @@ List Editor
 0
 17357
 0
-1572133374
+1574036738
 36
 1
 #96
@@ -46623,7 +46675,7 @@ impossible password to type
 0
 129945
 0
-1572128666
+1573954933
 0
 0
 36
@@ -46660,7 +46712,7 @@ This player owns all editor-related verbs.
 0
 3554
 0
-1572133374
+1574036738
 36
 1
 #97
@@ -46698,7 +46750,7 @@ nonalpha
 help_msg
 17
 4
-5
+6
 4
 3
 2
@@ -46737,6 +46789,14 @@ ec2-34-219-177-72.us-west-2.compute.amazonaws.com
 122.228.19.79
 0
 1549894293
+0
+0
+4
+3
+2
+scan-96.security.ipip.net
+0
+1574031299
 0
 0
 2
@@ -46821,9 +46881,9 @@ HTTP Server
 4
 2
 0
-8230
+8333
 0
-1572133374
+1574036738
 36
 1
 #98
@@ -47141,9 +47201,9 @@ Core
 0
 50000
 0
-230510
+229997
 0
-1572133374
+1574036738
 0
 100
 36
@@ -47174,7 +47234,7 @@ Core
 0
 3637
 0
-1572133374
+1574036738
 36
 1
 #99
@@ -47586,7 +47646,7 @@ e[37m
 98
 1
 0
-1860210732
+612015849
 98
 1
 4
@@ -47988,51 +48048,9 @@ First version, added $emu and hacked $player:notify to call it.
 98
 1
 4
-22
+1
 0
-173750073
-0
-613567095
-0
-544624892
-0
-1518715445
-0
-1904488998
-0
-925489039
-0
-394713457
-0
-1842383888
-0
-1307986860
-0
-575136161
-0
-809464346
-0
-651093888
-0
-715366440
-0
-1823048444
-0
-1108068153
-0
-1451003411
-0
-1122329482
-0
-1552457280
-0
-130114203
-0
-1109596309
-0
-11833933
-0
-113634739
+962377955
 98
 1
 4
@@ -48216,9 +48234,9 @@ au
 4
 2
 0
-71477
+71141
 0
-1572133374
+1574036738
 36
 1
 #100
@@ -48490,7 +48508,7 @@ A player with the ability to see things in [red]c[bold][yellow]o[green]l[blue]o[
 0
 29070
 0
-1572133374
+1574036738
 36
 1
 #101
@@ -49171,7 +49189,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 26786
 0
-1572133374
+1574036738
 36
 1
 #102
@@ -49390,7 +49408,7 @@ An option package for controlling and customizing the ANSI PC.
 0
 5619
 0
-1572133374
+1574036738
 36
 1
 #103
@@ -49454,7 +49472,7 @@ dispatch
 0
 5192
 0
-1572133374
+1574036738
 36
 1
 #104
@@ -49561,7 +49579,7 @@ package
 0
 6825
 0
-1572133374
+1574036738
 36
 1
 #105
@@ -49668,7 +49686,7 @@ negotiate
 0
 3228
 0
-1572133374
+1574036738
 36
 1
 #106
@@ -49830,7 +49848,7 @@ cord
 0
 7348
 0
-1572133374
+1574036738
 36
 1
 #107
@@ -49877,7 +49895,7 @@ next_datakey
 unquoted_string
 6
 0
-9980
+10029
 98
 1
 2
@@ -49904,7 +49922,7 @@ parser
 0
 6696
 0
-1572133374
+1574036738
 36
 1
 #108
@@ -50159,7 +50177,7 @@ registry
 0
 7206
 0
-1572133374
+1574036738
 36
 1
 #110
@@ -50306,9 +50324,9 @@ mcp
 4
 2
 0
-10478
+10301
 0
-1572133374
+1574036738
 36
 1
 #111
@@ -52250,7 +52268,7 @@ Component
 0
 94763
 0
-1572133374
+1574036738
 36
 1
 #113
@@ -52507,7 +52525,7 @@ Non JHCore installations might choose to set .v_filter_in / .v_filter_out to fal
 0
 15923
 0
-1572133374
+1574036738
 36
 1
 #114
@@ -53503,7 +53521,7 @@ MCP Help Database
 0
 23287
 0
-1572133374
+1574036738
 36
 1
 #117
@@ -53601,7 +53619,7 @@ Generic Waif
 0
 2521
 0
-1572133374
+1574036738
 36
 1
 #119
@@ -53712,7 +53730,7 @@ client_stats
 4
 3
 0
-1572133362
+1574036632
 1
 2
 4
@@ -53805,7 +53823,7 @@ dns-com-vmoo-client
 0
 6384
 0
-1572133374
+1574036738
 36
 1
 #122
@@ -53898,7 +53916,7 @@ dns-com-awns-status
 0
 1354
 0
-1572133374
+1574036738
 36
 1
 #124
@@ -54340,7 +54358,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 49766
 0
-1572133374
+1574036738
 36
 1
 #125
@@ -54469,23 +54487,27 @@ Menu Utilities
 0
 7906
 0
-1572133374
+1574036738
 36
 1
 0
-1991
+1992
 #0:0
 "...This code should only be run as a server task...";
 if (callers())
 return E_PERM;
 endif
+try
+"...perform a threaded DNS name lookup and store the result for the duration of the connection...";
+$login:connection_name_lookup(player);
 if (typeof(h = $network:incoming_connection(player)) == OBJ)
 "connected to an object";
-return h;
+switch_player(player, h);
+return;
 elseif (h)
 return 0;
 endif
-host = $string_utils:connection_hostname(connection_name(player));
+host = $string_utils:connection_hostname(player);
 if ($login:redlisted(host))
 boot_player(player);
 server_log(tostr("REDLISTED: ", player, " from ", host));
@@ -54503,8 +54525,18 @@ endtry
 "...checks to see if the login is spamming the server with too many commands...";
 if (!$login:maybe_limit_commands())
 args = $login:parse_command(@args);
-return $login:(args[1])(@listdelete(args, 1));
+retval = $login:(args[1])(@listdelete(args, 1));
+if (typeof(retval) == OBJ)
+switch_player(player, retval);
+return;
+else
+return retval;
 endif
+endif
+finally
+"...'forget' that we already performed a name lookup on this connection...";
+$login:delete_name_lookup(player);
+endtry
 .
 #0:1
 if (!callers())
@@ -59043,7 +59075,7 @@ if ($object_utils:isa(this, $guest))
 who:notify("Sorry, guests should use the '@request' command to request a character.");
 return;
 endif
-connection = $string_utils:connection_hostname(connection_name(who));
+connection = $string_utils:connection_hostname(who);
 if (!argstr)
 if ($wiz_utils:get_email_address(who))
 player:tell("You are currently registered as:  ", $wiz_utils:get_email_address(who));
@@ -59850,7 +59882,7 @@ endif
 "=== Is our candidate unable to connect for generic security";
 "=== reasons (ie clear password, non-player object)?";
 if (`is_clear_property(candidate, "password") ! E_PROPNF' || (!$object_utils:isa(candidate, $player)))
-server_log(tostr("FAILED CONNECT: ", name, " (", candidate, ") on ", connection_name(player), ($string_utils:connection_hostname(connection_name(player)) in candidate.all_connect_places) ? "" | "******"));
+server_log(tostr("FAILED CONNECT: ", name, " (", candidate, ") on ", connection_name(player), ($string_utils:connection_hostname(player) in candidate.all_connect_places) ? "" | "******"));
 raise(E_INVARG);
 endif
 "=================================================================";
@@ -59861,7 +59893,7 @@ if (password)
 "=== Candidate requires a password, and one was provided";
 if (!argon2_verify(cp, password))
 "=== Candidate requires a password, and one was provided, which was wrong";
-server_log(tostr("FAILED CONNECT: ", name, " (", candidate, ") on ", connection_name(player), ($string_utils:connection_hostname(connection_name(player)) in candidate.all_connect_places) ? "" | "******"));
+server_log(tostr("FAILED CONNECT: ", name, " (", candidate, ") on ", connection_name(player), ($string_utils:connection_hostname(player) in candidate.all_connect_places) ? "" | "******"));
 raise(E_INVARG, "Invalid password.");
 else
 "=== Candidate requires a password, and one was provided, which was right";
@@ -60124,7 +60156,7 @@ return 0;
 "Accepts a player object.  If player creation is enabled for that player object, then return true.  Otherwise, return false.";
 "Default implementation checks the player's connecting host via $login:blacklisted to decide.";
 if (caller_perms().wizard)
-return this.create_enabled && (!this:blacklisted($string_utils:connection_hostname(connection_name(args[1]))));
+return this.create_enabled && (!this:blacklisted($string_utils:connection_hostname(args[1])));
 else
 return E_PERM;
 endif
@@ -60156,6 +60188,7 @@ this.downtimes = {};
 this.current_numcommands = [];
 this.max_numcommands = 20;
 this.intercepted_players = this.intercepted_actions = {};
+this.name_lookup_players = {};
 if ("monitor" in properties(this))
 delete_property(this, "monitor");
 endif
@@ -60266,8 +60299,8 @@ plyr = args[1];
 plyr.first_connect_time = min(time(), plyr.first_connect_time);
 plyr.previous_connection = {plyr.last_connect_time, $string_utils:connection_hostname(plyr.last_connect_place)};
 plyr.last_connect_time = time();
-plyr.last_connect_place = cn = connection_name(player);
-chost = $string_utils:connection_hostname(cn);
+plyr.last_connect_place = connection_name(player);
+chost = $string_utils:connection_hostname(player);
 acp = setremove(plyr.all_connect_places, chost);
 plyr.all_connect_places = {chost, @acp[1..min($, 15)]};
 if (!$object_utils:isa(plyr, $guest))
@@ -60322,7 +60355,7 @@ if (!caller_perms().wizard)
 return E_PERM;
 endif
 {who, name, address} = args;
-connection = $string_utils:connection_hostname(connection_name(who));
+connection = $string_utils:connection_hostname(who);
 if (reason = $wiz_utils:check_player_request(name, address, connection))
 prefix = "";
 if (reason[1] == "-")
@@ -60469,6 +60502,7 @@ if (caller_perms().wizard)
 this.lag_samples = {0, 0, 0, 0, 0};
 this.downtimes = {{time(), this.last_lag_sample}, @this.downtimes[1..min($, 100)]};
 this.intercepted_players = this.intercepted_actions = {};
+this.name_lookup_players = {};
 this.checkpoint_in_progress = 0;
 this.current_numcommands = [];
 endif
@@ -60618,6 +60652,27 @@ endif
 {password} = args;
 salt = random_bytes(20);
 return argon2(password, salt, this.argon2["iterations"], this.argon2["memory"], this.argon2["threads"]);
+.
+#10:46
+":connection_name_lookup(connection)";
+"Perform a threaded DNS lookup on 'connection' and record it to avoid multiple calls.";
+if ((caller != #0) && (caller != this))
+return E_PERM;
+endif
+{connection} = args;
+if (!(connection in this.name_lookup_players))
+this.name_lookup_players = setadd(this.name_lookup_players, connection);
+connection_name_lookup(connection, 1);
+endif
+.
+#10:47
+":delete_name_lookup(connection)";
+"Remove a connection from the list of connections that have already have name lookups performed on.";
+if ((caller != #0) && (caller != this))
+return E_PERM;
+endif
+{connection} = args;
+this.name_lookup_players = setremove(this.name_lookup_players, connection);
 .
 #11:0
 "{last_huh}  @<msg_name> <object> is [<text>]";
@@ -63827,15 +63882,19 @@ endwhile
 return string + quoted;
 .
 #20:52
-"Takes the output from connection_name() and returns just the host string portion of it.  Assumes you are using bsd_network style connection names.";
-s = args[1];
-return (m = `match(args[1], "^.* %(from%|to%) %([^, ]+%)") ! ANY') ? substitute("%2", m) | "";
+"Return the host string for an object or extract it from a legacy connection_name() string. Assumes you are using bsd_network style connection names.";
+(caller != #0) && set_task_perms(caller_perms());
+{lookup} = args;
+if (typeof(lookup) == OBJ)
+return `connection_name(lookup) ! E_INVARG => ""';
+elseif (typeof(lookup) == STR)
+"Make the assumption here that connection_name() has been passed in from legacy code and contains just the host string.";
+return (m = `match(lookup, "^.* %(from%|to%) %([^, ]+%)") ! ANY') ? substitute("%2", m) | lookup;
+else
+return "";
+endif
 .
 #20:53
-"This is the function that should actually be called to get the host name from a connection name.  The archwizard should change _bsd so as to be calling the verb appropriate for his/her network interface.";
-return this:connection_hostname_bsd(@args);
-.
-#20:54
 "$string_utils:from_value(value [, quote_strings = 0 [, list_depth = 1]])";
 "Print the given value into a string.";
 "This verb suspends as necessary for large values.";
@@ -63877,7 +63936,7 @@ else
 return tostr(value);
 endif
 .
-#20:55
+#20:54
 ":end_expression(string[,stop_at])";
 "  assumes string starts with an expression; returns the index of the last char in expression or 0 if string appears not to be an expression.  Expression ends at any character from stop_at which occurs at top level.";
 {string, ?stop_at = " "} = args;
@@ -63921,7 +63980,7 @@ endif
 endwhile
 return (!paren_stack) && (gone + length(string));
 .
-#20:56
+#20:55
 ":first_word(string) => {first word, rest of string} or {}";
 rest = args[1];
 "...trim leading blanks...";
@@ -63953,7 +64012,7 @@ rest[1..m[2]] = "";
 endwhile
 return {token + rest, ""};
 .
-#20:57
+#20:56
 ":common(first,second) => length of longest common prefix";
 {first, second} = args;
 r = min(length(first), length(second));
@@ -63968,7 +64027,7 @@ endif
 endwhile
 return r;
 .
-#20:58
+#20:57
 "wr_utils:title_list/title_listc(<obj-list>[, @<args>)";
 "Creates an english list out of the titles of the objects in <obj-list>.  Optional <args> are passed on to $string_utils:english_list.";
 "title_listc uses :titlec() for the first item.";
@@ -63984,7 +64043,7 @@ endif
 endif
 return $string_utils:english_list(titles, @args[2..$]);
 .
-#20:59
+#20:58
 "name_and_number(object [,sepr] [,english_list_args]) => \"ObjectName (#object)\"";
 "Return name and number for OBJECT.  Second argument is optional separator (for those who want no space, use \"\").  If OBJECT is a list of objects, this maps the above function over the list and then passes it to $string_utils:english_list.";
 "The third through nth arguments to nn_list corresponds to the second through nth arguments to English_list, and are passed along untouched.";
@@ -64000,7 +64059,7 @@ name_list = {@name_list, name};
 endfor
 return this:english_list(name_list, @eng_args);
 .
-#20:60
+#20:59
 "columnize_suspended (interval, items, n [, width]) - Turn a one-column list of items into an n-column list, suspending for `interval' seconds as necessary. 'width' is the last character position that may be occupied; it defaults to a standard screen width. Example: To tell the player a list of numbers in three columns, do 'player:tell_lines ($string_utils:columnize_suspended(0, {1, 2, 3, 4, 5, 6, 7}, 3));'.";
 {interval, items, n, ?width = 79} = args;
 height = ((length(items) + n) - 1) / n;
@@ -64020,7 +64079,7 @@ result = listappend(result, line[1..min($, width)]);
 endfor
 return result;
 .
-#20:61
+#20:60
 ":a_or_an(<noun>) => \"a\" or \"an\"";
 "To accomodate personal variation (e.g., \"an historical book\"), a player can override this by having a personal a_or_an verb.  If that verb returns 0 instead of a string, the standard algorithm is used.";
 noun = args[1];
@@ -64047,7 +64106,7 @@ return a_or_an;
 "Ported by Mickey with minor tweaks from a Moo far far away.";
 "Last modified Sun Aug  1 22:53:07 1993 EDT by BabyBriar (#2).";
 .
-#20:62
+#20:61
 "index_all(string,target) -- returns list of positions of target in string.";
 "Usage: $string_utils:index_all(<string,pattern>)";
 "       $string_utils:index_all(\"aaabacadae\",\"a\")";
@@ -64065,7 +64124,7 @@ endwhile
 return where;
 endif
 .
-#20:63
+#20:62
 "Copied from Puff (#1449):match_stringlist Tue Oct 19 08:18:13 1993 PDT";
 "$string_utils:match_stringlist(string, {list of strings})";
 "The list of strings should be just that, a list of strings.  The first string is matched against the list of strings.";
@@ -64105,20 +64164,20 @@ return $failed_match;
 endif
 endif
 .
-#20:64
+#20:63
 "This converts a ASCII character code in the range [32..126] into the ASCII character with that code, represented as a one-character string.";
 "";
 "Example:   $string_utils:from_ASCII(65) => \"A\"";
 code = args[1];
 return this.ascii[code - 31];
 .
-#20:65
+#20:64
 "Convert a one-character string into the ASCII character code for that character.";
 "";
 "Example:  $string_utils:to_ASCII(\"A\") => 65";
 return (index(this.ascii, args[1], 1) || raise(E_INVARG)) + 31;
 .
-#20:66
+#20:65
 "Copied from Mickey (#52413):abbreviated_value Fri Sep  9 08:52:41 1994 PDT";
 ":abbreviated_value(value,max_reslen,max_lstlev,max_lstlen,max_strlen,max_toklen)";
 "";
@@ -64134,7 +64193,7 @@ return (index(this.ascii, args[1], 1) || raise(E_INVARG)) + 31;
 return this:_abbreviated_value(value, max_reslen, max_lstlev, max_lstlen, max_strlen, max_toklen);
 "Originally written by Mickey.";
 .
-#20:67
+#20:66
 "Copied from Mickey (#52413):_abbreviated_value Fri Sep  9 08:52:44 1994 PDT";
 "Internal to :abbreviated_value.  Do not call this directly.";
 {value, max_reslen, max_lstlev, max_lstlen, max_strlen, max_toklen} = args;
@@ -64205,7 +64264,7 @@ return (length(v) > len) ? v[1..len - 3] + "..." | v;
 endif
 "Originally written by Mickey.";
 .
-#20:68
+#20:67
 "$string_utils:match_suspended(string [, obj-list, prop-name]*)";
 "Each obj-list should be a list of objects or a single object, which is treated as if it were a list of that object.  Each prop-name should be string naming a property on every object in the corresponding obj-list.  The value of that property in each case should be either a string or a list of strings.";
 "The argument string is matched against all of the strings in the property values.";
@@ -64247,7 +64306,7 @@ endfor
 endfor
 return no_exact_match && (no_partial_match && $failed_match);
 .
-#20:69
+#20:68
 "args[1] is a string.  'increments' the string by one. E.g., aaa => aab, aaz => aba.  empty string => a, zzz => aaaa.";
 "args[2] is optional alphabet to use instead of $string_utils.alphabet.";
 {s, ?alphabet = this.alphabet} = args;
@@ -64261,13 +64320,13 @@ t = index(alphabet, s[index]);
 return s[1..index - 1] + alphabet[t + 1];
 endif
 .
-#20:70
+#20:69
 "Usage:  is_float(string)";
 "Is string composed of one or more digits possibly preceded by a minus sign either followed by a decimal or by an exponent?";
 "Return true or false";
 return match(args[1], "^ *[-+]?%(%([0-9]+%.[0-9]*%|[0-9]*%.[0-9]+%)%(e[-+]?[0-9]+%)?%)%|%([0-9]+e[-+]?[0-9]+%) *$");
 .
-#20:71
+#20:70
 "Copied from Moo_tilities (#332):inside_quotes by Mooshie (#106469) Tue Dec 23 10:26:49 1997 PST";
 "Usage: inside_quotes(STR)";
 "Is the  end of the given string `inside' a doublequote?";
@@ -64282,7 +64341,7 @@ string = string[i + 1..$];
 endwhile
 return quoted;
 .
-#20:72
+#20:71
 ":strip_all_but_seq(string, keep) => chars in string not in exact sequence of keep removed.";
 ":strip_all_but() works similarly, only it does not concern itself with the sequence, just the specified chars.";
 string = args[1];
@@ -64294,7 +64353,7 @@ string = string[m[2] + 1..length(string)];
 endwhile
 return output;
 .
-#20:73
+#20:72
 "...redirects verbs to $ansi_utils...";
 if (verb == "redirect_ansi")
 elseif (valid(au = $ansi_utils))
@@ -64303,7 +64362,7 @@ else
 return this:(verb + "(noansi)")(@args);
 endif
 .
-#20:74
+#20:73
 "_tomap(string) -- auxiliary for :to_value()";
 "Last modified 11/28/18 11:48 p.m. by Sinistral (#2) on ChatMUD";
 rest = this:triml(args[1]);
@@ -64376,7 +64435,7 @@ return {length(rest), ", or ] expected"};
 endif
 endwhile
 .
-#20:75
+#20:74
 ":fit_to_screen({elements}, ?padding = 2, ?underline = 0, ?separator = \" \") => Returns a columnized display that is adapted to the linelength of the viewers screen.";
 "If underline is set to 1, the first list is assumed to be a list of column headings and the code will insert an appropriate amount of dashes for you. e.g. {ur, mom, lawlz} will add {--, ---, -----}";
 "If separator is set to a character, it will be passed to :neat. e.g. those things that use lots of periods instead of spaces";
@@ -64416,7 +64475,7 @@ ret = {@ret, this:neat(@neat)};
 endfor
 return ret;
 .
-#20:76
+#20:75
 ":adjust_column_lengths({lengths}) => Takes a list of numbers that are assumed to be column lengths. Then, if the sum";
 "                                       of those lengths exceeds the player's linelength, beginning systematically lowering";
 "                                      individual columns until we fit on their screen.";
@@ -64450,7 +64509,7 @@ ret[variable_picker] = ret[variable_picker] - increment;
 endwhile
 return ret;
 .
-#20:77
+#20:76
 "{string, length, [seperator]}";
 AU = $ansi_utils;
 ret = "";
@@ -65274,7 +65333,7 @@ name = name[1..13] + "..";
 endif
 u3 = {tostr(pref, u.name, " (", u, ")"), lctime[5..10] + lctime[20..24]};
 nwidth = max(length(u3[1]), nwidth);
-where = $string_utils:connection_hostname(where);
+where = $string_utils:connection_hostname(u);
 if ($login:blacklisted(where))
 where = "(*) " + where;
 footnotes = setadd(footnotes, "black");
@@ -67423,7 +67482,7 @@ endtry
 if (!caller_perms().wizard)
 "...caller is not :do_login_command; doesn't matter what we return...";
 return this;
-elseif ($login:blacklisted($string_utils:connection_hostname(connection_name(player))))
+elseif ($login:blacklisted($string_utils:connection_hostname(player)))
 return #-2;
 elseif (!(this in connected_players()))
 "...not logged in, no problemo...";
@@ -67479,7 +67538,7 @@ endif
 if ((((valid(cp = caller_perms()) && (caller != this)) && (!$perm_utils:controls(cp, this))) && (cp != this)) && (caller != #0))
 return E_PERM;
 else
-$guest_log:enter(1, time(), $string_utils:connection_hostname(connection_name(this)));
+$guest_log:enter(1, time(), $string_utils:connection_hostname(this));
 ret = pass(@args);
 this:tell_lines(this:extra_confunc_msg());
 return ret;
@@ -67489,8 +67548,7 @@ endif
 if (caller != this)
 return E_PERM;
 else
-cname = `connection_name(this) ! ANY' || this.last_connect_place;
-$guest_log:enter(0, time(), $string_utils:connection_hostname(cname));
+$guest_log:enter(0, time(), $string_utils:connection_hostname((this in connected_players(1)) ? this | this.last_connect_place));
 endif
 .
 #31:9
@@ -78511,7 +78569,7 @@ nwidth = length("Player name");
 for u in (unsorted)
 pref = u.programmer ? "% " | "  ";
 u.programmer && (footnotes = setadd(footnotes, "prog"));
-u3 = {tostr(pref, u.name, " (", u, ")"), su:from_seconds(connected_seconds(u)), su:from_seconds(idle_seconds(u)), where = $string_utils:connection_hostname(connection_name(u))};
+u3 = {tostr(pref, u.name, " (", u, ")"), su:from_seconds(connected_seconds(u)), su:from_seconds(idle_seconds(u)), where = $string_utils:connection_hostname(u)};
 nwidth = max(length(u3[1]), nwidth);
 if ($login:blacklisted(where))
 where = "(*) " + where;
@@ -81580,10 +81638,16 @@ return setadd(dbs, $help);
 {what, dblist} = args;
 topics = {};
 help = 1;
+verb_help_match = 0;
 for db in (dblist)
 $command_utils:suspend_if_needed(0);
 if ({what} == (ts = `db:find_topics(what) ! ANY => 0'))
+if (db == $help_db["verb"])
+"Verb help is considered a last resort. It's possible help files contain more relevant information (e.g. $login).";
+verb_help_match = {db, ts[1]};
+else
 return {db, ts[1]};
+endif
 elseif (ts && (typeof(ts) == LIST))
 if (help)
 help = db;
@@ -81597,6 +81661,8 @@ if (length(topics) > 1)
 return {$ambiguous_match, topics};
 elseif (topics)
 return {help, topics[1]};
+elseif (verb_help_match)
+return verb_help_match;
 else
 return {};
 endif
@@ -89088,7 +89154,7 @@ if ((caller != #0) && (caller != this))
 return E_PERM;
 endif
 not_http = args ? args | {$login.blank_command};
-guest = $string_utils:connection_hostname(connection_name(player));
+guest = $string_utils:connection_hostname(player);
 if (!args)
 if ((guestnum = $list_utils:iassoc(guest, this.guests)) > 0)
 guestinfo = this.guests[guestnum];
@@ -91475,7 +91541,7 @@ return `who.out_of_band_session ! E_PROPNF => $failed_match';
 .
 #110:9
 {who} = args;
-if ($list_utils:assoc(caller, listeners()))
+if (listeners(caller))
 if ($recycler:valid(who.out_of_band_session))
 `who.out_of_band_session:finish() ! ANY';
 endif
@@ -91484,7 +91550,7 @@ endif
 .
 #110:10
 {who} = args;
-if ($list_utils:assoc(caller, listeners()))
+if (listeners(caller))
 if ($recycler:valid(who.out_of_band_session))
 `who.out_of_band_session:finish() ! ANY';
 who.out_of_band_session = $nothing;
@@ -91494,7 +91560,7 @@ raise(E_PERM);
 endif
 .
 #110:11
-if ($list_utils:assoc(caller, listeners()))
+if (listeners(caller))
 if ($recycler:valid(session = player.out_of_band_session))
 set_task_perms(player);
 return session:do_out_of_band_command(@args);
