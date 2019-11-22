@@ -143,3 +143,5 @@ Properly transform //-style comments when using @program (primarily for LambdaCo
 [$server_options.help_msg] Mention no_name_lookup.
 [$code_utils:help_db_search] Give verb help matches the lowest priority so that things like 'help $login' return the right help file.
 [...] Changed ':connection_hostname(connection_name(player))' to ':connection_hostname(player)' on: #0:do_login_command, #6:@registerme, #10:connect, #10:player_creation_enabled, #10:record_connection, #10:request_character, #24:show_netwho_listing, #31:defer, #31:confunc, #31:log_disconnect, #57:@guests, #97:handle_connection
+[$wiz:@code-replace] Add a valid() check when iterating over all objects. (Thanks Jace@ChatMud)
+[$builder:@measure] Fix a lack of space in the measurement message.
