@@ -221,7 +221,7 @@ s ies es
 2
 173
 -1
-110
+109
 builder
 login
 last_huh
@@ -320,7 +320,6 @@ help_db
 generic_help
 options
 server_options
-composed
 shapes
 proto
 str_proto
@@ -332,7 +331,7 @@ frobs
 edit_utils
 edit_state
 menu_utils
-114
+113
 1
 4
 2
@@ -722,7 +721,7 @@ LambdaCore
 2
 last_restart_time
 0
-1574490623
+1574491045
 2
 name
 2
@@ -818,10 +817,6 @@ prog
 2
 5
 1
-112
-2
-5
-1
 75
 2
 5
@@ -881,9 +876,9 @@ The known universe.
 4
 2
 0
-39487
+39430
 0
-1574490775
+1574491080
 36
 1
 #1
@@ -899,7 +894,7 @@ Root Class
 1
 -1
 4
-29
+28
 1
 3
 1
@@ -954,8 +949,6 @@ Root Class
 110
 1
 118
-1
-112
 1
 32
 37
@@ -1130,7 +1123,7 @@ object_size
 0
 30723
 0
-1574490775
+1574491080
 36
 1
 #2
@@ -1353,7 +1346,7 @@ mcp_snoop
 36
 1
 4
-48
+47
 1
 0
 1
@@ -1428,8 +1421,6 @@ mcp_snoop
 97
 1
 111
-1
-112
 1
 114
 1
@@ -1552,9 +1543,9 @@ mcp_snoop
 0
 50000
 0
-1189851
+1094185
 0
-1574490775
+1574491080
 0
 900
 36
@@ -1591,7 +1582,7 @@ Wizard
 0
 6786
 0
-1574490775
+1574491080
 36
 1
 #3
@@ -1885,7 +1876,7 @@ generic room
 0
 41192
 0
-1574490775
+1574491080
 36
 1
 #4
@@ -2330,7 +2321,7 @@ You see a player who should type '@describe me as ...'.
 0
 47475
 0
-1574490775
+1574491080
 36
 1
 #5
@@ -2443,7 +2434,7 @@ generic thing
 0
 6771
 0
-1574490775
+1574491080
 36
 1
 #6
@@ -3139,7 +3130,7 @@ You see a player who should type '@describe me as ...'.
 0
 133664
 0
-1574490775
+1574491080
 36
 1
 #7
@@ -3265,7 +3256,7 @@ generic exit
 0
 10409
 0
-1574490775
+1574491080
 36
 1
 #8
@@ -3483,7 +3474,7 @@ generic container
 0
 13863
 0
-1574490775
+1574491080
 36
 1
 #9
@@ -3606,7 +3597,7 @@ There appears to be some writing on the note ...
 0
 9283
 0
-1574490775
+1574491080
 36
 1
 #10
@@ -4107,7 +4098,7 @@ This provides everything needed by #0:do_login_command.  See `help $login' on $c
 0
 58138
 0
-1574490775
+1574491080
 36
 1
 #11
@@ -4161,7 +4152,7 @@ A repository of last-resort player verbs to be called by $player:last_huh
 0
 6294
 0
-1574490775
+1574491080
 36
 1
 #12
@@ -4224,7 +4215,7 @@ Guest Log
 0
 5330
 0
-1574490775
+1574491080
 36
 1
 #13
@@ -4560,7 +4551,7 @@ This is the Generic BigList Utilities utility package.  See `help $biglist' for 
 0
 29877
 0
-1574490775
+1574491080
 36
 1
 #14
@@ -4936,7 +4927,7 @@ Calling #OBJ:restore_from(...) COMPLETELY AND IRREVOCABLY REMOVES ALL MESSAGES f
 0
 51966
 0
-1574490775
+1574491080
 36
 1
 #15
@@ -4995,7 +4986,7 @@ The Body Bag
 0
 3584
 0
-1574490775
+1574491080
 36
 1
 #16
@@ -5127,7 +5118,7 @@ Registration Database
 0
 12978
 0
-1574490775
+1574491080
 36
 1
 #17
@@ -5321,7 +5312,7 @@ Log of player creations.
 0
 5497
 0
-1574490775
+1574491080
 36
 1
 #18
@@ -5424,7 +5415,7 @@ A `help database' that knows about all of the documented verbs.
 0
 5292
 0
-1574490775
+1574491080
 36
 1
 #19
@@ -8912,7 +8903,7 @@ Help database for LambdaCore utility objects and generics.
 0
 121232
 0
-1574490775
+1574491080
 36
 1
 #20
@@ -9504,7 +9495,7 @@ This is the string utilities utility package.  See `help $string_utils' for more
 0
 105387
 0
-1574490775
+1574491080
 36
 1
 #21
@@ -9674,7 +9665,7 @@ This is the building utilities utility package.  See `help $building_utils' for 
 0
 18699
 0
-1574490775
+1574491080
 36
 1
 #22
@@ -12489,7 +12480,7 @@ This provides help on the programmer commands available on $prog and related top
 0
 103005
 0
-1574490775
+1574491080
 36
 1
 #23
@@ -13628,7 +13619,7 @@ This describes the various commands available on $wiz.
 0
 36730
 0
-1574490775
+1574491080
 36
 1
 #24
@@ -14338,7 +14329,7 @@ This is the Wizard Utilities utility package.  See `help $wiz_utils' for more de
 0
 73488
 0
-1574490775
+1574491080
 36
 1
 #25
@@ -14483,7 +14474,7 @@ The site blacklist and the graylist live as well (see `help blacklist').
 0
 17985
 0
-1574490775
+1574491080
 36
 1
 #26
@@ -16781,7 +16772,7 @@ This is the Math Utilities utility package.  See `help $math_utils' for more det
 0
 56037
 0
-1574490775
+1574491080
 36
 1
 #27
@@ -16903,7 +16894,7 @@ This is the Set Utilities utility package.  See `help $set_utils' for more detai
 0
 7782
 0
-1574490775
+1574491080
 36
 1
 #28
@@ -19421,7 +19412,7 @@ For the {"*verb*",...} form, the current verbs available are
 0
 107206
 0
-1574490775
+1574491080
 36
 1
 #29
@@ -19585,7 +19576,7 @@ Record of who's been made a @programmer.
 0
 9059
 0
-1574490775
+1574491080
 36
 1
 #30
@@ -19705,7 +19696,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 13195
 0
-1574490775
+1574491080
 36
 1
 #31
@@ -20144,7 +20135,7 @@ By definition, guests appear nondescript.
 0
 21645
 0
-1574490775
+1574491080
 36
 1
 #32
@@ -20204,7 +20195,7 @@ For help on using the speller, use 'help spelling' and 'help @spell'.
 0
 6042
 0
-1574490775
+1574491080
 36
 1
 #33
@@ -20412,7 +20403,7 @@ This is the sequence utilities utility package.  See `help $seq_utils' for more 
 0
 22892
 0
-1574490775
+1574491080
 36
 1
 #34
@@ -20553,7 +20544,7 @@ Record of whose quota has been messed with and why.
 0
 2286
 0
-1574490775
+1574491080
 36
 1
 #35
@@ -20723,7 +20714,7 @@ An object useful for pronoun substitution for switching between third and second
 0
 9531
 0
-1574490775
+1574491080
 36
 1
 #36
@@ -21067,7 +21058,7 @@ A system character used to own non-wizardly system verbs , properties, and objec
 0
 4188
 0
-1574490775
+1574491080
 36
 1
 #37
@@ -21214,7 +21205,7 @@ A generic `database' (well, really more like a string-indexed array if you want 
 0
 23185
 0
-1574490775
+1574491080
 36
 1
 #38
@@ -21493,7 +21484,7 @@ The character used for "safe" evals.
 0
 8398
 0
-1574490775
+1574491080
 36
 1
 #39
@@ -21753,7 +21744,7 @@ See `help $player_db' for more information.
 0
 12184
 0
-1574490775
+1574491080
 36
 1
 #40
@@ -22248,7 +22239,7 @@ Generic Mail Receiving Player
 0
 97243
 0
-1574490775
+1574491080
 36
 1
 #41
@@ -22741,7 +22732,7 @@ This is the gender utilities utility package.  See `help $gender_utils' for more
 0
 17787
 0
-1574490775
+1574491080
 36
 1
 #42
@@ -22830,7 +22821,7 @@ This is the permissions utilities utility package.  See `help $perm_utils' for m
 0
 4790
 0
-1574490775
+1574491080
 36
 1
 #43
@@ -23425,7 +23416,7 @@ This is the time utilities utility package.  See `help $time_utils' for more det
 0
 30642
 0
-1574490775
+1574491080
 36
 1
 #44
@@ -24373,7 +24364,7 @@ Editor Help
 0
 26270
 0
-1574490775
+1574491080
 36
 1
 #45
@@ -24671,7 +24662,7 @@ This can either be a mailing list or a mail folder, depending on what mood you'r
 0
 44127
 0
-1574490775
+1574491080
 36
 1
 #46
@@ -25026,7 +25017,7 @@ Avaliable aliases:
 0
 69430
 0
-1574490775
+1574491080
 36
 1
 #47
@@ -25472,7 +25463,7 @@ Mail Room
 0
 31755
 0
-1574490775
+1574491080
 36
 1
 #48
@@ -25801,7 +25792,7 @@ nedit
 0
 15330
 0
-1574490775
+1574491080
 36
 1
 #49
@@ -26130,7 +26121,7 @@ verb edit
 0
 20487
 0
-1574490775
+1574491080
 36
 1
 #50
@@ -26769,7 +26760,7 @@ edit
 0
 74141
 0
-1574490775
+1574491080
 36
 1
 #51
@@ -26924,7 +26915,7 @@ matching utilities
 0
 12588
 0
-1574490775
+1574491080
 36
 1
 #52
@@ -27182,7 +27173,7 @@ This is the object utilities utility package.  See `help $object_utils' for more
 0
 29793
 0
-1574490775
+1574491080
 36
 1
 #53
@@ -27319,7 +27310,7 @@ This the lock utilities package, used by the MOOwide locking mechanisms. See `he
 0
 13212
 0
-1574490775
+1574491080
 36
 1
 #54
@@ -27423,7 +27414,7 @@ Some writing on the letter explains that you should 'read letter', and when you'
 0
 3579
 0
-1574490775
+1574491080
 36
 1
 #55
@@ -27738,7 +27729,7 @@ This is the list utilities utility package.  See `help $list_utils' for more det
 0
 41070
 0
-1574490775
+1574491080
 36
 1
 #56
@@ -27951,7 +27942,7 @@ This is the command utilities utility package.  See `help $command_utils' for mo
 0
 25453
 0
-1574490775
+1574491080
 36
 1
 #57
@@ -28481,7 +28472,7 @@ You see a wizard who chooses not to reveal its true appearance.
 0
 79874
 0
-1574490775
+1574491080
 36
 1
 #58
@@ -28986,7 +28977,7 @@ You see a player who is too experienced to have any excuse for not having a desc
 0
 82960
 0
-1574490775
+1574491080
 36
 1
 #59
@@ -29738,7 +29729,7 @@ This is the code utilities utility package.  See `help $code_utils' for more det
 0
 82159
 0
-1574490775
+1574491080
 36
 1
 #60
@@ -32387,7 +32378,7 @@ See the description of $generic_help for more detail.
 0
 96153
 0
-1574490775
+1574491080
 36
 1
 #61
@@ -32907,7 +32898,7 @@ It's the current issue of the News, dated %d.
 0
 28263
 0
-1574490775
+1574491080
 36
 1
 #62
@@ -33006,7 +32997,7 @@ This is all there is right now.
 0
 6359
 0
-1574490775
+1574491080
 36
 1
 #63
@@ -33155,7 +33146,7 @@ Object reuse. Call $recycler:_create() to create an object (semantics the same a
 0
 12640
 0
-1574490775
+1574491080
 36
 1
 # 64 recycled
@@ -33528,7 +33519,7 @@ Options for mailing
 0
 20503
 0
-1574490775
+1574491080
 36
 1
 #66
@@ -33637,7 +33628,7 @@ Edit Options
 0
 2824
 0
-1574490775
+1574491080
 36
 1
 #67
@@ -33722,7 +33713,7 @@ Display Options
 0
 1273
 0
-1574490775
+1574491080
 36
 1
 #68
@@ -33840,7 +33831,7 @@ an option package in need of a description.  See `help $generic_option'...
 0
 16982
 0
-1574490775
+1574491080
 36
 1
 #69
@@ -34038,7 +34029,7 @@ raise(error) actually raises the error.
 0
 11680
 0
-1574490775
+1574491080
 36
 1
 #70
@@ -34149,7 +34140,7 @@ Notes on annoying sites.
 0
 1824
 0
-1574490775
+1574491080
 36
 1
 #71
@@ -34690,7 +34681,7 @@ A very clean, neat, tidy person who doesn't mind lugging players and their gear 
 0
 31507
 0
-1574490775
+1574491080
 36
 1
 #72
@@ -35124,7 +35115,7 @@ Parameters:
 0
 31183
 0
-1574490775
+1574491080
 36
 1
 #73
@@ -35211,7 +35202,7 @@ This is the object you want to use as a parent in order to @create a place for y
 0
 5344
 0
-1574490775
+1574491080
 36
 1
 #74
@@ -35353,7 +35344,7 @@ This is the Generic Feature Object.  It is not meant to be used as a feature obj
 0
 10943
 0
-1574490775
+1574491080
 36
 1
 #75
@@ -35655,7 +35646,7 @@ Option package for $prog commands.  See `help @prog-options'.
 0
 10068
 0
-1574490775
+1574491080
 36
 1
 #77
@@ -35784,7 +35775,7 @@ Option package for $builder commands.  See `help @build-options'.
 0
 5909
 0
-1574490775
+1574491080
 36
 1
 #78
@@ -35876,7 +35867,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 835
 0
-1574490775
+1574491080
 36
 1
 #79
@@ -36278,7 +36269,7 @@ This is the Byte Quota Utilities utility package.  See `help $quota_utils' for m
 0
 42575
 0
-1574490775
+1574491080
 36
 1
 #80
@@ -36402,7 +36393,7 @@ Internal:
 0
 8754
 0
-1574490775
+1574491080
 36
 1
 #81
@@ -36508,7 +36499,7 @@ This is the Object Quota Utilities utility package.  See `help $object_quota_uti
 0
 9928
 0
-1574490775
+1574491080
 36
 1
 #82
@@ -36716,7 +36707,7 @@ Server Options
 0
 9110
 0
-1574490775
+1574491080
 36
 1
 #83
@@ -36843,7 +36834,7 @@ warehouse
 0
 2586
 0
-1574490775
+1574491080
 36
 1
 #84
@@ -38156,7 +38147,7 @@ This help database contains topics about the generic builder and building comman
 0
 46286
 0
-1574490775
+1574491080
 36
 1
 #85
@@ -39389,7 +39380,7 @@ This help database contains topics relating to the general use of the mail syste
 0
 42114
 0
-1574490775
+1574491080
 36
 1
 #86
@@ -41609,7 +41600,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 73163
 0
-1574490775
+1574491080
 36
 1
 #87
@@ -41791,7 +41782,7 @@ The password verifier verifies passwords.
 0
 14668
 0
-1574490775
+1574491080
 36
 1
 #88
@@ -42477,7 +42468,7 @@ You see a player who should type '@describe me as ...'.
 0
 91907
 0
-1574490775
+1574491080
 36
 1
 #89
@@ -42587,7 +42578,7 @@ This feature contains various verbs used in stage talk, which allows players to 
 0
 5959
 0
-1574490775
+1574491080
 36
 1
 #90
@@ -42681,7 +42672,7 @@ Verbs useful to people using a windowing system to paste text at people.
 0
 5734
 0
-1574490775
+1574491080
 36
 1
 #91
@@ -42969,7 +42960,7 @@ This is a utilities package for dealing with lists as representations of vectors
 0
 38343
 0
-1574490775
+1574491080
 36
 1
 #92
@@ -43854,7 +43845,7 @@ Frand Help DB
 0
 30023
 0
-1574490775
+1574491080
 36
 1
 #93
@@ -45994,7 +45985,7 @@ This is a utilities package for converting from one unit of measurement to anoth
 0
 44958
 0
-1574490775
+1574491080
 36
 1
 #94
@@ -46101,7 +46092,7 @@ Generic Gendered Object
 0
 3568
 0
-1574490775
+1574491080
 36
 1
 #95
@@ -46415,7 +46406,7 @@ List Editor
 0
 17357
 0
-1574490775
+1574491080
 36
 1
 #96
@@ -46756,7 +46747,7 @@ This player owns all editor-related verbs.
 0
 3586
 0
-1574490775
+1574491080
 36
 1
 #97
@@ -46881,9 +46872,9 @@ HTTP Server
 4
 2
 0
-8949
+8191
 0
-1574490775
+1574491080
 36
 1
 #98
@@ -47203,7 +47194,7 @@ Core
 0
 234339
 0
-1574490775
+1574491080
 0
 100
 36
@@ -47237,7 +47228,7 @@ Core
 0
 3669
 0
-1574490775
+1574491080
 36
 1
 #99
@@ -48295,7 +48286,7 @@ au
 0
 75419
 0
-1574490775
+1574491080
 36
 1
 #100
@@ -48570,7 +48561,7 @@ A player with the ability to see things in [red]c[bold][yellow]o[green]l[blue]o[
 0
 29102
 0
-1574490775
+1574491080
 36
 1
 #101
@@ -49251,7 +49242,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 26786
 0
-1574490775
+1574491080
 36
 1
 #102
@@ -49470,7 +49461,7 @@ An option package for controlling and customizing the ANSI PC.
 0
 5619
 0
-1574490775
+1574491080
 36
 1
 #103
@@ -49534,7 +49525,7 @@ dispatch
 0
 5192
 0
-1574490775
+1574491080
 36
 1
 #104
@@ -49641,7 +49632,7 @@ package
 0
 6825
 0
-1574490775
+1574491080
 36
 1
 #105
@@ -49748,7 +49739,7 @@ negotiate
 0
 3228
 0
-1574490775
+1574491080
 36
 1
 #106
@@ -49910,7 +49901,7 @@ cord
 0
 7348
 0
-1574490775
+1574491080
 36
 1
 #107
@@ -49957,7 +49948,7 @@ next_datakey
 unquoted_string
 6
 0
-10060
+10062
 98
 1
 2
@@ -49984,7 +49975,7 @@ parser
 0
 6696
 0
-1574490775
+1574491080
 36
 1
 #108
@@ -50239,7 +50230,7 @@ registry
 0
 7206
 0
-1574490775
+1574491080
 36
 1
 #110
@@ -50388,7 +50379,7 @@ mcp
 0
 10301
 0
-1574490775
+1574491080
 36
 1
 #111
@@ -50412,1927 +50403,7 @@ tell notify
 -1
 0
 0
-#112
-Composed Component Library
-0
-2
-1
--1
-0
-0
-4
-0
-1
-1
-4
-0
-50
-_log
-2
-172
--1
-_notify
-2
-172
--1
-_move
-2
-172
--1
-_suspend_if_necessary
-98
-172
--1
-_parse_specifier
-98
-172
--1
-_parse_operation
-98
-172
--1
-_parse_version
-98
-172
--1
-_compare_versions
-98
-172
--1
-_sort_versions
-98
-172
--1
-_match match
-98
-172
--1
-_map_specifier
-98
-172
--1
-_unmap_specifier
-98
-172
--1
-_install
-98
-172
--1
-_uninstall
-98
-172
--1
-_find_requires_provider
-98
-172
--1
-reinitialize
-98
-172
--1
-_check_required_provides
-2
-172
--1
-_check_provided_requires
-98
-172
--1
-_generate_global_mapping_keyed_on_object
-2
-172
--1
-_generate_global_mapping_keyed_on_identifier
-2
-172
--1
-_map
-98
-172
--1
-_lookup
-98
-164
--1
-_lookup_by_object
-98
-172
--1
-_lookup_by_label
-98
-172
--1
-_is_ancestor
-98
-172
--1
-_contents
-98
-172
--1
-install
-2
-172
--1
-uninstall
-2
-172
--1
-delete
-2
-172
--1
-_set_seconds_and_ticks
-2
-172
--1
-_reset_seconds_and_ticks
-2
-172
--1
-import
-2
-172
--1
-export
-2
-172
--1
-_parse_url
-98
-164
--1
-_fetch
-2
-172
--1
-fetch_index
-98
-172
--1
-fetch_package_to_cache
-98
-172
--1
-import_package_from_archive
-2
-172
--1
-import_package_from_cache
-2
-172
--1
-export_package_to_cache
-2
-172
--1
-import_package_from_file
-2
-172
--1
-export_package_to_file
-2
-172
--1
-pretty_print_cached_package
-2
-172
--1
-@install
-2
-156
-0
-@uninstall
-2
-156
-0
-@list*-packages
-2
-156
-0
-_do_instructions
-2
-172
--1
-_undo_instructions
-2
-172
--1
-_lookup_by_object_number
-2
-172
--1
-audit
-2
-172
--1
-7
-packages
-provides_cache
-requires_cache
-last_fetch_index
-archived
-cached
-archive_sources
-11
-4
-0
-98
-0
-10
-0
-98
-0
-10
-0
-98
-0
-0
-1550501682
-98
-0
-10
-28
-2
-alt
-10
-3
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/alt/0.0.1.json
-2
-requires
-4
-1
-4
-2
-2
-kernel
-2
->= 1.0.4
-2
-0.0.2
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/alt/0.0.2.json
-2
-requires
-4
-3
-4
-2
-2
-kernel
-2
->= 1.0.4
-4
-2
-2
-primitive
-2
->= 0.0.2
-4
-2
-2
-text_tools
-2
->= 0.0.1
-2
-0.0.4
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/alt/0.0.4.json
-2
-requires
-4
-6
-4
-2
-2
-kernel
-2
->= 1.0.4
-4
-2
-2
-primitive
-2
->= 0.0.2
-4
-2
-2
-core
-2
->= 0.0.1
-4
-2
-2
-text_tools
-2
->= 0.0.1
-4
-2
-2
-blink
-2
->= 0.0.0
-4
-2
-2
-plastic
-2
-= 1.0
-2
-ask
-10
-2
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/ask/0.0.1.json
-2
-requires
-4
-2
-4
-1
-2
-kernel
-4
-2
-2
-primitive
-2
->= 0.0.2
-2
-0.0.2
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/ask/0.0.2.json
-2
-requires
-4
-2
-4
-1
-2
-kernel
-4
-2
-2
-primitive
-2
->= 0.0.2
-2
-ask_tests
-10
-1
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/ask_tests/0.0.1.json
-2
-requires
-4
-3
-4
-1
-2
-kernel
-4
-2
-2
-unit
-2
->= 1.0.5
-4
-2
-2
-ask
-2
->= 0.0.1
-2
-autoport
-10
-3
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/autoport/0.0.1.json
-2
-requires
-4
-1
-4
-1
-2
-lambdacore
-2
-0.0.2
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/autoport/0.0.2.json
-2
-requires
-4
-1
-4
-1
-2
-lambdacore
-2
-0.0.3
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/autoport/0.0.3.json
-2
-requires
-4
-1
-4
-1
-2
-lambdacore
-2
-blink
-10
-1
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/blink/0.0.1.json
-2
-requires
-4
-4
-4
-2
-2
-kernel
-2
->= 1.1.5
-4
-2
-2
-primitive
-2
->= 0.0.5
-4
-2
-2
-core
-2
->= 0.0.2
-4
-2
-2
-plastic
-2
-= 1.0
-2
-checkpointer
-10
-5
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/checkpointer/0.0.1.json
-2
-requires
-4
-1
-4
-1
-2
-lambdacore
-2
-0.0.2
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/checkpointer/0.0.2.json
-2
-requires
-4
-1
-4
-1
-2
-lambdacore
-2
-0.0.3
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/checkpointer/0.0.3.json
-2
-requires
-4
-1
-4
-1
-2
-lambdacore
-2
-0.0.4
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/checkpointer/0.0.4.json
-2
-requires
-4
-1
-4
-1
-2
-lambdacore
-2
-0.0.5
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/checkpointer/0.0.5.json
-2
-requires
-4
-1
-4
-1
-2
-lambdacore
-2
-core
-10
-2
-2
-0.0.2
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/core/0.0.2.json
-2
-requires
-4
-1
-4
-2
-2
-kernel
-2
->= 1.1.3
-2
-0.0.4
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/core/0.0.4.json
-2
-requires
-4
-1
-4
-2
-2
-kernel
-2
->= 1.1.3
-2
-dialog
-10
-5
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/dialog/0.0.1.json
-2
-requires
-4
-2
-4
-2
-2
-kernel
-2
->= 1.0.6
-4
-2
-2
-primitive
-2
->= 0.0.2
-2
-0.0.3
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/dialog/0.0.3.json
-2
-requires
-4
-2
-4
-2
-2
-kernel
-2
->= 1.0.6
-4
-2
-2
-primitive
-2
->= 0.0.2
-2
-0.0.4
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/dialog/0.0.4.json
-2
-requires
-4
-2
-4
-2
-2
-kernel
-2
->= 1.0.6
-4
-2
-2
-primitive
-2
->= 0.0.2
-2
-0.0.5
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/dialog/0.0.5.json
-2
-requires
-4
-2
-4
-2
-2
-kernel
-2
->= 1.0.6
-4
-2
-2
-primitive
-2
->= 0.0.2
-2
-0.1.2
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/dialog/0.1.2.json
-2
-requires
-4
-4
-4
-2
-2
-kernel
-2
->= 1.0.6
-4
-2
-2
-primitive
-2
->= 0.0.4
-4
-2
-2
-core
-2
->= 0.0.2
-4
-2
-2
-plastic
-2
-= 1.0
-2
-dialog_extras
-10
-5
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/dialog_extras/0.0.1.json
-2
-requires
-4
-3
-4
-2
-2
-kernel
-2
->= 1.0.7
-4
-2
-2
-primitive
-2
->= 0.0.2
-4
-2
-2
-dialog
-2
->= 0.0.1
-2
-0.0.2
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/dialog_extras/0.0.2.json
-2
-requires
-4
-3
-4
-2
-2
-kernel
-2
->= 1.0.7
-4
-2
-2
-primitive
-2
->= 0.0.2
-4
-2
-2
-dialog
-2
->= 0.0.2
-2
-0.0.3
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/dialog_extras/0.0.3.json
-2
-requires
-4
-3
-4
-2
-2
-kernel
-2
->= 1.0.7
-4
-2
-2
-primitive
-2
->= 0.0.2
-4
-2
-2
-dialog
-2
->= 0.0.2
-2
-0.0.4
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/dialog_extras/0.0.4.json
-2
-requires
-4
-3
-4
-2
-2
-kernel
-2
->= 1.0.7
-4
-2
-2
-primitive
-2
->= 0.0.2
-4
-2
-2
-dialog
-2
->= 0.0.2
-2
-0.0.7
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/dialog_extras/0.0.7.json
-2
-requires
-4
-5
-4
-2
-2
-kernel
-2
->= 1.0.7
-4
-2
-2
-primitive
-2
->= 0.0.6
-4
-2
-2
-core
-2
->= 0.0.2
-4
-2
-2
-dialog
-2
->= 0.0.2
-4
-2
-2
-plastic
-2
-= 1.0
-2
-identity
-10
-3
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/identity/0.0.1.json
-2
-requires
-4
-1
-4
-2
-2
-kernel
-2
->= 1.0.4
-2
-0.0.2
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/identity/0.0.2.json
-2
-requires
-4
-1
-4
-2
-2
-kernel
-2
->= 1.0.4
-2
-0.0.3
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/identity/0.0.3.json
-2
-requires
-4
-1
-4
-2
-2
-kernel
-2
->= 1.0.4
-2
-kernel
-10
-7
-2
-1.0.4
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/kernel/1.0.4.json
-2
-requires
-4
-0
-2
-1.0.5
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/kernel/1.0.5.json
-2
-requires
-4
-0
-2
-1.0.6
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/kernel/1.0.6.json
-2
-requires
-4
-0
-2
-1.0.7
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/kernel/1.0.7.json
-2
-requires
-4
-0
-2
-1.0.8
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/kernel/1.0.8.json
-2
-requires
-4
-0
-2
-1.1.4
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/kernel/1.1.4.json
-2
-requires
-4
-0
-2
-1.1.5
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/kernel/1.1.5.json
-2
-requires
-4
-0
-2
-kernel_tests
-10
-2
-2
-1.0.10
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/kernel_tests/1.0.10.json
-2
-requires
-4
-2
-4
-2
-2
-unit
-2
->= 1
-4
-2
-2
-kernel
-2
-1.0
-2
-1.0.9
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/kernel_tests/1.0.9.json
-2
-requires
-4
-3
-4
-2
-2
-unit
-2
->= 1
-4
-2
-2
-core
-2
-1.0
-4
-2
-2
-kernel
-2
-1.0
-2
-lambdacore
-10
-1
-2
-0.0.5
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/lambdacore/0.0.5.json
-2
-requires
-4
-0
-2
-martian
-10
-1
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/martian/0.0.1.json
-2
-requires
-4
-1
-4
-1
-2
-lambdacore
-2
-mettle
-10
-2
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/mettle/0.0.1.json
-2
-requires
-4
-0
-2
-0.0.2
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/mettle/0.0.2.json
-2
-requires
-4
-0
-2
-mettle_tests
-10
-2
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/mettle_tests/0.0.1.json
-2
-requires
-4
-1
-4
-2
-2
-mettle
-2
-0.0.1
-2
-0.0.2
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/mettle_tests/0.0.2.json
-2
-requires
-4
-1
-4
-2
-2
-mettle
-2
-0.0.2
-2
-model
-10
-1
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/model/0.0.1.json
-2
-requires
-4
-2
-4
-1
-2
-kernel
-4
-2
-2
-ask
-2
->= 0.0.1
-2
-model_tests
-10
-1
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/model_tests/0.0.1.json
-2
-requires
-4
-3
-4
-1
-2
-kernel
-4
-2
-2
-unit
-2
->= 1.0.5
-4
-2
-2
-model
-2
->= 0.0.1
-2
-mustache
-10
-3
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/mustache/0.0.1.json
-2
-requires
-4
-2
-4
-2
-2
-kernel
-2
->= 1.0.6
-4
-2
-2
-primitive
-2
->= 0.0.2
-2
-1.0.0
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/mustache/1.0.0.json
-2
-requires
-4
-2
-4
-2
-2
-kernel
-2
->= 1.0.6
-4
-2
-2
-primitive
-2
->= 0.0.2
-2
-1.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/mustache/1.0.1.json
-2
-requires
-4
-2
-4
-2
-2
-kernel
-2
->= 1.1.1
-4
-2
-2
-primitive
-2
->= 0.0.2
-2
-mustache_tests
-10
-3
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/mustache_tests/0.0.1.json
-2
-requires
-4
-4
-4
-1
-2
-kernel
-4
-1
-2
-core
-4
-2
-2
-unit
-2
-= 1
-4
-2
-2
-mustache
-2
-= 0
-2
-1.0.0
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/mustache_tests/1.0.0.json
-2
-requires
-4
-3
-4
-1
-2
-kernel
-4
-2
-2
-unit
-2
-= 1
-4
-2
-2
-mustache
-2
-= 1
-2
-1.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/mustache_tests/1.0.1.json
-2
-requires
-4
-3
-4
-1
-2
-kernel
-4
-2
-2
-unit
-2
-= 1
-4
-2
-2
-mustache
-2
-= 1
-2
-mysqlfrob
-10
-1
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/mysqlfrob/0.0.1.json
-2
-requires
-4
-2
-4
-2
-2
-kernel
-2
-1
-4
-2
-2
-primitive
-2
->= 0.0.2
-2
-persistent
-10
-2
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/persistent/0.0.1.json
-2
-requires
-4
-1
-4
-2
-2
-kernel
-2
->= 1.0.6
-2
-0.0.2
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/persistent/0.0.2.json
-2
-requires
-4
-1
-4
-2
-2
-kernel
-2
->= 1.0.6
-2
-plastic
-10
-3
-2
-0.0.0
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/plastic/0.0.0.json
-2
-requires
-4
-2
-4
-2
-2
-kernel
-2
->= 1.0.7
-4
-2
-2
-primitive
-2
->= 0.0.2
-2
-0.0.3
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/plastic/0.0.3.json
-2
-requires
-4
-3
-4
-2
-2
-kernel
-2
->= 1.1.1
-4
-2
-2
-core
-2
->= 0.0.1
-4
-2
-2
-primitive
-2
->= 0.0.2
-2
-1.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/plastic/1.0.1.json
-2
-requires
-4
-3
-4
-2
-2
-kernel
-2
->= 1.1.1
-4
-2
-2
-core
-2
->= 0.0.1
-4
-2
-2
-primitive
-2
->= 0.0.6
-2
-primitive
-10
-4
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/primitive/0.0.1.json
-2
-requires
-4
-1
-4
-2
-2
-kernel
-2
->= 1.0.4
-2
-0.0.2
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/primitive/0.0.2.json
-2
-requires
-4
-1
-4
-2
-2
-kernel
-2
->= 1.0.4
-2
-0.0.4
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/primitive/0.0.4.json
-2
-requires
-4
-1
-4
-2
-2
-kernel
-2
->= 1.0.4
-2
-0.0.6
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/primitive/0.0.6.json
-2
-requires
-4
-1
-4
-2
-2
-kernel
-2
->= 1.0.4
-2
-primitive_tests
-10
-2
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/primitive_tests/0.0.1.json
-2
-requires
-4
-4
-4
-2
-2
-kernel
-2
->= 1.0.4
-4
-2
-2
-core
-2
->= 1.0.5
-4
-2
-2
-primitive
-2
->= 0.0.1
-4
-2
-2
-unit
-2
->= 1.0.3
-2
-0.0.2
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/primitive_tests/0.0.2.json
-2
-requires
-4
-4
-4
-2
-2
-kernel
-2
->= 1.0.4
-4
-2
-2
-core
-2
->= 1.0.5
-4
-2
-2
-primitive
-2
->= 0.0.1
-4
-2
-2
-unit
-2
->= 1.0.3
-2
-text_tools
-10
-1
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/text_tools/0.0.1.json
-2
-requires
-4
-2
-4
-1
-2
-kernel
-4
-2
-2
-primitive
-2
->= 0.0.2
-2
-text_tools_tests
-10
-1
-2
-0.0.1
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/text_tools_tests/0.0.1.json
-2
-requires
-4
-3
-4
-2
-2
-kernel
-2
->= 1.1.0
-4
-2
-2
-unit
-2
->= 1.0.4
-4
-2
-2
-text_tools
-2
->= 0.0.1
-2
-unit
-10
-2
-2
-1.0.4
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/unit/1.0.4.json
-2
-requires
-4
-2
-4
-1
-2
-kernel
-4
-1
-2
-core
-2
-1.0.5
-10
-2
-2
-href
-2
-http://stunt.io:80/packages/unit/1.0.5.json
-2
-requires
-4
-1
-4
-1
-2
-kernel
-98
-0
-10
-0
-98
-0
-4
-1
-2
-http://stunt.io/v2/packages.json
-98
-0
-0
-0
-2
-4
-4
-4
-2
-Composed, Component Library
-2
-Component Library
-2
-Library
-2
-Component
-2
-5
-5
-2
-5
-4
-2
-0
-94763
-0
-1574490775
-36
-1
+# 112 recycled
 #113
 dns-org-mud-moo-simpleedit
 0
@@ -52587,7 +50658,7 @@ Non JHCore installations might choose to set .v_filter_in / .v_filter_out to fal
 0
 15923
 0
-1574490775
+1574491080
 36
 1
 #114
@@ -53583,7 +51654,7 @@ MCP Help Database
 0
 23287
 0
-1574490775
+1574491080
 36
 1
 #117
@@ -53681,7 +51752,7 @@ Generic Waif
 0
 2521
 0
-1574490775
+1574491080
 36
 1
 #119
@@ -53792,7 +51863,7 @@ client_stats
 4
 3
 0
-1574490627
+1574491061
 1
 2
 4
@@ -53885,7 +51956,7 @@ dns-com-vmoo-client
 0
 6384
 0
-1574490775
+1574491080
 36
 1
 #122
@@ -53978,7 +52049,7 @@ dns-com-awns-status
 0
 1354
 0
-1574490775
+1574491080
 36
 1
 #124
@@ -54399,9 +52470,9 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 4
 2
 0
-50205
+50117
 0
-1574490775
+1574491080
 36
 1
 #125
@@ -54530,11 +52601,11 @@ Menu Utilities
 0
 7906
 0
-1574490775
+1574491080
 36
 1
 0
-1999
+1949
 #0:0
 "...This code should only be run as a server task...";
 if (callers())
@@ -91779,1576 +89850,6 @@ return notify(this, @args);
 else
 return this:(verb)(@args);
 endif
-.
-#112:0
-(caller != this) && raise(E_PERM);
-notify(player, tostr(@args));
-.
-#112:1
-(caller != this) && raise(E_PERM);
-{what, @messages} = args;
-if (`what.alt_display_options ! E_PROPNF' == E_PROPNF)
-message = "";
-stack = messages;
-while (stack)
-{top, @stack} = stack;
-if (typeof(top) == LIST)
-{_, _, @body} = top;
-stack = {@body, @stack};
-else
-message = tostr(message, top);
-endif
-endwhile
-`notify(what, message) ! ANY';
-else
-`what:notify(@messages) ! ANY';
-endif
-.
-#112:2
-(caller != this) && raise(E_PERM);
-{what, where} = args;
-`move(what, where) ! ANY';
-.
-#112:3
-((ticks_left() < 5000) || (seconds_left() < 2)) && suspend(0);
-.
-#112:4
-{specifier} = args;
-(caller != this) && raise(E_PERM);
-if (r = match(specifier, "^%([0-9]+%.[0-9]+%.[0-9]+%),%([_a-zA-Z0-9]+%)$"))
-version = specifier[r[3][1][1]..r[3][1][2]];
-identifier = specifier[r[3][2][1]..r[3][2][2]];
-return {identifier, version};
-else
-raise(E_INVARG, tostr("Invalid package specifier:  ", specifier));
-endif
-.
-#112:5
-{operation} = args;
-(caller != this) && raise(E_PERM);
-if (r = match(operation, "^%(<=%|>=%|<%|>%|=%)? *%([0-9]+%)?%(%.%([0-9]+%)%)?%(%.%([0-9]+%)%)?$"))
-op = operation[r[3][1][1]..r[3][1][2]] || "=";
-major = operation[r[3][2][1]..r[3][2][2]];
-minor = operation[r[3][4][1]..r[3][4][2]];
-build = operation[r[3][6][1]..r[3][6][2]];
-return {op, major, minor, build};
-else
-raise(E_INVARG, tostr("Invalid operation:  ", operation));
-endif
-.
-#112:6
-{version} = args;
-(caller != this) && raise(E_PERM);
-if (r = match(version, "^%([0-9]+%)%(%.%([0-9]+%)%)%(%.%([0-9]+%)%)$"))
-major = version[r[3][1][1]..r[3][1][2]];
-minor = version[r[3][3][1]..r[3][3][2]];
-build = version[r[3][5][1]..r[3][5][2]];
-return {major, minor, build};
-else
-raise(E_INVARG, tostr("Invalid version:  ", version));
-endif
-.
-#112:7
-{ver1, ver2} = args;
-(caller != this) && raise(E_PERM);
-res = 0;
-if (ver1[1] && ver2[1])
-if (((!(res = toint(ver1[1]) - toint(ver2[1]))) && ver1[2]) && ver2[2])
-if (((!(res = toint(ver1[2]) - toint(ver2[2]))) && ver1[3]) && ver2[3])
-res = toint(ver1[3]) - toint(ver2[3]);
-endif
-endif
-endif
-return res;
-.
-#112:8
-{vers} = args;
-(caller != this) && raise(E_PERM);
-l = length(vers);
-i = 1;
-while (i <= l)
-v = vers[i];
-j = i - 1;
-while (j > 0)
-if (this:_compare_versions(vers[j], v) >= 0)
-break;
-endif
-vers[j + 1] = vers[j];
-j = j - 1;
-endwhile
-vers[j + 1] = v;
-i = i + 1;
-endwhile
-return vers;
-.
-#112:9
-{identifier, @args} = args;
-if (args && (typeof(args[$]) == MAP))
-patterns = args[1..$ - 1];
-provides = args[$];
-else
-patterns = args;
-provides = this.provides_cache;
-endif
-if ((patterns && (length(patterns) == 1)) && (typeof(patterns[1]) == LIST))
-patterns = patterns[1];
-endif
-if ((versions = `provides[identifier] ! E_RANGE => $nothing') == $nothing)
-return {$failed_match};
-endif
-operations = {};
-for pattern in (patterns)
-this:_suspend_if_necessary();
-operations = {@operations, this:_parse_operation(pattern)};
-endfor
-for _, version in (versions)
-this:_suspend_if_necessary();
-v1 = this:_parse_version(version);
-for operation in (operations)
-this:_suspend_if_necessary();
-{op, @v2} = operation;
-if (((((("=" == op) && this:_compare_versions(v1, v2)) || ((">=" == op) && (this:_compare_versions(v1, v2) < 0))) || (("<=" == op) && (this:_compare_versions(v1, v2) > 0))) || ((">" == op) && (this:_compare_versions(v1, v2) <= 0))) || (("<" == op) && (this:_compare_versions(v1, v2) >= 0)))
-versions = mapdelete(versions, version);
-break;
-endif
-endfor
-endfor
-if (length(versions) < 1)
-return {$failed_match};
-elseif (length(versions) > 1)
-return {$ambiguous_match};
-else
-version = mapkeys(versions)[1];
-object = mapvalues(versions)[1][1];
-return {object, identifier, version};
-endif
-.
-#112:10
-{MAP, specifier, object} = args;
-(caller != this) && raise(E_PERM);
-if (typeof(specifier) == LIST)
-{identifier, version} = specifier;
-else
-{identifier, version} = this:_parse_specifier(specifier);
-endif
-(identifier in mapkeys(MAP)) || (MAP[identifier] = []);
-(version in mapkeys(MAP[identifier])) || (MAP[identifier][version] = {});
-MAP[identifier][version] = setadd(MAP[identifier][version], object);
-return MAP;
-.
-#112:11
-{MAP, specifier, object} = args;
-(caller != this) && raise(E_PERM);
-if (typeof(specifier) == LIST)
-{identifier, version} = specifier;
-else
-{identifier, version} = this:_parse_specifier(specifier);
-endif
-((identifier in mapkeys(MAP)) && (version in mapkeys(MAP[identifier]))) && (MAP[identifier][version] = setremove(MAP[identifier][version], object));
-`MAP[identifier][version] ! E_RANGE => 1' || (MAP[identifier] = mapdelete(MAP[identifier], version));
-`MAP[identifier] ! E_RANGE => 1' || (MAP = mapdelete(MAP, identifier));
-return MAP;
-.
-#112:12
-(caller != this) && raise(E_PERM);
-{identifier, version, object} = args;
-try
-error = 1;
-packages_backup = this.packages;
-provides_cache_backup = this.provides_cache;
-requires_cache_backup = this.requires_cache;
-this.packages = setadd(this.packages, object);
-this.provides_cache = this:_map_specifier(this.provides_cache, {identifier, version}, object);
-for provides in (`object.provides ! E_INVIND, E_TYPE, E_PROPNF => {}')
-this.provides_cache = this:_map_specifier(this.provides_cache, provides, object);
-endfor
-for requires in (`object.requires ! E_INVIND, E_TYPE, E_PROPNF => {}')
-provider = this:_match(@requires, this.provides_cache);
-this.requires_cache = this:_map_specifier(this.requires_cache, provider[2..3], object);
-endfor
-error = 0;
-finally
-if (error)
-this.packages = packages_backup;
-this.provides_cache = provides_cache_backup;
-this.requires_cache = requires_cache_backup;
-endif
-endtry
-.
-#112:13
-(caller != this) && raise(E_PERM);
-{identifier, version, object} = args;
-try
-error = 1;
-packages_backup = this.packages;
-provides_cache_backup = this.provides_cache;
-requires_cache_backup = this.requires_cache;
-this.packages = setremove(this.packages, object);
-this.provides_cache = this:_unmap_specifier(this.provides_cache, {identifier, version}, object);
-for provides in (`object.provides ! E_INVIND, E_TYPE, E_PROPNF => {}')
-this.provides_cache = this:_unmap_specifier(this.provides_cache, provides, object);
-endfor
-for requires in (`object.requires ! E_INVIND, E_TYPE, E_PROPNF => {}')
-provider = this:_find_requires_provider(requires[1], object);
-this.requires_cache = this:_unmap_specifier(this.requires_cache, provider[2..3], object);
-endfor
-error = 0;
-finally
-if (error)
-this.packages = packages_backup;
-this.provides_cache = provides_cache_backup;
-this.requires_cache = requires_cache_backup;
-endif
-endtry
-.
-#112:14
-{identifier, object} = args;
-(caller != this) && raise(E_PERM);
-for _, version in (this.requires_cache[identifier])
-if (object in this.requires_cache[identifier][version])
-return {this.provides_cache[identifier][version][1], identifier, version};
-endif
-endfor
-.
-#112:15
-caller_perms().wizard || raise(E_PERM);
-if (args)
-objects = ((length(args) == 1) && (typeof(args[1]) == LIST)) ? args[1] | args;
-else
-objects = this.packages;
-endif
-for object in (objects)
-if (typeof(object) != OBJ)
-raise(E_INVARG, tostr("Invalid argument: ", object), object);
-endif
-endfor
-limit = length(objects) ^ 2;
-packages_backup = this.packages;
-requires_cache_backup = this.requires_cache;
-provides_cache_backup = this.provides_cache;
-this.packages = {};
-this.requires_cache = [];
-this.provides_cache = [];
-while (objects && limit)
-{object, @objects} = objects;
-$suspend_if_necessary(0);
-limit = limit - 1;
-try
-this:_install(object.identifier, object.version, object);
-except (ANY)
-objects = {@objects, object};
-endtry
-endwhile
-if (objects)
-this.packages = packages_backup;
-this.requires_cache = requires_cache_backup;
-this.provides_cache = provides_cache_backup;
-failed = "";
-for object in (objects)
-failed = failed ? tostr(failed, ", ", object) | tostr(object);
-endfor
-raise(E_INVARG, tostr("Failed: ", failed), objects);
-endif
-.
-#112:16
-{required} = args;
-(caller != this) && raise(E_PERM);
-for selector in (required)
-object = this:_match(@selector, this.provides_cache)[1];
-if (valid(object))
-required = setremove(required, selector);
-endif
-endfor
-return required;
-.
-#112:17
-{provided} = args;
-(caller != this) && raise(E_PERM);
-for package in (provided)
-{identifier, version} = package;
-object = `this.requires_cache[identifier][version][1] ! E_RANGE => $failed_match';
-if (!valid(object))
-provided = setremove(provided, package);
-endif
-endfor
-return provided;
-.
-#112:18
-(caller != this) && raise(E_PERM);
-{specifiers} = args;
-global = {};
-for specifier in (specifiers)
-this:_suspend_if_necessary();
-{package, ?identifier, ?version} = this:_match(@specifier, this.provides_cache);
-if ($failed_match == package)
-raise(E_INVARG, tostr("Failed match:  ", toliteral(specifier)));
-elseif ($ambiguous_match == package)
-raise(E_INVARG, tostr("Ambiguous match:  ", toliteral(specifier)));
-endif
-for item in (`package.manifest ! E_PROPNF => {}')
-{object, label} = item;
-global = {@global, {object, tostr(label, "|", identifier)}};
-endfor
-endfor
-global = {@global, {$nothing, "__nothing__"}};
-return global;
-.
-#112:19
-(caller != this) && raise(E_PERM);
-{specifiers} = args;
-global = {};
-for specifier in (specifiers)
-this:_suspend_if_necessary();
-{package, ?identifier, ?version} = this:_match(@specifier, this.provides_cache);
-if ($failed_match == package)
-raise(E_INVARG, tostr("Failed match:  ", toliteral(specifier)));
-elseif ($ambiguous_match == package)
-raise(E_INVARG, tostr("Ambiguous match:  ", toliteral(specifier)));
-endif
-for item in (`package.manifest ! E_PROPNF => {}')
-{object, label} = item;
-global = {@global, {tostr(label, "|", identifier), object}};
-endfor
-endfor
-global = {@global, {"__nothing__", $nothing}};
-return global;
-.
-#112:20
-{verb, LIST, @options} = args;
-(caller != this) && raise(E_PERM);
-for i in [1..length(LIST)]
-this:_suspend_if_necessary();
-LIST[i] = this:(verb)(LIST[i], @options);
-endfor
-return LIST;
-.
-#112:21
-(caller != this) && raise(E_PERM);
-{collection, index} = args;
-if (typeof(collection) == MAP)
-return collection[index];
-else
-for item in (collection)
-if (item[1] == index)
-return item[2];
-endif
-endfor
-endif
-return E_RANGE;
-.
-#112:22
-(caller != this) && raise(E_PERM);
-{object, global, local, package, ?target = ""} = args;
-if (typeof(object) == LIST)
-return this:_map(verb, @args);
-endif
-if ((ret = this:_lookup(local, object)) != E_RANGE)
-return ret;
-elseif ((ret = this:_lookup(global, object)) != E_RANGE)
-return ret;
-elseif (`object.wizard ! E_INVIND')
-return "#2";
-elseif (object == caller_perms())
-return "__owner__";
-elseif (object == package)
-return "__package__";
-endif
-if (target)
-raise(E_INVARG, tostr("Lookup failed for:  ", object, " on ", target));
-else
-raise(E_INVARG, tostr("Lookup failed for:  ", object));
-endif
-.
-#112:23
-(caller != this) && raise(E_PERM);
-{label, global, local, package} = args;
-if (typeof(label) == LIST)
-return this:_map(verb, @args);
-endif
-if ("__nothing__" == label)
-return this:_lookup(global, "__nothing__");
-elseif ("#2" == label)
-return caller_perms();
-elseif ("__owner__" == label)
-return caller_perms();
-elseif ("__package__" == label)
-return package;
-elseif (("__wizard__" == label) && #2.wizard)
-return #2;
-elseif (r = match(label, "^%([a-z_][a-z0-9_]*%)%(|%([a-z][a-z0-9_]*%)%)?$"))
-reference = label[r[3][1][1]..r[3][1][2]];
-identifier = label[r[3][3][1]..r[3][3][2]];
-if (reference && identifier)
-if ((ret = this:_lookup(global, label)) != E_RANGE)
-return ret;
-endif
-else
-if ((ret = this:_lookup(local, label)) != E_RANGE)
-return ret;
-endif
-endif
-endif
-raise(E_INVARG, tostr("Lookup failed for:  ", toliteral(label)));
-.
-#112:24
-{subject, target, MAP} = args;
-(caller != this) && raise(E_PERM);
-keys = mapkeys(MAP);
-stack = {target};
-while (stack)
-this:_suspend_if_necessary();
-{target, @stack} = stack;
-if (target in keys)
-parents = `MAP[target]["Attributes"]["parents"]["Value"]["value"] ! E_RANGE => "__nothing__"';
-if (typeof(parents) == LIST)
-if (subject in parents)
-return 1;
-else
-stack = {@parents, @stack};
-endif
-else
-if (subject == parents)
-return 1;
-else
-stack = {parents, @stack};
-endif
-endif
-endif
-endwhile
-return 0;
-.
-#112:25
-{object} = args;
-(caller != this) && raise(E_PERM);
-objects = {};
-if (valid(object))
-stack = {object};
-while (stack)
-top = stack[1];
-stack = {@top.contents, @stack[2..$]};
-objects = {@objects, top};
-endwhile
-endif
-return objects;
-.
-#112:26
-caller_perms().wizard || raise(E_PERM);
-`{package, @options} = args ! E_ARGS => raise(E_ARGS, "Incorrect number of arguments:  package, @options")';
-if (options)
-if (typeof(options[1]) != MAP)
-{?identifier, ?version, ?options = []} = options;
-else
-options = options[1];
-endif
-endif
-try
-identifier;
-version;
-except (E_VARNF)
-identifier = package.identifier;
-version = package.version;
-endtry
-(!valid(package.location)) || raise(E_INVARG, "Not in $nothing");
-(package in this.packages) && raise(E_INVARG, "Package is already installed");
-provides = `package.provides ! E_PROPNF => {}';
-provides = {{identifier, version}, @provides};
-for p in (provides)
-{id, v} = p;
-valid(this:_match(id, v)[1]) && raise(E_INVARG, tostr("Package is already installed:  identifier = ", id, ", version = ", v));
-endfor
-requires = `package.requires ! E_PROPNF => {}';
-(requires = this:_check_required_provides(requires)) && raise(E_INVARG, tostr("Package requires:  ", toliteral(requires)));
-errors = [];
-if (respond_to(package, "before_install"))
-try
-package:before_install();
-except ex (ANY)
-errors["before_install"] = ex;
-endtry
-endif
-if (`options["follow-instructions"] ! ANY')
-this:_do_instructions(identifier, version, package);
-endif
-this:_install(identifier, version, package);
-if (respond_to(package, "after_install"))
-try
-package:after_install();
-except ex (ANY)
-errors["after_install"] = ex;
-endtry
-endif
-return errors || 0;
-.
-#112:27
-caller_perms().wizard || raise(E_PERM);
-`{identifier, version, ?options = []} = args ! E_ARGS => raise(E_ARGS, "Incorrect number of arguments:  identifier, version, ?options")';
-valid(object = this:_match(identifier, version)[1]) || raise(E_INVARG, tostr("Package is not installed:  identifier = ", identifier, ", version = ", version));
-provides = `object.provides ! E_PROPNF => {}';
-provides = {{identifier, version}, @provides};
-(provides = this:_check_provided_requires(provides)) && raise(E_INVARG, tostr("Package provides:  ", toliteral(provides)));
-errors = [];
-if (respond_to(object, "before_uninstall"))
-try
-object:before_uninstall();
-except ex (ANY)
-errors["before_uninstall"] = ex;
-endtry
-endif
-if (`options["follow-instructions"] ! ANY')
-this:_undo_instructions(identifier, version, object);
-endif
-this:_uninstall(identifier, version, object);
-if (respond_to(object, "after_uninstall"))
-try
-object:after_uninstall();
-except ex (ANY)
-errors["after_uninstall"] = ex;
-endtry
-endif
-return errors || 0;
-.
-#112:28
-args || raise(E_ARGS);
-packages = this.packages;
-set_task_perms(caller_perms());
-if (((t = typeof(args[1])) == OBJ) || (t == ANON))
-{object, ?options = []} = args;
-identifier = version = "";
-else
-{identifier, version, ?options = []} = args;
-object = this:_match(identifier, version)[1];
-(object == $failed_match) && raise(E_INVARG, tostr("Package is not installed:  identifier = ", identifier, ", version = ", version));
-endif
-(object == $lookup("__package__")) && raise(E_INVARG, tostr("Can't delete privileged package:  identifier = ", object.identifier, ", version = ", object.version));
-p = caller_perms();
-while (valid(p))
-(p == object) && raise(E_INVARG, tostr(caller_perms(), " is/is inside of ", object));
-p = p.location;
-endwhile
-errors = [];
-if (object in packages)
-identifier = identifier || object.identifier;
-version = version || object.version;
-provides = {{identifier, version}};
-(provides = this:_check_provided_requires(provides)) && raise(E_INVARG, tostr("Package provides:  ", toliteral(provides)));
-if (valid(object) && respond_to(object, "before_uninstall"))
-try
-object:before_uninstall();
-except ex (ANY)
-errors["before_uninstall"] = ex;
-endtry
-endif
-if (`options["follow-instructions"] ! ANY')
-this:_undo_instructions(identifier, version, object);
-endif
-this:_uninstall(identifier, version, object);
-if (valid(object) && respond_to(object, "after_uninstall"))
-try
-object:after_uninstall();
-except ex (ANY)
-errors["after_uninstall"] = ex;
-endtry
-endif
-endif
-if (valid(object))
-for item in (this:_contents(object))
-recycle(item);
-endfor
-endif
-return errors || 0;
-.
-#112:29
-(caller != this) && raise(E_PERM);
-if (!$object_utils:has_property($server_options, "bg_seconds"))
-add_property($server_options, "bg_seconds", seconds_left(), {#2, "rc"});
-bg_seconds = $nothing;
-else
-bg_seconds = $server_options.bg_seconds;
-endif
-if (!$object_utils:has_property($server_options, "bg_ticks"))
-suspend(0);
-max_ticks = ticks_left() + 2;
-add_property($server_options, "bg_ticks", max_ticks, {#2, "rc"});
-bg_ticks = $nothing;
-else
-bg_ticks = $server_options.bg_ticks;
-endif
-$server_options.bg_seconds = 60 * 60;
-$server_options.bg_ticks = (1024 * 1024) * 1024;
-suspend(0);
-return {bg_seconds, bg_ticks};
-.
-#112:30
-(caller != this) && raise(E_PERM);
-if (args != {0})
-{bg_seconds, bg_ticks} = args;
-if (bg_seconds == $nothing)
-delete_property($server_options, "bg_seconds");
-else
-$server_options.bg_seconds = bg_seconds;
-endif
-if (bg_ticks == $nothing)
-delete_property($server_options, "bg_ticks");
-else
-$server_options.bg_ticks = bg_ticks;
-endif
-endif
-.
-#112:31
-{package} = args;
-set_task_perms(caller_perms());
-try
-configuration = package["Configuration"];
-version = configuration["version"];
-top = configuration["top"];
-objects = package["Objects"];
-objects[top];
-except ex (E_TYPE, E_RANGE)
-raise(E_INVARG, "Incompatible package format");
-endtry
-(version in {"0.1", "0.2"}) || raise(E_INVARG, "Unsupported package version");
-anonymous = (version == "0.2") ? configuration["anonymous"] | {};
-requires = `objects[top]["Values"]["requires"]["Value"]["value"] ! E_RANGE => {}';
-manifest = `objects[top]["Values"]["manifest"]["Value"]["value"] ! E_RANGE => {}';
-relocate = `objects[top]["Values"]["relocate"]["Value"]["value"] ! E_RANGE => {}';
-(missing = this:_check_required_provides(requires)) && raise(E_INVARG, tostr("Package requires:  ", toliteral(missing)));
-global = this:_generate_global_mapping_keyed_on_identifier(requires);
-labels = {};
-mapkeys_objects = mapkeys(objects);
-for label in (manifest)
-(label in mapkeys_objects) || raise(E_INVARG, tostr("Invalid value in `manifest':  ", label));
-labels = setadd(labels, label);
-endfor
-for label in (mapkeys_objects)
-labels = setadd(labels, label);
-endfor
-unsorted = labels;
-labels = {};
-for label in (unsorted)
-i = 1;
-for target in (labels)
-if (this:_is_ancestor(label, target, objects))
-break;
-endif
-i = i + 1;
-endfor
-labels = {@labels[1..i - 1], label, @labels[i..$]};
-endfor
-success = 0;
-try
-local = {};
-locations = [];
-local = {@local, {top, top_object = create($nothing, top in anonymous)}};
-for label in (setremove(labels, top))
-this:_suspend_if_necessary();
-local = {@local, {label, object = create($nothing, label in anonymous)}};
-this:_move(object, top_object);
-endfor
-relocate_map = [];
-for reference in (relocate)
-this:_suspend_if_necessary();
-if (r = match(reference, "^%([a-z_][a-z0-9_]*%)%.%([a-z_][a-z0-9_]*%)$"))
-r1 = reference[r[3][1][1]..r[3][1][2]];
-r2 = reference[r[3][2][1]..r[3][2][2]];
-if (!(r2 in {"owner", "parents", "location"}))
-(r1 in mapkeys(relocate_map)) || (relocate_map[r1] = {});
-relocate_map[r1] = {@relocate_map[r1], r2};
-endif
-else
-raise(E_INVARG, tostr("Invalid reference in `relocate':  ", reference));
-endif
-endfor
-for label in (labels)
-this:_suspend_if_necessary();
-object = this:_lookup(local, label);
-definition = objects[label];
-if (`definition["Values"]["owner"] ! E_RANGE' != E_RANGE)
-if (caller_perms().wizard)
-definition["Values"]["owner"]["Value"]["value"] = this:_lookup_by_label(definition["Values"]["owner"]["Value"]["value"], global, local, top_object);
-else
-definition["Values"] = mapdelete(definition["Values"], "owner");
-endif
-endif
-if (`definition["Attributes"]["parents"] ! E_RANGE' != E_RANGE)
-definition["Attributes"]["parents"]["Value"]["value"] = this:_lookup_by_label(definition["Attributes"]["parents"]["Value"]["value"], global, local, top_object);
-endif
-if (`definition["Values"]["location"] ! E_RANGE' != E_RANGE)
-locations[label] = definition["Values"]["location"]["Value"]["value"];
-definition["Values"] = mapdelete(definition["Values"], "location");
-endif
-if (`relocate_map[label] ! E_RANGE => 0')
-for name in (relocate_map[label])
-this:_suspend_if_necessary();
-if (`definition["Values"][name]["Value"]["value"] ! E_RANGE => 0')
-definition["Values"][name]["Value"]["value"] = this:_lookup_by_label(definition["Values"][name]["Value"]["value"], global, local, top_object);
-else
-for property in (definition["Properties"])
-this:_suspend_if_necessary();
-if (property["Property"]["name"] == name)
-value = this:_lookup_by_label(property["Property"]["value"], global, local, top_object);
-definition["Values"][name] = ["Value" -> ["value" -> value]];
-endif
-endfor
-endif
-endfor
-endif
-for _, value in (definition["Values"])
-this:_suspend_if_necessary();
-if (`definition["Values"][value]["Value"]["owner"] ! E_RANGE' != E_RANGE)
-if (caller_perms().wizard)
-definition["Values"][value]["Value"]["owner"] = this:_lookup_by_label(definition["Values"][value]["Value"]["owner"], global, local, top_object);
-else
-definition["Values"][value]["Value"] = mapdelete(definition["Values"][value]["Value"], "owner");
-endif
-endif
-endfor
-for index in [1..length(definition["Verbs"])]
-this:_suspend_if_necessary();
-if (`definition["Verbs"][index]["Verb"]["owner"] ! E_RANGE' != E_RANGE)
-if (caller_perms().wizard)
-definition["Verbs"][index]["Verb"]["owner"] = this:_lookup_by_label(definition["Verbs"][index]["Verb"]["owner"], global, local, top_object);
-else
-definition["Verbs"][index]["Verb"] = mapdelete(definition["Verbs"][index]["Verb"], "owner");
-endif
-endif
-endfor
-for index in [1..length(definition["Properties"])]
-this:_suspend_if_necessary();
-if (`definition["Properties"][index]["Property"]["owner"] ! E_RANGE' != E_RANGE)
-if (caller_perms().wizard)
-definition["Properties"][index]["Property"]["owner"] = this:_lookup_by_label(definition["Properties"][index]["Property"]["owner"], global, local, top_object);
-else
-definition["Properties"][index]["Property"] = mapdelete(definition["Properties"][index]["Property"], "owner");
-endif
-endif
-endfor
-definition = $shapes:write_object(object, definition, ["verbs" -> ["do-not-version" -> 1, "do-not-stamp" -> 1]]);
-objects[label] = definition;
-package["Objects"] = objects;
-endfor
-for label in (labels)
-this:_suspend_if_necessary();
-if ("Error" in mapkeys(package["Objects"][label]))
-raise("E_PACKAGE", "Error in package operation", package);
-endif
-endfor
-for label in (labels)
-this:_suspend_if_necessary();
-if (label != top)
-object = this:_lookup(local, label);
-value = `locations[label] ! E_RANGE => "__package__"';
-value = (value == "__package__") ? top_object | this:_lookup(local, value);
-this:_move(object, value);
-endif
-endfor
-for entry in [1..`length(top_object.manifest) ! E_PROPNF => 0']
-this:_suspend_if_necessary();
-top_object.manifest[entry] = {this:_lookup(local, top_object.manifest[entry]), top_object.manifest[entry]};
-endfor
-success = 1;
-finally
-success || this:delete(top_object);
-endtry
-return top_object;
-.
-#112:32
-{package, ?options = []} = args;
-set_task_perms(caller_perms());
-strip = `options["strip"] ! E_RANGE => {}';
-truncate = `options["truncate"] ! E_RANGE => {}';
-`valid(package) ! E_TYPE => 0' || raise(E_INVARG, "Not a valid package");
-(!valid(package.location)) || raise(E_INVARG, "Not a valid package:  must not have a location");
-requires = `package.requires ! E_PROPNF => {}';
-manifest = `package.manifest ! E_PROPNF => {}';
-relocate = `package.relocate ! E_PROPNF => {}';
-objects = this:_contents(package);
-for item in (manifest)
-{object, label} = item;
-`valid(object) ! E_TYPE' || raise(E_INVARG, tostr("Invalid object in manifest:  ", label));
-(caller_perms().wizard || (package.owner == object.owner)) || raise(E_PERM, tostr("Invalid object in manifest:  ", label));
-objects = setadd(objects, object);
-endfor
-definition = ["Configuration" -> ["Version" -> "0.2"], "Objects" -> []];
-(missing = this:_check_required_provides(requires)) && raise(E_INVARG, tostr("Package requires:  ", toliteral(missing)));
-global = this:_generate_global_mapping_keyed_on_object(requires);
-for key in (`mapkeys(options["global"]) ! E_RANGE => {}')
-this:_suspend_if_necessary();
-global = {@global, {key, options["global"][key]}};
-endfor
-local = {};
-anonymous = {};
-for object in (objects)
-this:_suspend_if_necessary();
-if ((t = typeof(object)) == OBJ)
-label = tostr("__", toint(object), "__");
-else
-label = tostr("__", random(), "__");
-endif
-if (object == package)
-label = "__package__";
-endif
-for entry in (manifest)
-if (entry[1] == object)
-label = entry[2];
-break;
-endif
-endfor
-local = {@local, {object, label}};
-if (t == ANON)
-anonymous = {@anonymous, label};
-endif
-definition["Objects"][label] = $shapes:read_object(object, ["strip_clear_values" -> 1]);
-if (object in strip)
-values = [];
-for name in ({"name", "owner", "location", "programmer", "wizard", "r", "w", "f", "a"})
-values[name] = definition["Objects"][label]["Values"][name];
-endfor
-for index in [1..length(definition["Objects"][label]["Properties"])]
-name = definition["Objects"][label]["Properties"][index]["property"]["name"];
-values[name] = definition["Objects"][label]["Values"][name];
-endfor
-definition["Objects"][label]["Values"] = values;
-endif
-endfor
-top = definition["Configuration"]["top"] = this:_lookup(local, package);
-definition["Configuration"]["anonymous"] = anonymous;
-labels = {};
-for entry in (manifest)
-this:_suspend_if_necessary();
-labels = {@labels, entry[2]};
-endfor
-for object in (objects)
-this:_suspend_if_necessary();
-label = this:_lookup(local, object);
-for _, v in (definition["Objects"][label]["Values"])
-this:_suspend_if_necessary();
-if (`"owner" in mapkeys(definition["Objects"][label]["Values"][v]["Value"]) ! E_RANGE')
-definition["Objects"][label]["Values"][v]["Value"]["owner"] = this:_lookup_by_object(definition["Objects"][label]["Values"][v]["Value"]["owner"], global, local, package, label);
-endif
-endfor
-for i in [1..length(definition["Objects"][label]["Properties"])]
-this:_suspend_if_necessary();
-definition["Objects"][label]["Properties"][i]["Property"]["owner"] = this:_lookup_by_object(definition["Objects"][label]["Properties"][i]["Property"]["owner"], global, local, package, label);
-endfor
-for i in [1..length(definition["Objects"][label]["Verbs"])]
-this:_suspend_if_necessary();
-definition["Objects"][label]["Verbs"][i]["Verb"]["owner"] = this:_lookup_by_object(definition["Objects"][label]["Verbs"][i]["Verb"]["owner"], global, local, package, label);
-endfor
-if ("owner" in mapkeys(definition["Objects"][label]["Values"]))
-definition["Objects"][label]["Values"]["owner"]["Value"]["value"] = this:_lookup_by_object(definition["Objects"][label]["Values"]["owner"]["Value"]["value"], global, local, package, label);
-endif
-definition["Objects"][label]["Attributes"]["parents"]["Value"]["value"] = this:_lookup_by_object(definition["Objects"][label]["Attributes"]["parents"]["Value"]["value"], global, local, package, label);
-definition["Objects"][label]["Values"]["location"]["Value"]["value"] = this:_lookup_by_object(definition["Objects"][label]["Values"]["location"]["Value"]["value"], global, local, package, label);
-endfor
-for reference in (relocate)
-this:_suspend_if_necessary();
-if (r = match(reference, "^%([a-z_][a-z0-9_]*%)%.%([a-z_][a-z0-9_]*%)$"))
-r1 = reference[r[3][1][1]..r[3][1][2]];
-r2 = reference[r[3][2][1]..r[3][2][2]];
-if (r1 in labels)
-if (((r2 != "parents") && (r2 != "location")) && (r2 != "owner"))
-try
-definition["Objects"][r1]["Values"][r2]["Value"]["value"];
-except (E_RANGE)
-raise(E_INVARG, tostr("Invalid reference in `relocate':  \"", r2, "\" in \"", reference, "\""));
-endtry
-definition["Objects"][r1]["Values"][r2]["Value"]["value"] = this:_lookup_by_object(definition["Objects"][r1]["Values"][r2]["Value"]["value"], global, local, package, r1);
-for property in [1..length(definition["Objects"][r1]["Properties"])]
-this:_suspend_if_necessary();
-if (definition["Objects"][r1]["Properties"][property]["Property"]["name"] == r2)
-definition["Objects"][r1]["Properties"][property]["Property"]["value"] = definition["Objects"][r1]["Values"][r2]["Value"]["value"];
-break property;
-endif
-endfor
-endif
-else
-raise(E_INVARG, tostr("Invalid reference in `relocate':  \"", r1, "\" in \"", reference, "\""));
-endif
-else
-raise(E_INVARG, tostr("Invalid reference in `relocate':  ", reference));
-endif
-endfor
-for object in (truncate)
-this:_suspend_if_necessary();
-if (object in objects)
-label = this:_lookup(local, object);
-values = [];
-for _, value in (definition["Objects"][label]["Values"])
-this:_suspend_if_necessary();
-if (value in {"name", "owner", "location", "programmer", "wizard", "r", "w", "f", "a"})
-values[value] = definition["Objects"][label]["Values"][value];
-endif
-endfor
-definition["Objects"][label]["Values"] = values;
-endif
-endfor
-if (("manifest" in mapkeys(definition["Objects"][top]["Values"])) && (!definition["Objects"][top]["Values"]["manifest"]["Value"]["clear"]))
-for entry in [1..length(definition["Objects"][top]["Values"]["manifest"]["Value"]["value"])]
-this:_suspend_if_necessary();
-definition["Objects"][top]["Values"]["manifest"]["Value"]["value"][entry] = definition["Objects"][top]["Values"]["manifest"]["Value"]["value"][entry][2];
-endfor
-endif
-for property in [1..length(definition["Objects"][top]["Properties"])]
-this:_suspend_if_necessary();
-if (definition["Objects"][top]["Properties"][property]["Property"]["name"] == "manifest")
-for entry in [1..length(definition["Objects"][top]["Properties"][property]["Property"]["value"])]
-this:_suspend_if_necessary();
-definition["Objects"][top]["Properties"][property]["Property"]["value"][entry] = definition["Objects"][top]["Properties"][property]["Property"]["value"][entry][2];
-endfor
-break;
-endif
-endfor
-return definition;
-.
-#112:33
-(caller != this) && raise(E_PERM);
-{url} = args;
-if (r = match(url, "^http://%([^/:]+%)%(:[0-9]+%)?%(.*%)$"))
-host = url[r[3][1][1]..r[3][1][2]];
-port = toint(url[r[3][2][1] + 1..r[3][2][2]]) || 80;
-path = url[r[3][3][1]..r[3][3][2]];
-return {host, port, path};
-else
-return 0;
-endif
-.
-#112:34
-(caller != this) && raise(E_PERM);
-{url} = args;
-while redirect (1)
-try
-connection = 0;
-url = strsub(url, "~", "~7E");
-if (r = this:_parse_url(url))
-{host, port, path} = r;
-else
-raise(E_INVARG, "Bad URL");
-endif
-try
-connection = open_network_connection(host, port);
-except (E_INVARG)
-raise(E_INVARG, "Open network connection failed");
-endtry
-set_connection_option(connection, "hold-input", 1);
-set_connection_option(connection, "binary", 1);
-notify(connection, tostr("GET ", path, " HTTP/1.1~0D~0A"));
-notify(connection, (port != 80) ? tostr("Host: ", host, ":", port, "~0D~0A") | tostr("Host: ", host, "~0D~0A"));
-notify(connection, "Accept: application/json~0D~0A");
-notify(connection, "~0D~0A");
-response = read_http("response", connection);
-if (`reason = response["error"] ! E_RANGE')
-raise(E_INVARG, tostr("Fetch failed: ", reason[2]));
-elseif (!((status = response["status"]) in {200, 301, 302, 303, 307}))
-raise(E_INVARG, tostr("Fetch failed: invalid HTTP status: ", status));
-elseif ((status / 100) == 3)
-try
-url = response["headers"]["location"];
-continue redirect;
-except (E_RANGE)
-raise(E_INVARG, "Fetch failed: missing HTTP header: Location");
-endtry
-endif
-json = strsub(response["body"], "~7E", "~");
-try
-return parse_json(json, "embedded-types");
-except (E_RANGE, E_INVARG)
-raise(E_INVARG, "Bad JSON");
-endtry
-finally
-`boot_player(connection) ! ANY';
-endtry
-endwhile
-.
-#112:35
-caller_perms().wizard || raise(E_PERM);
-args && raise(E_ARGS);
-sources = this.archive_sources;
-this:_notify(player, {"h2", [], "Updating index from archive sources"});
-indexes = [];
-for source in (sources)
-try
-this:_suspend_if_necessary();
-indexes[source] = this:_fetch(source);
-this:_notify(player, "   ", source);
-except ex (E_INVARG)
-this:_notify(player, "   ", source, " ... ", {"span", ["class" -> "error"], ex[2]});
-endtry
-endfor
-this:_notify(player);
-archived = [];
-while (sources)
-source = sources[$];
-sources = sources[^..$ - 1];
-try
-index = indexes[source];
-except (E_RANGE)
-continue;
-endtry
-if (`index["_links"] ! E_RANGE')
-for package in (index["_embedded"]["packages"])
-this:_suspend_if_necessary();
-mk = mapkeys(package);
-if ((("identifier" in mk) && ("version" in mk)) && ("_links" in mk))
-if (`href = package["_links"]["self"]["href"] ! E_RANGE')
-if (r = this:_parse_url(href))
-else
-r = this:_parse_url(source);
-if (href[1] == "/")
-href = tostr("http://", r[1], ":", r[2], href);
-else
-if (i = rindex(r[3], "/"))
-href = tostr("http://", r[1], ":", r[2], r[3][1..i], href);
-else
-href = tostr("http://", r[1], ":", r[2], "/", href);
-endif
-endif
-endif
-identifier = package["identifier"];
-version = package["version"];
-requires = `package["requires"] ! E_RANGE => {}';
-`archived[identifier] ! E_RANGE' || (archived[identifier] = []);
-archived[identifier][version] = ["href" -> href, "requires" -> requires];
-endif
-endif
-endfor
-else
-for package in (index["Packages"])
-this:_suspend_if_necessary();
-mk = mapkeys(package);
-if ((("identifier" in mk) && ("version" in mk)) && ("link" in mk))
-mk = mapkeys(package["link"]);
-if ((("uri" in mk) && ("rel" in mk)) && (package["link"]["rel"] == "package"))
-uri = package["link"]["uri"];
-r = this:_parse_url(source);
-if (i = rindex(r[3], "/"))
-href = tostr("http://", r[1], ":", r[2], r[3][1..i], uri);
-else
-href = tostr("http://", r[1], ":", r[2], "/", uri);
-endif
-identifier = package["identifier"];
-version = package["version"];
-requires = `package["requires"] ! E_RANGE => {}';
-`archived[identifier] ! E_RANGE' || (archived[identifier] = []);
-archived[identifier][version] = ["href" -> href, "requires" -> requires];
-endif
-endif
-endfor
-endif
-endwhile
-this.archived = archived;
-this.last_fetch_index = time();
-return archived;
-.
-#112:36
-caller_perms().wizard || raise(E_PERM);
-`{identifier, version} = args ! E_ARGS => raise(E_ARGS, "Incorrect number of arguments:  identifier, version")';
-package = this:_fetch(this.archived[identifier][version]["href"]);
-top = package["Configuration"]["top"];
-requires = `package["Objects"][top]["Values"]["requires"]["Value"]["value"] ! E_RANGE => {}';
-packages = this.cached;
-`packages[identifier] ! E_RANGE' || (packages[identifier] = []);
-packages[identifier][version] = ["definition" -> package, "requires" -> requires];
-this.cached = packages;
-return package;
-.
-#112:37
-caller_perms().wizard || raise(E_PERM);
-`{identifier, version, ?upgrade = 0} = args ! E_ARGS => raise(E_ARGS, "Incorrect number of arguments:  identifier, version, ?upgrade = 0")';
-package = this:_fetch(this.archived[identifier][version]["href"]);
-try
-package = this:import(package);
-except ex ("E_PACKAGE")
-package = ex[3];
-endtry
-return package;
-.
-#112:38
-caller_perms().wizard || raise(E_PERM);
-`{identifier, version, ?upgrade = 0} = args ! E_ARGS => raise(E_ARGS, "Incorrect number of arguments:  identifier, version, ?upgrade = 0")';
-package = this.cached[identifier][version]["definition"];
-try
-package = this:import(package);
-except ex ("E_PACKAGE")
-package = ex[3];
-endtry
-return package;
-.
-#112:39
-caller_perms().wizard || raise(E_PERM);
-`{identifier, version, ?force = 1} = args ! E_ARGS => raise(E_ARGS, "Incorrect number of arguments:  identifier, version, ?force = 1")';
-package = this:_match(identifier, version)[1];
-package = this:export(package);
-top = package["Configuration"]["top"];
-requires = `package["Objects"][top]["Values"]["requires"]["Value"]["value"] ! E_RANGE => {}';
-packages = this.cached;
-`packages[identifier] ! E_RANGE' || (packages[identifier] = []);
-packages[identifier][version] = ["definition" -> package, "requires" -> requires];
-this.cached = packages;
-return package;
-.
-#112:40
-caller_perms().wizard || raise(E_PERM);
-`{pathname, ?options = []} = args ! E_ARGS => raise(E_ARGS, "Incorrect number of arguments:  pathname, ?options")';
-fh = -1;
-try
-fh = file_open(pathname, "r-tn");
-package = parse_json(file_readline(fh), "embedded-types");
-finally
-(fh > -1) && file_close(fh);
-endtry
-try
-package = this:import(package);
-except ex ("E_PACKAGE")
-package = ex[3];
-endtry
-return package;
-.
-#112:41
-caller_perms().wizard || raise(E_PERM);
-`{identifier, version, pathname, ?options = []} = args ! E_ARGS => raise(E_ARGS, "Incorrect number of arguments:  identifier, version, pathname, ?options")';
-package = this:_match(identifier, version)[1];
-package = this:export(package, options);
-fh = -1;
-try
-fh = file_open(pathname, "w-tn");
-file_writeline(fh, generate_json(package, "embedded-types"));
-finally
-(fh > -1) && file_close(fh);
-endtry
-return package;
-.
-#112:42
-caller_perms().wizard || raise(E_PERM);
-`{identifier, version} = args ! E_ARGS => raise(E_ARGS, "Incorrect number of arguments:  identifier, version")';
-package = this.cached[identifier][version]["definition"];
-json = generate_json(package, "embedded-types");
-suspend(0);
-while (len = length(json))
-suspend(0);
-len = (len > 60000) ? 60000 | len;
-line = json[1..len];
-json[1..len] = "";
-while (buffered_output_length(player))
-suspend(0);
-endwhile
-notify(player, line);
-endwhile
-.
-#112:43
-if (callers() && (caller_perms() != player))
-raise(E_PERM);
-endif
-if (!player.wizard)
-notify(player, "Only wizards can do that!");
-return;
-endif
-if (r = match(dobjstr, "^ *%([_a-z0-9]+%) *%([0-9]+%.[0-9]+%.[0-9]+%)? *$"))
-seconds_and_ticks = 0;
-try
-seconds_and_ticks = this:_set_seconds_and_ticks();
-identifier = dobjstr[r[3][1][1]..r[3][1][2]];
-version = dobjstr[r[3][2][1]..r[3][2][2]];
-if (`this.provides_cache[identifier] ! E_RANGE' != E_RANGE)
-notify(player, tostr("Package \"", identifier, "\" is already installed."));
-return;
-elseif ((`this.archived[identifier] ! E_RANGE' == E_RANGE) && (`this.cached[identifier] ! E_RANGE' == E_RANGE))
-notify(player, tostr("Package \"", identifier, "\" doesn't exist in either the remote archive or local cache."));
-return;
-else
-if (version)
-if ((`this.archived[identifier][version] ! E_RANGE' == E_RANGE) && (`this.cached[identifier][version] ! E_RANGE' == E_RANGE))
-notify(player, tostr("Version \"", version, "\" of package \"", identifier, "\" doesn't exist in either the remote archive or local cache."));
-return;
-endif
-else
-cached = `mapkeys(this.cached[identifier]) ! E_RANGE => {}';
-archived = `mapkeys(this.archived[identifier]) ! E_RANGE => {}';
-versions = {@cached, @archived};
-versions = this:_map("_parse_version", versions);
-versions = this:_sort_versions(versions);
-version = versions[1];
-version = tostr(version[1], ".", version[2], ".", version[3]);
-endif
-endif
-if (`this.cached[identifier][version] ! E_RANGE' != E_RANGE)
-requires = `this.cached[identifier][version]["requires"] ! E_RANGE => {}';
-else
-requires = `this.archived[identifier][version]["requires"] ! E_RANGE => {}';
-endif
-if (requires && (requires = this:_check_required_provides(requires)))
-notify(player, tostr("Version \"", version, "\" of package \"", identifier, "\" couldn't be installed because it requires:"));
-sep = "";
-line = "  ";
-for require in (requires)
-{ispec, ?vspec = ""} = require;
-if (vspec)
-line = tostr(line, sep, ispec, " ", vspec);
-else
-line = tostr(line, sep, ispec);
-endif
-sep = ", ";
-endfor
-notify(player, line);
-return;
-endif
-if (`this.cached[identifier][version] ! E_RANGE' != E_RANGE)
-notify(player, tostr("Installing version \"", version, "\" of package \"", identifier, "\" from the local cache..."));
-package = this:import_package_from_cache(identifier, version);
-else
-notify(player, tostr("Installing version \"", version, "\" of package \"", identifier, "\" from the remote archive..."));
-package = this:import_package_from_archive(identifier, version);
-endif
-if (((t = typeof(package)) == OBJ) || (t == ANON))
-this:install(package, ["follow-instructions" -> 1]);
-else
-notify(player, tostr("Version \"", version, "\" of package \"", identifier, "\" couldn't be installed (raw package below)."));
-notify(player, toliteral(package));
-return;
-endif
-notify(player, tostr("Version \"", version, "\" of package \"", identifier, "\" (", package.name, ") was successfully installed as ", package, "."));
-finally
-this:_reset_seconds_and_ticks(@seconds_and_ticks);
-endtry
-else
-notify(player, tostr("Correct usage is:  @install <package identifier> <package version> with $composed"));
-notify(player, tostr("     for example:  @install foobar 1.2.3 with $composed"));
-endif
-.
-#112:44
-if (callers() && (caller_perms() != player))
-raise(E_PERM);
-endif
-if (!player.wizard)
-notify(player, "Only wizards can do that!");
-return;
-endif
-if (r = match(dobjstr, "^ *%([_a-z0-9]+%) *%([0-9]+%.[0-9]+%.[0-9]+%) *$"))
-identifier = dobjstr[r[3][1][1]..r[3][1][2]];
-version = dobjstr[r[3][2][1]..r[3][2][2]];
-if (`this.provides_cache[identifier][version] ! E_RANGE' == E_RANGE)
-notify(player, tostr("Version \"", version, "\" of package \"", identifier, "\" is not installed."));
-return;
-endif
-package = this.provides_cache[identifier][version][1];
-this:delete(package, ["follow-instructions" -> 1]);
-notify(player, tostr("Version \"", version, "\" of package \"", identifier, "\" was successfully uninstalled."));
-else
-notify(player, tostr("Correct usage is:  @uninstall <package identifier> <package version> with $composed"));
-notify(player, tostr("     for example:  @uninstall foobar 1.2.3 with $composed"));
-endif
-.
-#112:45
-if (callers() && (caller_perms() != player))
-raise(E_PERM);
-endif
-if (!player.wizard)
-this:_notify(player, "Only wizards can do that!");
-return;
-endif
-if (dobjstr && (dobjstr != "packages"))
-this:_notify(player, "I couldn't list that.");
-this:_notify(player, "Usage: ", {"code", [], verb, " packages with $composed"});
-this:_notify(player, "       ", {"code", [], verb, " with $composed"});
-return;
-endif
-this:fetch_index();
-cached = this.cached;
-archived = this.archived;
-this:_notify(player, {"h2", [], "Installed packages"});
-for _, identifier in (this.provides_cache)
-for _, version in (this.provides_cache[identifier])
-this:_suspend_if_necessary();
-if (`version in mapkeys(cached[identifier]) ! E_RANGE' || `version in mapkeys(archived[identifier]) ! E_RANGE')
-this:_notify(player, {"span", [], "   ", identifier, ", ", version, " (", objnum = this.provides_cache[identifier][version][1], ") ", objnum.name});
-else
-this:_notify(player, {"span", ["class" -> "information"], " ! ", identifier, ", ", version, " (", objnum = this.provides_cache[identifier][version][1], ") ", objnum.name});
-endif
-endfor
-endfor
-this:_notify(player);
-this:_notify(player, {"h2", [], "Packages available from cache"});
-for _, identifier in (this.cached)
-this:_suspend_if_necessary();
-versions = "";
-for _, version in (this.cached[identifier])
-versions = (versions + ", ") + version;
-endfor
-this:_notify(player, "   ", identifier, versions);
-endfor
-this:_notify(player);
-this:_notify(player, {"h2", [], "Packages available from archives"});
-for _, identifier in (this.archived)
-this:_suspend_if_necessary();
-versions = "";
-for _, version in (this.archived[identifier])
-versions = (versions + ", ") + version;
-endfor
-this:_notify(player, "   ", identifier, versions);
-endfor
-this:_notify(player);
-this:_notify(player, "(done)");
-.
-#112:46
-(caller != this) && raise(E_PERM);
-{identifier, version, package} = args;
-manifest = `package.manifest ! E_PROPNF => {}';
-instructions = `package.instructions ! E_PROPNF => {}';
-if ("install-dictionary" in instructions)
-for item in (manifest)
-{object, label} = item;
-if ("dictionary" == label)
-notify(player, tostr("Adding package dictionary (", object.name, ") to parents of $system..."));
-parents = {@parents($system), object};
-chparents($system, parents);
-break;
-endif
-endfor
-endif
-if ("install-namespace" in instructions)
-for item in (manifest)
-{object, label} = item;
-if ("dictionary" == label)
-notify(player, tostr("Adding namespace (", identifier, ") as a property on $system..."));
-add_property($system, identifier, object, {package, "r"});
-break;
-endif
-endfor
-endif
-for instruction in (instructions)
-if ((typeof(`$sysobj ! ANY') == OBJ) && (r = match(instruction, "^install-%([_a-z0-9]+%)-on-legacy-core$")))
-property = instruction[r[3][1][1]..r[3][1][2]];
-for item in (manifest)
-{object, label} = item;
-if (property == label)
-notify(player, tostr("Adding property (", label, ") to $sysobj..."));
-add_property($sysobj, label, object, {package, "r"});
-endif
-endfor
-endif
-endfor
-.
-#112:47
-(caller != this) && raise(E_PERM);
-{identifier, version, package} = args;
-manifest = `package.manifest ! E_PROPNF => {}';
-instructions = `package.instructions ! E_PROPNF => {}';
-if ("install-dictionary" in instructions)
-for item in (manifest)
-{object, label} = item;
-if (("dictionary" == label) && (object in parents($system)))
-notify(player, tostr("Removing package dictionary (", object.name, ") from parents of $system..."));
-parents = setremove(parents($system), object);
-chparents($system, parents);
-break;
-endif
-endfor
-endif
-if ("install-namespace" in instructions)
-for item in (manifest)
-{object, label} = item;
-if (("dictionary" == label) && (identifier in properties($system)))
-notify(player, tostr("Removing namespace (", identifier, ") as a property on $system..."));
-delete_property($system, identifier);
-break;
-endif
-endfor
-endif
-for instruction in (instructions)
-if ((typeof(`$sysobj ! ANY') == OBJ) && (r = match(instruction, "^install-%([_a-z0-9]+%)-on-legacy-core$")))
-property = instruction[r[3][1][1]..r[3][1][2]];
-for item in (manifest)
-{object, label} = item;
-if ((property == label) && (property in properties($sysobj)))
-notify(player, tostr("Removing property (", label, ") from $sysobj..."));
-delete_property($sysobj, label);
-endif
-endfor
-endif
-endfor
-.
-#112:48
-{object, global, local, package, ?target = ""} = args;
-if (typeof(object) == LIST)
-return this:_map(verb, @args);
-endif
-if (`ret = local[object] ! E_RANGE' != E_RANGE)
-return ret;
-elseif (`ret = global[object] ! E_RANGE' != E_RANGE)
-return ret;
-elseif (`object.wizard ! E_INVIND')
-return "__wizard__";
-elseif (object == caller_perms())
-return "__owner__";
-elseif (object == package)
-return "__package__";
-endif
-if (target)
-raise(E_INVARG, tostr("Lookup failed for:  ", object, " on ", target));
-else
-raise(E_INVARG, tostr("Lookup failed for:  ", object));
-endif
-.
-#112:49
-{package, ?options = []} = args;
-set_task_perms(caller_perms());
-dictionary = `options["dictionary"] ! E_RANGE => ""';
-no_properties = `options["no-properties"] ! E_RANGE => 0';
-no_verbs = `options["no-verbs"] ! E_RANGE => 0';
-errors = {};
-warnings = {};
-requires = `package.requires ! E_PROPNF => {}';
-manifest = `package.manifest ! E_PROPNF => {}';
-relocate = `package.relocate ! E_PROPNF => {}';
-global = [];
-for specifier in (requires)
-this:_suspend_if_necessary();
-{other, ?identifier, ?version} = this:_match(@specifier, this.provides_cache);
-if (#-3 == package)
-raise(E_INVARG, tostr("Failed match:  ", toliteral(specifier)));
-elseif (#-2 == package)
-raise(E_INVARG, tostr("Ambiguous match:  ", toliteral(specifier)));
-endif
-for item in (`other.manifest ! E_PROPNF => {}')
-{object, label} = item;
-global[object] = tostr(label, "|", identifier);
-global[tostr(label, "|", identifier)] = object;
-endfor
-endfor
-global[#-1] = "__nothing__";
-global["__nothing__"] = #-1;
-local = [];
-for item in (manifest)
-this:_suspend_if_necessary();
-{object, label} = item;
-local[object] = label;
-local[label] = object;
-endfor
-for object in (this:_contents(package))
-if (`local[object] ! E_RANGE' == E_RANGE)
-local[object] = tostr("__", toint(object), "__");
-local[tostr("__", toint(object), "__")] = object;
-endif
-endfor
-if (dictionary)
-dictionary = `this:_lookup_by_label(dictionary, global, local, package) ! E_INVARG => #-1';
-endif
-objects = this:_contents(package);
-for item in (manifest)
-{object, label} = item;
-if (!(object in objects))
-errors = {@errors, tostr(package, ".manifest lists non-member \"", label, "\"")};
-endif
-endfor
-for item in (relocate)
-if (((i = index(item, ".")) && (object = item[1..i - 1])) && (property = item[i + 1..$]))
-if (valid(`object = this:_lookup_by_label(object, global, local, package) ! E_INVARG => #-1'))
-if ((("owner" == property) || ("parents" == property)) || ("location" == property))
-continue;
-endif
-try
-info = property_info(object, property);
-if ((caller_perms().wizard || (caller_perms() == info[1])) || index(info[2], "w"))
-continue;
-endif
-except (ANY)
-endtry
-endif
-endif
-errors = {@errors, tostr(package, ".relocate lists unknown reference \"", item, "\"")};
-endfor
-for object in (objects)
-this:_suspend_if_necessary();
-if (dictionary != object)
-parents = parents(object);
-try
-value = this:_lookup_by_object_number(parents, global, local, package);
-except (E_INVARG)
-errors = {@errors, tostr(object, ".parents = ", toliteral(parents))};
-endtry
-endif
-if (dictionary != object)
-location = object.location;
-try
-value = this:_lookup_by_object_number(location, global, local, package);
-except (E_INVARG)
-errors = {@errors, tostr(object, ".location = ", location)};
-endtry
-endif
-if (!no_properties)
-properties = {};
-ancestors = {object, @ancestors(object)};
-for ancestor in (ancestors)
-try
-ancestor_properties = properties(ancestor);
-for property in (ancestor_properties)
-this:_suspend_if_necessary();
-try
-info = property_info(ancestor, property);
-if ((caller_perms().wizard || (caller_perms() == info[1])) || index(info[2], "w"))
-properties = {@properties, property};
-else
-warnings = {@warnings, tostr("can't write property \"", property, "\" on ", ancestor)};
-endif
-except (E_PERM)
-warnings = {@warnings, tostr("can't read property \"", property, "\" on ", ancestor)};
-endtry
-endfor
-except (E_PERM)
-warnings = {@warnings, tostr("can't read properties on ", ancestor)};
-endtry
-if (dictionary == object)
-break;
-endif
-endfor
-label = this:_lookup_by_object_number(object, global, local, package);
-for property in (properties)
-this:_suspend_if_necessary();
-value = object.(property);
-if (typeof(value) == OBJ)
-if (!(tostr(label, ".", property) in relocate))
-warnings = {@warnings, tostr("property \"", property, "\" on ", object, " references ", value, ", but relocate does not include \"", label, ".", property, "\"")};
-elseif (!`this:_lookup_by_object_number(value, global, local, package) ! E_INVARG => 0')
-warnings = {@warnings, tostr("property \"", property, "\" on ", object, " references ", value, " which can't be relocated because it can't be resolved locally or globally")};
-endif
-endif
-endfor
-endif
-if (!no_verbs)
-verbs = {};
-try
-object_verbs = verbs(object);
-for verb in [1..length(object_verbs)]
-this:_suspend_if_necessary();
-try
-info = verb_info(object, verb);
-if ((caller_perms().wizard || (caller_perms() == info[1])) || index(info[2], "w"))
-verbs = {@verbs, verb};
-else
-warnings = {@warnings, tostr("can't write verb \"", object_verbs[verb], "\" on ", object)};
-endif
-except (E_PERM)
-warnings = {@warnings, tostr("can't read verb \"", object_verbs[verb], "\" on ", object)};
-endtry
-endfor
-except (E_PERM)
-warnings = {@warnings, tostr("can't read verbs on ", object)};
-endtry
-for verb in (verbs)
-this:_suspend_if_necessary();
-info = verb_info(object, verb);
-code = verb_code(object, verb, 0, 0);
-for line in (code)
-if (r = match(line, "#-?[0-9]+"))
-warnings = {@warnings, tostr("verb \"", info[3], "\" on ", object, " references ", r[4][r[1]..r[2]], " (\"", line, "\")")};
-endif
-endfor
-endfor
-endif
-endfor
-out = [];
-errors && (out["errors"] = errors);
-warnings && (out["warnings"] = warnings);
-return out;
 .
 #113:0
 "Usage:  :send_content()";
