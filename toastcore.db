@@ -9,7 +9,7 @@
 0 values pending finalization
 0 clocks
 1 queued tasks
-0 5 1574496001 1285744431
+0 1 1574496001 1285744431
 0
 -111
 1
@@ -24,7 +24,7 @@ Parse
 Infos
 schedule_measurement_task
 schedule_measurement_task
-23 variables
+21 variables
 NUM
 0
 0
@@ -88,12 +88,6 @@ ANON
 WAIF
 0
 13
-day
-0
-86400
-hour_of_day_GMT
-0
-8
 this:schedule_measurement_task();
 this.measurement_task_running = task_id();
 this:measurement_task(this.task_time_limit);
@@ -728,7 +722,7 @@ LambdaCore
 2
 last_restart_time
 0
-1574456752
+1574490623
 2
 name
 2
@@ -889,7 +883,7 @@ The known universe.
 0
 39487
 0
-1574457646
+1574490775
 36
 1
 #1
@@ -1136,7 +1130,7 @@ object_size
 0
 30723
 0
-1574457646
+1574490775
 36
 1
 #2
@@ -1164,7 +1158,7 @@ Wizard
 -1
 1
 mcp_snoop
-105
+106
 0
 0
 2
@@ -1558,9 +1552,9 @@ mcp_snoop
 0
 50000
 0
-1187351
+1189851
 0
-1574457646
+1574490775
 0
 900
 36
@@ -1579,6 +1573,9 @@ mcp_snoop
 5
 5
 2
+5
+5
+2
 4
 4
 1
@@ -1592,9 +1589,9 @@ Wizard
 4
 2
 0
-6652
+6786
 0
-1574457646
+1574490775
 36
 1
 #3
@@ -1888,7 +1885,7 @@ generic room
 0
 41192
 0
-1574457646
+1574490775
 36
 1
 #4
@@ -2040,7 +2037,7 @@ init_for_core
 -1
 1
 build_options
-91
+92
 4
 0
 2
@@ -2314,6 +2311,9 @@ build_options
 5
 5
 2
+5
+5
+2
 4
 4
 1
@@ -2328,9 +2328,9 @@ You see a player who should type '@describe me as ...'.
 4
 2
 0
-47443
+47475
 0
-1574457646
+1574490775
 36
 1
 #5
@@ -2443,7 +2443,7 @@ generic thing
 0
 6771
 0
-1574457646
+1574490775
 36
 1
 #6
@@ -2462,7 +2462,7 @@ generic player
 1
 1
 100
-102
+103
 init_for_core
 2
 173
@@ -2871,7 +2871,11 @@ reconfunc
 36
 29
 -1
-47
+@inline-o*ptions @editor-o*ptions
+2
+89
+-2
+48
 features
 previous_connection
 email_address
@@ -2919,7 +2923,8 @@ last_password_time
 last_connect_attempt
 out_of_band_session
 reading_input
-51
+inline_editor_options
+52
 4
 0
 36
@@ -3112,6 +3117,10 @@ impossible password to type
 0
 2
 0
+10
+0
+2
+0
 5
 2
 4
@@ -3128,9 +3137,9 @@ You see a player who should type '@describe me as ...'.
 4
 2
 0
-133038
+133664
 0
-1574457646
+1574490775
 36
 1
 #7
@@ -3256,7 +3265,7 @@ generic exit
 0
 10409
 0
-1574457646
+1574490775
 36
 1
 #8
@@ -3474,7 +3483,7 @@ generic container
 0
 13863
 0
-1574457646
+1574490775
 36
 1
 #9
@@ -3597,7 +3606,7 @@ There appears to be some writing on the note ...
 0
 9283
 0
-1574457646
+1574490775
 36
 1
 #10
@@ -4098,7 +4107,7 @@ This provides everything needed by #0:do_login_command.  See `help $login' on $c
 0
 58138
 0
-1574457646
+1574490775
 36
 1
 #11
@@ -4152,7 +4161,7 @@ A repository of last-resort player verbs to be called by $player:last_huh
 0
 6294
 0
-1574457646
+1574490775
 36
 1
 #12
@@ -4215,7 +4224,7 @@ Guest Log
 0
 5330
 0
-1574457646
+1574490775
 36
 1
 #13
@@ -4551,7 +4560,7 @@ This is the Generic BigList Utilities utility package.  See `help $biglist' for 
 0
 29877
 0
-1574457646
+1574490775
 36
 1
 #14
@@ -4927,7 +4936,7 @@ Calling #OBJ:restore_from(...) COMPLETELY AND IRREVOCABLY REMOVES ALL MESSAGES f
 0
 51966
 0
-1574457646
+1574490775
 36
 1
 #15
@@ -4986,7 +4995,7 @@ The Body Bag
 0
 3584
 0
-1574457646
+1574490775
 36
 1
 #16
@@ -5118,7 +5127,7 @@ Registration Database
 0
 12978
 0
-1574457646
+1574490775
 36
 1
 #17
@@ -5312,7 +5321,7 @@ Log of player creations.
 0
 5497
 0
-1574457646
+1574490775
 36
 1
 #18
@@ -5415,7 +5424,7 @@ A `help database' that knows about all of the documented verbs.
 0
 5292
 0
-1574457646
+1574490775
 36
 1
 #19
@@ -8903,7 +8912,7 @@ Help database for LambdaCore utility objects and generics.
 0
 121232
 0
-1574457646
+1574490775
 36
 1
 #20
@@ -8920,7 +8929,7 @@ string utilities
 78
 4
 0
-77
+78
 space(noansi)
 36
 173
@@ -9214,19 +9223,23 @@ redirect_ansi left right center centre columnize columnise space
 165
 -1
 _tomap
-2
+36
 173
 -1
 autofit fit_to_screen
-2
+36
 173
 -1
 adjust_column_lengths
-2
+36
 173
 -1
 neat
-2
+36
+173
+-1
+capitalize_each
+36
 173
 -1
 6
@@ -9489,9 +9502,9 @@ This is the string utilities utility package.  See `help $string_utils' for more
 4
 2
 0
-104469
+105387
 0
-1574457646
+1574490775
 36
 1
 #21
@@ -9661,7 +9674,7 @@ This is the building utilities utility package.  See `help $building_utils' for 
 0
 18699
 0
-1574457646
+1574490775
 36
 1
 #22
@@ -12476,7 +12489,7 @@ This provides help on the programmer commands available on $prog and related top
 0
 103005
 0
-1574457646
+1574490775
 36
 1
 #23
@@ -13615,7 +13628,7 @@ This describes the various commands available on $wiz.
 0
 36730
 0
-1574457646
+1574490775
 36
 1
 #24
@@ -14325,7 +14338,7 @@ This is the Wizard Utilities utility package.  See `help $wiz_utils' for more de
 0
 73488
 0
-1574457646
+1574490775
 36
 1
 #25
@@ -14470,7 +14483,7 @@ The site blacklist and the graylist live as well (see `help blacklist').
 0
 17985
 0
-1574457646
+1574490775
 36
 1
 #26
@@ -14487,7 +14500,7 @@ Math Utilities
 78
 4
 0
-43
+44
 xsin
 36
 173
@@ -14657,6 +14670,10 @@ sum_int sum
 173
 -1
 rint
+36
+173
+-1
+to_percent
 36
 173
 -1
@@ -16762,9 +16779,9 @@ This is the Math Utilities utility package.  See `help $math_utils' for more det
 4
 2
 0
-55523
+56037
 0
-1574457646
+1574490775
 36
 1
 #27
@@ -16886,7 +16903,7 @@ This is the Set Utilities utility package.  See `help $set_utils' for more detai
 0
 7782
 0
-1574457646
+1574490775
 36
 1
 #28
@@ -19404,7 +19421,7 @@ For the {"*verb*",...} form, the current verbs available are
 0
 107206
 0
-1574457646
+1574490775
 36
 1
 #29
@@ -19568,7 +19585,7 @@ Record of who's been made a @programmer.
 0
 9059
 0
-1574457646
+1574490775
 36
 1
 #30
@@ -19688,7 +19705,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 13195
 0
-1574457646
+1574490775
 36
 1
 #31
@@ -19800,7 +19817,7 @@ default_description
 request
 extra_confunc_msg
 free_to_use
-95
+96
 2
 neuter
 36
@@ -20106,6 +20123,9 @@ By definition, guests appear nondescript.
 5
 5
 36
+5
+5
+36
 4
 4
 1
@@ -20122,9 +20142,9 @@ By definition, guests appear nondescript.
 4
 2
 0
-21613
+21645
 0
-1574457646
+1574490775
 36
 1
 #32
@@ -20184,7 +20204,7 @@ For help on using the speller, use 'help spelling' and 'help @spell'.
 0
 6042
 0
-1574457646
+1574490775
 36
 1
 #33
@@ -20392,7 +20412,7 @@ This is the sequence utilities utility package.  See `help $seq_utils' for more 
 0
 22892
 0
-1574457646
+1574490775
 36
 1
 #34
@@ -20533,7 +20553,7 @@ Record of whose quota has been messed with and why.
 0
 2286
 0
-1574457646
+1574490775
 36
 1
 #35
@@ -20703,7 +20723,7 @@ An object useful for pronoun substitution for switching between third and second
 0
 9531
 0
-1574457646
+1574490775
 36
 1
 #36
@@ -20726,7 +20746,7 @@ init_for_core
 173
 -1
 0
-95
+96
 5
 36
 1
@@ -21007,7 +21027,7 @@ init_for_core
 0
 100000008
 0
--28398606
+-28397964
 0
 1008125633
 0
@@ -21028,6 +21048,9 @@ init_for_core
 5
 5
 36
+5
+5
+36
 4
 4
 1
@@ -21042,9 +21065,9 @@ A system character used to own non-wizardly system verbs , properties, and objec
 4
 2
 0
-4156
+4188
 0
-1574457646
+1574490775
 36
 1
 #37
@@ -21191,7 +21214,7 @@ A generic `database' (well, really more like a string-indexed array if you want 
 0
 23185
 0
-1574457646
+1574490775
 36
 1
 #38
@@ -21235,7 +21258,7 @@ set_*
 -1
 1
 queued_task_limit
-65
+66
 0
 0
 2
@@ -21445,6 +21468,9 @@ Everyman ($no_one) can not receive mail.
 5
 5
 36
+5
+5
+36
 4
 4
 4
@@ -21465,9 +21491,9 @@ The character used for "safe" evals.
 4
 2
 0
-8366
+8398
 0
-1574457646
+1574490775
 36
 1
 #39
@@ -21727,7 +21753,7 @@ See `help $player_db' for more information.
 0
 12184
 0
-1574457646
+1574490775
 36
 1
 #40
@@ -22000,7 +22026,7 @@ message_keep_date
 messages_kept
 current_message
 messages
-64
+65
 0
 0
 2
@@ -22201,6 +22227,9 @@ messages
 5
 2
 5
+5
+2
+5
 0
 0
 2
@@ -22217,9 +22246,9 @@ Generic Mail Receiving Player
 4
 2
 0
-97211
+97243
 0
-1574457646
+1574490775
 36
 1
 #41
@@ -22712,7 +22741,7 @@ This is the gender utilities utility package.  See `help $gender_utils' for more
 0
 17787
 0
-1574457646
+1574490775
 36
 1
 #42
@@ -22801,7 +22830,7 @@ This is the permissions utilities utility package.  See `help $perm_utils' for m
 0
 4790
 0
-1574457646
+1574490775
 36
 1
 #43
@@ -23396,7 +23425,7 @@ This is the time utilities utility package.  See `help $time_utils' for more det
 0
 30642
 0
-1574457646
+1574490775
 36
 1
 #44
@@ -24344,7 +24373,7 @@ Editor Help
 0
 26270
 0
-1574457646
+1574490775
 36
 1
 #45
@@ -24642,7 +24671,7 @@ This can either be a mailing list or a mail folder, depending on what mood you'r
 0
 44127
 0
-1574457646
+1574490775
 36
 1
 #46
@@ -24997,7 +25026,7 @@ Avaliable aliases:
 0
 69430
 0
-1574457646
+1574490775
 36
 1
 #47
@@ -25443,7 +25472,7 @@ Mail Room
 0
 31755
 0
-1574457646
+1574490775
 36
 1
 #48
@@ -25770,9 +25799,9 @@ nedit
 4
 2
 0
-14786
+15330
 0
-1574457646
+1574490775
 36
 1
 #49
@@ -26099,9 +26128,9 @@ verb edit
 4
 2
 0
-20107
+20487
 0
-1574457646
+1574490775
 36
 1
 #50
@@ -26740,7 +26769,7 @@ edit
 0
 74141
 0
-1574457646
+1574490775
 36
 1
 #51
@@ -26895,7 +26924,7 @@ matching utilities
 0
 12588
 0
-1574457646
+1574490775
 36
 1
 #52
@@ -27153,7 +27182,7 @@ This is the object utilities utility package.  See `help $object_utils' for more
 0
 29793
 0
-1574457646
+1574490775
 36
 1
 #53
@@ -27290,7 +27319,7 @@ This the lock utilities package, used by the MOOwide locking mechanisms. See `he
 0
 13212
 0
-1574457646
+1574490775
 36
 1
 #54
@@ -27394,7 +27423,7 @@ Some writing on the letter explains that you should 'read letter', and when you'
 0
 3579
 0
-1574457646
+1574490775
 36
 1
 #55
@@ -27709,7 +27738,7 @@ This is the list utilities utility package.  See `help $list_utils' for more det
 0
 41070
 0
-1574457646
+1574490775
 36
 1
 #56
@@ -27806,29 +27835,23 @@ feature_task
 4
 9
 0
-2050250389
+181676767
 2
-@copt
+@editor-o
 4
-3
+0
 2
-$login:connection_name_lookup
-2
-to
-2
-$login:delete_name_lookup
-2
-$login:connection_name_lookup to $login:delete_name_lookup
+
 1
--3
+-1
 2
-$login:connection_name_lookup
+
 2
-to
+
 1
--3
+-1
 2
-$login:delete_name_lookup
+
 36
 0
 4
@@ -27926,9 +27949,9 @@ This is the command utilities utility package.  See `help $command_utils' for mo
 4
 2
 0
-25670
+25453
 0
-1574457646
+1574490775
 36
 1
 #57
@@ -28118,7 +28141,7 @@ toad_victim_msg
 toad_msg
 mail_identity
 advertised
-104
+105
 2
 
 2
@@ -28439,6 +28462,9 @@ really impossible password to type
 5
 5
 2
+5
+5
+2
 4
 4
 1
@@ -28453,9 +28479,9 @@ You see a wizard who chooses not to reveal its true appearance.
 4
 2
 0
-79842
+79874
 0
-1574457646
+1574490775
 36
 1
 #58
@@ -28638,7 +28664,7 @@ eval_subs
 eval_ticks
 eval_env
 prog_options
-95
+96
 4
 0
 36
@@ -28939,6 +28965,9 @@ here=player.location;me=player
 5
 5
 2
+5
+5
+2
 4
 4
 2
@@ -28955,9 +28984,9 @@ You see a player who is too experienced to have any excuse for not having a desc
 4
 2
 0
-83072
+82960
 0
-1574457646
+1574490775
 36
 1
 #59
@@ -29709,7 +29738,7 @@ This is the code utilities utility package.  See `help $code_utils' for more det
 0
 82159
 0
-1574457646
+1574490775
 36
 1
 #60
@@ -32358,7 +32387,7 @@ See the description of $generic_help for more detail.
 0
 96153
 0
-1574457646
+1574490775
 36
 1
 #61
@@ -32878,7 +32907,7 @@ It's the current issue of the News, dated %d.
 0
 28263
 0
-1574457646
+1574490775
 36
 1
 #62
@@ -32977,7 +33006,7 @@ This is all there is right now.
 0
 6359
 0
-1574457646
+1574490775
 36
 1
 #63
@@ -33126,7 +33155,7 @@ Object reuse. Call $recycler:_create() to create an object (semantics the same a
 0
 12640
 0
-1574457646
+1574490775
 36
 1
 # 64 recycled
@@ -33499,7 +33528,7 @@ Options for mailing
 0
 20503
 0
-1574457646
+1574490775
 36
 1
 #66
@@ -33608,7 +33637,7 @@ Edit Options
 0
 2824
 0
-1574457646
+1574490775
 36
 1
 #67
@@ -33693,7 +33722,7 @@ Display Options
 0
 1273
 0
-1574457646
+1574490775
 36
 1
 #68
@@ -33811,7 +33840,7 @@ an option package in need of a description.  See `help $generic_option'...
 0
 16982
 0
-1574457646
+1574490775
 36
 1
 #69
@@ -34009,7 +34038,7 @@ raise(error) actually raises the error.
 0
 11680
 0
-1574457646
+1574490775
 36
 1
 #70
@@ -34120,7 +34149,7 @@ Notes on annoying sites.
 0
 1824
 0
-1574457646
+1574490775
 36
 1
 #71
@@ -34252,7 +34281,7 @@ drop_off_msg
 move_player_task
 moveto_task
 cleaning_index
-112
+113
 4
 0
 71
@@ -34620,7 +34649,7 @@ Impossible password to type
 0
 183000
 0
-31475
+31507
 0
 1574036738
 0
@@ -34642,6 +34671,9 @@ Impossible password to type
 5
 5
 71
+5
+5
+71
 4
 4
 1
@@ -34656,9 +34688,9 @@ A very clean, neat, tidy person who doesn't mind lugging players and their gear 
 4
 2
 0
-31475
+31507
 0
-1574457646
+1574490775
 36
 1
 #72
@@ -35092,7 +35124,7 @@ Parameters:
 0
 31183
 0
-1574457646
+1574490775
 36
 1
 #73
@@ -35179,7 +35211,7 @@ This is the object you want to use as a parent in order to @create a place for y
 0
 5344
 0
-1574457646
+1574490775
 36
 1
 #74
@@ -35321,7 +35353,7 @@ This is the Generic Feature Object.  It is not meant to be used as a feature obj
 0
 10943
 0
-1574457646
+1574490775
 36
 1
 #75
@@ -35623,7 +35655,7 @@ Option package for $prog commands.  See `help @prog-options'.
 0
 10068
 0
-1574457646
+1574490775
 36
 1
 #77
@@ -35752,7 +35784,7 @@ Option package for $builder commands.  See `help @build-options'.
 0
 5909
 0
-1574457646
+1574490775
 36
 1
 #78
@@ -35844,7 +35876,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 835
 0
-1574457646
+1574490775
 36
 1
 #79
@@ -36246,7 +36278,7 @@ This is the Byte Quota Utilities utility package.  See `help $quota_utils' for m
 0
 42575
 0
-1574457646
+1574490775
 36
 1
 #80
@@ -36370,7 +36402,7 @@ Internal:
 0
 8754
 0
-1574457646
+1574490775
 36
 1
 #81
@@ -36476,7 +36508,7 @@ This is the Object Quota Utilities utility package.  See `help $object_quota_uti
 0
 9928
 0
-1574457646
+1574490775
 36
 1
 #82
@@ -36684,7 +36716,7 @@ Server Options
 0
 9110
 0
-1574457646
+1574490775
 36
 1
 #83
@@ -36811,7 +36843,7 @@ warehouse
 0
 2586
 0
-1574457646
+1574490775
 36
 1
 #84
@@ -38124,7 +38156,7 @@ This help database contains topics about the generic builder and building comman
 0
 46286
 0
-1574457646
+1574490775
 36
 1
 #85
@@ -39357,7 +39389,7 @@ This help database contains topics relating to the general use of the mail syste
 0
 42114
 0
-1574457646
+1574490775
 36
 1
 #86
@@ -41577,7 +41609,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 73163
 0
-1574457646
+1574490775
 36
 1
 #87
@@ -41759,7 +41791,7 @@ The password verifier verifies passwords.
 0
 14668
 0
-1574457646
+1574490775
 36
 1
 #88
@@ -42120,7 +42152,7 @@ page_refused_msg
 whisper_refused_msg
 mail_refused_msg
 spurned_objects
-90
+91
 0
 30
 36
@@ -42424,6 +42456,9 @@ You teleport %n.
 5
 5
 36
+5
+5
+36
 4
 4
 2
@@ -42440,9 +42475,9 @@ You see a player who should type '@describe me as ...'.
 4
 2
 0
-91875
+91907
 0
-1574457646
+1574490775
 36
 1
 #89
@@ -42552,7 +42587,7 @@ This feature contains various verbs used in stage talk, which allows players to 
 0
 5959
 0
-1574457646
+1574490775
 36
 1
 #90
@@ -42646,7 +42681,7 @@ Verbs useful to people using a windowing system to paste text at people.
 0
 5734
 0
-1574457646
+1574490775
 36
 1
 #91
@@ -42934,7 +42969,7 @@ This is a utilities package for dealing with lists as representations of vectors
 0
 38343
 0
-1574457646
+1574490775
 36
 1
 #92
@@ -43819,7 +43854,7 @@ Frand Help DB
 0
 30023
 0
-1574457646
+1574490775
 36
 1
 #93
@@ -45959,7 +45994,7 @@ This is a utilities package for converting from one unit of measurement to anoth
 0
 44958
 0
-1574457646
+1574490775
 36
 1
 #94
@@ -46066,7 +46101,7 @@ Generic Gendered Object
 0
 3568
 0
-1574457646
+1574490775
 36
 1
 #95
@@ -46380,7 +46415,7 @@ List Editor
 0
 17357
 0
-1574457646
+1574490775
 36
 1
 #96
@@ -46399,7 +46434,7 @@ Editor_Owner
 0
 0
 0
-91
+92
 5
 96
 5
@@ -46679,7 +46714,7 @@ impossible password to type
 0
 0
 0
-129945
+130901
 0
 1574036738
 0
@@ -46696,6 +46731,9 @@ impossible password to type
 5
 2
 1
+5
+96
+5
 5
 96
 5
@@ -46716,9 +46754,9 @@ This player owns all editor-related verbs.
 4
 2
 0
-3554
+3586
 0
-1574457646
+1574490775
 36
 1
 #97
@@ -46735,7 +46773,7 @@ HTTP Server
 5
 4
 0
-3
+4
 handle_connection
 2
 173
@@ -46748,6 +46786,10 @@ gen_key
 2
 173
 -1
+init_for_core
+2
+173
+-1
 5
 guests
 master_key
@@ -46756,54 +46798,6 @@ nonalpha
 help_msg
 17
 4
-6
-4
-3
-2
-ubuntu1619923.aspadmin.com
-0
-1541069885
-0
-0
-4
-3
-2
-ec2-3-93-51-168.compute-1.amazonaws.com
-0
-1549626857
-0
-0
-4
-3
-2
-ec2-34-219-177-72.us-west-2.compute.amazonaws.com
-0
-1549629546
-0
-0
-4
-3
-2
-122.228.19.80
-0
-1549809774
-0
-0
-4
-3
-2
-122.228.19.79
-0
-1549894293
-0
-0
-4
-3
-2
-scan-96.security.ipip.net
-0
-1574031299
-0
 0
 2
 5
@@ -46887,9 +46881,9 @@ HTTP Server
 4
 2
 0
-8333
+8949
 0
-1574457646
+1574490775
 36
 1
 #98
@@ -46908,7 +46902,7 @@ Core
 0
 0
 0
-95
+96
 5
 36
 1
@@ -47207,9 +47201,9 @@ Core
 0
 50000
 0
-230125
+234339
 0
-1574457646
+1574490775
 0
 100
 36
@@ -47228,6 +47222,9 @@ Core
 5
 5
 98
+5
+5
+98
 4
 5
 2
@@ -47238,9 +47235,9 @@ Core
 4
 2
 0
-3637
+3669
 0
-1574457646
+1574490775
 36
 1
 #99
@@ -47257,7 +47254,7 @@ ANSI Utilities
 78
 4
 0
-36
+38
 length
 98
 173
@@ -47399,7 +47396,15 @@ fill_string
 37
 -1
 approximate_256
-2
+98
+173
+-1
+color_selector
+98
+173
+-1
+hr_to_code
+98
 173
 -1
 69
@@ -48054,7 +48059,7 @@ First version, added $emu and hacked $player:notify to call it.
 98
 1
 4
-9
+25
 0
 962377955
 0
@@ -48073,6 +48078,38 @@ First version, added $emu and hacked $player:notify to call it.
 43817590
 0
 270445884
+0
+241884140
+0
+775365143
+0
+2032788179
+0
+1909085912
+0
+863331124
+0
+695612695
+0
+977597607
+0
+1536592410
+0
+2146355120
+0
+1025863293
+0
+150839002
+0
+178482458
+0
+1583173745
+0
+609769914
+0
+1213285205
+0
+1375370661
 98
 1
 4
@@ -48256,9 +48293,9 @@ au
 4
 2
 0
-71269
+75419
 0
-1574457646
+1574490775
 36
 1
 #100
@@ -48354,7 +48391,7 @@ emote
 ansi_options
 ansi_title
 replace_codes
-54
+55
 4
 0
 98
@@ -48509,6 +48546,9 @@ replace_codes
 5
 98
 5
+5
+98
+5
 0
 0
 98
@@ -48528,9 +48568,9 @@ A player with the ability to see things in [red]c[bold][yellow]o[green]l[blue]o[
 4
 2
 0
-29070
+29102
 0
-1574457646
+1574490775
 36
 1
 #101
@@ -49211,7 +49251,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 26786
 0
-1574457646
+1574490775
 36
 1
 #102
@@ -49430,7 +49470,7 @@ An option package for controlling and customizing the ANSI PC.
 0
 5619
 0
-1574457646
+1574490775
 36
 1
 #103
@@ -49494,7 +49534,7 @@ dispatch
 0
 5192
 0
-1574457646
+1574490775
 36
 1
 #104
@@ -49601,7 +49641,7 @@ package
 0
 6825
 0
-1574457646
+1574490775
 36
 1
 #105
@@ -49708,7 +49748,7 @@ negotiate
 0
 3228
 0
-1574457646
+1574490775
 36
 1
 #106
@@ -49870,7 +49910,7 @@ cord
 0
 7348
 0
-1574457646
+1574490775
 36
 1
 #107
@@ -49917,7 +49957,7 @@ next_datakey
 unquoted_string
 6
 0
-10034
+10060
 98
 1
 2
@@ -49944,7 +49984,7 @@ parser
 0
 6696
 0
-1574457646
+1574490775
 36
 1
 #108
@@ -50199,7 +50239,7 @@ registry
 0
 7206
 0
-1574457646
+1574490775
 36
 1
 #110
@@ -50348,7 +50388,7 @@ mcp
 0
 10301
 0
-1574457646
+1574490775
 36
 1
 #111
@@ -52290,7 +52330,7 @@ Component
 0
 94763
 0
-1574457646
+1574490775
 36
 1
 #113
@@ -52547,7 +52587,7 @@ Non JHCore installations might choose to set .v_filter_in / .v_filter_out to fal
 0
 15923
 0
-1574457646
+1574490775
 36
 1
 #114
@@ -53543,7 +53583,7 @@ MCP Help Database
 0
 23287
 0
-1574457646
+1574490775
 36
 1
 #117
@@ -53641,7 +53681,7 @@ Generic Waif
 0
 2521
 0
-1574457646
+1574490775
 36
 1
 #119
@@ -53752,7 +53792,7 @@ client_stats
 4
 3
 0
-1574456756
+1574490627
 1
 2
 4
@@ -53845,7 +53885,7 @@ dns-com-vmoo-client
 0
 6384
 0
-1574457646
+1574490775
 36
 1
 #122
@@ -53938,7 +53978,7 @@ dns-com-awns-status
 0
 1354
 0
-1574457646
+1574490775
 36
 1
 #124
@@ -53955,7 +53995,7 @@ Generic Editor Utilities
 78
 4
 0
-34
+35
 editor
 2
 173
@@ -54092,19 +54132,16 @@ cmd_replace
 2
 173
 -1
-7
-user_options
+init_for_core
+2
+173
+-1
+4
 default_options
-beta
-opted_out
 last_edits
 sessions
 help
-12
-4
-0
-2
-5
+9
 10
 9
 2
@@ -54148,23 +54185,7 @@ no_line_notifies
 4
 0
 2
-5
 4
-0
-2
-5
-4
-1
-4
-3
-1
-2
-0
-1654007808
-9
-1557979154.824944258
-2
-5
 4
 0
 2
@@ -54378,9 +54399,9 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 4
 2
 0
-49766
+50205
 0
-1574457646
+1574490775
 36
 1
 #125
@@ -54509,11 +54530,11 @@ Menu Utilities
 0
 7906
 0
-1574457646
+1574490775
 36
 1
 0
-1992
+1999
 #0:0
 "...This code should only be run as a server task...";
 if (callers())
@@ -55479,7 +55500,6 @@ for p in (packages)
 player:tell(p[1].name, " (", p[1], ") ", p[2][1], ".", p[2][2]);
 endfor
 player:tell("---");
-"wizard wuz here";
 .
 #2:1
 for p in (connected_players())
@@ -59391,6 +59411,9 @@ if ($command_utils:object_match_failed(dobj = player:my_match_object(dobjstr), d
 return;
 endif
 player:tell($string_utils:nn(dobj), " is owned by ", $string_utils:nn(dobj.owner), ".");
+.
+#6:102
+return $edit_utils:options(@args);
 .
 #7:0
 set_task_perms(caller_perms());
@@ -64543,6 +64566,18 @@ $sin(0);
 endfor
 return ret;
 .
+#20:77
+"This will capitalize each word in a string.";
+"Add words to the ignore list if you want them to be left lowercase.";
+{string, ?ignore_words = {}, ?always_capitalize_first = 1} = args;
+words = $string_utils:words(string);
+for x in [1..length(words)]
+if ((!(words[x] in ignore_words)) || ((x == 1) && always_capitalize_first))
+words[x] = $string_utils:capitalize(words[x]);
+endif
+endfor
+return $string_utils:from_list(words, " ");
+.
 #21:0
 "make_exit(spec, source, dest[, use-$recycler-pool [, kind]])";
 "";
@@ -66959,6 +66994,10 @@ return total;
 "Returns the given floating-point number rounded to the nearest integer, as a floating-point number.  In case of ties, rounds away from 0.";
 {f} = args;
 return trunc((f > 0.0) ? f + 0.5 | (f - 0.5));
+.
+#26:43
+{per1, per2} = args;
+return (tofloat(per1) / tofloat(per2)) * 100.0;
 .
 #27:0
 "Returns the set union of all of the lists provided as arguments.";
@@ -73869,6 +73908,17 @@ player:tell_lines({("Usage:  " + args[2]) + " <note>   (where <note> is some not
 elseif (1 == (note = this:note_match_failed(string)))
 elseif (ERR == typeof(text = this:note_text(note)))
 player:tell("Couldn't retrieve text:  ", text);
+elseif ((player:edit_option("local") == 0) && $edit_utils:get_option("default_editor", player))
+fork (0)
+text = $edit_utils:editor((!text) ? {} | text);
+result = $note_editor:set_note_text(note, text);
+if (typeof(result) == ERR)
+player:tell("Unable to set text: ", e[2]);
+else
+player:tell("Edited ", note[2], " of ", $su:nn(note[1]), ".");
+endif
+endfork
+kill_task(task_id());
 else
 return {note, text};
 endif
@@ -74149,7 +74199,14 @@ if (typeof(code) != ERR)
 if ((object in ancestors) != 1)
 player:tell("Object ", ancestors[1], " does not define that verb, but its ancestor ", object, " does.");
 endif
+if ((!player:edit_option("local")) && $edit_utils:get_option("default_editor", player))
+fork (0)
+$edit_utils:editor(code, tostr("[Edit your code; use ", $edit_utils:get_option("cmd_char", player), "compile' to compile.]"), $edit_utils:get_option("cmd_char", player), 1, {{object, vname}});
+endfork
+kill_task(task_id());
+else
 return {object, argspec ? {vname, @argspec} | vname, code};
+endif
 endif
 endfor
 endif
@@ -80307,7 +80364,7 @@ endif
 set_task_perms(player);
 "Let 'em @kill it.";
 count = (maxobj = toint(max_object()) + 1) - length(recycled_objects());
-player:notify(tostr("There are ", count, " valid objects out of ", maxobj, " allocated object numbers (", $math_utils:precision($math_utils:to_percent(count, maxobj), 2), "%)."));
+player:notify(tostr("There are ", count, " valid objects out of ", maxobj, " allocated object numbers."));
 .
 #58:16
 "@gethelp [<topic>] [from <db or dblist>]";
@@ -89301,6 +89358,12 @@ endif
 endfor
 return key;
 .
+#97:3
+if (caller_perms().wizard)
+this.guests = {};
+pass(@args);
+endif
+.
 #99:0
 return length(index(a = args[1], "[") ? this:delete(a) | a);
 .
@@ -90211,6 +90274,114 @@ green = (toint(g) * 8) / 256;
 blue = (toint(b) * 7) / 256;
 ret = ((red << 5) |. (green << 2)) |. blue;
 return ret;
+.
+#99:36
+{?raw = 0, ?input = 0, ?foreground_color = 0} = args;
+colors = {"Red", "Green", "Blue", "Yellow", "Cyan", "Purple", "Gray", "White"};
+backgrounds = {"Red", "Green", "Blue", "Yellow", "Cyan", "Purple", "White"};
+menu = codes = {};
+for x in (colors)
+if (!foreground_color)
+menu = {@menu, tostr(this:hr_to_code(code = x), x, "[normal]")};
+codes = {@codes, code};
+menu = {@menu, tostr(this:hr_to_code(code = "bold|" + x), "Bold ", x, "[normal]")};
+codes = {@codes, code};
+endif
+if (x in backgrounds)
+menu = {@menu, tostr(this:hr_to_code(code = "b:" + x), (x == "white") ? "[gray]" | (foreground_color ? this:Hr_to_code(foreground_color) | "[white]"), "Background ", x, "[normal]")};
+codes = {@codes, code};
+endif
+endfor
+menu = {@menu, xterm = "Xterm 256 Value"};
+if (player:ansi_option("truecolor"))
+menu = {@menu, rgb = "24-bit [red]R[normal][green]G[normal][blue]B[normal] Value"};
+endif
+menu = {@menu, "None"};
+sel = $menu_utils:menu(menu, ["hidden_menu" -> input, "input" -> input]);
+if (sel in {0, -1})
+return 0;
+elseif (sel <= length(codes))
+retcode = codes[sel];
+if (retcode[1..2] == "b:")
+retcode = ((foreground_color ? foreground_color | "white") + "|") + retcode;
+endif
+if (raw)
+return $ansi_utils:hr_to_code(retcode);
+else
+return retcode;
+endif
+elseif (menu[sel] == "none")
+return "";
+elseif (menu[sel] == xterm)
+player:tell("Please input an Xterm 256 value in between 0-255.");
+val = $command_utils:read();
+xtermint = $code_utils:toint(val);
+if (((xtermint == E_TYPE) || (xtermint > 255)) || (xtermint < 0))
+return player:tell("Invalid input. You must enter a number that is in between 0 and 255.");
+endif
+if (raw)
+return tostr("[:", xtermint, "]");
+else
+return tostr(":", xtermint);
+endif
+elseif (menu[sel] == rgb)
+red = green = blue = 0;
+invalidmsg = "Invalid color value.";
+while (((!red) || (!green)) || (!blue))
+if (!red)
+player:tell("Enter a [red]red[normal] value between 0 and 255:");
+red = toint($command_utils:read());
+if ((red < 0) || (red > 255))
+player:tell(invalidmsg);
+red = 0;
+continue;
+endif
+endif
+if (!green)
+player:tell("Enter a [green]green[normal] value between 0 and 255:");
+green = toint($command_utils:read());
+if ((green < 0) || (green > 255))
+player:tell(invalidmsg);
+green = 0;
+continue;
+endif
+endif
+if (!blue)
+player:tell("Enter a [blue]blue[normal] value between 0 and 255:");
+blue = toint($command_utils:read());
+if ((blue < 0) || (blue > 255))
+player:tell(invalidmsg);
+blue = 0;
+continue;
+endif
+endif
+endwhile
+if (raw)
+return tostr("[", red, ":", green, ":", blue, "]");
+else
+return tostr(red, ":", green, ":", blue);
+endif
+endif
+.
+#99:37
+"$ansi_utils:hr_to_code(colorstr) - Converts a human readable color sequence to a properly formatted escape code.";
+{colorstr} = args;
+if (colorstr in {0, ""})
+return E_INVARG;
+endif
+if (colorstr[1] == "[")
+colorstr = colorstr[2..$ - 1];
+endif
+if (index(colorstr, "|"))
+ret = "";
+for x in ($string_utils:explode(colorstr, "|"))
+ret = ((ret + "[") + x) + "]";
+endfor
+else
+ret = ("[" + colorstr) + "]";
+endif
+return ret;
+"Last modified 11/01/18 1:38 a.m. by Sinistral (#2)";
 .
 #100:0
 ":ansi_option(name) => returns the value of the specified @ansi option";
@@ -93901,8 +94072,8 @@ options = {@options, ["name" -> "Set Command Prefix", "identifier" -> "prefix", 
 options = {@options, ["name" -> "Set Escape Character", "identifier" -> "escape", "state" -> tostr(this:get_option("escape_char"))]};
 options = {@options, ["name" -> "Advanced Mode (suppresses warnings and help prompts)", "identifier" -> "expert", "state" -> this:get_option("expert")]};
 options = {@options, ["name" -> "Suppress Line Added Notifications", "identifier" -> "suppress", "state" -> this:get_option("no_line_notifies")]};
-options = {@options, ["name" -> "Color Line Numbers", "identifier" -> "color_line", "state" -> ((color = this:get_option("color_line")) != "") ? tostr($ansi_utils:hr_to_code(color), color, "") | 0]};
-options = {@options, ["name" -> "Color Line Indicator", "identifier" -> "color_indicator", "state" -> ((color = this:get_option("color_indicator")) != "") ? tostr($ansi_utils:hr_to_code(color), color, "") | 0]};
+options = {@options, ["name" -> "Color Line Numbers", "identifier" -> "color_line", "state" -> ((color = this:get_option("color_line")) != "") ? tostr($ansi_utils:hr_to_code(color), color, "[normal]") | 0]};
+options = {@options, ["name" -> "Color Line Indicator", "identifier" -> "color_indicator", "state" -> ((color = this:get_option("color_indicator")) != "") ? tostr($ansi_utils:hr_to_code(color), color, "[normal]") | 0]};
 options = {@options, ["name" -> "Set As Default Editor For Verbs and Notes", "identifier" -> "default_editor", "state" -> this:get_option("default_editor")]};
 if (player.programmer)
 options = {@options, ["name" -> "Jump to Error Line", "identifier" -> "jump_to_error", "state" -> this:get_option("jump_to_error")]};
@@ -94030,7 +94201,8 @@ return `$code_utils:task_valid(this.last_edits[player in $list_utils:slice(this.
 ret = 0;
 try
 set_task_perms(player);
-if (result = set_verb_code(object, verbname, $simpleedit:verbcode_external_to_internal(state.text)))
+simpleedit = $mcp.registry:match_package("dns-org-mud-moo-simpleedit");
+if (result = set_verb_code(object, verbname, (typeof(simpleedit) == ERR) ? state.text | simpleedit:verbcode_external_to_internal(state.text)))
 player:notify_lines(result);
 player:notify(tostr(length(result), " error(s)."));
 player:notify("Verb not programmed.");
@@ -94110,7 +94282,7 @@ passthrough = $string_utils:from_list(state.arg, " ");
 force_input(player, passthrough);
 suspend(0);
 while ($player_utils:reading_input(player) && player:is_listening())
-$sin();
+yin();
 endwhile
 .
 #124:15
@@ -94536,9 +94708,16 @@ if (newline != state.text[I])
 changed = changed + 1;
 state.text[I] = newline;
 endif
-$sin();
+yin();
 endfor
 player:tell("Replacement ", success ? "complete" | "failed", ". ", changed, " ", $s("line", changed), " affected.");
+endif
+.
+#124:34
+if (caller_perms().wizard)
+this.last_edits = {};
+this.sessions = {};
+pass(@args);
 endif
 .
 #125:0
