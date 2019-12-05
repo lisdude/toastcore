@@ -163,3 +163,5 @@ Properly transform //-style comments when using @program (primarily for LambdaCo
 [$mcp.registry.core_package_names] Removed
 [$mcp.status, $mcp.dispatch] Added
 [$mcp.registry:init_for_core] Wipe existing packages and re-add any that are left after creating the core.
+[#0:do_login_command] Don't remove the player from login name_lookup_players unless a connection was successful.
+[#0:user_disconnected] Remove the player from login name_lookup_players if they happen to be there.
