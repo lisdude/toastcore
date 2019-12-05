@@ -153,3 +153,7 @@ Properly transform //-style comments when using @program (primarily for LambdaCo
 [$note_editor:parse_invoke] Modified to check if inline editor is default.
 [$verb_editor:parse_invoke] Modified to check if inline editor is default.
 [$edit_utils] Various small changes to make it work. Should be fairly obvious from the Git commit.
+[#0:core_object_info] Allow proxy_for_core to return lists and ignore its value if it does. Add an extra return argument for 'namespaces'.
+[$obj_proto, $int_proto, $str_proto] Include proxy_for_core in the verbs to ignore.
+[$wiz:mcd_2] Add namespaces
+[#0:init_for_core] Remove class registry
