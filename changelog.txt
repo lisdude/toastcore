@@ -157,3 +157,9 @@ Properly transform //-style comments when using @program (primarily for LambdaCo
 [$obj_proto, $int_proto, $str_proto] Include proxy_for_core in the verbs to ignore.
 [$wiz:mcd_2] Add namespaces
 [#0:init_for_core] Remove class registry
+[$mcp:include_for_core] Added.
+[$mcp:nominate_for_core, $mcp.registry:nominate_for_core] Removed
+[$wiz:mcd_2] Fix a bug where a core object could have already been renumbered before checking its properties.
+[$mcp.registry.core_package_names] Removed
+[$mcp.status, $mcp.dispatch] Added
+[$mcp.registry:init_for_core] Wipe existing packages and re-add any that are left after creating the core.
