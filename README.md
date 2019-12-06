@@ -25,3 +25,7 @@ An exhaustive list of changes can be found in the [changelog](changelog.txt).
 
 ## Requirements
 - [ToastStunt v2.6.0 or later](https://github.com/lisdude/toaststunt)
+
+## Notes
+
+- **WARNING**: Be aware that, if you are running the MOO database on your local machine, ToastStunt [will not display the welcome screen due to the way proxy rewriting works](https://github.com/lisdude/toaststunt#login-screen-not-showing). To connect to your fresh ToastCore's primary wizard character, type: `connect wizard`
