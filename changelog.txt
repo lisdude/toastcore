@@ -165,3 +165,9 @@ Properly transform //-style comments when using @program (primarily for LambdaCo
 [$mcp.registry:init_for_core] Wipe existing packages and re-add any that are left after creating the core.
 [#0:do_login_command] Don't remove the player from login name_lookup_players unless a connection was successful.
 [#0:user_disconnected] Remove the player from login name_lookup_players if they happen to be there.
+[$login:connect] Remove references to $local.mudlist
+[$login.welcome_message] Replace LambdaCore with ToastCore
+[$help_db["core"]] Mention .argon2
+[$object_utils:locations] Use the locations() builtin
+[$object_utils:has_callable_verb] If the 'object' is a waif, check its .class for the verb instead.
+[#0:lookup] Removed (was part of Composed)
