@@ -172,3 +172,4 @@ Properly transform //-style comments when using @program (primarily for LambdaCo
 [$object_utils:has_callable_verb] If the 'object' is a waif, check its .class for the verb instead.
 [#0:lookup] Removed (was part of Composed)
 [$player:@eject] Merge LambdaMOO fix: @eject fixed, and spaghetti code disentangled, at the expense of being somewhat more verbose and thus possibly less efficient.
+[$time_utils:english_time] Stop trying to calculate enormous numbers.
