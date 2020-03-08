@@ -9,7 +9,7 @@
 0 values pending finalization
 0 clocks
 1 queued tasks
-0 1 1579507201 1032421664
+0 5 1583740801 1442747301
 0
 -111
 1
@@ -24,7 +24,7 @@ Parse
 Infos
 schedule_measurement_task
 schedule_measurement_task
-21 variables
+23 variables
 NUM
 0
 0
@@ -88,6 +88,12 @@ ANON
 WAIF
 0
 13
+day
+0
+86400
+hour_of_day_GMT
+0
+8
 this:schedule_measurement_task();
 this.measurement_task_running = task_id();
 this:measurement_task(this.task_time_limit);
@@ -717,7 +723,7 @@ a 2018 LambdaCore
 2
 last_restart_time
 0
-1579470824
+1583663830
 2
 name
 2
@@ -874,7 +880,7 @@ The known universe.
 0
 36540
 0
-1579470907
+1583664688
 36
 1
 #1
@@ -1119,7 +1125,7 @@ object_size
 0
 30723
 0
-1579470907
+1583664688
 36
 1
 #2
@@ -1544,9 +1550,9 @@ test
 0
 50000
 0
-1091671
+1097167
 0
-1579470907
+1583664688
 0
 900
 36
@@ -1583,7 +1589,7 @@ Wizard
 0
 6839
 0
-1579470907
+1583664688
 36
 1
 #3
@@ -1877,7 +1883,7 @@ generic room
 0
 41192
 0
-1579470907
+1583664688
 36
 1
 #4
@@ -2322,7 +2328,7 @@ You see a player who should type '@describe me as ...'.
 0
 47475
 0
-1579470907
+1583664688
 36
 1
 #5
@@ -2435,7 +2441,7 @@ generic thing
 0
 6771
 0
-1579470907
+1583664688
 36
 1
 #6
@@ -3131,7 +3137,7 @@ You see a player who should type '@describe me as ...'.
 0
 133671
 0
-1579470907
+1583664688
 36
 1
 #7
@@ -3257,7 +3263,7 @@ generic exit
 0
 10409
 0
-1579470907
+1583664688
 36
 1
 #8
@@ -3475,7 +3481,7 @@ generic container
 0
 13863
 0
-1579470907
+1583664688
 36
 1
 #9
@@ -3598,7 +3604,7 @@ There appears to be some writing on the note ...
 0
 9283
 0
-1579470907
+1583664688
 36
 1
 #10
@@ -3990,11 +3996,7 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 2
 0
 10
-1
-1
--2
 0
-2
 2
 5
 0
@@ -4101,9 +4103,9 @@ This provides everything needed by #0:do_login_command.  See `help $login' on $c
 4
 2
 0
-58017
+57833
 0
-1579470907
+1583664688
 36
 1
 #11
@@ -4157,7 +4159,7 @@ A repository of last-resort player verbs to be called by $player:last_huh
 0
 6294
 0
-1579470907
+1583664688
 36
 1
 #12
@@ -4220,7 +4222,7 @@ Guest Log
 0
 5330
 0
-1579470907
+1583664688
 36
 1
 #13
@@ -4556,7 +4558,7 @@ This is the Generic BigList Utilities utility package.  See `help $biglist' for 
 0
 29877
 0
-1579470907
+1583664688
 36
 1
 #14
@@ -4932,7 +4934,7 @@ Calling #OBJ:restore_from(...) COMPLETELY AND IRREVOCABLY REMOVES ALL MESSAGES f
 0
 51966
 0
-1579470907
+1583664688
 36
 1
 #15
@@ -4991,7 +4993,7 @@ The Body Bag
 0
 3584
 0
-1579470907
+1583664688
 36
 1
 #16
@@ -5123,7 +5125,7 @@ Registration Database
 0
 12978
 0
-1579470907
+1583664688
 36
 1
 #17
@@ -5317,7 +5319,7 @@ Log of player creations.
 0
 5497
 0
-1579470907
+1583664688
 36
 1
 #18
@@ -5420,7 +5422,7 @@ A `help database' that knows about all of the documented verbs.
 0
 5292
 0
-1579470907
+1583664688
 36
 1
 #19
@@ -8916,7 +8918,7 @@ Help database for LambdaCore utility objects and generics.
 0
 121414
 0
-1579470907
+1583664688
 36
 1
 #20
@@ -9508,7 +9510,7 @@ This is the string utilities utility package.  See `help $string_utils' for more
 0
 105387
 0
-1579470907
+1583664688
 36
 1
 #21
@@ -9678,7 +9680,7 @@ This is the building utilities utility package.  See `help $building_utils' for 
 0
 18699
 0
-1579470907
+1583664688
 36
 1
 #22
@@ -12493,7 +12495,7 @@ This provides help on the programmer commands available on $prog and related top
 0
 103005
 0
-1579470907
+1583664688
 36
 1
 #23
@@ -13632,7 +13634,7 @@ This describes the various commands available on $wiz.
 0
 36730
 0
-1579470907
+1583664688
 36
 1
 #24
@@ -14342,7 +14344,7 @@ This is the Wizard Utilities utility package.  See `help $wiz_utils' for more de
 0
 73488
 0
-1579470907
+1583664688
 36
 1
 #25
@@ -14487,7 +14489,7 @@ The site blacklist and the graylist live as well (see `help blacklist').
 0
 17985
 0
-1579470907
+1583664688
 36
 1
 #26
@@ -16785,7 +16787,7 @@ This is the Math Utilities utility package.  See `help $math_utils' for more det
 0
 56037
 0
-1579470907
+1583664688
 36
 1
 #27
@@ -16907,7 +16909,7 @@ This is the Set Utilities utility package.  See `help $set_utils' for more detai
 0
 7782
 0
-1579470907
+1583664688
 36
 1
 #28
@@ -19425,7 +19427,7 @@ For the {"*verb*",...} form, the current verbs available are
 0
 107206
 0
-1579470907
+1583664688
 36
 1
 #29
@@ -19589,7 +19591,7 @@ Record of who's been made a @programmer.
 0
 9059
 0
-1579470907
+1583664688
 36
 1
 #30
@@ -19709,7 +19711,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 13195
 0
-1579470907
+1583664688
 36
 1
 #31
@@ -20148,7 +20150,7 @@ By definition, guests appear nondescript.
 0
 21645
 0
-1579470907
+1583664688
 36
 1
 #32
@@ -20208,7 +20210,7 @@ For help on using the speller, use 'help spelling' and 'help @spell'.
 0
 6042
 0
-1579470907
+1583664688
 36
 1
 #33
@@ -20416,7 +20418,7 @@ This is the sequence utilities utility package.  See `help $seq_utils' for more 
 0
 22892
 0
-1579470907
+1583664688
 36
 1
 #34
@@ -20557,7 +20559,7 @@ Record of whose quota has been messed with and why.
 0
 2286
 0
-1579470907
+1583664688
 36
 1
 #35
@@ -20727,7 +20729,7 @@ An object useful for pronoun substitution for switching between third and second
 0
 9531
 0
-1579470907
+1583664688
 36
 1
 #36
@@ -21031,7 +21033,7 @@ init_for_core
 0
 100000008
 0
--28391504
+-28391520
 0
 1008125633
 0
@@ -21071,7 +21073,7 @@ A system character used to own non-wizardly system verbs , properties, and objec
 0
 4188
 0
-1579470907
+1583664688
 36
 1
 #37
@@ -21218,7 +21220,7 @@ A generic `database' (well, really more like a string-indexed array if you want 
 0
 23185
 0
-1579470907
+1583664688
 36
 1
 #38
@@ -21453,7 +21455,7 @@ Everyman ($no_one) can not receive mail.
 0
 0
 0
-1579416833
+1583663830
 0
 0
 36
@@ -21497,7 +21499,7 @@ The character used for "safe" evals.
 0
 8398
 0
-1579470907
+1583664688
 36
 1
 #39
@@ -21757,7 +21759,7 @@ See `help $player_db' for more information.
 0
 12184
 0
-1579470907
+1583664688
 36
 1
 #40
@@ -22252,7 +22254,7 @@ Generic Mail Receiving Player
 0
 97243
 0
-1579470907
+1583664688
 36
 1
 #41
@@ -22745,7 +22747,7 @@ This is the gender utilities utility package.  See `help $gender_utils' for more
 0
 17787
 0
-1579470907
+1583664688
 36
 1
 #42
@@ -22834,7 +22836,7 @@ This is the permissions utilities utility package.  See `help $perm_utils' for m
 0
 4790
 0
-1579470907
+1583664688
 36
 1
 #43
@@ -23429,7 +23431,7 @@ This is the time utilities utility package.  See `help $time_utils' for more det
 0
 30722
 0
-1579470907
+1583664688
 36
 1
 #44
@@ -24377,7 +24379,7 @@ Editor Help
 0
 26270
 0
-1579470907
+1583664688
 36
 1
 #45
@@ -24675,7 +24677,7 @@ This can either be a mailing list or a mail folder, depending on what mood you'r
 0
 44127
 0
-1579470907
+1583664688
 36
 1
 #46
@@ -25030,7 +25032,7 @@ Avaliable aliases:
 0
 69430
 0
-1579470907
+1583664688
 36
 1
 #47
@@ -25476,7 +25478,7 @@ Mail Room
 0
 31755
 0
-1579470907
+1583664688
 36
 1
 #48
@@ -25805,7 +25807,7 @@ nedit
 0
 15330
 0
-1579470907
+1583664688
 36
 1
 #49
@@ -26134,7 +26136,7 @@ verb edit
 0
 20487
 0
-1579470907
+1583664688
 36
 1
 #50
@@ -26773,7 +26775,7 @@ edit
 0
 74141
 0
-1579470907
+1583664688
 36
 1
 #51
@@ -26928,7 +26930,7 @@ matching utilities
 0
 12588
 0
-1579470907
+1583664688
 36
 1
 #52
@@ -27186,7 +27188,7 @@ This is the object utilities utility package.  See `help $object_utils' for more
 0
 29782
 0
-1579470907
+1583664688
 36
 1
 #53
@@ -27323,7 +27325,7 @@ This the lock utilities package, used by the MOOwide locking mechanisms. See `he
 0
 13212
 0
-1579470907
+1583664688
 36
 1
 #54
@@ -27427,7 +27429,7 @@ Some writing on the letter explains that you should 'read letter', and when you'
 0
 3579
 0
-1579470907
+1583664688
 36
 1
 #55
@@ -27742,7 +27744,7 @@ This is the list utilities utility package.  See `help $list_utils' for more det
 0
 41070
 0
-1579470907
+1583664688
 36
 1
 #56
@@ -27839,9 +27841,9 @@ feature_task
 4
 9
 0
-344206093
+643636565
 2
-@;recycle(me.test)
+prog-o
 4
 0
 2
@@ -27953,9 +27955,9 @@ This is the command utilities utility package.  See `help $command_utils' for mo
 4
 2
 0
-25462
+25450
 0
-1579470907
+1583664688
 36
 1
 #57
@@ -28485,7 +28487,7 @@ You see a wizard who chooses not to reveal its true appearance.
 0
 80313
 0
-1579470907
+1583664688
 36
 1
 #58
@@ -28990,7 +28992,7 @@ You see a player who is too experienced to have any excuse for not having a desc
 0
 82960
 0
-1579470907
+1583664688
 36
 1
 #59
@@ -29742,7 +29744,7 @@ This is the code utilities utility package.  See `help $code_utils' for more det
 0
 82159
 0
-1579470907
+1583664688
 36
 1
 #60
@@ -32391,7 +32393,7 @@ See the description of $generic_help for more detail.
 0
 96153
 0
-1579470907
+1583664688
 36
 1
 #61
@@ -32911,7 +32913,7 @@ It's the current issue of the News, dated %d.
 0
 28263
 0
-1579470907
+1583664688
 36
 1
 #62
@@ -33010,7 +33012,7 @@ This is all there is right now.
 0
 6359
 0
-1579470907
+1583664688
 36
 1
 #63
@@ -33157,9 +33159,9 @@ Object reuse. Call $recycler:_create() to create an object (semantics the same a
 4
 2
 0
-12664
+12648
 0
-1579470907
+1583664688
 36
 1
 # 64 recycled
@@ -33532,7 +33534,7 @@ Options for mailing
 0
 20503
 0
-1579470907
+1583664688
 36
 1
 #66
@@ -33641,7 +33643,7 @@ Edit Options
 0
 2824
 0
-1579470907
+1583664688
 36
 1
 #67
@@ -33726,7 +33728,7 @@ Display Options
 0
 1273
 0
-1579470907
+1583664688
 36
 1
 #68
@@ -33844,7 +33846,7 @@ an option package in need of a description.  See `help $generic_option'...
 0
 16982
 0
-1579470907
+1583664688
 36
 1
 #69
@@ -34042,7 +34044,7 @@ raise(error) actually raises the error.
 0
 11680
 0
-1579470907
+1583664688
 36
 1
 #70
@@ -34153,7 +34155,7 @@ Notes on annoying sites.
 0
 1824
 0
-1579470907
+1583664688
 36
 1
 #71
@@ -34655,7 +34657,7 @@ Impossible password to type
 0
 31507
 0
-1579416833
+1583663830
 0
 0
 36
@@ -34694,7 +34696,7 @@ A very clean, neat, tidy person who doesn't mind lugging players and their gear 
 0
 31507
 0
-1579470907
+1583664688
 36
 1
 #72
@@ -35128,7 +35130,7 @@ Parameters:
 0
 31183
 0
-1579470907
+1583664688
 36
 1
 #73
@@ -35215,7 +35217,7 @@ This is the object you want to use as a parent in order to @create a place for y
 0
 5344
 0
-1579470907
+1583664688
 36
 1
 #74
@@ -35357,7 +35359,7 @@ This is the Generic Feature Object.  It is not meant to be used as a feature obj
 0
 10943
 0
-1579470907
+1583664688
 36
 1
 #75
@@ -35659,7 +35661,7 @@ Option package for $prog commands.  See `help @prog-options'.
 0
 10068
 0
-1579470907
+1583664688
 36
 1
 #77
@@ -35788,7 +35790,7 @@ Option package for $builder commands.  See `help @build-options'.
 0
 5909
 0
-1579470907
+1583664688
 36
 1
 #78
@@ -35880,7 +35882,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 835
 0
-1579470907
+1583664688
 36
 1
 #79
@@ -36080,7 +36082,7 @@ measurement_task_running
 36
 5
 1
-38
+96
 36
 5
 0
@@ -36282,7 +36284,7 @@ This is the Byte Quota Utilities utility package.  See `help $quota_utils' for m
 0
 42575
 0
-1579470907
+1583664688
 36
 1
 #80
@@ -36406,7 +36408,7 @@ Internal:
 0
 8754
 0
-1579470907
+1583664688
 36
 1
 #81
@@ -36512,7 +36514,7 @@ This is the Object Quota Utilities utility package.  See `help $object_quota_uti
 0
 9928
 0
-1579470907
+1583664688
 36
 1
 #82
@@ -36720,7 +36722,7 @@ Server Options
 0
 9110
 0
-1579470907
+1583664688
 36
 1
 #83
@@ -36847,7 +36849,7 @@ warehouse
 0
 2586
 0
-1579470907
+1583664688
 36
 1
 #84
@@ -38160,7 +38162,7 @@ This help database contains topics about the generic builder and building comman
 0
 46286
 0
-1579470907
+1583664688
 36
 1
 #85
@@ -39393,7 +39395,7 @@ This help database contains topics relating to the general use of the mail syste
 0
 42114
 0
-1579470907
+1583664688
 36
 1
 #86
@@ -41765,7 +41767,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 79337
 0
-1579470907
+1583664688
 36
 1
 #87
@@ -41947,7 +41949,7 @@ The password verifier verifies passwords.
 0
 14668
 0
-1579470907
+1583664688
 36
 1
 #88
@@ -42633,7 +42635,7 @@ You see a player who should type '@describe me as ...'.
 0
 91907
 0
-1579470907
+1583664688
 36
 1
 #89
@@ -42743,7 +42745,7 @@ This feature contains various verbs used in stage talk, which allows players to 
 0
 5959
 0
-1579470907
+1583664688
 36
 1
 #90
@@ -42837,7 +42839,7 @@ Verbs useful to people using a windowing system to paste text at people.
 0
 5734
 0
-1579470907
+1583664688
 36
 1
 #91
@@ -43125,7 +43127,7 @@ This is a utilities package for dealing with lists as representations of vectors
 0
 38343
 0
-1579470907
+1583664688
 36
 1
 #92
@@ -44010,7 +44012,7 @@ Frand Help DB
 0
 30023
 0
-1579470907
+1583664688
 36
 1
 #93
@@ -46150,7 +46152,7 @@ This is a utilities package for converting from one unit of measurement to anoth
 0
 44958
 0
-1579470907
+1583664688
 36
 1
 #94
@@ -46257,7 +46259,7 @@ Generic Gendered Object
 0
 3568
 0
-1579470907
+1583664688
 36
 1
 #95
@@ -46571,7 +46573,7 @@ List Editor
 0
 17357
 0
-1579470907
+1583664688
 36
 1
 #96
@@ -46872,7 +46874,7 @@ impossible password to type
 0
 130901
 0
-1579416833
+1583663830
 0
 0
 36
@@ -46912,7 +46914,7 @@ This player owns all editor-related verbs.
 0
 3586
 0
-1579470907
+1583664688
 36
 1
 #97
@@ -47039,7 +47041,7 @@ HTTP Server
 0
 8191
 0
-1579470907
+1583664688
 36
 1
 #98
@@ -47357,9 +47359,9 @@ Core
 0
 50000
 0
-233752
+233801
 0
-1579470907
+1583664688
 0
 100
 36
@@ -47393,7 +47395,7 @@ Core
 0
 3669
 0
-1579470907
+1583664688
 36
 1
 #99
@@ -48215,7 +48217,7 @@ First version, added $emu and hacked $player:notify to call it.
 98
 1
 4
-23
+26
 0
 159574921
 0
@@ -48262,6 +48264,12 @@ First version, added $emu and hacked $player:notify to call it.
 1496818843
 0
 1651983788
+0
+1867004520
+0
+77273908
+0
+883961459
 98
 1
 4
@@ -48445,9 +48453,9 @@ au
 4
 2
 0
-75387
+75435
 0
-1579470907
+1583664688
 36
 1
 #100
@@ -48722,7 +48730,7 @@ A player with the ability to see things in [red]c[bold][yellow]o[green]l[blue]o[
 0
 29102
 0
-1579470907
+1583664688
 36
 1
 #101
@@ -49403,7 +49411,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 26786
 0
-1579470907
+1583664688
 36
 1
 #102
@@ -49622,7 +49630,7 @@ An option package for controlling and customizing the ANSI PC.
 0
 5619
 0
-1579470907
+1583664688
 36
 1
 #103
@@ -49686,7 +49694,7 @@ dispatch
 0
 5192
 0
-1579470907
+1583664688
 36
 1
 #104
@@ -49793,7 +49801,7 @@ package
 0
 6825
 0
-1579470907
+1583664688
 36
 1
 #105
@@ -49900,7 +49908,7 @@ negotiate
 0
 3228
 0
-1579470907
+1583664688
 36
 1
 #106
@@ -50062,7 +50070,7 @@ cord
 0
 7348
 0
-1579470907
+1583664688
 36
 1
 #107
@@ -50109,7 +50117,7 @@ next_datakey
 unquoted_string
 6
 0
-10110
+10116
 98
 1
 2
@@ -50136,7 +50144,7 @@ parser
 0
 6696
 0
-1579470907
+1583664688
 36
 1
 #108
@@ -50378,7 +50386,7 @@ registry
 0
 6416
 0
-1579470907
+1583664688
 36
 1
 #110
@@ -50537,7 +50545,7 @@ mcp
 0
 10536
 0
-1579470907
+1583664688
 36
 1
 #111
@@ -50816,7 +50824,7 @@ Non JHCore installations might choose to set .v_filter_in / .v_filter_out to fal
 0
 15923
 0
-1579470907
+1583664688
 36
 1
 #114
@@ -51812,7 +51820,7 @@ MCP Help Database
 0
 23287
 0
-1579470907
+1583664688
 36
 1
 #117
@@ -51889,7 +51897,107 @@ help_msg
 2
 0
 4
-0
+50
+2
+A waif is a kind of datatype in the MOO programming language, akin to integers, floating point numbers, strings, lists, objects and errors.
+2
+
+2
+Waifs are like objects in that they have inherited properties and verbs.  They are unlike objects in that they do not have object numbers, and do not ordinarily have a name, aliases, a location, or a description -- although they could.
+2
+
+2
+For those who program in C, it may be helpful to think of a waif as being like the 'struct' datatype:  A waif is a collection of named values.  (A list is a collection of ordered values.)
+2
+
+2
+Every waif inherits its properties and verbs from its 'class', which is an actual object that is a descendant of $waif.  Only properties and verbs whose names begin with a colon are inherited by the instantiated waif.  To create a waif, you invoke the verb <class>:new(), which returns the newly-minted waif as it's value.
+2
+
+2
+A logical time to consider using waifs is in lieu of storing data as a list of lists.  Let's consider an example.  Suppose I want to create a bot that serves drinks and canapes, and for reasons of my own I want to specify what drinks are available rather than let some lout order a glass of diesel fuel at my tea party.  So I am going to create a list of drinks, the kind of container the drink comes in, and the number of sips in each, such that a cup of tea might have more sips (and thus take longer to drink) than a glass of sherry.
+2
+
+2
+If I were to implement my drink list as a list of lists, I might do
+2
+
+2
+  @prop bot.drink_options {{"tea", "cup", 10}, {"sherry", "glass", 4}, {"milk", "glass", 15}}
+2
+
+2
+You can see that a glass of milk has more in it than a glass of sherry.  BUT, if you were looking at this code for the first time, you might not know that the third number in that list refers to quantity.  For longer sublists, it can get very confusing, indeed.
+2
+
+2
+To implement this using waifs, you would first make an object, a kid of $waif, that you would use as a drink specification:
+2
+
+2
+  @create $waif named "drink specification","dspec"
+2
+
+2
+You would then own an object with the generic waif as its parent.  Next you would add properties to this object that the waifs are to inherit:
+2
+
+2
+  @prop dspec.:drink_name "" rc
+2
+  @prop dspec.:drink_container "" rc
+2
+  @prop dspec.:sips_per_container 0 rc
+2
+
+2
+Notice that each property name begins with a colon.  Property names that don't begin with a colon are not inherited by the waifs (.name, for example).
+2
+
+2
+Since your drink specification is a kid of $waif, it inherits the verb :new that can be used to create a waif.  Here is how we would make a few:
+2
+
+2
+  @prop bot.drink_options {} rc
+2
+  @prop bot.drink_spec <dspec> rc
+2
+
+2
+  @verb bot:add_drink tnt rxd
+2
+
+2
+  @program bot:add_drink
+2
+  "Adds a drink specification to this bot's .drink_options property.";
+2
+  "Maybe put in some code only to let the owner do this, but that is not germaine to this example.";
+2
+  {drink_name, drink_container, sips_per_container} = args;
+2
+  new_spec = this.drink_spec:new();
+2
+  new_spec.drink_name = drink_name;
+2
+  new_spec.drink_container = drink_container;
+2
+  new_spec.sips_per_container = sips_per_container;
+2
+  this.drink_options = {@this.drink_options, new_spec};
+2
+  "A robust version of this verb would check for proper data types in the args, maybe look for duplicates first, etc.";
+2
+  .
+2
+
+2
+Later on you might want to specify a color for each drink, so that if it comes in a dribble glass, you can say what color the stain on your poor victim's tie is.  You would add the property (.:color -- remember the colon) to the drink spec object, and voila, it would exist on all the waifs.  You would need to set the individual values, of course, but you wouldn't have to do gymnastics on sublists in lists, which can be a delicate operation indeed.
+2
+
+2
+Further information about waifs is available at http://www.ben.com/MOO/waif.html and http://www.ben.com/MOO/waif-progman.html
 2
 5
 0
@@ -51908,9 +52016,9 @@ Generic Waif
 4
 2
 0
-2521
+7191
 0
-1579470907
+1583664688
 36
 1
 #119
@@ -52021,7 +52129,7 @@ client_stats
 4
 3
 0
-1579470829
+1583663834
 1
 2
 4
@@ -52029,7 +52137,7 @@ client_stats
 2
 RMOO (Emacs)
 2
-1.2
+1.3b
 2
 0
 4
@@ -52112,9 +52220,9 @@ dns-com-vmoo-client
 4
 2
 0
-6384
+6385
 0
-1579470907
+1583664688
 36
 1
 #122
@@ -52207,7 +52315,7 @@ dns-com-awns-status
 0
 1354
 0
-1579470907
+1583664688
 36
 1
 #124
@@ -52224,7 +52332,7 @@ Generic Editor Utilities
 78
 4
 0
-35
+36
 editor
 2
 173
@@ -52362,6 +52470,10 @@ cmd_replace
 173
 -1
 init_for_core
+2
+173
+-1
+list_line
 2
 173
 -1
@@ -52628,9 +52740,9 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 4
 2
 0
-50117
+51139
 0
-1579470907
+1583664688
 36
 1
 #125
@@ -52759,11 +52871,11 @@ Menu Utilities
 0
 7906
 0
-1579470907
+1583664688
 36
 1
 0
-1947
+1948
 #0:0
 "...This code should only be run as a server task...";
 if (callers())
@@ -90846,6 +90958,8 @@ state.ins = length(state.text) + 1;
 else
 state.ins = toint(state.arg[1]);
 endif
+(state.ins > 1) && this:list_line(state, state.ins - 1);
+(state.ins <= length(state.text)) && this:list_line(state, state.ins);
 player:tell("Now inserting before line ", state.ins, ".");
 .
 #124:12
@@ -91325,6 +91439,14 @@ this.last_edits = {};
 this.sessions = {};
 pass(@args);
 endif
+.
+#124:35
+$ansi_utils:add_noansi();
+{state, line} = args;
+f = 1 + (line in {(ins = state.ins) - 1, ins});
+text = state.text[line];
+player:tell($string_utils:right(line, 3, " _^"[f]), ":_^"[f], " ", text);
+$ansi_utils:remove_noansi();
 .
 #125:0
 {text, verb, extra, @overflow} = args;
