@@ -9,7 +9,7 @@
 0 values pending finalization
 0 clocks
 1 queued tasks
-0 5 1583740801 1442747301
+0 5 1588838400 1290117957
 0
 -111
 1
@@ -723,7 +723,7 @@ a 2018 LambdaCore
 2
 last_restart_time
 0
-1583663830
+1588804873
 2
 name
 2
@@ -880,7 +880,7 @@ The known universe.
 0
 36540
 0
-1583664688
+1588805200
 36
 1
 #1
@@ -1125,7 +1125,7 @@ object_size
 0
 30723
 0
-1583664688
+1588805200
 36
 1
 #2
@@ -1550,9 +1550,9 @@ test
 0
 50000
 0
-1097167
+1099639
 0
-1583664688
+1588805200
 0
 900
 36
@@ -1589,7 +1589,7 @@ Wizard
 0
 6839
 0
-1583664688
+1588805200
 36
 1
 #3
@@ -1883,7 +1883,7 @@ generic room
 0
 41192
 0
-1583664688
+1588805200
 36
 1
 #4
@@ -2328,7 +2328,7 @@ You see a player who should type '@describe me as ...'.
 0
 47475
 0
-1583664688
+1588805200
 36
 1
 #5
@@ -2441,7 +2441,7 @@ generic thing
 0
 6771
 0
-1583664688
+1588805200
 36
 1
 #6
@@ -3137,7 +3137,7 @@ You see a player who should type '@describe me as ...'.
 0
 133671
 0
-1583664688
+1588805200
 36
 1
 #7
@@ -3263,7 +3263,7 @@ generic exit
 0
 10409
 0
-1583664688
+1588805200
 36
 1
 #8
@@ -3481,7 +3481,7 @@ generic container
 0
 13863
 0
-1583664688
+1588805200
 36
 1
 #9
@@ -3604,7 +3604,7 @@ There appears to be some writing on the note ...
 0
 9283
 0
-1583664688
+1588805200
 36
 1
 #10
@@ -3996,7 +3996,11 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 2
 0
 10
+1
+1
+-2
 0
+2
 2
 5
 0
@@ -4103,9 +4107,9 @@ This provides everything needed by #0:do_login_command.  See `help $login' on $c
 4
 2
 0
-57833
+57889
 0
-1583664688
+1588805200
 36
 1
 #11
@@ -4159,7 +4163,7 @@ A repository of last-resort player verbs to be called by $player:last_huh
 0
 6294
 0
-1583664688
+1588805200
 36
 1
 #12
@@ -4222,7 +4226,7 @@ Guest Log
 0
 5330
 0
-1583664688
+1588805200
 36
 1
 #13
@@ -4558,7 +4562,7 @@ This is the Generic BigList Utilities utility package.  See `help $biglist' for 
 0
 29877
 0
-1583664688
+1588805200
 36
 1
 #14
@@ -4934,7 +4938,7 @@ Calling #OBJ:restore_from(...) COMPLETELY AND IRREVOCABLY REMOVES ALL MESSAGES f
 0
 51966
 0
-1583664688
+1588805200
 36
 1
 #15
@@ -4993,7 +4997,7 @@ The Body Bag
 0
 3584
 0
-1583664688
+1588805200
 36
 1
 #16
@@ -5125,7 +5129,7 @@ Registration Database
 0
 12978
 0
-1583664688
+1588805200
 36
 1
 #17
@@ -5319,7 +5323,7 @@ Log of player creations.
 0
 5497
 0
-1583664688
+1588805200
 36
 1
 #18
@@ -5422,7 +5426,7 @@ A `help database' that knows about all of the documented verbs.
 0
 5292
 0
-1583664688
+1588805200
 36
 1
 #19
@@ -8918,7 +8922,7 @@ Help database for LambdaCore utility objects and generics.
 0
 121414
 0
-1583664688
+1588805200
 36
 1
 #20
@@ -9510,7 +9514,7 @@ This is the string utilities utility package.  See `help $string_utils' for more
 0
 105387
 0
-1583664688
+1588805200
 36
 1
 #21
@@ -9680,7 +9684,7 @@ This is the building utilities utility package.  See `help $building_utils' for 
 0
 18699
 0
-1583664688
+1588805200
 36
 1
 #22
@@ -12495,7 +12499,7 @@ This provides help on the programmer commands available on $prog and related top
 0
 103005
 0
-1583664688
+1588805200
 36
 1
 #23
@@ -13634,7 +13638,7 @@ This describes the various commands available on $wiz.
 0
 36730
 0
-1583664688
+1588805200
 36
 1
 #24
@@ -14344,7 +14348,7 @@ This is the Wizard Utilities utility package.  See `help $wiz_utils' for more de
 0
 73488
 0
-1583664688
+1588805200
 36
 1
 #25
@@ -14489,7 +14493,7 @@ The site blacklist and the graylist live as well (see `help blacklist').
 0
 17985
 0
-1583664688
+1588805200
 36
 1
 #26
@@ -16787,7 +16791,7 @@ This is the Math Utilities utility package.  See `help $math_utils' for more det
 0
 56037
 0
-1583664688
+1588805200
 36
 1
 #27
@@ -16909,7 +16913,7 @@ This is the Set Utilities utility package.  See `help $set_utils' for more detai
 0
 7782
 0
-1583664688
+1588805200
 36
 1
 #28
@@ -19427,7 +19431,7 @@ For the {"*verb*",...} form, the current verbs available are
 0
 107206
 0
-1583664688
+1588805200
 36
 1
 #29
@@ -19591,7 +19595,7 @@ Record of who's been made a @programmer.
 0
 9059
 0
-1583664688
+1588805200
 36
 1
 #30
@@ -19711,7 +19715,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 13195
 0
-1583664688
+1588805200
 36
 1
 #31
@@ -20150,7 +20154,7 @@ By definition, guests appear nondescript.
 0
 21645
 0
-1583664688
+1588805200
 36
 1
 #32
@@ -20210,7 +20214,7 @@ For help on using the speller, use 'help spelling' and 'help @spell'.
 0
 6042
 0
-1583664688
+1588805200
 36
 1
 #33
@@ -20418,7 +20422,7 @@ This is the sequence utilities utility package.  See `help $seq_utils' for more 
 0
 22892
 0
-1583664688
+1588805200
 36
 1
 #34
@@ -20559,7 +20563,7 @@ Record of whose quota has been messed with and why.
 0
 2286
 0
-1583664688
+1588805200
 36
 1
 #35
@@ -20729,7 +20733,7 @@ An object useful for pronoun substitution for switching between third and second
 0
 9531
 0
-1583664688
+1588805200
 36
 1
 #36
@@ -21033,7 +21037,7 @@ init_for_core
 0
 100000008
 0
--28391520
+-28388962
 0
 1008125633
 0
@@ -21073,7 +21077,7 @@ A system character used to own non-wizardly system verbs , properties, and objec
 0
 4188
 0
-1583664688
+1588805200
 36
 1
 #37
@@ -21220,7 +21224,7 @@ A generic `database' (well, really more like a string-indexed array if you want 
 0
 23185
 0
-1583664688
+1588805200
 36
 1
 #38
@@ -21455,7 +21459,7 @@ Everyman ($no_one) can not receive mail.
 0
 0
 0
-1583663830
+1588804873
 0
 0
 36
@@ -21499,7 +21503,7 @@ The character used for "safe" evals.
 0
 8398
 0
-1583664688
+1588805200
 36
 1
 #39
@@ -21759,7 +21763,7 @@ See `help $player_db' for more information.
 0
 12184
 0
-1583664688
+1588805200
 36
 1
 #40
@@ -22254,7 +22258,7 @@ Generic Mail Receiving Player
 0
 97243
 0
-1583664688
+1588805200
 36
 1
 #41
@@ -22747,7 +22751,7 @@ This is the gender utilities utility package.  See `help $gender_utils' for more
 0
 17787
 0
-1583664688
+1588805200
 36
 1
 #42
@@ -22836,7 +22840,7 @@ This is the permissions utilities utility package.  See `help $perm_utils' for m
 0
 4790
 0
-1583664688
+1588805200
 36
 1
 #43
@@ -23431,7 +23435,7 @@ This is the time utilities utility package.  See `help $time_utils' for more det
 0
 30722
 0
-1583664688
+1588805200
 36
 1
 #44
@@ -24379,7 +24383,7 @@ Editor Help
 0
 26270
 0
-1583664688
+1588805200
 36
 1
 #45
@@ -24677,7 +24681,7 @@ This can either be a mailing list or a mail folder, depending on what mood you'r
 0
 44127
 0
-1583664688
+1588805200
 36
 1
 #46
@@ -25032,7 +25036,7 @@ Avaliable aliases:
 0
 69430
 0
-1583664688
+1588805200
 36
 1
 #47
@@ -25478,7 +25482,7 @@ Mail Room
 0
 31755
 0
-1583664688
+1588805200
 36
 1
 #48
@@ -25807,7 +25811,7 @@ nedit
 0
 15330
 0
-1583664688
+1588805200
 36
 1
 #49
@@ -26136,7 +26140,7 @@ verb edit
 0
 20487
 0
-1583664688
+1588805200
 36
 1
 #50
@@ -26775,7 +26779,7 @@ edit
 0
 74141
 0
-1583664688
+1588805200
 36
 1
 #51
@@ -26930,7 +26934,7 @@ matching utilities
 0
 12588
 0
-1583664688
+1588805200
 36
 1
 #52
@@ -27188,7 +27192,7 @@ This is the object utilities utility package.  See `help $object_utils' for more
 0
 29782
 0
-1583664688
+1588805200
 36
 1
 #53
@@ -27325,7 +27329,7 @@ This the lock utilities package, used by the MOOwide locking mechanisms. See `he
 0
 13212
 0
-1583664688
+1588805200
 36
 1
 #54
@@ -27429,7 +27433,7 @@ Some writing on the letter explains that you should 'read letter', and when you'
 0
 3579
 0
-1583664688
+1588805200
 36
 1
 #55
@@ -27744,7 +27748,7 @@ This is the list utilities utility package.  See `help $list_utils' for more det
 0
 41070
 0
-1583664688
+1588805200
 36
 1
 #56
@@ -27957,7 +27961,7 @@ This is the command utilities utility package.  See `help $command_utils' for mo
 0
 25450
 0
-1583664688
+1588805200
 36
 1
 #57
@@ -28485,9 +28489,9 @@ You see a wizard who chooses not to reveal its true appearance.
 4
 2
 0
-80313
+82817
 0
-1583664688
+1588805200
 36
 1
 #58
@@ -28828,6 +28832,8 @@ here=player.location;me=player
 4
 6
 1
+86
+1
 22
 1
 28
@@ -28837,8 +28843,6 @@ here=player.location;me=player
 19
 1
 116
-1
-86
 2
 5
 5
@@ -28992,7 +28996,7 @@ You see a player who is too experienced to have any excuse for not having a desc
 0
 82960
 0
-1583664688
+1588805200
 36
 1
 #59
@@ -29744,7 +29748,7 @@ This is the code utilities utility package.  See `help $code_utils' for more det
 0
 82159
 0
-1583664688
+1588805200
 36
 1
 #60
@@ -32393,7 +32397,7 @@ See the description of $generic_help for more detail.
 0
 96153
 0
-1583664688
+1588805200
 36
 1
 #61
@@ -32913,7 +32917,7 @@ It's the current issue of the News, dated %d.
 0
 28263
 0
-1583664688
+1588805200
 36
 1
 #62
@@ -33012,7 +33016,7 @@ This is all there is right now.
 0
 6359
 0
-1583664688
+1588805200
 36
 1
 #63
@@ -33161,7 +33165,7 @@ Object reuse. Call $recycler:_create() to create an object (semantics the same a
 0
 12648
 0
-1583664688
+1588805200
 36
 1
 # 64 recycled
@@ -33534,7 +33538,7 @@ Options for mailing
 0
 20503
 0
-1583664688
+1588805200
 36
 1
 #66
@@ -33643,7 +33647,7 @@ Edit Options
 0
 2824
 0
-1583664688
+1588805200
 36
 1
 #67
@@ -33728,7 +33732,7 @@ Display Options
 0
 1273
 0
-1583664688
+1588805200
 36
 1
 #68
@@ -33846,7 +33850,7 @@ an option package in need of a description.  See `help $generic_option'...
 0
 16982
 0
-1583664688
+1588805200
 36
 1
 #69
@@ -34044,7 +34048,7 @@ raise(error) actually raises the error.
 0
 11680
 0
-1583664688
+1588805200
 36
 1
 #70
@@ -34155,7 +34159,7 @@ Notes on annoying sites.
 0
 1824
 0
-1583664688
+1588805200
 36
 1
 #71
@@ -34657,7 +34661,7 @@ Impossible password to type
 0
 31507
 0
-1583663830
+1588804873
 0
 0
 36
@@ -34696,7 +34700,7 @@ A very clean, neat, tidy person who doesn't mind lugging players and their gear 
 0
 31507
 0
-1583664688
+1588805200
 36
 1
 #72
@@ -35130,7 +35134,7 @@ Parameters:
 0
 31183
 0
-1583664688
+1588805200
 36
 1
 #73
@@ -35217,7 +35221,7 @@ This is the object you want to use as a parent in order to @create a place for y
 0
 5344
 0
-1583664688
+1588805200
 36
 1
 #74
@@ -35359,7 +35363,7 @@ This is the Generic Feature Object.  It is not meant to be used as a feature obj
 0
 10943
 0
-1583664688
+1588805200
 36
 1
 #75
@@ -35661,7 +35665,7 @@ Option package for $prog commands.  See `help @prog-options'.
 0
 10068
 0
-1583664688
+1588805200
 36
 1
 #77
@@ -35790,7 +35794,7 @@ Option package for $builder commands.  See `help @build-options'.
 0
 5909
 0
-1583664688
+1588805200
 36
 1
 #78
@@ -35882,7 +35886,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 835
 0
-1583664688
+1588805200
 36
 1
 #79
@@ -36082,7 +36086,7 @@ measurement_task_running
 36
 5
 1
-96
+98
 36
 5
 0
@@ -36284,7 +36288,7 @@ This is the Byte Quota Utilities utility package.  See `help $quota_utils' for m
 0
 42575
 0
-1583664688
+1588805200
 36
 1
 #80
@@ -36408,7 +36412,7 @@ Internal:
 0
 8754
 0
-1583664688
+1588805200
 36
 1
 #81
@@ -36514,7 +36518,7 @@ This is the Object Quota Utilities utility package.  See `help $object_quota_uti
 0
 9928
 0
-1583664688
+1588805200
 36
 1
 #82
@@ -36722,7 +36726,7 @@ Server Options
 0
 9110
 0
-1583664688
+1588805200
 36
 1
 #83
@@ -36849,7 +36853,7 @@ warehouse
 0
 2586
 0
-1583664688
+1588805200
 36
 1
 #84
@@ -38162,7 +38166,7 @@ This help database contains topics about the generic builder and building comman
 0
 46286
 0
-1583664688
+1588805200
 36
 1
 #85
@@ -39395,7 +39399,7 @@ This help database contains topics relating to the general use of the mail syste
 0
 42114
 0
-1583664688
+1588805200
 36
 1
 #86
@@ -39413,7 +39417,7 @@ ToastStunt Help Database
 4
 0
 0
-92
+97
 binary_hmac
 string_hmac
 decode_base64
@@ -39506,7 +39510,12 @@ argon2_verify
 maphaskey
 reseed_random
 finished_tasks
-98
+owned_objects
+ancestors
+descendants
+panic
+thread_pool
+103
 4
 8
 2
@@ -40396,9 +40405,9 @@ The information returned is:
 36
 5
 4
-11
+9
 2
-Syntax:	  sqlite_query(INT <database handle>, STR <database query> [, INT <threaded>]) => [LIST or STR]
+Syntax:	  sqlite_query(INT <database handle>, STR <database query>) => [LIST or STR]
 2
 
 2
@@ -40414,17 +40423,13 @@ If the query fails, a string will be returned identifying the SQLite error messa
 2
 
 2
-By default, sqlite_query suspends the in-MOO task and performs the SQLite operation in a separate thread. If this is undesirable, you can supply a 0 as the third argument to disable this functionality and run the SQLite theory in the main MOO thread without suspending the in-MOO task.
-2
-
-2
 WARNING: sqlite_query does NOT use prepared statements and should NOT be used on queries that contain user input.
 36
 5
 4
-14
+12
 2
-Syntax:	  sqlite_execute(INT <database handle>, STR <SQL prepared statement query>, LIST <values> [, INT <threaded>) => [LIST or STR]
+Syntax:	  sqlite_execute(INT <database handle>, STR <SQL prepared statement query>, LIST <values>) => [LIST or STR]
 2
 
 2
@@ -40441,10 +40446,6 @@ If the query fails, a string will be returned identifying the SQLite error messa
 
 2
 sqlite_execute uses prepared statements, so it's the preferred function to use for security and performance reasons.
-2
-
-2
-By default, sqlite_execute suspends the in-MOO task and performs the SQLite operation in a separate thread. If this is undesirable, you can supply a 0 as the third argument to disable this functionality and run the SQLite theory in the main MOO thread without suspending the in-MOO task.
 2
 
 2
@@ -41334,9 +41335,9 @@ Minimum seconds: The minimum number of seconds the task has left before suspendi
 36
 5
 4
-10
+13
 2
-Syntax:  slice(LIST <alist> [, INT | LIST | STR <index>])   => LIST
+Syntax:  slice(LIST <alist> [, INT | LIST | STR <index>, ANY <default map value>])   => LIST
 2
 
 2
@@ -41348,6 +41349,10 @@ If <alist> is a list of maps, index can be a string indicating a key to return f
 2
 
 2
+If <default map value> is specified, any maps not containing the key <index> will have <default map value> returned in their place. This is useful in situations where you need to maintain consistency with a list index and can't have gaps in your return list.
+2
+
+2
 Examples:
 2
  >slice({{"z", 1}, {"y", 2}, {"x",5}}, 2) => {1, 2, 5}.
@@ -41355,6 +41360,8 @@ Examples:
  >slice({{"z", 1, 3}, {"y", 2, 4}}, {2, 1}) => {{1, "z"}, {2, "y"}}
 2
  >;slice({["a" -> 1, "b" -> 2], ["a" -> 5, "b" -> 6]}, "a") => {1, 5}
+2
+ >;slice({["a" -> 1, "b" -> 2], ["a" -> 5, "b" -> 6], ["b" -> 8]}, "a", 0) => {1, 5, 0}
 36
 5
 4
@@ -41739,6 +41746,92 @@ Verb:          The verb name used to invoke the task.
 The second is via the $handle_lagging_task verb. When the execution threshold defined in $server_options.task_lag_threshold is exceeded, the server will write an entry to the log file and call the $handle_lagging_task verb with the call stack of the task as well as the execution time.
 36
 5
+4
+3
+2
+Syntax:  owned_objects(OBJ owner)  => LIST
+2
+
+2
+Returns a list of all objects in the database owned by <owner>. Ownership is defined by the value of .owner on the object.
+36
+5
+4
+3
+2
+Syntax:  ancestors(OBJ <object> [, INT <full>])   => LIST
+2
+
+2
+Return a list of all ancestors of <object> in order ascending up the inheritance hiearchy. If <full> is true, <object> will be included in the list.
+36
+5
+4
+3
+2
+Syntax:  descendants(OBJ <object> [, INT <full>])   => LIST
+2
+
+2
+Return a list of all nested children of <object>. If <full> is true, <object> will be included in the list.
+36
+5
+4
+3
+2
+Syntax:  panic([STR <message>])
+2
+
+2
+Unceremoniously shut down the server, mimicking the behavior of a fatal error. The database will NOT be dumped to the file specified when starting the server. A new file will be created with the name of your database appended with .PANIC.
+36
+5
+4
+21
+2
+Syntax:  thread_pool(STR <function>, STR <pool> [, INT <value>])
+2
+
+2
+This function allows you to control any thread pools that the server created at startup. It should be used with care, as it has the potential to create disasterous consequences if used incorrectly.
+2
+
+2
+The <function> parameter is the function you wish to perform on the thread pool. The functions available are:
+2
+
+2
+   INIT: Control initialization of a thread pool.
+2
+
+2
+   
+2
+The <pool> parameter controls which thread pool you wish to apply the designated function to. At the time of writing, the server creates the following thread pool:
+2
+
+2
+   MAIN: The main thread pool where threaded built-in function work takes place.
+2
+
+2
+
+2
+Finally, <value> is the value you want to pass to the <function> of <pool>. The following functions accept the following values:
+2
+
+2
+   INIT: The number of threads to spawn. NOTE: When executing this function, the existing <pool> will be destroyed and a new one created in its place.
+2
+
+2
+
+2
+Examples:
+2
+;thread_pool("INIT", "MAIN", 1)     => Replace the existing main thread pool with a new pool consisting of a single thread.
+36
+5
 5
 36
 5
@@ -41765,9 +41858,9 @@ A help database of the standard form in need of a description. See `help $generi
 4
 2
 0
-79337
+81895
 0
-1583664688
+1588805200
 36
 1
 #87
@@ -41949,7 +42042,7 @@ The password verifier verifies passwords.
 0
 14668
 0
-1583664688
+1588805200
 36
 1
 #88
@@ -42635,7 +42728,7 @@ You see a player who should type '@describe me as ...'.
 0
 91907
 0
-1583664688
+1588805200
 36
 1
 #89
@@ -42745,7 +42838,7 @@ This feature contains various verbs used in stage talk, which allows players to 
 0
 5959
 0
-1583664688
+1588805200
 36
 1
 #90
@@ -42839,7 +42932,7 @@ Verbs useful to people using a windowing system to paste text at people.
 0
 5734
 0
-1583664688
+1588805200
 36
 1
 #91
@@ -43127,7 +43220,7 @@ This is a utilities package for dealing with lists as representations of vectors
 0
 38343
 0
-1583664688
+1588805200
 36
 1
 #92
@@ -44012,7 +44105,7 @@ Frand Help DB
 0
 30023
 0
-1583664688
+1588805200
 36
 1
 #93
@@ -46152,7 +46245,7 @@ This is a utilities package for converting from one unit of measurement to anoth
 0
 44958
 0
-1583664688
+1588805200
 36
 1
 #94
@@ -46259,7 +46352,7 @@ Generic Gendered Object
 0
 3568
 0
-1583664688
+1588805200
 36
 1
 #95
@@ -46573,7 +46666,7 @@ List Editor
 0
 17357
 0
-1583664688
+1588805200
 36
 1
 #96
@@ -46874,7 +46967,7 @@ impossible password to type
 0
 130901
 0
-1583663830
+1588804873
 0
 0
 36
@@ -46914,7 +47007,7 @@ This player owns all editor-related verbs.
 0
 3586
 0
-1583664688
+1588805200
 36
 1
 #97
@@ -47041,7 +47134,7 @@ HTTP Server
 0
 8191
 0
-1583664688
+1588805200
 36
 1
 #98
@@ -47359,9 +47452,9 @@ Core
 0
 50000
 0
-233801
+233849
 0
-1583664688
+1588805200
 0
 100
 36
@@ -47395,7 +47488,7 @@ Core
 0
 3669
 0
-1583664688
+1588805200
 36
 1
 #99
@@ -48217,7 +48310,7 @@ First version, added $emu and hacked $player:notify to call it.
 98
 1
 4
-26
+29
 0
 159574921
 0
@@ -48270,6 +48363,12 @@ First version, added $emu and hacked $player:notify to call it.
 77273908
 0
 883961459
+0
+1983035464
+0
+1366047757
+0
+105789111
 98
 1
 4
@@ -48453,9 +48552,9 @@ au
 4
 2
 0
-75435
+75483
 0
-1583664688
+1588805200
 36
 1
 #100
@@ -48730,7 +48829,7 @@ A player with the ability to see things in [red]c[bold][yellow]o[green]l[blue]o[
 0
 29102
 0
-1583664688
+1588805200
 36
 1
 #101
@@ -49411,7 +49510,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 26786
 0
-1583664688
+1588805200
 36
 1
 #102
@@ -49630,7 +49729,7 @@ An option package for controlling and customizing the ANSI PC.
 0
 5619
 0
-1583664688
+1588805200
 36
 1
 #103
@@ -49694,7 +49793,7 @@ dispatch
 0
 5192
 0
-1583664688
+1588805200
 36
 1
 #104
@@ -49801,7 +49900,7 @@ package
 0
 6825
 0
-1583664688
+1588805200
 36
 1
 #105
@@ -49908,7 +50007,7 @@ negotiate
 0
 3228
 0
-1583664688
+1588805200
 36
 1
 #106
@@ -50070,7 +50169,7 @@ cord
 0
 7348
 0
-1583664688
+1588805200
 36
 1
 #107
@@ -50117,7 +50216,7 @@ next_datakey
 unquoted_string
 6
 0
-10116
+10120
 98
 1
 2
@@ -50144,7 +50243,7 @@ parser
 0
 6696
 0
-1583664688
+1588805200
 36
 1
 #108
@@ -50386,7 +50485,7 @@ registry
 0
 6416
 0
-1583664688
+1588805200
 36
 1
 #110
@@ -50545,7 +50644,7 @@ mcp
 0
 10536
 0
-1583664688
+1588805200
 36
 1
 #111
@@ -50824,7 +50923,7 @@ Non JHCore installations might choose to set .v_filter_in / .v_filter_out to fal
 0
 15923
 0
-1583664688
+1588805200
 36
 1
 #114
@@ -51820,7 +51919,7 @@ MCP Help Database
 0
 23287
 0
-1583664688
+1588805200
 36
 1
 #117
@@ -52018,7 +52117,7 @@ Generic Waif
 0
 7191
 0
-1583664688
+1588805200
 36
 1
 #119
@@ -52129,7 +52228,7 @@ client_stats
 4
 3
 0
-1583663834
+1588804877
 1
 2
 4
@@ -52222,7 +52321,7 @@ dns-com-vmoo-client
 0
 6385
 0
-1583664688
+1588805200
 36
 1
 #122
@@ -52315,7 +52414,7 @@ dns-com-awns-status
 0
 1354
 0
-1583664688
+1588805200
 36
 1
 #124
@@ -52740,9 +52839,9 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 4
 2
 0
-51139
+51051
 0
-1583664688
+1588805200
 36
 1
 #125
@@ -52871,7 +52970,7 @@ Menu Utilities
 0
 7906
 0
-1583664688
+1588805200
 36
 1
 0
@@ -77565,9 +77664,41 @@ endif
 if (player != this)
 return E_PERM;
 endif
-if (!$object_utils:has_property($sysobj, "generic_help"))
-return player:tell("This database doesn't seem to have LambdaCore-style help databases.");
+"Check prerequisites:";
+required_verbs = {{$object_utils, "has_property"}, {$player, "my_match_object"}, {$command_utils, "object_match_failed"}, {$string_utils, "nn"}, {$command_utils, "yes_or_no"}, {$recycler, "_create"}, {$string_utils, "english_list"}};
+required_props = {{$sysobj, "generic_help"}, {$sysobj, "prog"}};
+for x in (required_verbs)
+if (typeof(`verb_info(@x) ! E_VERBNF') == ERR)
+return player:tell("This verb relies on several LambdaCore verbs being present. It seems your database is missing: ", x[1], ":", x[2]);
 endif
+endfor
+for x in (required_props)
+if (typeof(`property_info(@x) ! E_PROPNF') == ERR)
+return player:tell("This verb relies on several LambdaCore properties being present. It seems your database is missing: ", x[1], ".", x[2]);
+endif
+endfor
+"Now do a special test for builtin_function help. Standard LambdaCore stores this in a property on $sysobj. ToastCore stores it in a map on $sysobj.";
+if ($object_utils:has_property($sysobj, "builtin_function_help"))
+builtin_function_help = $builtin_function_help;
+elseif ($object_utils:has_property($sysobj, "help_db") && maphaskey($help_db, "builtin_function"))
+builtin_function_help = $help_db["builtin_function"];
+else
+"Not a fatal error, but we won't be able to check our priority";
+builtin_function_help = $failed_match;
+endif
+"Check if the update verb itself needs updated. (This does its own prerequisite checking because these functions aren't, strictly speaking, required for the main help update to succeed.)";
+if ((typeof(`verb_info($list_utils, "setremove_all") ! E_VERBNF') != ERR) && (typeof(`verb_info($object_utils, "has_verb") ! E_VERBNF') != ERR))
+verb_loc = $object_utils:has_verb(this, verb)[1];
+if (player.wizard || (verb_info(verb_loc, verb)[1] == player))
+update_url = "https://raw.githubusercontent.com/lisdude/toaststunt-documentation/master/update_verb.moo";
+new_verb = $list_utils:setremove_all(decode_binary(curl(update_url)), 10)[3..$ - 1];
+if ((new_verb != verb_code(verb_loc, verb)) && ($command_utils:yes_or_no(tostr("There is an update available for this verb. Would you like to apply it? You can review the updated code here: ", update_url)) == 1))
+set_verb_code(verb_loc, verb, new_verb);
+return player:tell("This verb has been updated. Please run it again.");
+endif
+endif
+endif
+"Try to identify an existing help database either by name or by input from the wizard.";
 db = 0;
 if (!args)
 for x in (children($generic_help))
@@ -77586,6 +77717,7 @@ else
 return player:tell($string_utils:nn(match), " doesn't appear to be a help database.");
 endif
 endif
+"If we failed, create a new database and add it to $prog help.";
 if (db == 0)
 if ($command_utils:yes_or_no("No existing help database could be found. Would you like to create one?") == 1)
 db = $recycler:_create($generic_help);
@@ -77596,14 +77728,23 @@ endif
 else
 return player:tell("Not creating a new database.");
 endif
-elseif ($command_utils:yes_or_no(tostr("Do you want to update the help database ", $string_utils:nn(db), "?")) != 1)
+endif
+"Test if our help database has a higher priority than the LambdaCore builtin function help database. If not, offer to make it so.";
+if ((builtin_function_help != $failed_match) && ((db in $prog.help) > (builtin_function_help in $prog.help)))
+if ($command_utils:yes_or_no("Would you like the ToastStunt help to take priority over LambdaCore help? This means that duplicate help files (such as move()) will prefer the ToastStunt version over the LambdaCore version.") == 1)
+$prog.help = setremove($prog.help, db);
+$prog.help = {db, @$prog.help};
+endif
+endif
+"Finally, actually update the help files.";
+if ($command_utils:yes_or_no(tostr("Do you want to update the help database ", $string_utils:nn(db), "?")) != 1)
 return player:tell("Not updating.");
 endif
 if ((!player.wizard) && (db.owner != player))
 return player:tell("You don't have permission to update ", $string_utils:nn(db), ".");
 endif
 url = "https://raw.githubusercontent.com/lisdude/toaststunt-documentation/master/function_help.moo";
-data = call_function("curl", url);
+data = curl(url);
 if (typeof(data) == MAP)
 return player:tell("Error retrieving help text: ", data["message"]);
 else
@@ -77611,6 +77752,7 @@ regex = "^;;#123\\.\\(\"(?<property>.+)\"\\) = (?<value>.+)$";
 data = decode_binary(data);
 added = updated = {};
 for x in (data)
+yin();
 if (typeof(x) != STR)
 continue;
 endif
@@ -77632,7 +77774,6 @@ add_property(db, property, value, {db.owner, "rc"});
 added = setadd(added, property);
 endif
 endif
-yin();
 endfor
 player:tell("Done! ", ((added == {}) && (updated == {})) ? "No changes found." | tostr("Added: ", $string_utils:english_list(added), ". Updated: ", $string_utils:english_list(updated), "."));
 endif
