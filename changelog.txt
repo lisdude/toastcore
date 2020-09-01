@@ -175,3 +175,4 @@ Properly transform //-style comments when using @program (primarily for LambdaCo
 [$time_utils:english_time] Stop trying to calculate enormous numbers.
 [$edit_utils:cmd_insert, list_line] Print the line where you are inserting text along with the line prior to the insertion point when using the INSERT command, much like the standard LambdaCore verb editor does.
 [$waif.help_msg] Add some verbose waif help.
+[$recycler:setup_toad] Change ownership of the object after creation
