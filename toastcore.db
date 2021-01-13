@@ -1,4 +1,4 @@
-** LambdaMOO Database, Format Version 16 **
+** LambdaMOO Database, Format Version 17 **
 6
 2
 71
@@ -9,7 +9,7 @@
 0 values pending finalization
 0 clocks
 1 queued tasks
-0 5 1588838400 1290117957
+0 5 1610611200 694983469
 0
 -111
 1
@@ -24,7 +24,7 @@ Parse
 Infos
 schedule_measurement_task
 schedule_measurement_task
-23 variables
+26 variables
 NUM
 0
 0
@@ -88,6 +88,15 @@ ANON
 WAIF
 0
 13
+BOOL
+0
+14
+true
+14
+1
+false
+14
+0
 day
 0
 86400
@@ -723,7 +732,7 @@ a 2018 LambdaCore
 2
 last_restart_time
 0
-1588804873
+1610566201
 2
 name
 2
@@ -878,9 +887,9 @@ The known universe.
 4
 2
 0
-36540
+37592
 0
-1588805200
+1610566771
 36
 1
 #1
@@ -1123,9 +1132,9 @@ object_size
 4
 2
 0
-30723
+32218
 0
-1588805200
+1610566771
 36
 1
 #2
@@ -1550,9 +1559,9 @@ test
 0
 50000
 0
-1099639
+1132039
 0
-1588805200
+1610566771
 0
 900
 36
@@ -1587,9 +1596,9 @@ Wizard
 4
 2
 0
-6839
+6683
 0
-1588805200
+1610566771
 36
 1
 #3
@@ -1881,9 +1890,9 @@ generic room
 4
 2
 0
-41192
+43072
 0
-1588805200
+1610566771
 36
 1
 #4
@@ -2326,9 +2335,9 @@ You see a player who should type '@describe me as ...'.
 4
 2
 0
-47475
+48780
 0
-1588805200
+1610566771
 36
 1
 #5
@@ -2439,9 +2448,9 @@ generic thing
 4
 2
 0
-6771
+7011
 0
-1588805200
+1610566771
 36
 1
 #6
@@ -3135,9 +3144,9 @@ You see a player who should type '@describe me as ...'.
 4
 2
 0
-133671
+137905
 0
-1588805200
+1610566771
 36
 1
 #7
@@ -3261,9 +3270,9 @@ generic exit
 4
 2
 0
-10409
+10849
 0
-1588805200
+1610566771
 36
 1
 #8
@@ -3479,9 +3488,9 @@ generic container
 4
 2
 0
-13863
+14463
 0
-1588805200
+1610566771
 36
 1
 #9
@@ -3602,9 +3611,9 @@ There appears to be some writing on the note ...
 4
 2
 0
-9283
+9723
 0
-1588805200
+1610566771
 36
 1
 #10
@@ -4000,7 +4009,7 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 1
 -2
 0
-2
+1
 2
 5
 0
@@ -4012,6 +4021,18 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 2
 4
 4
+2
+4
+2
+0
+1610566201
+0
+0
+4
+2
+0
+1599892214
+0
 0
 2
 5
@@ -4107,9 +4128,9 @@ This provides everything needed by #0:do_login_command.  See `help $login' on $c
 4
 2
 0
-57889
+59882
 0
-1588805200
+1610566771
 36
 1
 #11
@@ -4161,9 +4182,9 @@ A repository of last-resort player verbs to be called by $player:last_huh
 4
 2
 0
-6294
+6454
 0
-1588805200
+1610566771
 36
 1
 #12
@@ -4224,9 +4245,9 @@ Guest Log
 4
 2
 0
-5330
+5510
 0
-1588805200
+1610566771
 36
 1
 #13
@@ -4560,9 +4581,9 @@ This is the Generic BigList Utilities utility package.  See `help $biglist' for 
 4
 2
 0
-29877
+30986
 0
-1588805200
+1610566771
 36
 1
 #14
@@ -4936,9 +4957,9 @@ Calling #OBJ:restore_from(...) COMPLETELY AND IRREVOCABLY REMOVES ALL MESSAGES f
 4
 2
 0
-51966
+53798
 0
-1588805200
+1610566771
 36
 1
 #15
@@ -4995,9 +5016,9 @@ The Body Bag
 4
 2
 0
-3584
+3784
 0
-1588805200
+1610566771
 36
 1
 #16
@@ -5127,9 +5148,9 @@ Registration Database
 4
 2
 0
-12978
+13392
 0
-1588805200
+1610566771
 36
 1
 #17
@@ -5321,9 +5342,9 @@ Log of player creations.
 4
 2
 0
-5497
+5701
 0
-1588805200
+1610566771
 36
 1
 #18
@@ -5424,9 +5445,9 @@ A `help database' that knows about all of the documented verbs.
 4
 2
 0
-5292
+5412
 0
-1588805200
+1610566771
 36
 1
 #19
@@ -8920,9 +8941,9 @@ Help database for LambdaCore utility objects and generics.
 4
 2
 0
-121414
+121534
 0
-1588805200
+1610566771
 36
 1
 #20
@@ -9512,9 +9533,9 @@ This is the string utilities utility package.  See `help $string_utils' for more
 4
 2
 0
-105387
+108720
 0
-1588805200
+1610566771
 36
 1
 #21
@@ -9682,9 +9703,9 @@ This is the building utilities utility package.  See `help $building_utils' for 
 4
 2
 0
-18699
+19146
 0
-1588805200
+1610566771
 36
 1
 #22
@@ -12497,9 +12518,9 @@ This provides help on the programmer commands available on $prog and related top
 4
 2
 0
-103005
+103085
 0
-1588805200
+1610566771
 36
 1
 #23
@@ -13638,7 +13659,7 @@ This describes the various commands available on $wiz.
 0
 36730
 0
-1588805200
+1610566771
 36
 1
 #24
@@ -14346,9 +14367,9 @@ This is the Wizard Utilities utility package.  See `help $wiz_utils' for more de
 4
 2
 0
-73488
+75237
 0
-1588805200
+1610566771
 36
 1
 #25
@@ -14491,9 +14512,9 @@ The site blacklist and the graylist live as well (see `help blacklist').
 4
 2
 0
-17985
+18428
 0
-1588805200
+1610566771
 36
 1
 #26
@@ -16789,9 +16810,9 @@ This is the Math Utilities utility package.  See `help $math_utils' for more det
 4
 2
 0
-56037
+57797
 0
-1588805200
+1610566771
 36
 1
 #27
@@ -16911,9 +16932,9 @@ This is the Set Utilities utility package.  See `help $set_utils' for more detai
 4
 2
 0
-7782
+8102
 0
-1588805200
+1610566771
 36
 1
 #28
@@ -19431,7 +19452,7 @@ For the {"*verb*",...} form, the current verbs available are
 0
 107206
 0
-1588805200
+1610566771
 36
 1
 #29
@@ -19593,9 +19614,9 @@ Record of who's been made a @programmer.
 4
 2
 0
-9059
+9347
 0
-1588805200
+1610566771
 36
 1
 #30
@@ -19713,9 +19734,9 @@ A help database of the standard form in need of a description. See `help $generi
 4
 2
 0
-13195
+13690
 0
-1588805200
+1610566771
 36
 1
 #31
@@ -20152,9 +20173,9 @@ By definition, guests appear nondescript.
 4
 2
 0
-21645
+22525
 0
-1588805200
+1610566771
 36
 1
 #32
@@ -20212,9 +20233,9 @@ For help on using the speller, use 'help spelling' and 'help @spell'.
 4
 2
 0
-6042
+6242
 0
-1588805200
+1610566771
 36
 1
 #33
@@ -20420,9 +20441,9 @@ This is the sequence utilities utility package.  See `help $seq_utils' for more 
 4
 2
 0
-22892
+23817
 0
-1588805200
+1610566771
 36
 1
 #34
@@ -20561,9 +20582,9 @@ Record of whose quota has been messed with and why.
 4
 2
 0
-2286
+2326
 0
-1588805200
+1610566771
 36
 1
 #35
@@ -20731,9 +20752,9 @@ An object useful for pronoun substitution for switching between third and second
 4
 2
 0
-9531
+9735
 0
-1588805200
+1610566771
 36
 1
 #36
@@ -21037,7 +21058,7 @@ init_for_core
 0
 100000008
 0
--28388962
+-28354521
 0
 1008125633
 0
@@ -21075,9 +21096,9 @@ A system character used to own non-wizardly system verbs , properties, and objec
 4
 2
 0
-4188
+4228
 0
-1588805200
+1610566771
 36
 1
 #37
@@ -21222,9 +21243,9 @@ A generic `database' (well, really more like a string-indexed array if you want 
 4
 2
 0
-23185
+24015
 0
-1588805200
+1610566771
 36
 1
 #38
@@ -21459,7 +21480,7 @@ Everyman ($no_one) can not receive mail.
 0
 0
 0
-1588804873
+1610566201
 0
 0
 36
@@ -21501,9 +21522,9 @@ The character used for "safe" evals.
 4
 2
 0
-8398
+8638
 0
-1588805200
+1610566771
 36
 1
 #39
@@ -21761,9 +21782,9 @@ See `help $player_db' for more information.
 4
 2
 0
-12184
+12464
 0
-1588805200
+1610566771
 36
 1
 #40
@@ -22256,9 +22277,9 @@ Generic Mail Receiving Player
 4
 2
 0
-97243
+99786
 0
-1588805200
+1610566771
 36
 1
 #41
@@ -22749,9 +22770,9 @@ This is the gender utilities utility package.  See `help $gender_utils' for more
 4
 2
 0
-17787
+18117
 0
-1588805200
+1610566771
 36
 1
 #42
@@ -22838,9 +22859,9 @@ This is the permissions utilities utility package.  See `help $perm_utils' for m
 4
 2
 0
-4790
+4950
 0
-1588805200
+1610566771
 36
 1
 #43
@@ -23433,9 +23454,9 @@ This is the time utilities utility package.  See `help $time_utils' for more det
 4
 2
 0
-30722
+31463
 0
-1588805200
+1610566771
 36
 1
 #44
@@ -24383,7 +24404,7 @@ Editor Help
 0
 26270
 0
-1588805200
+1610566771
 36
 1
 #45
@@ -24679,9 +24700,9 @@ This can either be a mailing list or a mail folder, depending on what mood you'r
 4
 2
 0
-44127
+45731
 0
-1588805200
+1610566771
 36
 1
 #46
@@ -25034,9 +25055,9 @@ Avaliable aliases:
 4
 2
 0
-69430
+71767
 0
-1588805200
+1610566771
 36
 1
 #47
@@ -25480,9 +25501,9 @@ Mail Room
 4
 2
 0
-31755
+32813
 0
-1588805200
+1610566771
 36
 1
 #48
@@ -25809,9 +25830,9 @@ nedit
 4
 2
 0
-15330
+15810
 0
-1588805200
+1610566771
 36
 1
 #49
@@ -26138,9 +26159,9 @@ verb edit
 4
 2
 0
-20487
+21037
 0
-1588805200
+1610566771
 36
 1
 #50
@@ -26777,9 +26798,9 @@ edit
 4
 2
 0
-74141
+77149
 0
-1588805200
+1610566771
 36
 1
 #51
@@ -26932,9 +26953,9 @@ matching utilities
 4
 2
 0
-12588
+12908
 0
-1588805200
+1610566771
 36
 1
 #52
@@ -27190,9 +27211,9 @@ This is the object utilities utility package.  See `help $object_utils' for more
 4
 2
 0
-29782
+31022
 0
-1588805200
+1610566771
 36
 1
 #53
@@ -27327,9 +27348,9 @@ This the lock utilities package, used by the MOOwide locking mechanisms. See `he
 4
 2
 0
-13212
+13652
 0
-1588805200
+1610566771
 36
 1
 #54
@@ -27431,9 +27452,9 @@ Some writing on the letter explains that you should 'read letter', and when you'
 4
 2
 0
-3579
+3699
 0
-1588805200
+1610566771
 36
 1
 #55
@@ -27746,9 +27767,9 @@ This is the list utilities utility package.  See `help $list_utils' for more det
 4
 2
 0
-41070
+42872
 0
-1588805200
+1610566771
 36
 1
 #56
@@ -27845,9 +27866,9 @@ feature_task
 4
 9
 0
-643636565
+123897227
 2
-prog-o
+[A
 4
 0
 2
@@ -27959,9 +27980,9 @@ This is the command utilities utility package.  See `help $command_utils' for mo
 4
 2
 0
-25450
+26140
 0
-1588805200
+1610566771
 36
 1
 #57
@@ -28489,9 +28510,9 @@ You see a wizard who chooses not to reveal its true appearance.
 4
 2
 0
-82817
+84562
 0
-1588805200
+1610566771
 36
 1
 #58
@@ -28994,9 +29015,9 @@ You see a player who is too experienced to have any excuse for not having a desc
 4
 2
 0
-82960
+84650
 0
-1588805200
+1610566771
 36
 1
 #59
@@ -29746,9 +29767,9 @@ This is the code utilities utility package.  See `help $code_utils' for more det
 4
 2
 0
-82159
+84755
 0
-1588805200
+1610566771
 36
 1
 #60
@@ -32395,9 +32416,9 @@ See the description of $generic_help for more detail.
 4
 2
 0
-96153
+96515
 0
-1588805200
+1610566771
 36
 1
 #61
@@ -32915,9 +32936,9 @@ It's the current issue of the News, dated %d.
 4
 2
 0
-28263
+29103
 0
-1588805200
+1610566771
 36
 1
 #62
@@ -33014,9 +33035,9 @@ This is all there is right now.
 4
 2
 0
-6359
+6559
 0
-1588805200
+1610566771
 36
 1
 #63
@@ -33163,9 +33184,9 @@ Object reuse. Call $recycler:_create() to create an object (semantics the same a
 4
 2
 0
-12648
+13313
 0
-1588805200
+1610566771
 36
 1
 # 64 recycled
@@ -33536,9 +33557,9 @@ Options for mailing
 4
 2
 0
-20503
+21303
 0
-1588805200
+1610566771
 36
 1
 #66
@@ -33645,9 +33666,9 @@ Edit Options
 4
 2
 0
-2824
+2904
 0
-1588805200
+1610566771
 36
 1
 #67
@@ -33732,7 +33753,7 @@ Display Options
 0
 1273
 0
-1588805200
+1610566771
 36
 1
 #68
@@ -33848,9 +33869,9 @@ an option package in need of a description.  See `help $generic_option'...
 4
 2
 0
-16982
+17483
 0
-1588805200
+1610566771
 36
 1
 #69
@@ -34046,9 +34067,9 @@ raise(error) actually raises the error.
 4
 2
 0
-11680
+12480
 0
-1588805200
+1610566771
 36
 1
 #70
@@ -34157,9 +34178,9 @@ Notes on annoying sites.
 4
 2
 0
-1824
+1864
 0
-1588805200
+1610566771
 36
 1
 #71
@@ -34659,9 +34680,9 @@ Impossible password to type
 0
 183000
 0
-31507
+32487
 0
-1588804873
+1610566201
 0
 0
 36
@@ -34698,9 +34719,9 @@ A very clean, neat, tidy person who doesn't mind lugging players and their gear 
 4
 2
 0
-31507
+32487
 0
-1588805200
+1610566771
 36
 1
 #72
@@ -35132,9 +35153,9 @@ Parameters:
 4
 2
 0
-31183
+32197
 0
-1588805200
+1610566771
 36
 1
 #73
@@ -35219,9 +35240,9 @@ This is the object you want to use as a parent in order to @create a place for y
 4
 2
 0
-5344
+5624
 0
-1588805200
+1610566771
 36
 1
 #74
@@ -35361,9 +35382,9 @@ This is the Generic Feature Object.  It is not meant to be used as a feature obj
 4
 2
 0
-10943
+11423
 0
-1588805200
+1610566771
 36
 1
 #75
@@ -35663,9 +35684,9 @@ Option package for $prog commands.  See `help @prog-options'.
 4
 2
 0
-10068
+10468
 0
-1588805200
+1610566771
 36
 1
 #77
@@ -35792,9 +35813,9 @@ Option package for $builder commands.  See `help @build-options'.
 4
 2
 0
-5909
+6109
 0
-1588805200
+1610566771
 36
 1
 #78
@@ -35886,7 +35907,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 835
 0
-1588805200
+1610566771
 36
 1
 #79
@@ -36086,7 +36107,7 @@ measurement_task_running
 36
 5
 1
-98
+71
 36
 5
 0
@@ -36286,9 +36307,9 @@ This is the Byte Quota Utilities utility package.  See `help $quota_utils' for m
 4
 2
 0
-42575
+44035
 0
-1588805200
+1610566771
 36
 1
 #80
@@ -36410,9 +36431,9 @@ Internal:
 4
 2
 0
-8754
+9154
 0
-1588805200
+1610566771
 36
 1
 #81
@@ -36516,9 +36537,9 @@ This is the Object Quota Utilities utility package.  See `help $object_quota_uti
 4
 2
 0
-9928
+10488
 0
-1588805200
+1610566771
 36
 1
 #82
@@ -36724,9 +36745,9 @@ Server Options
 4
 2
 0
-9110
+9190
 0
-1588805200
+1610566771
 36
 1
 #83
@@ -36851,9 +36872,9 @@ warehouse
 4
 2
 0
-2586
+2626
 0
-1588805200
+1610566771
 36
 1
 #84
@@ -38164,9 +38185,9 @@ This help database contains topics about the generic builder and building comman
 4
 2
 0
-46286
+46326
 0
-1588805200
+1610566771
 36
 1
 #85
@@ -39399,7 +39420,7 @@ This help database contains topics relating to the general use of the mail syste
 0
 42114
 0
-1588805200
+1610566771
 36
 1
 #86
@@ -41860,7 +41881,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 81895
 0
-1588805200
+1610566771
 36
 1
 #87
@@ -42040,9 +42061,9 @@ The password verifier verifies passwords.
 4
 2
 0
-14668
+15188
 0
-1588805200
+1610566771
 36
 1
 #88
@@ -42726,9 +42747,9 @@ You see a player who should type '@describe me as ...'.
 4
 2
 0
-91907
+95092
 0
-1588805200
+1610566771
 36
 1
 #89
@@ -42836,9 +42857,9 @@ This feature contains various verbs used in stage talk, which allows players to 
 4
 2
 0
-5959
+6159
 0
-1588805200
+1610566771
 36
 1
 #90
@@ -42930,9 +42951,9 @@ Verbs useful to people using a windowing system to paste text at people.
 4
 2
 0
-5734
+5854
 0
-1588805200
+1610566771
 36
 1
 #91
@@ -43218,9 +43239,9 @@ This is a utilities package for dealing with lists as representations of vectors
 4
 2
 0
-38343
+39467
 0
-1588805200
+1610566771
 36
 1
 #92
@@ -44105,7 +44126,7 @@ Frand Help DB
 0
 30023
 0
-1588805200
+1610566771
 36
 1
 #93
@@ -46243,9 +46264,9 @@ This is a utilities package for converting from one unit of measurement to anoth
 4
 2
 0
-44958
+45582
 0
-1588805200
+1610566771
 36
 1
 #94
@@ -46350,9 +46371,9 @@ Generic Gendered Object
 4
 2
 0
-3568
+3688
 0
-1588805200
+1610566771
 36
 1
 #95
@@ -46664,9 +46685,9 @@ List Editor
 4
 2
 0
-17357
+17973
 0
-1588805200
+1610566771
 36
 1
 #96
@@ -46965,9 +46986,9 @@ impossible password to type
 0
 0
 0
-130901
+135555
 0
-1588804873
+1610566201
 0
 0
 36
@@ -47007,7 +47028,7 @@ This player owns all editor-related verbs.
 0
 3586
 0
-1588805200
+1610566771
 36
 1
 #97
@@ -47132,9 +47153,9 @@ HTTP Server
 4
 2
 0
-8191
+8359
 0
-1588805200
+1610566771
 36
 1
 #98
@@ -47452,9 +47473,9 @@ Core
 0
 50000
 0
-233849
+238637
 0
-1588805200
+1610566771
 0
 100
 36
@@ -47488,7 +47509,7 @@ Core
 0
 3669
 0
-1588805200
+1610566771
 36
 1
 #99
@@ -47908,7 +47929,7 @@ e[37m
 98
 1
 0
-1904738243
+828515096
 98
 1
 4
@@ -48310,65 +48331,9 @@ First version, added $emu and hacked $player:notify to call it.
 98
 1
 4
-29
+1
 0
-159574921
-0
-2045039974
-0
-1917292164
-0
-1596176140
-0
-1708947147
-0
-1346781151
-0
-1311578094
-0
-1238399930
-0
-1167391557
-0
-833146884
-0
-1115860054
-0
-851763181
-0
-793164413
-0
-896357780
-0
-252533595
-0
-488317245
-0
-2002306775
-0
-379931293
-0
-1438393133
-0
-239098562
-0
-459188328
-0
-1496818843
-0
-1651983788
-0
-1867004520
-0
-77273908
-0
-883961459
-0
-1983035464
-0
-1366047757
-0
-105789111
+1348268734
 98
 1
 4
@@ -48552,9 +48517,9 @@ au
 4
 2
 0
-75483
+76643
 0
-1588805200
+1610566771
 36
 1
 #100
@@ -48827,9 +48792,9 @@ A player with the ability to see things in [red]c[bold][yellow]o[green]l[blue]o[
 4
 2
 0
-29102
+29836
 0
-1588805200
+1610566771
 36
 1
 #101
@@ -49508,9 +49473,9 @@ A help database of the standard form in need of a description. See `help $generi
 4
 2
 0
-26786
+26826
 0
-1588805200
+1610566771
 36
 1
 #102
@@ -49727,9 +49692,9 @@ An option package for controlling and customizing the ANSI PC.
 4
 2
 0
-5619
+5739
 0
-1588805200
+1610566771
 36
 1
 #103
@@ -49791,9 +49756,9 @@ dispatch
 4
 2
 0
-5192
+5312
 0
-1588805200
+1610566771
 36
 1
 #104
@@ -49898,9 +49863,9 @@ package
 4
 2
 0
-6825
+7185
 0
-1588805200
+1610566771
 36
 1
 #105
@@ -50005,9 +49970,9 @@ negotiate
 4
 2
 0
-3228
+3348
 0
-1588805200
+1610566771
 36
 1
 #106
@@ -50167,9 +50132,9 @@ cord
 4
 2
 0
-7348
+7708
 0
-1588805200
+1610566771
 36
 1
 #107
@@ -50241,9 +50206,9 @@ parser
 4
 2
 0
-6696
+6944
 0
-1588805200
+1610566771
 36
 1
 #108
@@ -50483,9 +50448,9 @@ registry
 4
 2
 0
-6416
+6696
 0
-1588805200
+1610566771
 36
 1
 #110
@@ -50642,9 +50607,9 @@ mcp
 4
 2
 0
-10536
+11136
 0
-1588805200
+1610566771
 36
 1
 #111
@@ -50921,9 +50886,9 @@ Non JHCore installations might choose to set .v_filter_in / .v_filter_out to fal
 4
 2
 0
-15923
+16249
 0
-1588805200
+1610566771
 36
 1
 #114
@@ -51919,7 +51884,7 @@ MCP Help Database
 0
 23287
 0
-1588805200
+1610566771
 36
 1
 #117
@@ -52115,9 +52080,9 @@ Generic Waif
 4
 2
 0
-7191
+7311
 0
-1588805200
+1610566771
 36
 1
 #119
@@ -52319,9 +52284,9 @@ dns-com-vmoo-client
 4
 2
 0
-6385
+6665
 0
-1588805200
+1610566771
 36
 1
 #122
@@ -52412,9 +52377,9 @@ dns-com-awns-status
 4
 2
 0
-1354
+1394
 0
-1588805200
+1610566771
 36
 1
 #124
@@ -52839,9 +52804,9 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 4
 2
 0
-51051
+52488
 0
-1588805200
+1610566771
 36
 1
 #125
@@ -52968,9 +52933,9 @@ Menu Utilities
 4
 2
 0
-7906
+8055
 0
-1588805200
+1610566771
 36
 1
 0
@@ -83596,7 +83561,7 @@ m["status"] = `caller_perms().wizard ! E_INVIND' ? "writable" | "readable";
 return ["Meta" -> m, "Value" -> ["value" -> v]];
 .
 #75:15
-{o, v, ?options = []} = args;
+{o, v} = args;
 try
 vx = verbs(o);
 except (E_TYPE, E_INVARG)
@@ -83611,14 +83576,10 @@ return r;
 endtry
 set_task_perms(caller_perms());
 try
-vd = $verb_detail(o, v);
-code = verb_code(o, v);
-doc = $verb_doc(o, v);
-d = ["owner" -> vd["owner"], "perms" -> vd["perms"], "names" -> vd["names"], "dobj" -> vd["dobj"], "prep" -> vd["prep"], "iobj" -> vd["iobj"]];
-d["code"] = code;
-doc && (d["documentation"] = doc);
-`d["content_type"] = vd["content_type"] ! E_RANGE';
-p = (index(d["perms"], "w") || this:_controls_verb(caller_perms(), o, v)) ? "rw" | "r";
+vi = verb_info(o, v);
+va = verb_args(o, v);
+vc = verb_code(o, v);
+p = (index(vi[2], "w") || this:_controls_verb(caller_perms(), o, v)) ? "rw" | "r";
 except (E_TYPE, E_INVARG, E_VERBNF)
 r = ["Meta" -> ["id" -> v, "status" -> "invalid"]];
 return r;
@@ -83628,7 +83589,7 @@ return r;
 endtry
 m = ["id" -> v];
 m["status"] = index(p, "w") ? "writable" | "readable";
-r = ["Meta" -> m, "Verb" -> d];
+r = ["Meta" -> m, "Verb" -> ["owner" -> vi[1], "perms" -> vi[2], "names" -> vi[3], "dobj" -> va[1], "prep" -> va[2], "iobj" -> va[3], "code" -> vc]];
 return r;
 .
 #75:16
