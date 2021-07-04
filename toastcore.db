@@ -9,7 +9,7 @@
 0 values pending finalization
 0 clocks
 1 queued tasks
-0 1 1612944001 696291753
+0 5 1625472001 2000441722
 0
 -111
 1
@@ -24,7 +24,7 @@ Parse
 Infos
 schedule_measurement_task
 schedule_measurement_task
-24 variables
+26 variables
 NUM
 0
 0
@@ -97,6 +97,12 @@ true
 false
 14
 0
+day
+0
+86400
+hour_of_day_GMT
+0
+8
 this:schedule_measurement_task();
 this.measurement_task_running = task_id();
 this:measurement_task(this.task_time_limit);
@@ -726,7 +732,7 @@ a 2018 LambdaCore
 2
 last_restart_time
 0
-1612916591
+1625438684
 2
 name
 2
@@ -883,7 +889,7 @@ The known universe.
 0
 37592
 0
-1612916715
+1625438907
 36
 1
 #1
@@ -899,15 +905,13 @@ Root Class
 1
 -1
 4
-28
+27
 1
 3
 1
 0
 1
 5
-1
-6
 1
 7
 1
@@ -1128,7 +1132,7 @@ object_size
 0
 32218
 0
-1612916715
+1625438907
 36
 1
 #2
@@ -1486,12 +1490,6 @@ time
 5
 5
 2
-5
-5
-2
-5
-5
-2
 1
 0
 100
@@ -1500,40 +1498,10 @@ time
 5
 2
 5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
 0
 0
 2
 0
-5
-2
-5
 5
 2
 5
@@ -1551,9 +1519,9 @@ time
 0
 50000
 0
-1134397
+1132076
 0
-1612916715
+1625438907
 0
 900
 36
@@ -1575,6 +1543,42 @@ time
 5
 5
 2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
 4
 4
 1
@@ -1588,9 +1592,9 @@ Wizard
 4
 2
 0
-6572
+6848
 0
-1612916715
+1625438907
 36
 1
 #3
@@ -1884,7 +1888,7 @@ generic room
 0
 43072
 0
-1612916715
+1625438907
 36
 1
 #4
@@ -2233,44 +2237,11 @@ build_options
 5
 5
 2
-5
-5
-2
-5
-5
-2
 1
 0
 0
 36
 0
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
 1
 62
 2
@@ -2289,9 +2260,6 @@ build_options
 5
 5
 2
-5
-5
-2
 1
 5
 36
@@ -2305,6 +2273,42 @@ build_options
 5
 2
 1
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
 5
 2
 5
@@ -2329,7 +2333,7 @@ You see a player who should type '@describe me as ...'.
 0
 48780
 0
-1612916715
+1625438907
 36
 1
 #5
@@ -2442,7 +2446,7 @@ generic thing
 0
 7011
 0
-1612916715
+1625438907
 36
 1
 #6
@@ -2456,12 +2460,12 @@ generic player
 4
 0
 1
-1
+94
 4
 1
 1
 100
-103
+101
 init_for_core
 2
 173
@@ -2686,14 +2690,6 @@ set_aliases
 2
 29
 -1
-set_gender
-2
-173
--1
-@gender
-2
-25
--1
 set_brief
 2
 173
@@ -2773,10 +2769,6 @@ linewrap
 @set-note-string @set-note-text
 2
 25
--1
-verb_sub
-2
-173
 -1
 ownership_quota
 2
@@ -2874,7 +2866,11 @@ reconfunc
 2
 89
 -2
-48
+@gender
+2
+25
+-1
+36
 features
 previous_connection
 email_address
@@ -2894,28 +2890,16 @@ dict
 brief
 lines
 page_absent_msg
-pq
-pqc
 page_origin_msg
 page_echo_msg
 edit_options
 last_connect_time
 ownership_quota
-gender
-prc
-ppc
-poc
-psc
-pr
-pp
-po
-ps
 home
 password
 gaglist
 paranoid
 display_options
-verb_subs
 first_connect_time
 size_quota
 last_password_time
@@ -3005,14 +2989,6 @@ inline_editor_options
 2
 5
 2
-its
-2
-5
-2
-Its
-2
-5
-2
 You sense that %n is looking for you in %l.
 2
 5
@@ -3032,42 +3008,6 @@ Your message has been sent.
 0
 36
 0
-2
-neuter
-2
-5
-2
-Itself
-2
-5
-2
-Its
-2
-5
-2
-It
-2
-5
-2
-It
-2
-5
-2
-itself
-2
-5
-2
-its
-2
-5
-2
-it
-2
-5
-2
-it
-2
-5
 1
 62
 2
@@ -3081,10 +3021,6 @@ impossible password to type
 2
 5
 0
-0
-2
-5
-4
 0
 2
 5
@@ -3122,6 +3058,42 @@ impossible password to type
 0
 5
 2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
 4
 4
 1
@@ -3136,9 +3108,9 @@ You see a player who should type '@describe me as ...'.
 4
 2
 0
-137905
+135952
 0
-1612916715
+1625438907
 36
 1
 #7
@@ -3264,7 +3236,7 @@ generic exit
 0
 10849
 0
-1612916715
+1625438907
 36
 1
 #8
@@ -3482,7 +3454,7 @@ generic container
 0
 14463
 0
-1612916715
+1625438907
 36
 1
 #9
@@ -3605,7 +3577,7 @@ There appears to be some writing on the note ...
 0
 9723
 0
-1612916715
+1625438907
 36
 1
 #10
@@ -3997,11 +3969,7 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 2
 0
 10
-1
-1
--2
 0
-1
 2
 5
 0
@@ -4013,36 +3981,6 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 2
 4
 4
-5
-4
-2
-0
-1612916591
-0
-0
-4
-2
-0
-1612906119
-0
-0
-4
-2
-0
-1612904867
-0
-0
-4
-2
-0
-1610566201
-0
-0
-4
-2
-0
-1599892214
-0
 0
 2
 5
@@ -4138,9 +4076,9 @@ This provides everything needed by #0:do_login_command.  See `help $login' on $c
 4
 2
 0
-60074
+60082
 0
-1612916715
+1625438907
 36
 1
 #11
@@ -4194,7 +4132,7 @@ A repository of last-resort player verbs to be called by $player:last_huh
 0
 6454
 0
-1612916715
+1625438907
 36
 1
 #12
@@ -4257,7 +4195,7 @@ Guest Log
 0
 5510
 0
-1612916715
+1625438907
 36
 1
 #13
@@ -4593,7 +4531,7 @@ This is the Generic BigList Utilities utility package.  See `help $biglist' for 
 0
 30986
 0
-1612916715
+1625438907
 36
 1
 #14
@@ -4969,7 +4907,7 @@ Calling #OBJ:restore_from(...) COMPLETELY AND IRREVOCABLY REMOVES ALL MESSAGES f
 0
 53798
 0
-1612916715
+1625438907
 36
 1
 #15
@@ -5028,7 +4966,7 @@ The Body Bag
 0
 3784
 0
-1612916715
+1625438907
 36
 1
 #16
@@ -5160,7 +5098,7 @@ Registration Database
 0
 13392
 0
-1612916715
+1625438907
 36
 1
 #17
@@ -5354,7 +5292,7 @@ Log of player creations.
 0
 5701
 0
-1612916715
+1625438907
 36
 1
 #18
@@ -5457,7 +5395,7 @@ A `help database' that knows about all of the documented verbs.
 0
 5412
 0
-1612916715
+1625438907
 36
 1
 #19
@@ -8953,7 +8891,7 @@ Help database for LambdaCore utility objects and generics.
 0
 121534
 0
-1612916715
+1625438907
 36
 1
 #20
@@ -9549,7 +9487,7 @@ This is the string utilities utility package.  See `help $string_utils' for more
 0
 109318
 0
-1612916715
+1625438907
 36
 1
 #21
@@ -9719,7 +9657,7 @@ This is the building utilities utility package.  See `help $building_utils' for 
 0
 19146
 0
-1612916715
+1625438907
 36
 1
 #22
@@ -12534,7 +12472,7 @@ This provides help on the programmer commands available on $prog and related top
 0
 103085
 0
-1612916715
+1625438907
 36
 1
 #23
@@ -13673,7 +13611,7 @@ This describes the various commands available on $wiz.
 0
 36730
 0
-1612916715
+1625438907
 36
 1
 #24
@@ -14383,7 +14321,7 @@ This is the Wizard Utilities utility package.  See `help $wiz_utils' for more de
 0
 75237
 0
-1612916715
+1625438907
 36
 1
 #25
@@ -14528,7 +14466,7 @@ The site blacklist and the graylist live as well (see `help blacklist').
 0
 18428
 0
-1612916715
+1625438907
 36
 1
 #26
@@ -16826,7 +16764,7 @@ This is the Math Utilities utility package.  See `help $math_utils' for more det
 0
 57797
 0
-1612916715
+1625438907
 36
 1
 #27
@@ -16948,7 +16886,7 @@ This is the Set Utilities utility package.  See `help $set_utils' for more detai
 0
 8102
 0
-1612916715
+1625438907
 36
 1
 #28
@@ -19466,7 +19404,7 @@ For the {"*verb*",...} form, the current verbs available are
 0
 107206
 0
-1612916715
+1625438907
 36
 1
 #29
@@ -19630,7 +19568,7 @@ Record of who's been made a @programmer.
 0
 9347
 0
-1612916715
+1625438907
 36
 1
 #30
@@ -19750,7 +19688,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 13690
 0
-1612916715
+1625438907
 36
 1
 #31
@@ -20079,45 +20017,12 @@ By definition, guests appear nondescript.
 36
 5
 5
-36
-5
-5
-36
-5
-5
 2
 1
 0
 0
 36
 0
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
 1
 62
 36
@@ -20137,9 +20042,6 @@ By definition, guests appear nondescript.
 36
 5
 5
-36
-5
-5
 2
 1
 4
@@ -20163,6 +20065,42 @@ By definition, guests appear nondescript.
 5
 2
 1
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
 5
 36
 5
@@ -20189,7 +20127,7 @@ By definition, guests appear nondescript.
 0
 22525
 0
-1612916715
+1625438907
 36
 1
 #32
@@ -20249,7 +20187,7 @@ For help on using the speller, use 'help spelling' and 'help @spell'.
 0
 6242
 0
-1612916715
+1625438907
 36
 1
 #33
@@ -20457,7 +20395,7 @@ This is the sequence utilities utility package.  See `help $seq_utils' for more 
 0
 23817
 0
-1612916715
+1625438907
 36
 1
 #34
@@ -20598,7 +20536,7 @@ Record of whose quota has been messed with and why.
 0
 2326
 0
-1612916715
+1625438907
 36
 1
 #35
@@ -20639,7 +20577,7 @@ say_action_reflexive
 2
 conjugations
 help_msg
-17
+18
 4
 4
 4
@@ -20750,6 +20688,9 @@ you
 5
 5
 36
+5
+5
+36
 4
 4
 1
@@ -20766,9 +20707,9 @@ An object useful for pronoun substitution for switching between third and second
 4
 2
 0
-9735
+9767
 0
-1612916715
+1625438907
 36
 1
 #36
@@ -21005,45 +20946,12 @@ init_for_core
 36
 5
 5
-36
-5
-5
-36
-5
-5
 2
 1
 0
 37331
 36
 0
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
 1
 -1
 36
@@ -21051,9 +20959,6 @@ init_for_core
 5
 2
 0
-5
-36
-5
 5
 36
 5
@@ -21072,7 +20977,7 @@ init_for_core
 0
 100000008
 0
--28354521
+-28354486
 0
 1008125633
 0
@@ -21088,6 +20993,42 @@ init_for_core
 5
 2
 1
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
 5
 36
 5
@@ -21112,7 +21053,7 @@ A system character used to own non-wizardly system verbs , properties, and objec
 0
 4228
 0
-1612916715
+1625438907
 36
 1
 #37
@@ -21259,7 +21200,7 @@ A generic `database' (well, really more like a string-indexed array if you want 
 0
 24015
 0
-1612916715
+1625438907
 36
 1
 #38
@@ -21417,12 +21358,6 @@ Everyman ($no_one) can not receive mail.
 5
 36
 5
-5
-36
-5
-5
-36
-5
 2
 ... no one out there to see it.
 36
@@ -21437,33 +21372,6 @@ Everyman ($no_one) can not receive mail.
 -10000
 36
 0
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
 1
 -1
 36
@@ -21471,9 +21379,6 @@ Everyman ($no_one) can not receive mail.
 5
 2
 0
-5
-36
-5
 5
 36
 5
@@ -21494,7 +21399,7 @@ Everyman ($no_one) can not receive mail.
 0
 0
 0
-1612904867
+1625438684
 0
 0
 36
@@ -21508,6 +21413,42 @@ Everyman ($no_one) can not receive mail.
 5
 2
 1
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
 5
 36
 5
@@ -21538,7 +21479,7 @@ The character used for "safe" evals.
 0
 8638
 0
-1612916715
+1625438907
 36
 1
 #39
@@ -21798,7 +21739,7 @@ See `help $player_db' for more information.
 0
 12464
 0
-1612916715
+1625438907
 36
 1
 #40
@@ -22198,43 +22139,10 @@ messages
 5
 5
 2
-5
-5
-2
-5
-5
-2
 1
 5
 36
 0
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
 1
 62
 2
@@ -22253,9 +22161,6 @@ messages
 5
 5
 2
-5
-5
-2
 1
 5
 36
@@ -22269,6 +22174,42 @@ messages
 5
 2
 1
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
 5
 2
 5
@@ -22293,7 +22234,7 @@ Generic Mail Receiving Player
 0
 99786
 0
-1612916715
+1625438907
 36
 1
 #41
@@ -22786,7 +22727,7 @@ This is the gender utilities utility package.  See `help $gender_utils' for more
 0
 18117
 0
-1612916715
+1625438907
 36
 1
 #42
@@ -22875,7 +22816,7 @@ This is the permissions utilities utility package.  See `help $perm_utils' for m
 0
 4950
 0
-1612916715
+1625438907
 36
 1
 #43
@@ -23470,7 +23411,7 @@ This is the time utilities utility package.  See `help $time_utils' for more det
 0
 31463
 0
-1612916715
+1625438907
 36
 1
 #44
@@ -24418,7 +24359,7 @@ Editor Help
 0
 26270
 0
-1612916715
+1625438907
 36
 1
 #45
@@ -24716,7 +24657,7 @@ This can either be a mailing list or a mail folder, depending on what mood you'r
 0
 45731
 0
-1612916715
+1625438907
 36
 1
 #46
@@ -25071,7 +25012,7 @@ Avaliable aliases:
 0
 71767
 0
-1612916715
+1625438907
 36
 1
 #47
@@ -25517,7 +25458,7 @@ Mail Room
 0
 32813
 0
-1612916715
+1625438907
 36
 1
 #48
@@ -25846,7 +25787,7 @@ nedit
 0
 15810
 0
-1612916715
+1625438907
 36
 1
 #49
@@ -26175,7 +26116,7 @@ verb edit
 0
 21037
 0
-1612916715
+1625438907
 36
 1
 #50
@@ -26814,7 +26755,7 @@ edit
 0
 77149
 0
-1612916715
+1625438907
 36
 1
 #51
@@ -26969,7 +26910,7 @@ matching utilities
 0
 12908
 0
-1612916715
+1625438907
 36
 1
 #52
@@ -27227,7 +27168,7 @@ This is the object utilities utility package.  See `help $object_utils' for more
 0
 31022
 0
-1612916715
+1625438907
 36
 1
 #53
@@ -27364,7 +27305,7 @@ This the lock utilities package, used by the MOOwide locking mechanisms. See `he
 0
 13652
 0
-1612916715
+1625438907
 36
 1
 #54
@@ -27468,7 +27409,7 @@ Some writing on the letter explains that you should 'read letter', and when you'
 0
 3699
 0
-1612916715
+1625438907
 36
 1
 #55
@@ -27783,7 +27724,7 @@ This is the list utilities utility package.  See `help $list_utils' for more det
 0
 42872
 0
-1612916715
+1625438907
 36
 1
 #56
@@ -27880,9 +27821,9 @@ feature_task
 4
 9
 0
-1838472765
+2019156732
 2
-@serevr-commits
+@gender
 4
 0
 2
@@ -27994,9 +27935,9 @@ This is the command utilities utility package.  See `help $command_utils' for mo
 4
 2
 0
-26153
+26145
 0
-1612916715
+1625438907
 36
 1
 #57
@@ -28430,43 +28371,10 @@ Have a nice life...
 5
 5
 2
-5
-5
-2
-5
-5
-2
 1
 5
 36
 0
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
 1
 62
 2
@@ -28486,9 +28394,6 @@ really impossible password to type
 5
 5
 2
-5
-5
-2
 1
 5
 36
@@ -28502,6 +28407,42 @@ really impossible password to type
 5
 2
 1
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
 5
 2
 5
@@ -28526,7 +28467,7 @@ You see a wizard who chooses not to reveal its true appearance.
 0
 84562
 0
-1612916715
+1625438907
 36
 1
 #58
@@ -28937,44 +28878,11 @@ here=player.location;me=player
 5
 5
 2
-5
-5
-2
-5
-5
-2
 1
 0
 0
 36
 0
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
 1
 62
 2
@@ -28993,9 +28901,6 @@ here=player.location;me=player
 5
 5
 2
-5
-5
-2
 1
 5
 36
@@ -29009,6 +28914,42 @@ here=player.location;me=player
 5
 2
 1
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
+5
+2
+5
 5
 2
 5
@@ -29035,7 +28976,7 @@ You see a player who is too experienced to have any excuse for not having a desc
 0
 86316
 0
-1612916715
+1625438907
 36
 1
 #59
@@ -29314,7 +29255,7 @@ error_list
 prepositions
 15
 2
-2.6.0
+2.7.0_20
 36
 5
 4
@@ -29785,9 +29726,9 @@ This is the code utilities utility package.  See `help $code_utils' for more det
 4
 2
 0
-84755
+84758
 0
-1612916715
+1625438907
 36
 1
 #60
@@ -32436,7 +32377,7 @@ See the description of $generic_help for more detail.
 0
 96515
 0
-1612916715
+1625438907
 36
 1
 #61
@@ -32956,7 +32897,7 @@ It's the current issue of the News, dated %d.
 0
 29103
 0
-1612916715
+1625438907
 36
 1
 #62
@@ -33055,7 +32996,7 @@ This is all there is right now.
 0
 6559
 0
-1612916715
+1625438907
 36
 1
 #63
@@ -33204,7 +33145,7 @@ Object reuse. Call $recycler:_create() to create an object (semantics the same a
 0
 13313
 0
-1612916715
+1625438907
 36
 1
 # 64 recycled
@@ -33577,7 +33518,7 @@ Options for mailing
 0
 21303
 0
-1612916715
+1625438907
 36
 1
 #66
@@ -33686,7 +33627,7 @@ Edit Options
 0
 2904
 0
-1612916715
+1625438907
 36
 1
 #67
@@ -33771,7 +33712,7 @@ Display Options
 0
 1273
 0
-1612916715
+1625438907
 36
 1
 #68
@@ -33889,7 +33830,7 @@ an option package in need of a description.  See `help $generic_option'...
 0
 17483
 0
-1612916715
+1625438907
 36
 1
 #69
@@ -34087,7 +34028,7 @@ raise(error) actually raises the error.
 0
 12480
 0
-1612916715
+1625438907
 36
 1
 #70
@@ -34198,7 +34139,7 @@ Notes on annoying sites.
 0
 1864
 0
-1612916715
+1625438907
 36
 1
 #71
@@ -34610,14 +34551,6 @@ here=player.location;me=player
 The housekeeper is too busy putting away all of the junk all over LambdaMoo that there isn't time to listen to pages and stuff like that so your page isn't listened to, too bad.
 71
 5
-2
-the housekeeper's
-71
-5
-2
-The housekeeper's
-71
-5
 5
 71
 5
@@ -34634,41 +34567,6 @@ The housekeeper's
 -9993
 36
 0
-5
-71
-5
-2
-'Self
-71
-5
-2
-The housekeeper's
-71
-5
-2
-The housekeeper
-71
-5
-2
-The housekeeper
-71
-5
-2
-'self
-71
-5
-2
-the housekeeper's
-71
-5
-2
-the housekeeper
-71
-5
-2
-the housekeeper
-71
-5
 1
 62
 71
@@ -34677,9 +34575,6 @@ the housekeeper
 Impossible password to type
 2
 0
-5
-71
-5
 5
 71
 5
@@ -34698,9 +34593,9 @@ Impossible password to type
 0
 183000
 0
-32487
+32339
 0
-1612904867
+1625438684
 0
 0
 36
@@ -34715,6 +34610,42 @@ Impossible password to type
 5
 2
 1
+5
+71
+5
+5
+71
+5
+5
+71
+5
+5
+71
+5
+5
+71
+5
+5
+71
+5
+5
+71
+5
+5
+71
+5
+5
+71
+5
+5
+71
+5
+5
+71
+5
+5
+71
+5
 5
 71
 5
@@ -34737,9 +34668,9 @@ A very clean, neat, tidy person who doesn't mind lugging players and their gear 
 4
 2
 0
-32487
+32339
 0
-1612916715
+1625438907
 36
 1
 #72
@@ -35173,7 +35104,7 @@ Parameters:
 0
 32197
 0
-1612916715
+1625438907
 36
 1
 #73
@@ -35260,7 +35191,7 @@ This is the object you want to use as a parent in order to @create a place for y
 0
 5624
 0
-1612916715
+1625438907
 36
 1
 #74
@@ -35402,7 +35333,7 @@ This is the Generic Feature Object.  It is not meant to be used as a feature obj
 0
 11423
 0
-1612916715
+1625438907
 36
 1
 #75
@@ -35704,7 +35635,7 @@ Option package for $prog commands.  See `help @prog-options'.
 0
 10468
 0
-1612916715
+1625438907
 36
 1
 #77
@@ -35833,7 +35764,7 @@ Option package for $builder commands.  See `help @build-options'.
 0
 6109
 0
-1612916715
+1625438907
 36
 1
 #78
@@ -35925,7 +35856,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 835
 0
-1612916715
+1625438907
 36
 1
 #79
@@ -36125,7 +36056,7 @@ measurement_task_running
 36
 5
 1
-38
+96
 36
 5
 0
@@ -36327,7 +36258,7 @@ This is the Byte Quota Utilities utility package.  See `help $quota_utils' for m
 0
 44035
 0
-1612916715
+1625438907
 36
 1
 #80
@@ -36451,7 +36382,7 @@ Internal:
 0
 9154
 0
-1612916715
+1625438907
 36
 1
 #81
@@ -36557,7 +36488,7 @@ This is the Object Quota Utilities utility package.  See `help $object_quota_uti
 0
 10488
 0
-1612916715
+1625438907
 36
 1
 #82
@@ -36765,7 +36696,7 @@ Server Options
 0
 9190
 0
-1612916715
+1625438907
 36
 1
 #83
@@ -36892,7 +36823,7 @@ warehouse
 0
 2626
 0
-1612916715
+1625438907
 36
 1
 #84
@@ -38205,7 +38136,7 @@ This help database contains topics about the generic builder and building comman
 0
 46326
 0
-1612916715
+1625438907
 36
 1
 #85
@@ -39438,7 +39369,7 @@ This help database contains topics relating to the general use of the mail syste
 0
 42114
 0
-1612916715
+1625438907
 36
 1
 #86
@@ -41899,7 +41830,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 81895
 0
-1612916715
+1625438907
 36
 1
 #87
@@ -42081,7 +42012,7 @@ The password verifier verifies passwords.
 0
 15188
 0
-1612916715
+1625438907
 36
 1
 #88
@@ -42660,44 +42591,11 @@ You teleport %n.
 36
 5
 5
-36
-5
-5
-36
-5
-5
 2
 1
 5
 36
 0
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
-5
-36
-5
 1
 62
 36
@@ -42705,9 +42603,6 @@ You teleport %n.
 5
 2
 0
-5
-36
-5
 5
 36
 5
@@ -42749,6 +42644,42 @@ You teleport %n.
 5
 5
 36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
+5
+5
+36
 4
 4
 2
@@ -42767,7 +42698,7 @@ You see a player who should type '@describe me as ...'.
 0
 95092
 0
-1612916715
+1625438907
 36
 1
 #89
@@ -42877,7 +42808,7 @@ This feature contains various verbs used in stage talk, which allows players to 
 0
 6159
 0
-1612916715
+1625438907
 36
 1
 #90
@@ -42971,7 +42902,7 @@ Verbs useful to people using a windowing system to paste text at people.
 0
 5854
 0
-1612916715
+1625438907
 36
 1
 #91
@@ -43259,7 +43190,7 @@ This is a utilities package for dealing with lists as representations of vectors
 0
 39467
 0
-1612916715
+1625438907
 36
 1
 #92
@@ -44144,7 +44075,7 @@ Frand Help DB
 0
 30023
 0
-1612916715
+1625438907
 36
 1
 #93
@@ -46284,7 +46215,7 @@ This is a utilities package for converting from one unit of measurement to anoth
 0
 45582
 0
-1612916715
+1625438907
 36
 1
 #94
@@ -46300,23 +46231,21 @@ Generic Gendered Object
 1
 1
 4
-1
+2
 1
 35
-3
+1
+6
+2
 set_gender
 2
 173
 -1
-@gen*der
-2
-105
-12
 verb_sub
 2
 173
 -1
-11
+12
 gender
 pqc
 pq
@@ -46328,7 +46257,8 @@ poc
 po
 psc
 ps
-15
+verb_subs
+16
 2
 neuter
 2
@@ -46373,6 +46303,10 @@ It
 it
 2
 5
+4
+0
+2
+5
 0
 0
 2
@@ -46389,9 +46323,9 @@ Generic Gendered Object
 4
 2
 0
-3688
+3044
 0
-1612916715
+1625438907
 36
 1
 #95
@@ -46705,7 +46639,7 @@ List Editor
 0
 17973
 0
-1612916715
+1625438907
 36
 1
 #96
@@ -46936,45 +46870,12 @@ Editor_Owner
 96
 5
 5
-96
-5
-5
-96
-5
-5
 2
 1
 0
 -10000
 36
 0
-5
-96
-5
-5
-96
-5
-5
-96
-5
-5
-96
-5
-5
-96
-5
-5
-96
-5
-5
-96
-5
-5
-96
-5
-5
-96
-5
 1
 -1
 96
@@ -46983,9 +46884,6 @@ Editor_Owner
 impossible password to type
 2
 0
-5
-96
-5
 5
 96
 5
@@ -47006,7 +46904,7 @@ impossible password to type
 0
 135555
 0
-1612904867
+1625438684
 0
 0
 36
@@ -47021,6 +46919,42 @@ impossible password to type
 5
 2
 1
+5
+96
+5
+5
+96
+5
+5
+96
+5
+5
+96
+5
+5
+96
+5
+5
+96
+5
+5
+96
+5
+5
+96
+5
+5
+96
+5
+5
+96
+5
+5
+96
+5
+5
+96
+5
 5
 96
 5
@@ -47046,7 +46980,7 @@ This player owns all editor-related verbs.
 0
 3586
 0
-1612916715
+1625438907
 36
 1
 #97
@@ -47173,7 +47107,7 @@ HTTP Server
 0
 8359
 0
-1612916715
+1625438907
 36
 1
 #98
@@ -47427,12 +47361,6 @@ Core
 98
 5
 5
-98
-5
-5
-98
-5
-5
 2
 1
 5
@@ -47442,38 +47370,8 @@ Core
 98
 5
 5
-98
-5
-5
-98
-5
-5
-98
-5
-5
-98
-5
-5
-98
-5
-5
-98
-5
-5
-98
-5
-5
-98
-5
-5
-98
-5
-5
 2
 0
-5
-98
-5
 5
 98
 5
@@ -47491,9 +47389,9 @@ Core
 0
 50000
 0
-238637
+238717
 0
-1612916715
+1625438907
 0
 100
 36
@@ -47515,6 +47413,42 @@ Core
 5
 5
 98
+5
+5
+98
+5
+5
+98
+5
+5
+98
+5
+5
+98
+5
+5
+98
+5
+5
+98
+5
+5
+98
+5
+5
+98
+5
+5
+98
+5
+5
+98
+5
+5
+98
+5
+5
+98
 4
 5
 2
@@ -47527,7 +47461,7 @@ Core
 0
 3669
 0
-1612916715
+1625438907
 36
 1
 #99
@@ -48349,9 +48283,19 @@ First version, added $emu and hacked $player:notify to call it.
 98
 1
 4
-1
+6
 0
 1348268734
+0
+603783760
+0
+1703778486
+0
+1265338491
+0
+986797371
+0
+907016985
 98
 1
 4
@@ -48535,9 +48479,9 @@ au
 4
 2
 0
-76643
+76723
 0
-1612916715
+1625438907
 36
 1
 #100
@@ -48714,12 +48658,6 @@ replace_codes
 98
 5
 5
-98
-5
-5
-98
-5
-5
 2
 1
 5
@@ -48729,38 +48667,8 @@ replace_codes
 98
 5
 5
-98
-5
-5
-98
-5
-5
-98
-5
-5
-98
-5
-5
-98
-5
-5
-98
-5
-5
-98
-5
-5
-98
-5
-5
-98
-5
-5
 2
 0
-5
-98
-5
 5
 98
 5
@@ -48785,6 +48693,42 @@ replace_codes
 5
 2
 1
+5
+98
+5
+5
+98
+5
+5
+98
+5
+5
+98
+5
+5
+98
+5
+5
+98
+5
+5
+98
+5
+5
+98
+5
+5
+98
+5
+5
+98
+5
+5
+98
+5
+5
+98
+5
 5
 98
 5
@@ -48812,7 +48756,7 @@ A player with the ability to see things in [red]c[bold][yellow]o[green]l[blue]o[
 0
 29836
 0
-1612916715
+1625438907
 36
 1
 #101
@@ -49493,7 +49437,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 26826
 0
-1612916715
+1625438907
 36
 1
 #102
@@ -49712,7 +49656,7 @@ An option package for controlling and customizing the ANSI PC.
 0
 5739
 0
-1612916715
+1625438907
 36
 1
 #103
@@ -49776,7 +49720,7 @@ dispatch
 0
 5312
 0
-1612916715
+1625438907
 36
 1
 #104
@@ -49883,7 +49827,7 @@ package
 0
 7185
 0
-1612916715
+1625438907
 36
 1
 #105
@@ -49990,7 +49934,7 @@ negotiate
 0
 3348
 0
-1612916715
+1625438907
 36
 1
 #106
@@ -50152,7 +50096,7 @@ cord
 0
 7708
 0
-1612916715
+1625438907
 36
 1
 #107
@@ -50199,7 +50143,7 @@ next_datakey
 unquoted_string
 6
 0
-10120
+10122
 98
 1
 2
@@ -50226,7 +50170,7 @@ parser
 0
 6944
 0
-1612916715
+1625438907
 36
 1
 #108
@@ -50468,7 +50412,7 @@ registry
 0
 6696
 0
-1612916715
+1625438907
 36
 1
 #110
@@ -50627,7 +50571,7 @@ mcp
 0
 11136
 0
-1612916715
+1625438907
 36
 1
 #111
@@ -50906,7 +50850,7 @@ Non JHCore installations might choose to set .v_filter_in / .v_filter_out to fal
 0
 16249
 0
-1612916715
+1625438907
 36
 1
 #114
@@ -51902,7 +51846,7 @@ MCP Help Database
 0
 23287
 0
-1612916715
+1625438907
 36
 1
 #117
@@ -52100,7 +52044,7 @@ Generic Waif
 0
 7311
 0
-1612916715
+1625438907
 36
 1
 #119
@@ -52211,7 +52155,7 @@ client_stats
 4
 3
 0
-1588804877
+1625438689
 1
 2
 4
@@ -52304,7 +52248,7 @@ dns-com-vmoo-client
 0
 6665
 0
-1612916715
+1625438907
 36
 1
 #122
@@ -52397,7 +52341,7 @@ dns-com-awns-status
 0
 1394
 0
-1612916715
+1625438907
 36
 1
 #124
@@ -52824,7 +52768,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 52488
 0
-1612916715
+1625438907
 36
 1
 #125
@@ -52953,11 +52897,11 @@ Menu Utilities
 0
 8055
 0
-1612916715
+1625438907
 36
 1
 0
-1950
+1947
 #0:0
 "...This code should only be run as a server task...";
 if (callers())
@@ -56832,37 +56776,6 @@ endif
 endif
 .
 #6:56
-"set_gender(newgender) attempts to change this.gender to newgender";
-"  => E_PERM   if you don't own this or aren't its parent";
-"  => Other return values as from $gender_utils:set.";
-if (!($perm_utils:controls(caller_perms(), this) || (this == caller)))
-return E_PERM;
-else
-result = $gender_utils:set(this, args[1]);
-this.gender = (typeof(result) == STR) ? result | args[1];
-return result;
-endif
-.
-#6:57
-set_task_perms(valid(caller_perms()) ? caller_perms() | player);
-if (!args)
-player:notify(tostr("Your gender is currently ", this.gender, "."));
-player:notify($string_utils:pronoun_sub("Your pronouns:  %s,%o,%p,%q,%r,%S,%O,%P,%Q,%R"));
-player:notify(tostr("Available genders:  ", $string_utils:english_list($gender_utils.genders, "", " or ")));
-else
-result = this:set_gender(args[1]);
-quote = (result == E_NONE) ? "\"" | "";
-player:notify(tostr("Gender set to ", quote, this.gender, quote, "."));
-if (typeof(result) != ERR)
-player:notify($string_utils:pronoun_sub("Your pronouns:  %s,%o,%p,%q,%r,%S,%O,%P,%Q,%R"));
-elseif (result != E_NONE)
-player:notify(tostr("Couldn't set pronouns:  ", result));
-else
-player:notify("Pronouns unchanged.");
-endif
-endif
-.
-#6:58
 "set_brief(value)";
 "set_brief(value, anything)";
 "If <anything> is given, add value to the current value; otherwise, just set the value.";
@@ -56876,7 +56789,7 @@ this.brief = this.brief + args[1];
 endif
 endif
 .
-#6:59
+#6:57
 "@mode <mode>";
 "Current modes are brief and verbose.";
 "General verb for setting player `modes'.";
@@ -56901,7 +56814,7 @@ endif
 player:tell($string_utils:capitalize(mode), " mode set.");
 return 1;
 .
-#6:60
+#6:58
 "This verb should probably go away once 'examine' is in place.";
 if (dobjstr == "")
 player:notify(tostr("Usage:  ", verb, " <object>"));
@@ -57008,7 +56921,7 @@ elseif (printed_working_msg)
 player:notify("No obvious verbs found.");
 endif
 .
-#6:61
+#6:59
 set_task_perms(player);
 if (!dobjstr)
 player:notify(tostr("Usage:  ", verb, " <object>"));
@@ -57020,7 +56933,7 @@ return;
 endif
 what:do_examine(player);
 .
-#6:62
+#6:60
 "Add a feature to this player's features list.  Caller must be this or have suitable permissions (this or wizardly).";
 "If this is a nonprogrammer, then ask feature if it is feature_ok (that is, if it has a verb :feature_ok which returns a true value, or a property .feature_ok which is true).";
 "After adding feature, call feature:feature_add(this).";
@@ -57057,7 +56970,7 @@ return E_PERM;
 "Caller doesn't have permission.";
 endif
 .
-#6:63
+#6:61
 "Remove a feature from this player's features list.  Caller must be this, or have permissions of this, a wizard, or feature.owner.";
 "Returns true if successful, E_PERM if caller didn't have permission.";
 feature = args[1];
@@ -57080,7 +56993,7 @@ return E_PERM;
 "Caller didn't have permission.";
 endif
 .
-#6:64
+#6:62
 "Usage:";
 "  @add-feature";
 "  @add-feature <feature object>";
@@ -57115,7 +57028,7 @@ player:tell("A * after the feature name means that you already have that feature
 endif
 endif
 .
-#6:65
+#6:63
 "Usage:  @remove-feature <feature object>";
 "Remove an object from your .features list.";
 set_task_perms(player);
@@ -57136,7 +57049,7 @@ else
 player:tell("Usage:  @remove-feature <object>");
 endif
 .
-#6:66
+#6:64
 "Usage:  @features [<name>] for <player>";
 "List the feature objects matching <name> used by <player>.";
 if (!iobjstr)
@@ -57176,14 +57089,14 @@ else
 player:tell("No features found on ", whose.name, " (", whose, ").");
 endif
 .
-#6:67
+#6:65
 "Usage:  @features [<name>]";
 "List the feature objects matching <name> used by player.";
 iobjstr = player.name;
 iobj = player;
 this:("@features")();
 .
-#6:68
+#6:66
 stats = memory_usage();
 if (!stats)
 player:notify("Sorry, but no memory-usage statistics are available for this server.");
@@ -57217,7 +57130,7 @@ player:notify(tostr(su:left("Totals:", 10), "   ", su:right(su:group_number(nuse
 player:notify("");
 player:notify(tostr("Total Memory Size: ", su:group_number(bytesused + bytesfree), " bytes."));
 .
-#6:69
+#6:67
 if ($object_utils:has_property($local, "server_hardware"))
 hw = (" on " + $local.server_hardware) + ".";
 else
@@ -57237,22 +57150,22 @@ except (ANY)
 player:notify("No information is available on the database version.");
 endtry
 .
-#6:70
+#6:68
 player:notify(tostr($network.MOO_name, " has been up for ", $time_utils:english_time(time() - $server["last_restart_time"], $server["last_restart_time"]), "."));
 .
-#6:71
+#6:69
 boot_player(player);
 "-- argh, let the player decide; #3:disfunc() takes care of this --Rog";
 "player:moveto(player.home)";
 .
-#6:72
+#6:70
 return this == args[1];
 .
-#6:73
+#6:71
 "return true if player is active.";
 return typeof(`idle_seconds(this) ! ANY') != ERR;
 .
-#6:74
+#6:72
 if (args[1] == #-1)
 return E_INVARG;
 this:notify("You are now in #-1, The Void.  Type `home' to get back.");
@@ -57260,7 +57173,7 @@ endif
 set_task_perms(caller_perms());
 pass(@args);
 .
-#6:75
+#6:73
 return this.location:(verb)(@args);
 "temporarily let player:announce be noisy to player";
 if (verb == "announce_all_but")
@@ -57271,12 +57184,12 @@ args = args[2..$];
 endif
 this:tell("(from within you) ", @args);
 .
-#6:76
+#6:74
 "Return a true value if this needs linewrapping.";
 "default is true if .linelen > 0";
 return this.linelen > 0;
 .
-#6:77
+#6:75
 "Usage:  @set-note-{string | text} {#xx | #xx.pname}";
 "        ...lines of text...";
 "        .";
@@ -57332,22 +57245,14 @@ else
 player:tell("Error:  Malformed argument to ", verb, ": ", argstr);
 endif
 .
-#6:78
-text = args[1];
-if (a = `$list_utils:assoc(text, this.verb_subs) ! ANY')
-return a[2];
-else
-return $gender_utils:get_conj(text, this);
-endif
-.
-#6:79
+#6:76
 if ($perm_utils:controls(caller_perms(), this))
 return this.(verb);
 else
 return E_PERM;
 endif
 .
-#6:80
+#6:77
 lines = args[1];
 if (typeof(lines) != LIST)
 lines = {lines};
@@ -57367,7 +57272,7 @@ endif
 "don't gather stats for now: $list_utils:check_nonstring_tell_lines(lines)";
 this:notify_lines(lines);
 .
-#6:81
+#6:78
 "Copied from generic room (#3):@lastlog by Haakon (#2) Wed Dec 30 13:30:02 1992 PST";
 if (dobjstr != "")
 dobj = $string_utils:match_player(dobjstr);
@@ -57416,7 +57321,7 @@ player:tell("Players who have never connected:");
 player:tell("  ", $string_utils:english_list($list_utils:map_prop(never, "name")));
 endif
 .
-#6:82
+#6:79
 "Set linelength.  Linelength must be an integer >= 10.";
 "If wrap is currently off (i.e. linelength is less than 0), maintains sign.  That is, this function *takes* an absolute value, and coerces the sign to be appropriate.";
 "If you want to override the dwimming of wrap, pass in a second argument.";
@@ -57433,7 +57338,7 @@ this.linelen = (this.linelen > 0) ? len | (-len);
 return len;
 endif
 .
-#6:83
+#6:80
 "Set pagelength. Must be an integer >= 5, or 0 to turn pagelength off.";
 "Returns E_PERM if you shouldn't be doing this, E_INVARG if it's too low, otherwise, what it got set to.";
 if ((caller != this) && (!$perm_utils:controls(caller_perms(), this)))
@@ -57451,7 +57356,7 @@ endif
 return len;
 endif
 .
-#6:84
+#6:81
 "set_home(newhome) attempts to change this.home to newhome";
 "E_TYPE   if newhome doesn't have a callable :accept_for_abode verb.";
 "E_INVARG if newhome won't accept you as a resident.";
@@ -57472,7 +57377,7 @@ else
 return E_PERM;
 endif
 .
-#6:85
+#6:82
 "@registerme as <email-address> -- enter a new email address for player";
 "   will change the database entry, assign a new password, and mail the new password to the player at the given email address.";
 if (player != this)
@@ -57538,12 +57443,12 @@ endif
 $mail_agent:send_message(this, $registration_db.registrar, "Registration request", {((("Reregistration request from " + $string_utils:nn(who)) + " connected via ") + connection) + ":", "", (("@register " + who.name) + " ") + email, ("@new-password " + who.name) + " is ", "", "Reason this request was forwarded:", reason, @additional_info});
 endif
 .
-#6:86
+#6:83
 ":ctime([INT time]) => STR as the function.";
 "May be hacked by players and player-classes to reflect differences in time-zone.";
 return ctime(@args);
 .
-#6:87
+#6:84
 if ((dobjstr == "") || (dobj == player))
 dobj = player;
 else
@@ -57575,7 +57480,7 @@ endif
 player:notify(tostr($string_utils:pronoun_sub("%S %<is> ", dobj), notice, " old."));
 endif
 .
-#6:88
+#6:85
 "Usage: news [contents] [articles]";
 "";
 "Common uses:";
@@ -57623,7 +57528,7 @@ else
 player:set_current_message($news, @$news:news_display_seq_full(seq));
 endif
 .
-#6:89
+#6:86
 "Calls the verb editor on verbs, the note editor on properties, and on anything else assumes it's an object for which you want to edit the .description.";
 if (!args)
 ((player in $note_editor.active) ? $note_editor | $verb_editor):invoke(dobjstr, verb);
@@ -57639,14 +57544,14 @@ else
 $note_editor:invoke(dobjstr, verb);
 endif
 .
-#6:90
+#6:87
 if (!($perm_utils:controls(caller_perms(), this) || (this == caller)))
 return E_PERM;
 else
 $paranoid_db:erase_data(this);
 endif
 .
-#6:91
+#6:88
 "'@move <object> to <place>' - Teleport an object. Example: '@move trash to #11' to move trash to the closet.";
 set_task_perms((caller == this) ? this | $no_one);
 if ((prepstr != "to") || (!iobjstr))
@@ -57674,7 +57579,7 @@ return;
 endif
 this:teleport(dobj, iobj);
 .
-#6:92
+#6:89
 if (($perm_utils:controls(caller_perms(), this) || (caller == this)) || (caller_perms() == this))
 set_task_perms(caller_perms());
 for line in ((typeof(lines = args[1]) != LIST) ? {lines} | lines)
@@ -57685,11 +57590,11 @@ else
 return E_PERM;
 endif
 .
-#6:93
+#6:90
 set_task_perms(caller_perms());
 return chparent(@args);
 .
-#6:94
+#6:91
 "Prints a count and compact list of the currently-connected players, sorted into columns.";
 cp = connected_players();
 linelen = player:linelen() || 79;
@@ -57698,7 +57603,7 @@ dudes = $list_utils:map_prop(cp, "name");
 dudes = $list_utils:sort_suspended($login.current_lag, dudes);
 player:tell_lines($string_utils:columnize(dudes, 4, linelen));
 .
-#6:95
+#6:92
 if (typeof(player.password) != STR)
 if (length(args) != 1)
 return player:notify(tostr("Usage:  ", verb, " <new-password>"));
@@ -57728,7 +57633,7 @@ player.password = $login:encrypt_password(new_password);
 player.last_password_time = time();
 player:notify("New password set.");
 .
-#6:96
+#6:93
 if ((caller == this) || $perm_utils:controls(caller_perms(), this))
 pass(@args);
 features = this.features;
@@ -57746,7 +57651,7 @@ $command_utils:suspend_if_needed(0);
 endfor
 endif
 .
-#6:97
+#6:94
 ((caller == this) || $perm_utils:controls(caller_perms(), this)) || raise(E_PERM);
 if (g = this.gaglist)
 recycler = $recycler;
@@ -57758,28 +57663,47 @@ endfor
 this.gaglist = g;
 endif
 .
-#6:98
+#6:95
 set_task_perms(caller_perms());
 return this.email_address;
 .
-#6:99
+#6:96
 set_task_perms(caller_perms());
 this.email_address = args[1];
 .
-#6:100
+#6:97
 if (((valid(cp = caller_perms()) && (caller != this)) && (!$perm_utils:controls(cp, this))) && (caller != $sysobj))
 return E_PERM;
 endif
 return this:confunc(@args);
 .
-#6:101
+#6:98
 if ($command_utils:object_match_failed(dobj = player:my_match_object(dobjstr), dobjstr))
 return;
 endif
 player:tell($string_utils:nn(dobj), " is owned by ", $string_utils:nn(dobj.owner), ".");
 .
-#6:102
+#6:99
 return $edit_utils:options(@args);
+.
+#6:100
+set_task_perms(valid(caller_perms()) ? caller_perms() | player);
+if (!args)
+player:notify(tostr("Your gender is currently ", this.gender, "."));
+player:notify($string_utils:pronoun_sub("Your pronouns:  %s,%o,%p,%q,%r,%S,%O,%P,%Q,%R"));
+player:notify(tostr("Available genders:  ", $string_utils:english_list($gender_utils.genders, "", " or ")));
+else
+result = this:set_gender(args[1]);
+quote = (result == E_NONE) ? "\"" | "";
+player:notify(tostr("Gender set to ", quote, this.gender, quote, "."));
+if (typeof(result) != ERR)
+player:notify($string_utils:pronoun_sub("Your pronouns:  %s,%o,%p,%q,%r,%S,%O,%P,%Q,%R"));
+elseif (result != E_NONE)
+player:notify(tostr("Couldn't set pronouns:  ", result));
+else
+player:notify("Pronouns unchanged.");
+endif
+endif
 .
 #7:0
 set_task_perms(caller_perms());
@@ -87371,13 +87295,6 @@ return result;
 endif
 .
 #94:1
-if (player.wizard || (player == this.owner))
-player:tell(this:set_gender(iobjstr) ? "Gender and pronouns set." | "Gender set.");
-else
-player:tell("Permission denied.");
-endif
-.
-#94:2
 "Copied from generic player (#6):verb_sub by ur-Rog (#6349) Fri Jan 22 11:20:11 1999 PST";
 "This verb was copied by TheCat on 01/22/99, so that the generic gendered object will be able to do verb conjugation as well as pronoun substitution.";
 text = args[1];
