@@ -726,7 +726,7 @@ a 2018 LambdaCore
 2
 last_restart_time
 0
-1625440148
+1625445910
 2
 name
 2
@@ -883,7 +883,7 @@ The known universe.
 0
 37678
 0
-1625440360
+1625445947
 36
 1
 #1
@@ -1126,7 +1126,7 @@ object_size
 0
 32218
 0
-1625440360
+1625445947
 36
 1
 #2
@@ -1510,9 +1510,9 @@ time
 0
 50000
 0
-1127898
+1128898
 0
-1625440360
+1625445947
 0
 900
 36
@@ -1585,7 +1585,7 @@ Wizard
 0
 6816
 0
-1625440360
+1625445947
 36
 1
 #3
@@ -1879,7 +1879,7 @@ generic room
 0
 43072
 0
-1625440360
+1625445947
 36
 1
 #4
@@ -2321,7 +2321,7 @@ You see a player who should type '@describe me as ...'.
 0
 48748
 0
-1625440360
+1625445947
 36
 1
 #5
@@ -2434,7 +2434,7 @@ generic thing
 0
 7011
 0
-1625440360
+1625445947
 36
 1
 #6
@@ -3089,7 +3089,7 @@ You see a player who should type '@describe me as ...'.
 0
 132129
 0
-1625440360
+1625445947
 36
 1
 #7
@@ -3215,7 +3215,7 @@ generic exit
 0
 10849
 0
-1625440360
+1625445947
 36
 1
 #8
@@ -3433,7 +3433,7 @@ generic container
 0
 14463
 0
-1625440360
+1625445947
 36
 1
 #9
@@ -3556,7 +3556,7 @@ There appears to be some writing on the note ...
 0
 9723
 0
-1625440360
+1625445947
 36
 1
 #10
@@ -3948,7 +3948,11 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 2
 0
 10
+1
+1
+-2
 0
+2
 2
 5
 0
@@ -4055,9 +4059,9 @@ This provides everything needed by #0:do_login_command.  See `help $login' on $c
 4
 2
 0
-59762
+59818
 0
-1625440360
+1625445947
 36
 1
 #11
@@ -4111,7 +4115,7 @@ A repository of last-resort player verbs to be called by $player:last_huh
 0
 6454
 0
-1625440360
+1625445947
 36
 1
 #12
@@ -4174,7 +4178,7 @@ Guest Log
 0
 5510
 0
-1625440360
+1625445947
 36
 1
 #13
@@ -4510,7 +4514,7 @@ This is the Generic BigList Utilities utility package.  See `help $biglist' for 
 0
 30986
 0
-1625440360
+1625445947
 36
 1
 #14
@@ -4886,7 +4890,7 @@ Calling #OBJ:restore_from(...) COMPLETELY AND IRREVOCABLY REMOVES ALL MESSAGES f
 0
 53798
 0
-1625440360
+1625445947
 36
 1
 #15
@@ -4945,7 +4949,7 @@ The Body Bag
 0
 3784
 0
-1625440360
+1625445947
 36
 1
 #16
@@ -5077,7 +5081,7 @@ Registration Database
 0
 13392
 0
-1625440360
+1625445947
 36
 1
 #17
@@ -5271,7 +5275,7 @@ Log of player creations.
 0
 5701
 0
-1625440360
+1625445947
 36
 1
 #18
@@ -5374,7 +5378,7 @@ A `help database' that knows about all of the documented verbs.
 0
 5412
 0
-1625440360
+1625445947
 36
 1
 #19
@@ -8870,7 +8874,7 @@ Help database for LambdaCore utility objects and generics.
 0
 121534
 0
-1625440360
+1625445947
 36
 1
 #20
@@ -9466,7 +9470,7 @@ This is the string utilities utility package.  See `help $string_utils' for more
 0
 109318
 0
-1625440360
+1625445947
 36
 1
 #21
@@ -9636,7 +9640,7 @@ This is the building utilities utility package.  See `help $building_utils' for 
 0
 19146
 0
-1625440360
+1625445947
 36
 1
 #22
@@ -12451,7 +12455,7 @@ This provides help on the programmer commands available on $prog and related top
 0
 103085
 0
-1625440360
+1625445947
 36
 1
 #23
@@ -13590,7 +13594,7 @@ This describes the various commands available on $wiz.
 0
 36730
 0
-1625440360
+1625445947
 36
 1
 #24
@@ -14300,7 +14304,7 @@ This is the Wizard Utilities utility package.  See `help $wiz_utils' for more de
 0
 75237
 0
-1625440360
+1625445947
 36
 1
 #25
@@ -14445,7 +14449,7 @@ The site blacklist and the graylist live as well (see `help blacklist').
 0
 18428
 0
-1625440360
+1625445947
 36
 1
 #26
@@ -16743,7 +16747,7 @@ This is the Math Utilities utility package.  See `help $math_utils' for more det
 0
 57797
 0
-1625440360
+1625445947
 36
 1
 #27
@@ -16865,7 +16869,7 @@ This is the Set Utilities utility package.  See `help $set_utils' for more detai
 0
 8102
 0
-1625440360
+1625445947
 36
 1
 #28
@@ -19383,7 +19387,7 @@ For the {"*verb*",...} form, the current verbs available are
 0
 107206
 0
-1625440360
+1625445947
 36
 1
 #29
@@ -19547,7 +19551,7 @@ Record of who's been made a @programmer.
 0
 9347
 0
-1625440360
+1625445947
 36
 1
 #30
@@ -19667,7 +19671,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 13690
 0
-1625440360
+1625445947
 36
 1
 #31
@@ -20102,7 +20106,7 @@ By definition, guests appear nondescript.
 0
 22493
 0
-1625440360
+1625445947
 36
 1
 #32
@@ -20162,7 +20166,7 @@ For help on using the speller, use 'help spelling' and 'help @spell'.
 0
 6242
 0
-1625440360
+1625445947
 36
 1
 #33
@@ -20370,7 +20374,7 @@ This is the sequence utilities utility package.  See `help $seq_utils' for more 
 0
 23817
 0
-1625440360
+1625445947
 36
 1
 #34
@@ -20511,7 +20515,7 @@ Record of whose quota has been messed with and why.
 0
 2326
 0
-1625440360
+1625445947
 36
 1
 #35
@@ -20684,7 +20688,7 @@ An object useful for pronoun substitution for switching between third and second
 0
 9767
 0
-1625440360
+1625445947
 36
 1
 #36
@@ -20949,7 +20953,7 @@ init_for_core
 0
 100000008
 0
--28355271
+-28342817
 0
 1008125633
 0
@@ -21025,7 +21029,7 @@ A system character used to own non-wizardly system verbs , properties, and objec
 0
 4196
 0
-1625440360
+1625445947
 36
 1
 #37
@@ -21172,7 +21176,7 @@ A generic `database' (well, really more like a string-indexed array if you want 
 0
 24015
 0
-1625440360
+1625445947
 36
 1
 #38
@@ -21448,7 +21452,7 @@ The character used for "safe" evals.
 0
 8606
 0
-1625440360
+1625445947
 36
 1
 #39
@@ -21708,7 +21712,7 @@ See `help $player_db' for more information.
 0
 12464
 0
-1625440360
+1625445947
 36
 1
 #40
@@ -22200,7 +22204,7 @@ Generic Mail Receiving Player
 0
 99754
 0
-1625440360
+1625445947
 36
 1
 #41
@@ -22693,7 +22697,7 @@ This is the gender utilities utility package.  See `help $gender_utils' for more
 0
 18117
 0
-1625440360
+1625445947
 36
 1
 #42
@@ -22782,7 +22786,7 @@ This is the permissions utilities utility package.  See `help $perm_utils' for m
 0
 4950
 0
-1625440360
+1625445947
 36
 1
 #43
@@ -23377,7 +23381,7 @@ This is the time utilities utility package.  See `help $time_utils' for more det
 0
 31463
 0
-1625440360
+1625445947
 36
 1
 #44
@@ -24325,7 +24329,7 @@ Editor Help
 0
 26270
 0
-1625440360
+1625445947
 36
 1
 #45
@@ -24623,7 +24627,7 @@ This can either be a mailing list or a mail folder, depending on what mood you'r
 0
 45731
 0
-1625440360
+1625445947
 36
 1
 #46
@@ -24978,7 +24982,7 @@ Avaliable aliases:
 0
 71767
 0
-1625440360
+1625445947
 36
 1
 #47
@@ -25424,7 +25428,7 @@ Mail Room
 0
 32813
 0
-1625440360
+1625445947
 36
 1
 #48
@@ -25753,7 +25757,7 @@ nedit
 0
 15810
 0
-1625440360
+1625445947
 36
 1
 #49
@@ -26082,7 +26086,7 @@ verb edit
 0
 21037
 0
-1625440360
+1625445947
 36
 1
 #50
@@ -26721,7 +26725,7 @@ edit
 0
 77149
 0
-1625440360
+1625445947
 36
 1
 #51
@@ -26876,7 +26880,7 @@ matching utilities
 0
 12908
 0
-1625440360
+1625445947
 36
 1
 #52
@@ -27134,7 +27138,7 @@ This is the object utilities utility package.  See `help $object_utils' for more
 0
 31061
 0
-1625440360
+1625445947
 36
 1
 #53
@@ -27271,7 +27275,7 @@ This the lock utilities package, used by the MOOwide locking mechanisms. See `he
 0
 13652
 0
-1625440360
+1625445947
 36
 1
 #54
@@ -27375,7 +27379,7 @@ Some writing on the letter explains that you should 'read letter', and when you'
 0
 3699
 0
-1625440360
+1625445947
 36
 1
 #55
@@ -27690,7 +27694,7 @@ This is the list utilities utility package.  See `help $list_utils' for more det
 0
 42872
 0
-1625440360
+1625445947
 36
 1
 #56
@@ -27903,7 +27907,7 @@ This is the command utilities utility package.  See `help $command_utils' for mo
 0
 26145
 0
-1625440360
+1625445947
 36
 1
 #57
@@ -28428,9 +28432,9 @@ You see a wizard who chooses not to reveal its true appearance.
 4
 2
 0
-84530
+85474
 0
-1625440360
+1625445947
 36
 1
 #58
@@ -28936,7 +28940,7 @@ You see a player who is too experienced to have any excuse for not having a desc
 0
 86284
 0
-1625440360
+1625445947
 36
 1
 #59
@@ -29688,7 +29692,7 @@ This is the code utilities utility package.  See `help $code_utils' for more det
 0
 84758
 0
-1625440360
+1625445947
 36
 1
 #60
@@ -32337,7 +32341,7 @@ See the description of $generic_help for more detail.
 0
 96515
 0
-1625440360
+1625445947
 36
 1
 #61
@@ -32857,7 +32861,7 @@ It's the current issue of the News, dated %d.
 0
 29103
 0
-1625440360
+1625445947
 36
 1
 #62
@@ -32956,7 +32960,7 @@ This is all there is right now.
 0
 6559
 0
-1625440360
+1625445947
 36
 1
 #63
@@ -33105,7 +33109,7 @@ Object reuse. Call $recycler:_create() to create an object (semantics the same a
 0
 13313
 0
-1625440360
+1625445947
 36
 1
 # 64 recycled
@@ -33478,7 +33482,7 @@ Options for mailing
 0
 21303
 0
-1625440360
+1625445947
 36
 1
 #66
@@ -33587,7 +33591,7 @@ Edit Options
 0
 2904
 0
-1625440360
+1625445947
 36
 1
 #67
@@ -33672,7 +33676,7 @@ Display Options
 0
 1273
 0
-1625440360
+1625445947
 36
 1
 #68
@@ -33790,7 +33794,7 @@ an option package in need of a description.  See `help $generic_option'...
 0
 17483
 0
-1625440360
+1625445947
 36
 1
 #69
@@ -33988,7 +33992,7 @@ raise(error) actually raises the error.
 0
 12480
 0
-1625440360
+1625445947
 36
 1
 #70
@@ -34099,7 +34103,7 @@ Notes on annoying sites.
 0
 1864
 0
-1625440360
+1625445947
 36
 1
 #71
@@ -34627,7 +34631,7 @@ A very clean, neat, tidy person who doesn't mind lugging players and their gear 
 0
 32307
 0
-1625440360
+1625445947
 36
 1
 #72
@@ -35061,7 +35065,7 @@ Parameters:
 0
 32197
 0
-1625440360
+1625445947
 36
 1
 #73
@@ -35148,7 +35152,7 @@ This is the object you want to use as a parent in order to @create a place for y
 0
 5624
 0
-1625440360
+1625445947
 36
 1
 #74
@@ -35290,7 +35294,7 @@ This is the Generic Feature Object.  It is not meant to be used as a feature obj
 0
 11423
 0
-1625440360
+1625445947
 36
 1
 #75
@@ -35592,7 +35596,7 @@ Option package for $prog commands.  See `help @prog-options'.
 0
 10468
 0
-1625440360
+1625445947
 36
 1
 #77
@@ -35721,7 +35725,7 @@ Option package for $builder commands.  See `help @build-options'.
 0
 6109
 0
-1625440360
+1625445947
 36
 1
 #78
@@ -35813,7 +35817,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 835
 0
-1625440360
+1625445947
 36
 1
 #79
@@ -36215,7 +36219,7 @@ This is the Byte Quota Utilities utility package.  See `help $quota_utils' for m
 0
 44035
 0
-1625440360
+1625445947
 36
 1
 #80
@@ -36339,7 +36343,7 @@ Internal:
 0
 9154
 0
-1625440360
+1625445947
 36
 1
 #81
@@ -36445,7 +36449,7 @@ This is the Object Quota Utilities utility package.  See `help $object_quota_uti
 0
 10488
 0
-1625440360
+1625445947
 36
 1
 #82
@@ -36653,7 +36657,7 @@ Server Options
 0
 9190
 0
-1625440360
+1625445947
 36
 1
 #83
@@ -36780,7 +36784,7 @@ warehouse
 0
 2626
 0
-1625440360
+1625445947
 36
 1
 #84
@@ -38093,7 +38097,7 @@ This help database contains topics about the generic builder and building comman
 0
 46326
 0
-1625440360
+1625445947
 36
 1
 #85
@@ -39326,7 +39330,7 @@ This help database contains topics relating to the general use of the mail syste
 0
 42114
 0
-1625440360
+1625445947
 36
 1
 #86
@@ -39344,7 +39348,7 @@ ToastStunt Help Database
 4
 0
 0
-97
+102
 binary_hmac
 string_hmac
 decode_base64
@@ -39357,7 +39361,6 @@ mapdelete
 mapkeys
 mapvalues
 parse_json
-process_id
 random_bytes
 read_http
 salt
@@ -39394,7 +39397,6 @@ thread_info
 waif_stats
 fio
 fileio
-file_version
 file_open
 file_close
 file_name
@@ -39442,7 +39444,14 @@ ancestors
 descendants
 panic
 thread_pool
-103
+is_member()
+listen()
+move()
+open_network_connection()
+queued_tasks
+reverse
+sqlite_interrupt
+108
 4
 8
 2
@@ -39742,9 +39751,9 @@ mapkeys(x)    =>  {"bar", "baz", "foo"}
 36
 5
 4
-6
+13
 2
-Syntax: mapvalues (MAP map)
+Syntax: mapvalues (MAP <map> [, ... STR <key>])
 2
 
 2
@@ -39752,9 +39761,23 @@ Returns the values of the elements of map.
 2
 
 2
+If you only want the values of specific keys in the map, you can specify them as optional arguments. See examples below.
+2
+
+2
+Examples:  
+2
 x = ["foo" -> 1, "bar" -> 2, "baz" -> 3];
 2
-mapvalues(x)   =>  {2, 3, 1}
+
+2
+;mapvalues(x)
+2
+=>  {2, 3, 1}
+2
+;mapvalues(x, "foo", "baz")
+2
+=> {1, 3}
 36
 5
 4
@@ -39815,16 +39838,6 @@ parse_json("{\"#1|obj\":2}", "embedded-types")              =>   [#1 -> 2]
 
 2
 JSON defines types that MOO (currently) does not support, such as boolean true and false, and null. These values are always converted to the strings "true", "false" and "null". 
-36
-5
-4
-3
-2
-Syntax: process_id ()
-2
-
-2
-Returns the process id of the server. 
 36
 5
 4
@@ -40092,15 +40105,17 @@ isa(#2, {$thing, $room, $container}, 1) => #-1 <$nothing>
 36
 5
 4
-4
+5
 2
-Syntax: switch_player(OBJ object1, OBJ object2)
+Syntax: switch_player(OBJ <object1>, OBJ <object2> [, INT <silent>])
 2
 
 2
-Silently switches the player associated with this connection from <object1> to <object2>. <object1> must be connected and <object2> must be a player. This can be used in do_login_command() verbs that read or suspend (which prevents the normal player selection mechanism from
+Silently switches the player associated with this connection from <object1> to <object2>. <object1> must be connected and <object2> must be a player. This can be used in do_login_command() verbs that read or suspend (which prevents the normal player selection mechanism from working.
 2
-working.
+
+2
+If <silent> is true, no connection messages will be printed.
 36
 5
 4
@@ -40332,9 +40347,9 @@ The information returned is:
 36
 5
 4
-9
+11
 2
-Syntax:	  sqlite_query(INT <database handle>, STR <database query>) => [LIST or STR]
+Syntax:	  sqlite_query(INT <database handle>, STR <database query>[, INT <show columns>]) => [LIST or STR]
 2
 
 2
@@ -40347,6 +40362,10 @@ On success, this function will return a list identifying the returned rows. If t
 
 2
 If the query fails, a string will be returned identifying the SQLite error message.
+2
+
+2
+If <show columns> is true, the return list will include the name of the column before its results.
 2
 
 2
@@ -40392,7 +40411,7 @@ This function identifies the row ID of the last insert command executed on the d
 36
 5
 4
-9
+10
 2
 SQLite allows you to store information in locally hosted SQLite databases. The following functions (see HELP <function name> for detailed information) are available:
 2
@@ -40411,6 +40430,8 @@ sqlite_query        Runs a raw SQL query on the database.
 sqlite_execute      Executes an SQL prepared statement on the database.
 2
 sqlite_limit        Set limits on various SQL constructs.
+2
+sqlite_interrupt    Abort a database operation.
 36
 5
 4
@@ -40492,7 +40513,7 @@ Syntax:  ftime ([INT monotonic])   => FLOAT
 2
 
 2
-Returns the current time, in milliseconds, represented as the number of seconds that have elapsed since midnight on 1 January 1970, Greenwich Mean Time.
+Returns the current time represented as the number of seconds and nanoseconds that have elapsed since midnight on 1 January 1970, Greenwich Mean Time.
 2
 
 2
@@ -40500,7 +40521,7 @@ If the <monotonic> argument is supplied and set to 1, the time returned will be 
 2
 
 2
-The general rule of thumb is that you should use ftime() with no arguments for telling time and ftime() with the monotonic clock argument for measuring the passage of time.  
+The general rule of thumb is that you should use ftime() with no arguments for telling time and ftime() with the monotonic clock argument for measuring the passage of time.
 36
 5
 4
@@ -40626,13 +40647,11 @@ fileio
 36
 5
 4
-40
+39
 2
 General-purpose functions:
 2
 
-2
-STR file_version()
 2
 FHANDLE file_open(STR pathname, STR mode)
 2
@@ -40707,10 +40726,6 @@ INT file_last_change(FHANDLE fh)
 void file_stat(STR pathname)
 2
 void file_stat(FHANDLE fh)
-36
-5
-3
-93896575025153
 36
 5
 4
@@ -41759,6 +41774,234 @@ Examples:
 ;thread_pool("INIT", "MAIN", 1)     => Replace the existing main thread pool with a new pool consisting of a single thread.
 36
 5
+4
+10
+2
+Syntax:  is_member (ANY value, LIST list, INT case-sensitive)   => INT
+2
+
+2
+Returns the index of <value> if there is an element of <list> that is completely indistinguishable from <value>. This is much the same operation as "<value> in <list>" except that, unlike `in', the `is_member()' function does not treat upper- and lower-case characters in strings as equal. This treatment of strings can be controlled with the <case-sensitive> argument; setting <case-sensitive> to false will effectively disable this behavior.
+2
+
+2
+Raises E_ARGS if two values are given or if more than three arguments are given. Raises E_TYPE if the second argument is not a list. Otherwise returns the index of <value> in <list>, or 0 if it's not in there.
+2
+
+2
+  is_member(3, {3, 10, 11})                  => 1
+2
+  is_member("a", {"A", "B", "C"})            => 0
+2
+  is_member("XyZ", {"XYZ", "xyz", "XyZ"})    => 3
+2
+  is_member("def", {"ABC", "DEF", "GHI"}, 0) => 2
+36
+5
+4
+18
+2
+Syntax:  listen (OBJ <object>, INT <port> [, MAP <options>])   => value
+2
+
+2
+Create a new point at which the server will listen for network connections, just as it does normally. <Object> is the object whose verbs `do_login_command', `do_command', `do_out_of_band_command', `user_connected', `user_created', `user_reconnected', `user_disconnected', and `user_client_disconnected' will be called at appropriate points as these verbs are called on #0 for normal connections. (See the chapter in the LambdaMOO Programmer's Manual on server assumptions about the database for the complete story on when these functions are called.) <Port> is a TCP port number on which to listen. The listen() function will return <port> unless <port> is zero, in which case the return value is a port number assigned by the operating system.
+2
+
+2
+An optional third argument allows you to set various miscellaneous options for the listening point. These are:
+2
+
+2
+  print-messages: If true, the various database-configurable messages (also detailed in the chapter on server assumptions) will be printed on connections received at the new listening port.
+2
+  ipv6:           Use the IPv6 protocol rather than IPv4.
+2
+  tls:            Only accept valid secure TLS connections.
+2
+  certificate:    The full path to a TLS certificate. NOTE: Requires the TLS option also be specified and true. This option is only necessary if the certificate differs from the one specified in options.h.
+2
+  key:            The full path to a TLS private key. NOTE: Requires the TLS option also be specified and true. This option is only necessary if the key differs from the one specified in options.h.
+2
+
+2
+listen() raises E_PERM if the programmer is not a wizard, E_INVARG if <object> is invalid or there is already a listening point described by <point>, and E_QUOTA if some network-configuration-specific error occurred.
+2
+
+2
+
+2
+Example:
+2
+>;listen(#0, 1234, ["ipv6" -> 1, "tls" -> 1, "certificate" -> "/etc/certs/something.pem", "key" -> "/etc/certs/privkey.pem", "print-messages" -> 1]
+2
+Listen for IPv6 connections on port 1234 and print messages as appropriate. These connections must be TLS and will use the private key and certificate found in /etc/certs.
+36
+5
+4
+25
+2
+Syntax:  move (OBJ <what>, OBJ <where>[, INT <position>])   => none
+2
+
+2
+Changes <what>'s location to be <where>.  This is a complex process because a number of permissions checks and notifications must be performed. The actual movement takes place as described in the following paragraphs.
+2
+
+2
+<what> should be a valid object and <where> should be either a valid object or `#-1' (denoting a location of 'nowhere'); otherwise E_INVARG is raised.  The programmer must be either the owner of <what> or a wizard; otherwise, E_PERM is raised.
+2
+
+2
+If <where> is a valid object and isn't the same as <what>'s location, then the verb-call
+2
+
+2
+    <where>:accept(<what>)
+2
+
+2
+is performed before any movement takes place.  If the verb returns a false value and the programmer is not a wizard, then <where> is considered to have refused entrance to <what>; `move()' raises E_NACC.  If <where> does not define an `accept' verb, then it is treated as if it defined one that always returned false.
+2
+
+2
+If moving <what> into <where> would create a loop in the containment hierarchy (i.e., <what> would contain itself, even indirectly), then E_RECMOVE is raised instead.
+2
+
+2
+The `location' property of <what> is changed to be <where>, and the `contents' properties of the old and new locations are modified appropriately.  If <position> is specified, the object will be inserted into the `contents' property of the new location at <position>.
+2
+
+2
+If <where> differs from <what>'s current location, two additional verb calls take place.  Let <old-where> be the location of <what> before it was moved.  If <old-where> is a valid object, then the verb-call
+2
+
+2
+    <old-where>:exitfunc(<what>)
+2
+
+2
+is performed and its result is ignored; it is not an error if <old-where> does not define a verb named `exitfunc'.  Finally, if <where> and <what> are still valid objects, and <where> is still the location of <what>, then the verb-call
+2
+
+2
+    <where>:enterfunc(<what>)
+2
+
+2
+is performed and its result is ignored; again, it is not an error if <where> does not define a verb named `enterfunc'.
+36
+5
+4
+21
+2
+Syntax:  open_network_connection (STR <host>, INT <port> [, MAP <options>])   => obj
+2
+
+2
+Establishes a network connection to the place specified by the arguments and more-or-less pretends that a new, normal player connection has been established from there.  The new connection, as usual, will not be logged in initially and will have a negative object number associated with it for use with `read()', `notify()', and `boot_player()'.  This object number is the value returned by this function.
+2
+
+2
+If the programmer is not a wizard or if the `OUTBOUND_NETWORK' compilation option was not used in building the server, then `E_PERM' is raised.
+2
+
+2
+<Host> refers to a string naming a host (possibly a numeric IP address) and <port> is an integer referring to a TCP port number.  If a connection cannot be made because the host does not exist, the port does not exist, the host is not reachable or refused the connection, `E_INVARG' is raised.  If the connection cannot be made for other reasons, including resource limitations, then `E_QUOTA' is raised.
+2
+
+2
+Optionally, you can specify a map with any or all of the following options:
+2
+
+2
+  listener: An object whose listening verbs will be called at appropriate points. (See HELP LISTEN() for more details.)
+2
+  tls:      If true, establish a secure TLS connection.
+2
+  ipv6:     If true, utilize the IPv6 protocol rather than the IPv4 protocol.
+2
+
+2
+The outbound connection process involves certain steps that can take quite a long time, during which the server is not doing anything else, including responding to user commands and executing MOO tasks.  See the chapter on server assumptions about the database for details about how the server limits the amount of time it will wait for these steps to successfully complete.
+2
+
+2
+It is worth mentioning one tricky point concerning the use of this function.  Since the server treats the new connection pretty much like any normal player connection, it will naturally try to parse any input from that connection as commands in the usual way.  To prevent this treatment, you should use `set_connection_option()' to set the `hold-input' option true on the connection.
+2
+
+2
+Example:
+2
+>;open_network_connection("2607:5300:60:4be0::", 1234, ["ipv6" -> 1, "listener" -> #6, "tls" -> 1])
+2
+Open a new connection to the IPv6 address 2607:5300:60:4be0:: on port 1234 using TLS. Relevant verbs will be called on #6.
+36
+5
+4
+12
+2
+Syntax:  queued_tasks ([INT <show runtime>])   => LIST
+2
+
+2
+Returns information on each of the background tasks (i.e., forked, suspended, or reading)  owned by the programmer (or, if the programmer is a wizard, all queued tasks). The returned value is a list of lists, each of which encodes certain information about a particular queued task in the following format:
+2
+
+2
+    {<task-id>, <start-time>, <ticks>, <clock-id>,
+2
+     <programmer>, <verb-loc>, <verb-name>, <line>, <this>, <task-size>}
+2
+
+2
+where <task-id> is a numeric identifier for this queued task, <start-time> is the time after which this task will begin execution (in `time()' format), <ticks> is the number of ticks this task will have when it starts (always 20,000 now, though this is changeable. This makes this value obsolete and no longer interesting), <clock-id> is a number whose value is no longer interesting, <programmer> is the permissions with which this task will begin execution (and also the player who "owns" this task), <verb-loc> is the object on which the verb that forked this task was defined at the time, <verb-name> is that name of that verb, <line> is the number of the first line of the code in that verb that this task will execute, and <this> is the value of the variable `this' in that verb. For reading tasks, <start-time> is `-1'.  <task-size> is in bytes, and is the size of memory in use by the task for local variables, stack frames, etc.
+2
+
+2
+If <show runtime> is true, all variables present in the task are presented in a map with the variable name as the key and its value as the value.     
+2
+
+2
+The <ticks> and <clock-id> fields are now obsolete and are retained only for backward-compatibility reasons.  They may disappear in a future version of the server.
+36
+5
+4
+7
+2
+Syntax:  reverse(LIST <alist>) => LIST
+2
+
+2
+Return a reversed list.
+2
+
+2
+Examples:
+2
+
+2
+;reverse({1,2,3,4}) => {4,3,2,1}
+36
+5
+4
+7
+2
+Syntax:	  sqlite_interrupt(INT <database handle>)
+2
+
+2
+This function causes any pending database operation to abort at its earliest opportunity. If the operation is nearly finished when sqlite_interrupt is called, it might not have an opportunity to be interrupted and could continue to completion.
+2
+
+2
+This can be useful when you execute a long-running query and want to abort it.
+2
+
+2
+NOTE: As of this writing (server version 2.7.0) the @kill command WILL NOT abort operations taking place in a helper thread. If you want to interrupt an SQLite query, you must use sqlite_interrupt and NOT the @kill command.
+36
+5
 5
 36
 5
@@ -41785,9 +42028,9 @@ A help database of the standard form in need of a description. See `help $generi
 4
 2
 0
-81895
+94349
 0
-1625440360
+1625445947
 36
 1
 #87
@@ -41969,7 +42212,7 @@ The password verifier verifies passwords.
 0
 15188
 0
-1625440360
+1625445947
 36
 1
 #88
@@ -42648,7 +42891,7 @@ You see a player who should type '@describe me as ...'.
 0
 94403
 0
-1625440360
+1625445947
 36
 1
 #89
@@ -42758,7 +43001,7 @@ This feature contains various verbs used in stage talk, which allows players to 
 0
 6159
 0
-1625440360
+1625445947
 36
 1
 #90
@@ -42852,7 +43095,7 @@ Verbs useful to people using a windowing system to paste text at people.
 0
 5854
 0
-1625440360
+1625445947
 36
 1
 #91
@@ -43140,7 +43383,7 @@ This is a utilities package for dealing with lists as representations of vectors
 0
 39467
 0
-1625440360
+1625445947
 36
 1
 #92
@@ -44025,7 +44268,7 @@ Frand Help DB
 0
 30023
 0
-1625440360
+1625445947
 36
 1
 #93
@@ -46165,7 +46408,7 @@ This is a utilities package for converting from one unit of measurement to anoth
 0
 45582
 0
-1625440360
+1625445947
 36
 1
 #94
@@ -46275,7 +46518,7 @@ Generic Gendered Object
 0
 3044
 0
-1625440360
+1625445947
 36
 1
 #95
@@ -46589,7 +46832,7 @@ List Editor
 0
 17973
 0
-1625440360
+1625445947
 36
 1
 #96
@@ -46927,7 +47170,7 @@ This player owns all editor-related verbs.
 0
 3554
 0
-1625440360
+1625445947
 36
 1
 #97
@@ -47054,7 +47297,7 @@ HTTP Server
 0
 8359
 0
-1625440360
+1625445947
 36
 1
 #98
@@ -47335,7 +47578,7 @@ Core
 0
 238813
 0
-1625440360
+1625445947
 0
 100
 36
@@ -47405,7 +47648,7 @@ Core
 0
 3637
 0
-1625440360
+1625445947
 36
 1
 #99
@@ -48445,7 +48688,7 @@ au
 0
 76883
 0
-1625440360
+1625445947
 36
 1
 #100
@@ -48717,7 +48960,7 @@ A player with the ability to see things in [red]c[bold][yellow]o[green]l[blue]o[
 0
 29804
 0
-1625440360
+1625445947
 36
 1
 #101
@@ -49398,7 +49641,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 26826
 0
-1625440360
+1625445947
 36
 1
 #102
@@ -49617,7 +49860,7 @@ An option package for controlling and customizing the ANSI PC.
 0
 5739
 0
-1625440360
+1625445947
 36
 1
 #103
@@ -49681,7 +49924,7 @@ dispatch
 0
 5312
 0
-1625440360
+1625445947
 36
 1
 #104
@@ -49788,7 +50031,7 @@ package
 0
 7185
 0
-1625440360
+1625445947
 36
 1
 #105
@@ -49895,7 +50138,7 @@ negotiate
 0
 3348
 0
-1625440360
+1625445947
 36
 1
 #106
@@ -50057,7 +50300,7 @@ cord
 0
 7708
 0
-1625440360
+1625445947
 36
 1
 #107
@@ -50131,7 +50374,7 @@ parser
 0
 6944
 0
-1625440360
+1625445947
 36
 1
 #108
@@ -50373,7 +50616,7 @@ registry
 0
 6696
 0
-1625440360
+1625445947
 36
 1
 #110
@@ -50532,7 +50775,7 @@ mcp
 0
 11136
 0
-1625440360
+1625445947
 36
 1
 #111
@@ -50811,7 +51054,7 @@ Non JHCore installations might choose to set .v_filter_in / .v_filter_out to fal
 0
 16249
 0
-1625440360
+1625445947
 36
 1
 #114
@@ -51807,7 +52050,7 @@ MCP Help Database
 0
 23287
 0
-1625440360
+1625445947
 36
 1
 #117
@@ -52005,7 +52248,7 @@ Generic Waif
 0
 7311
 0
-1625440360
+1625445947
 36
 1
 #119
@@ -52116,7 +52359,7 @@ client_stats
 4
 3
 0
-1625440153
+1625445915
 1
 2
 4
@@ -52209,7 +52452,7 @@ dns-com-vmoo-client
 0
 6665
 0
-1625440360
+1625445947
 36
 1
 #122
@@ -52302,7 +52545,7 @@ dns-com-awns-status
 0
 1394
 0
-1625440360
+1625445947
 36
 1
 #124
@@ -52729,7 +52972,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 52488
 0
-1625440360
+1625445947
 36
 1
 #125
@@ -52858,7 +53101,7 @@ Menu Utilities
 0
 8055
 0
-1625440360
+1625445947
 36
 1
 0
@@ -77420,7 +77663,10 @@ if (player != this)
 return E_PERM;
 endif
 "Check prerequisites:";
-required_verbs = {{$object_utils, "has_property"}, {$player, "my_match_object"}, {$command_utils, "object_match_failed"}, {$string_utils, "nn"}, {$command_utils, "yes_or_no"}, {$recycler, "_create"}, {$string_utils, "english_list"}};
+if (typeof(`function_info("curl") ! E_INVARG') == ERR)
+return player:tell("This verb relies on the curl builtin function to retrieve up-to-date documentation. Please ensure that the server has been compiled with the function enabled. You may need to install a supporting library, such as libcurl. Further information may be available here: https://github.com/lisdude/toaststunt/blob/master/docs/README.md#build-instructions");
+endif
+required_verbs = {{$object_utils, "has_property"}, {$player, "my_match_object"}, {$command_utils, "object_match_failed"}, {$string_utils, "nn"}, {$command_utils, "yes_or_no"}, {$recycler, "_create"}, {$string_utils, "english_list"}, {$list_utils, "map_builtin"}};
 required_props = {{$sysobj, "generic_help"}, {$sysobj, "prog"}};
 for x in (required_verbs)
 if (typeof(`verb_info(@x) ! E_VERBNF') == ERR)
@@ -77446,7 +77692,7 @@ if ((typeof(`verb_info($list_utils, "setremove_all") ! E_VERBNF') != ERR) && (ty
 verb_loc = $object_utils:has_verb(this, verb)[1];
 if (player.wizard || (verb_info(verb_loc, verb)[1] == player))
 update_url = "https://raw.githubusercontent.com/lisdude/toaststunt-documentation/master/update_verb.moo";
-new_verb = $list_utils:setremove_all(decode_binary(curl(update_url)), 10)[3..$ - 1];
+new_verb = $list_utils:setremove_all(decode_binary(call_function("curl", update_url)), 10)[3..$ - 1];
 if ((new_verb != verb_code(verb_loc, verb)) && ($command_utils:yes_or_no(tostr("There is an update available for this verb. Would you like to apply it? You can review the updated code here: ", update_url)) == 1))
 set_verb_code(verb_loc, verb, new_verb);
 return player:tell("This verb has been updated. Please run it again.");
@@ -77499,13 +77745,14 @@ if ((!player.wizard) && (db.owner != player))
 return player:tell("You don't have permission to update ", $string_utils:nn(db), ".");
 endif
 url = "https://raw.githubusercontent.com/lisdude/toaststunt-documentation/master/function_help.moo";
-data = curl(url);
+data = call_function("curl", url);
 if (typeof(data) == MAP)
 return player:tell("Error retrieving help text: ", data["message"]);
 else
 regex = "^;;#123\\.\\(\"(?<property>.+)\"\\) = (?<value>.+)$";
 data = decode_binary(data);
-added = updated = {};
+added = removed = updated = {};
+properties = [];
 for x in (data)
 yin();
 if (typeof(x) != STR)
@@ -77519,6 +77766,20 @@ continue;
 else
 value = value[2];
 endif
+properties[property] = value;
+endif
+endfor
+"Check for properties that no longer exist in the remote.";
+for local_prop in (properties(db))
+yin();
+if (!maphaskey(properties, local_prop))
+if ($command_utils:yes_or_no(tostr("The property `", local_prop, "' no longer exists in the remote repository. Do you wish to delete the local version?")) == 1)
+removed = setadd(removed, local_prop);
+delete_property(db, local_prop);
+endif
+endif
+endfor
+for value, property in (properties)
 if ($object_utils:has_property(db, property))
 if (db.(property) != value)
 updated = setadd(updated, property);
@@ -77528,9 +77789,8 @@ else
 add_property(db, property, value, {db.owner, "rc"});
 added = setadd(added, property);
 endif
-endif
 endfor
-player:tell("Done! ", ((added == {}) && (updated == {})) ? "No changes found." | tostr("Added: ", $string_utils:english_list(added), ". Updated: ", $string_utils:english_list(updated), "."));
+player:tell("Done! ", (((added == {}) && (updated == {})) && (removed == {})) ? "No changes found." | tostr("Added: ", $string_utils:english_list(added), ". Updated: ", $string_utils:english_list(updated), ".", (removed == {}) ? "" | tostr(" Removed: ", $string_utils:english_list(removed), ".")));
 endif
 .
 #58:0
