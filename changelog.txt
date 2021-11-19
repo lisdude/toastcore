@@ -182,3 +182,4 @@ Properly transform //-style comments when using @program (primarily for LambdaCo
 [$ansi_pc:notify] Add a check for the noansi queue and don't terminate_normal if the task is noansi.
 [$prog:@list] Add a remove_noansi call.
 [$prog:@dump] Add calls to add_noansi and remove_noansi.
+[$edit_session] Added
