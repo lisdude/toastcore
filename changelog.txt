@@ -179,3 +179,6 @@ Properly transform //-style comments when using @program (primarily for LambdaCo
 [$shapes:read_verb] Don't use #0:verb_detail, a remnant left over from Improvise.
 [$string_utils:strip_binary] Strip MOO binary sequences from strings.
 [$prog:@toaststunt-commits] List recent commits to the ToastStunt server using the GitHub API.
+[$ansi_pc:notify] Add a check for the noansi queue and don't terminate_normal if the task is noansi.
+[$prog:@list] Add a remove_noansi call.
+[$prog:@dump] Add calls to add_noansi and remove_noansi.

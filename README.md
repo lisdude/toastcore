@@ -3,7 +3,7 @@ ToastCore is an updated version of the unofficial [2018 LambdaCore database](htt
 
 ## Features
 - Updated core utility verbs with ToastStunt equivalents where appropriate
-- ANSI 2.5
+- ANSI 2.6
 - MCP 2.1
 - Replace crypt() with Argon2id password hashing
 - Skeleton waif and anonymous objects
