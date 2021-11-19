@@ -182,4 +182,11 @@ Properly transform //-style comments when using @program (primarily for LambdaCo
 [$ansi_pc:notify] Add a check for the noansi queue and don't terminate_normal if the task is noansi.
 [$prog:@list] Add a remove_noansi call.
 [$prog:@dump] Add calls to add_noansi and remove_noansi.
-[$edit_session] Added
+[$edit_session] Added.
+[$login.boot_process] Removed
+[$player:tell_lines] Remove comment about nonstring stats.
+[$list_utils:check_nonstring_tell_lines] Removed.
+[$list_utils.nonstring_tell_lines] Removed.
+[$code_utils:verbname_match(new)] Removed.
+[$wiz_utils:show_netwho_listing] Take linelength into account. Remove unused variable. Move connection_hostname call.
+[$mail_editor:subscribe] Removed.

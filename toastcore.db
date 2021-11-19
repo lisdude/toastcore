@@ -727,7 +727,7 @@ a 2018 LambdaCore
 2
 last_restart_time
 0
-1637294082
+1637295008
 2
 name
 2
@@ -888,7 +888,7 @@ The known universe.
 0
 37739
 0
-1637294572
+1637296108
 36
 1
 #1
@@ -1131,7 +1131,7 @@ object_size
 0
 32218
 0
-1637294572
+1637296108
 36
 1
 #2
@@ -1149,7 +1149,7 @@ source
 2
 time
 0
-1625439667
+1637295090
 4
 1
 1
@@ -1521,9 +1521,9 @@ time
 0
 50000
 0
-1129163
+1129114
 0
-1637294572
+1637296108
 0
 1100
 36
@@ -1594,9 +1594,9 @@ Wizard
 4
 2
 0
-6843
+6816
 0
-1637294572
+1637296108
 36
 1
 #3
@@ -1890,7 +1890,7 @@ generic room
 0
 43072
 0
-1637294572
+1637296108
 36
 1
 #4
@@ -2332,7 +2332,7 @@ You see a player who should type '@describe me as ...'.
 0
 48748
 0
-1637294572
+1637296108
 36
 1
 #5
@@ -2445,7 +2445,7 @@ generic thing
 0
 7011
 0
-1637294572
+1637296108
 36
 1
 #6
@@ -3098,9 +3098,9 @@ You see a player who should type '@describe me as ...'.
 4
 2
 0
-132129
+132036
 0
-1637294572
+1637296108
 36
 1
 #7
@@ -3226,7 +3226,7 @@ generic exit
 0
 10849
 0
-1637294572
+1637296108
 36
 1
 #8
@@ -3444,7 +3444,7 @@ generic container
 0
 14463
 0
-1637294572
+1637296108
 36
 1
 #9
@@ -3567,7 +3567,7 @@ There appears to be some writing on the note ...
 0
 9723
 0
-1637294572
+1637296108
 36
 1
 #10
@@ -3777,7 +3777,7 @@ delete_name_lookup
 2
 173
 -1
-41
+40
 welcome_message
 newt_registration_string
 registration_string
@@ -3799,7 +3799,6 @@ request_enabled
 help_message
 last_lag_sample
 lag_sample_interval
-boot_process
 lag_cutoff
 lag_exemptions
 newted
@@ -3819,7 +3818,7 @@ checkpoint_in_progress
 no_connect_message
 argon2
 name_lookup_players
-45
+44
 4
 5
 2
@@ -3943,10 +3942,6 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 2
 5
 0
-0
-2
-5
-0
 5
 2
 5
@@ -3959,7 +3954,11 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 2
 0
 10
+1
+1
+-2
 0
+2
 2
 5
 0
@@ -4066,9 +4065,9 @@ This provides everything needed by #0:do_login_command.  See `help $login' on $c
 4
 2
 0
-59762
+59885
 0
-1637294572
+1637296108
 36
 1
 #11
@@ -4122,7 +4121,7 @@ A repository of last-resort player verbs to be called by $player:last_huh
 0
 6454
 0
-1637294572
+1637296108
 36
 1
 #12
@@ -4185,7 +4184,7 @@ Guest Log
 0
 5510
 0
-1637294572
+1637296108
 36
 1
 #13
@@ -4521,7 +4520,7 @@ This is the Generic BigList Utilities utility package.  See `help $biglist' for 
 0
 30986
 0
-1637294572
+1637296108
 36
 1
 #14
@@ -4897,7 +4896,7 @@ Calling #OBJ:restore_from(...) COMPLETELY AND IRREVOCABLY REMOVES ALL MESSAGES f
 0
 53798
 0
-1637294572
+1637296108
 36
 1
 #15
@@ -4956,7 +4955,7 @@ The Body Bag
 0
 3784
 0
-1637294572
+1637296108
 36
 1
 #16
@@ -5088,7 +5087,7 @@ Registration Database
 0
 13392
 0
-1637294572
+1637296108
 36
 1
 #17
@@ -5282,7 +5281,7 @@ Log of player creations.
 0
 5701
 0
-1637294572
+1637296108
 36
 1
 #18
@@ -5385,7 +5384,7 @@ A `help database' that knows about all of the documented verbs.
 0
 5412
 0
-1637294572
+1637296108
 36
 1
 #19
@@ -8881,7 +8880,7 @@ Help database for LambdaCore utility objects and generics.
 0
 121534
 0
-1637294572
+1637296108
 36
 1
 #20
@@ -9477,7 +9476,7 @@ This is the string utilities utility package.  See `help $string_utils' for more
 0
 109318
 0
-1637294572
+1637296108
 36
 1
 #21
@@ -9647,7 +9646,7 @@ This is the building utilities utility package.  See `help $building_utils' for 
 0
 19146
 0
-1637294572
+1637296108
 36
 1
 #22
@@ -12462,7 +12461,7 @@ This provides help on the programmer commands available on $prog and related top
 0
 103085
 0
-1637294572
+1637296108
 36
 1
 #23
@@ -13601,7 +13600,7 @@ This describes the various commands available on $wiz.
 0
 36730
 0
-1637294572
+1637296108
 36
 1
 #24
@@ -14309,9 +14308,9 @@ This is the Wizard Utilities utility package.  See `help $wiz_utils' for more de
 4
 2
 0
-75237
+75214
 0
-1637294572
+1637296108
 36
 1
 #25
@@ -14456,7 +14455,7 @@ The site blacklist and the graylist live as well (see `help blacklist').
 0
 18428
 0
-1637294572
+1637296108
 36
 1
 #26
@@ -16754,7 +16753,7 @@ This is the Math Utilities utility package.  See `help $math_utils' for more det
 0
 57797
 0
-1637294572
+1637296108
 36
 1
 #27
@@ -16876,7 +16875,7 @@ This is the Set Utilities utility package.  See `help $set_utils' for more detai
 0
 8102
 0
-1637294572
+1637296108
 36
 1
 #28
@@ -19394,7 +19393,7 @@ For the {"*verb*",...} form, the current verbs available are
 0
 107206
 0
-1637294572
+1637296108
 36
 1
 #29
@@ -19558,7 +19557,7 @@ Record of who's been made a @programmer.
 0
 9347
 0
-1637294572
+1637296108
 36
 1
 #30
@@ -19678,7 +19677,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 13690
 0
-1637294572
+1637296108
 36
 1
 #31
@@ -20113,7 +20112,7 @@ By definition, guests appear nondescript.
 0
 22493
 0
-1637294572
+1637296108
 36
 1
 #32
@@ -20173,7 +20172,7 @@ For help on using the speller, use 'help spelling' and 'help @spell'.
 0
 6242
 0
-1637294572
+1637296108
 36
 1
 #33
@@ -20381,7 +20380,7 @@ This is the sequence utilities utility package.  See `help $seq_utils' for more 
 0
 23817
 0
-1637294572
+1637296108
 36
 1
 #34
@@ -20522,7 +20521,7 @@ Record of whose quota has been messed with and why.
 0
 2326
 0
-1637294572
+1637296108
 36
 1
 #35
@@ -20695,7 +20694,7 @@ An object useful for pronoun substitution for switching between third and second
 0
 9767
 0
-1637294572
+1637296108
 36
 1
 #36
@@ -20960,7 +20959,7 @@ init_for_core
 0
 100000008
 0
--28342817
+-28346208
 0
 1008125633
 0
@@ -21036,7 +21035,7 @@ A system character used to own non-wizardly system verbs , properties, and objec
 0
 4196
 0
-1637294572
+1637296108
 36
 1
 #37
@@ -21183,7 +21182,7 @@ A generic `database' (well, really more like a string-indexed array if you want 
 0
 24015
 0
-1637294572
+1637296108
 36
 1
 #38
@@ -21459,7 +21458,7 @@ The character used for "safe" evals.
 0
 8606
 0
-1637294572
+1637296108
 36
 1
 #39
@@ -21719,7 +21718,7 @@ See `help $player_db' for more information.
 0
 12464
 0
-1637294572
+1637296108
 36
 1
 #40
@@ -22211,7 +22210,7 @@ Generic Mail Receiving Player
 0
 99754
 0
-1637294572
+1637296108
 36
 1
 #41
@@ -22704,7 +22703,7 @@ This is the gender utilities utility package.  See `help $gender_utils' for more
 0
 18117
 0
-1637294572
+1637296108
 36
 1
 #42
@@ -22793,7 +22792,7 @@ This is the permissions utilities utility package.  See `help $perm_utils' for m
 0
 4950
 0
-1637294572
+1637296108
 36
 1
 #43
@@ -23388,7 +23387,7 @@ This is the time utilities utility package.  See `help $time_utils' for more det
 0
 31463
 0
-1637294572
+1637296108
 36
 1
 #44
@@ -24336,7 +24335,7 @@ Editor Help
 0
 26270
 0
-1637294572
+1637296108
 36
 1
 #45
@@ -24634,7 +24633,7 @@ This can either be a mailing list or a mail folder, depending on what mood you'r
 0
 45731
 0
-1637294572
+1637296108
 36
 1
 #46
@@ -24989,7 +24988,7 @@ Avaliable aliases:
 0
 71767
 0
-1637294572
+1637296108
 36
 1
 #47
@@ -25006,7 +25005,7 @@ Mail Room
 50
 4
 0
-26
+25
 working_on
 36
 173
@@ -25091,10 +25090,6 @@ showlists
 36
 25
 -1
-subsc*ribe
-36
-89
-1
 unsubsc*ribe
 36
 89
@@ -25433,9 +25428,9 @@ Mail Room
 4
 2
 0
-32813
+31309
 0
-1637294572
+1637296108
 36
 1
 #48
@@ -25764,7 +25759,7 @@ nedit
 0
 15810
 0
-1637294572
+1637296108
 36
 1
 #49
@@ -26093,7 +26088,7 @@ verb edit
 0
 21037
 0
-1637294572
+1637296108
 36
 1
 #50
@@ -26732,7 +26727,7 @@ edit
 0
 77149
 0
-1637294572
+1637296108
 36
 1
 #51
@@ -26887,7 +26882,7 @@ matching utilities
 0
 12908
 0
-1637294572
+1637296108
 36
 1
 #52
@@ -27145,7 +27140,7 @@ This is the object utilities utility package.  See `help $object_utils' for more
 0
 31061
 0
-1637294572
+1637296108
 36
 1
 #53
@@ -27282,7 +27277,7 @@ This the lock utilities package, used by the MOOwide locking mechanisms. See `he
 0
 13652
 0
-1637294572
+1637296108
 36
 1
 #54
@@ -27386,7 +27381,7 @@ Some writing on the letter explains that you should 'read letter', and when you'
 0
 3699
 0
-1637294572
+1637296108
 36
 1
 #55
@@ -27403,7 +27398,7 @@ list utilities
 78
 4
 0
-44
+43
 make
 36
 173
@@ -27520,10 +27515,6 @@ longest shortest
 36
 173
 -1
-check_nonstring_tell_lines
-36
-173
--1
 reverse_suspended
 2
 173
@@ -27580,13 +27571,8 @@ make_alist
 2
 173
 -1
-1
-nonstring_tell_lines
-6
-4
 0
-36
-1
+5
 4
 45
 2
@@ -27699,9 +27685,9 @@ This is the list utilities utility package.  See `help $list_utils' for more det
 4
 2
 0
-42872
+42043
 0
-1637294572
+1637296108
 36
 1
 #56
@@ -27798,17 +27784,19 @@ feature_task
 4
 9
 0
-186094541
+937276049
 2
-editor-o
+@vsearch
 4
-0
-2
-
 1
--1
 2
-
+verbname_match
+2
+verbname_match
+1
+-3
+2
+verbname_match
 2
 
 1
@@ -27912,9 +27900,9 @@ This is the command utilities utility package.  See `help $command_utils' for mo
 4
 2
 0
-26146
+26205
 0
-1637294572
+1637296108
 36
 1
 #57
@@ -28441,7 +28429,7 @@ You see a wizard who chooses not to reveal its true appearance.
 0
 85474
 0
-1637294572
+1637296108
 36
 1
 #58
@@ -28947,7 +28935,7 @@ You see a player who is too experienced to have any excuse for not having a desc
 0
 86428
 0
-1637294572
+1637296108
 36
 1
 #59
@@ -28964,7 +28952,7 @@ code utilities
 78
 4
 0
-62
+61
 eval_d
 2
 85
@@ -29059,10 +29047,6 @@ find_last_verb_named
 -1
 find_callable_verb_named
 2
-173
--1
-verbname_match(new)
-36
 173
 -1
 find_verbs_containing find_verbs_matching find_verb_lines_containing find_verb_lines_matching
@@ -29697,9 +29681,9 @@ This is the code utilities utility package.  See `help $code_utils' for more det
 4
 2
 0
-84758
+83700
 0
-1637294572
+1637296108
 36
 1
 #60
@@ -32348,7 +32332,7 @@ See the description of $generic_help for more detail.
 0
 96515
 0
-1637294572
+1637296108
 36
 1
 #61
@@ -32868,7 +32852,7 @@ It's the current issue of the News, dated %d.
 0
 29103
 0
-1637294572
+1637296108
 36
 1
 #62
@@ -32967,7 +32951,7 @@ This is all there is right now.
 0
 6559
 0
-1637294572
+1637296108
 36
 1
 #63
@@ -33116,7 +33100,7 @@ Object reuse. Call $recycler:_create() to create an object (semantics the same a
 0
 13313
 0
-1637294572
+1637296108
 36
 1
 #64
@@ -33513,7 +33497,7 @@ Options for mailing
 0
 21303
 0
-1637294572
+1637296108
 36
 1
 #66
@@ -33622,7 +33606,7 @@ Edit Options
 0
 2904
 0
-1637294572
+1637296108
 36
 1
 #67
@@ -33707,7 +33691,7 @@ Display Options
 0
 1273
 0
-1637294572
+1637296108
 36
 1
 #68
@@ -33825,7 +33809,7 @@ an option package in need of a description.  See `help $generic_option'...
 0
 17483
 0
-1637294572
+1637296108
 36
 1
 #69
@@ -34023,7 +34007,7 @@ raise(error) actually raises the error.
 0
 12480
 0
-1637294572
+1637296108
 36
 1
 #70
@@ -34134,7 +34118,7 @@ Notes on annoying sites.
 0
 1864
 0
-1637294572
+1637296108
 36
 1
 #71
@@ -34662,7 +34646,7 @@ A very clean, neat, tidy person who doesn't mind lugging players and their gear 
 0
 32307
 0
-1637294572
+1637296108
 36
 1
 #72
@@ -35096,7 +35080,7 @@ Parameters:
 0
 32197
 0
-1637294572
+1637296108
 36
 1
 #73
@@ -35183,7 +35167,7 @@ This is the object you want to use as a parent in order to @create a place for y
 0
 5624
 0
-1637294572
+1637296108
 36
 1
 #74
@@ -35325,7 +35309,7 @@ This is the Generic Feature Object.  It is not meant to be used as a feature obj
 0
 11423
 0
-1637294572
+1637296108
 36
 1
 #75
@@ -35627,7 +35611,7 @@ Option package for $prog commands.  See `help @prog-options'.
 0
 10468
 0
-1637294572
+1637296108
 36
 1
 #77
@@ -35756,7 +35740,7 @@ Option package for $builder commands.  See `help @build-options'.
 0
 6109
 0
-1637294572
+1637296108
 36
 1
 #78
@@ -35848,7 +35832,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 835
 0
-1637294572
+1637296108
 36
 1
 #79
@@ -36250,7 +36234,7 @@ This is the Byte Quota Utilities utility package.  See `help $quota_utils' for m
 0
 44035
 0
-1637294572
+1637296108
 36
 1
 #80
@@ -36374,7 +36358,7 @@ Internal:
 0
 9154
 0
-1637294572
+1637296108
 36
 1
 #81
@@ -36480,7 +36464,7 @@ This is the Object Quota Utilities utility package.  See `help $object_quota_uti
 0
 10488
 0
-1637294572
+1637296108
 36
 1
 #82
@@ -36688,7 +36672,7 @@ Server Options
 0
 9190
 0
-1637294572
+1637296108
 36
 1
 #83
@@ -36815,7 +36799,7 @@ warehouse
 0
 2626
 0
-1637294572
+1637296108
 36
 1
 #84
@@ -38128,7 +38112,7 @@ This help database contains topics about the generic builder and building comman
 0
 46326
 0
-1637294572
+1637296108
 36
 1
 #85
@@ -39361,7 +39345,7 @@ This help database contains topics relating to the general use of the mail syste
 0
 42114
 0
-1637294572
+1637296108
 36
 1
 #86
@@ -42061,7 +42045,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 94349
 0
-1637294572
+1637296108
 36
 1
 #87
@@ -42243,7 +42227,7 @@ The password verifier verifies passwords.
 0
 15188
 0
-1637294572
+1637296108
 36
 1
 #88
@@ -42922,7 +42906,7 @@ You see a player who should type '@describe me as ...'.
 0
 94403
 0
-1637294572
+1637296108
 36
 1
 #89
@@ -43032,7 +43016,7 @@ This feature contains various verbs used in stage talk, which allows players to 
 0
 6159
 0
-1637294572
+1637296108
 36
 1
 #90
@@ -43126,7 +43110,7 @@ Verbs useful to people using a windowing system to paste text at people.
 0
 5854
 0
-1637294572
+1637296108
 36
 1
 #91
@@ -43414,7 +43398,7 @@ This is a utilities package for dealing with lists as representations of vectors
 0
 39467
 0
-1637294572
+1637296108
 36
 1
 #92
@@ -44299,7 +44283,7 @@ Frand Help DB
 0
 30023
 0
-1637294572
+1637296108
 36
 1
 #93
@@ -46439,7 +46423,7 @@ This is a utilities package for converting from one unit of measurement to anoth
 0
 45582
 0
-1637294572
+1637296108
 36
 1
 #94
@@ -46549,7 +46533,7 @@ Generic Gendered Object
 0
 3044
 0
-1637294572
+1637296108
 36
 1
 #95
@@ -46863,7 +46847,7 @@ List Editor
 0
 17973
 0
-1637294572
+1637296108
 36
 1
 #96
@@ -47201,7 +47185,7 @@ This player owns all editor-related verbs.
 0
 3554
 0
-1637294572
+1637296108
 36
 1
 #97
@@ -47328,7 +47312,7 @@ HTTP Server
 0
 8359
 0
-1637294572
+1637296108
 36
 1
 #98
@@ -47609,7 +47593,7 @@ Core
 0
 239196
 0
-1637294572
+1637296108
 0
 100
 36
@@ -47679,7 +47663,7 @@ Core
 0
 3637
 0
-1637294572
+1637296108
 36
 1
 #99
@@ -48703,7 +48687,7 @@ au
 0
 77225
 0
-1637294572
+1637296108
 36
 1
 #100
@@ -48975,7 +48959,7 @@ A player with the ability to see things in [red]c[bold][yellow]o[green]l[blue]o[
 0
 29845
 0
-1637294572
+1637296108
 36
 1
 #101
@@ -49656,7 +49640,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 26826
 0
-1637294572
+1637296108
 36
 1
 #102
@@ -49875,7 +49859,7 @@ An option package for controlling and customizing the ANSI PC.
 0
 5739
 0
-1637294572
+1637296108
 36
 1
 #103
@@ -49939,7 +49923,7 @@ dispatch
 0
 5312
 0
-1637294572
+1637296108
 36
 1
 #104
@@ -50046,7 +50030,7 @@ package
 0
 7185
 0
-1637294572
+1637296108
 36
 1
 #105
@@ -50153,7 +50137,7 @@ negotiate
 0
 3348
 0
-1637294572
+1637296108
 36
 1
 #106
@@ -50315,7 +50299,7 @@ cord
 0
 7708
 0
-1637294572
+1637296108
 36
 1
 #107
@@ -50362,7 +50346,7 @@ next_datakey
 unquoted_string
 6
 0
-10139
+10143
 98
 1
 2
@@ -50389,7 +50373,7 @@ parser
 0
 6944
 0
-1637294572
+1637296108
 36
 1
 #108
@@ -50631,7 +50615,7 @@ registry
 0
 6696
 0
-1637294572
+1637296108
 36
 1
 #110
@@ -50790,7 +50774,7 @@ mcp
 0
 11136
 0
-1637294572
+1637296108
 36
 1
 #111
@@ -51069,7 +51053,7 @@ Non JHCore installations might choose to set .v_filter_in / .v_filter_out to fal
 0
 16249
 0
-1637294572
+1637296108
 36
 1
 #114
@@ -52065,7 +52049,7 @@ MCP Help Database
 0
 23287
 0
-1637294572
+1637296108
 36
 1
 #117
@@ -52263,7 +52247,7 @@ Generic Waif
 0
 7311
 0
-1637294572
+1637296108
 36
 1
 #119
@@ -52374,7 +52358,7 @@ client_stats
 4
 3
 0
-1637294087
+1637295012
 1
 2
 4
@@ -52467,7 +52451,7 @@ dns-com-vmoo-client
 0
 6665
 0
-1637294572
+1637296108
 36
 1
 #122
@@ -52564,7 +52548,7 @@ dns-com-awns-status
 0
 1394
 0
-1637294572
+1637296108
 36
 1
 #124
@@ -52989,9 +52973,9 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 4
 2
 0
-52576
+52488
 0
-1637294572
+1637296108
 36
 1
 #125
@@ -53120,7 +53104,7 @@ Menu Utilities
 0
 8055
 0
-1637294572
+1637296108
 36
 1
 #127
@@ -53156,7 +53140,7 @@ text
 2
 5
 0
-1945
+1942
 #0:0
 "...This code should only be run as a server task...";
 if (callers())
@@ -57401,7 +57385,6 @@ elseif (this.paranoid == 1)
 $paranoid_db:add_data(this, {{@callers(1), {player, "<cmd-line>", player}}, lines});
 endif
 endif
-"don't gather stats for now: $list_utils:check_nonstring_tell_lines(lines)";
 this:notify_lines(lines);
 .
 #6:77
@@ -63787,11 +63770,11 @@ endif
 {who, unsorted} = args;
 if (!caller_perms().wizard)
 return E_PERM;
-endif
-if (!unsorted)
+elseif (!unsorted)
 return;
 endif
 su = $string_utils;
+au = $ansi_utils;
 alist = {};
 footnotes = {};
 nwidth = length("Player name");
@@ -63805,18 +63788,13 @@ pref = "  ";
 endif
 if (u in connected_players())
 lctime = ctime(time() - connected_seconds(u));
-where = connection_name(u);
+where = $string_utils:connection_hostname(connection_name(u));
 else
 lctime = ctime(u.last_connect_time);
 where = u.last_connect_place;
 endif
-name = u.name;
-if (length(name) > 15)
-name = name[1..13] + "..";
-endif
-u3 = {tostr(pref, u.name, " (", u, ")"), lctime[5..10] + lctime[20..24]};
-nwidth = max(length(u3[1]), nwidth);
-where = $string_utils:connection_hostname(u);
+u3 = {tostr(pref, su:nn(u)), lctime[5..10] + lctime[20..24]};
+nwidth = max(au:length(u3[1]), nwidth);
 if ($login:blacklisted(where))
 where = "(*) " + where;
 footnotes = setadd(footnotes, "black");
@@ -63844,7 +63822,7 @@ tell1 = a[1];
 for j in [2..3]
 tell1 = su:left(tell1, before[j]) + a[j];
 endfor
-who:notify(tell1[1..min($, 79)]);
+who:notify(tell1[1..min($, player:linelen())]);
 endfor
 if (footnotes)
 who:notify("");
@@ -72200,34 +72178,6 @@ endif
 endfor
 .
 #47:21
-player:tell("This command is obsolete.  Use @subscribe instead.  See `help @subscribe'");
-return;
-if (!iobjstr)
-player:tell("Usage:  ", verb, " [<list-of-people/lists>] to <list>");
-return;
-elseif ($mail_agent:match_failed(iobj = $mail_agent:match(iobjstr), iobjstr))
-return;
-endif
-rstrs = dobjstr ? $string_utils:explode(dobjstr) | {"me"};
-recips = this:parse_recipients({}, rstrs);
-outcomes = iobj:add_forward(@recips);
-if (typeof(outcomes) != LIST)
-player:tell(outcomes);
-return;
-endif
-added = {};
-for r in [1..length(recips)]
-if ((t = typeof(e = outcomes[r])) == OBJ)
-added = setadd(added, recips[r]);
-else
-player:tell(verb, " ", recips[r].name, " to ", iobj.name, ":  ", e);
-endif
-endfor
-if (added)
-player:tell($string_utils:english_list($list_utils:map_arg(2, $string_utils, "pronoun_sub", "%(name) (%#)", added)), " added to ", iobj.name, " (", iobj, ")");
-endif
-.
-#47:22
 if (!iobjstr)
 player:tell("Usage:  ", verb, " [<list-of-people/lists>] from <list>");
 return;
@@ -72253,14 +72203,14 @@ if (removed)
 player:tell($string_utils:english_list($list_utils:map_arg(2, $string_utils, "pronoun_sub", "%(name) (%#)", removed)), " removed from ", iobj.name, " (", iobj, ")");
 endif
 .
-#47:23
+#47:22
 return this:ok(who = args[1]) && (this:sending(who) || pass(@args));
 .
-#47:24
+#47:23
 "recall that this only gets called if :retain_session_on_exit returns true";
 return (this:ok(who = player in this.active) && (!this:changed(who))) ? {"Your message is in transit."} | this.(verb);
 .
-#47:25
+#47:24
 lines = {"To:       " + (toline = $mail_agent:name_list(@args[1])), "Subject:  " + $string_utils:trim(subject = args[2])};
 if (args[3])
 lines = {@lines, "Reply-to: " + $mail_agent:name_list(@args[3])};
@@ -75464,24 +75414,12 @@ endif
 return result;
 .
 #55:29
-"check_nonstring_tell_lines(lines)";
-if (caller_perms().wizard)
-"don't let a nonwizard mess up our stats";
-for line in (args[1])
-if (typeof(line) != STR)
-this.nonstring_tell_lines = listappend(this.nonstring_tell_lines, callers());
-return;
-endif
-endfor
-endif
-.
-#55:30
 "reverse(list) => reversed list.  Does suspend(0) as necessary.";
 set_task_perms(caller_perms());
 "^^^For suspend task.";
 return this:_reverse_suspended(@args[1]);
 .
-#55:31
+#55:30
 ":_reverse(@list) => reversed list";
 set_task_perms(caller_perms());
 $command_utils:suspend_if_needed(0);
@@ -75494,7 +75432,7 @@ l = listinsert(l, a);
 endfor
 return l;
 .
-#55:32
+#55:31
 ":randomly_permute_suspended(list) => list with its elements randomly permuted";
 "  each of the length(list)! possible permutations is equally likely";
 set_task_perms(caller_perms());
@@ -75505,7 +75443,7 @@ $command_utils:suspend_if_needed(0);
 endfor
 return plist;
 .
-#55:33
+#55:32
 "swap_elements -- exchange two elements in a list";
 "Usage:  $list_utils:swap_elements(<list/LIST>,<index/INT>,<index/INT>)";
 "        $list_utils:swap_elements({\"a\",\"b\"},1,2);";
@@ -75524,7 +75462,7 @@ else
 return E_TYPE;
 endif
 .
-#55:34
+#55:33
 "random_item -- returns a random element of the input list.";
 if (length(args) == 1)
 if (typeof(l = args[1]) == LIST)
@@ -75540,7 +75478,7 @@ else
 return E_ARGS;
 endif
 .
-#55:35
+#55:34
 "Copied from Moo_tilities (#332):assoc_suspended by Mooshie (#106469) Wed Mar 18 19:27:54 1998 PST";
 "Usage: assoc_suspended(ANY target, LIST list [, INT index [, INT suspend-for ])) => Returns the first element of `list' whose own index-th element is target.  Index defaults to 1.";
 "Returns {} if no such element is found.";
@@ -75558,7 +75496,7 @@ cu:suspend_if_needed(suspend_for);
 endfor
 return {};
 .
-#55:36
+#55:35
 "Copied from Uther's_Ghost (#93141):amerge Tue May 27 20:28:18 1997 PDT";
 "amerge(list[,tindex[,dindex]]) returns an associated list such that all the tuples in the original list with the same tindex-th element are merged. Useful for merging alists ( amerge({@alist1, @alist2, ...}) ) and for ensuring that each tuple has a unique index. Tindex defaults to 1. Dindex defaults to 1 and refers to the position in the tuple where the tindex-th element will land in the new tuple.";
 {alist, ?tidx = 1, ?didx = 1} = args;
@@ -75581,7 +75519,7 @@ return res;
 endif
 return alist;
 .
-#55:37
+#55:36
 "passoc(key,list1,list2)";
 "passoc() behaves rather similarly to assoc, with the exception that it's intended for";
 "parallel lists.  given a key from list1, it returns a list containing the key and the";
@@ -75594,7 +75532,7 @@ else
 return {};
 endif
 .
-#55:38
+#55:37
 "Copied from Moo_tilities (#332):setmove by Mooshie (#106469) Mon Sep 22 21:07:25 1997 PDT";
 "Usage: setmove(LIST elements, INT from, INT to)";
 "Moves element in list from one position in list to another.";
@@ -75606,7 +75544,7 @@ what = start[from];
 return listinsert(listdelete(start, from), what, to);
 "  Written by Mooshie (#106469) @ Lambda - Mon Sep 22 21:03:26 1997 PDT -  ";
 .
-#55:39
+#55:38
 "Copied from Moo_tilities (#332):iassoc_new by Mooshie (#106469) Wed Mar 18 19:27:52 1998 PST";
 "Usage: iassoc_new(ANY target, LIST list [, INT index ]) => Returns the index of the first element of `list' whose own index-th element is target.  Index defaults to 1.";
 "Returns 0 if no such element is found.";
@@ -75625,7 +75563,7 @@ return e[1];
 endtry
 return 0;
 .
-#55:40
+#55:39
 "Syntax:  build_alist(list, N) =>";
 "{list[1..N], list[N+1..N*2], list[N*2+1..N*3], ..., list[N*(N-1)+1..N*N]}";
 "";
@@ -75644,7 +75582,7 @@ d = d + interval;
 endwhile
 return nlist;
 .
-#55:41
+#55:40
 "Copied from list utilities (#372):flatten [verb author Hacker (#18105)] at Sun Jul  3 07:46:47 2011 PDT";
 "Copied from $quinn_utils (#34283):unroll by Quinn (#19845) Mon Mar  8 09:29:03 1993 PST";
 ":flatten(LIST list_of_lists) => LIST of all lists in given list `flattened'";
@@ -75660,7 +75598,7 @@ endif
 endfor
 return newlist;
 .
-#55:42
+#55:41
 ":max_length(strings-or-lists[, default])";
 "Return the maximum length of a set of strings or lists.";
 "default is the minimum length that can be returned; 0 is a safe bet.";
@@ -75670,7 +75608,7 @@ max = max(max, length(item));
 endfor
 return max;
 .
-#55:43
+#55:42
 ":make_alist(lists[, pad])";
 "Make an alist out of n parallel lists (basically a matrix transpose).";
 "If the lists are of uneven length, fill the remaining tuples with pad (defaults to 0).";
@@ -80062,24 +80000,6 @@ endfor
 return 0;
 .
 #59:24
-":verbname_match(fullverbname,name) => TRUE iff `name' is a valid name for a verb with the given `fullname'";
-verblist = (" " + args[1]) + " ";
-if (index(verblist, (" " + (name = args[2])) + " ") && (!match(name, "[ *]")))
-"Note that if name has a * or a space in it, then it can only match one of the * verbnames";
-return 1;
-else
-namelen = length(name);
-while (m = match(verblist, "[^ *]*%(%*%)[^ ]*"))
-vlast = m[2];
-if ((namelen >= (m[3][1][1] - m[1])) && ((!(v = strsub(verblist[m[1]..vlast], "*", ""))) || (index(v, (verblist[vlast] == "*") ? name[1..min(namelen, length(v))] | name) == 1)))
-return 1;
-endif
-verblist = verblist[vlast + 1..$];
-endwhile
-endif
-return 0;
-.
-#59:25
 "$code_utils:find_verbs_containing(pattern[,object|object-list[,casematters]])";
 "$code_utils:find_verbs_matching(pattern[,object|object-list[,casematters]])";
 "$code_utils:find_verb_lines_containing(pattern[,object|object-list[,casematters]])";
@@ -80115,7 +80035,7 @@ endif
 player:notify("");
 player:notify(tostr("Total: ", count, " verb", (count != 1) ? "s." | "."));
 .
-#59:26
+#59:25
 ":_find_verbs_containing(pattern,object[,casematters])";
 ":_find_verbs_matching(regexp,object[,casematters])";
 "number of verbs in object with code having a line containing pattern or matching regexp";
@@ -80148,7 +80068,7 @@ endif
 endfor
 return count;
 .
-#59:27
+#59:26
 ":_grep_verb_code(pattern,object,verbname[,casematters]) => line number or 0";
 "  returns line number on which pattern occurs in code for object:verbname";
 set_task_perms(caller_perms());
@@ -80166,7 +80086,7 @@ endfor
 return 0;
 endif
 .
-#59:28
+#59:27
 ":_egrep_verb_code(regexp,object,verbname[,casematters]) => 0 or line number";
 "  returns line number of first line matching regexp in object:verbname code";
 set_task_perms(caller_perms());
@@ -80182,7 +80102,7 @@ raise(E_INVARG, "Malformed regular expression.");
 endtry
 return 0;
 .
-#59:29
+#59:28
 "Parse [from <start>] [to <end>] [for <name>].";
 "Takes a series of strings, most likely @args with dobjstr removed.";
 "Returns a list {INT start, INT end, STR name}, or {} if there is an error.";
@@ -80213,7 +80133,7 @@ args = args[3..length(args)];
 endwhile
 return fail ? {} | {start, end, match};
 .
-#59:30
+#59:29
 ":help_db_list([player]) => list of help dbs";
 "in the order that they are consulted by player";
 {?who = player} = args;
@@ -80237,7 +80157,7 @@ endif
 endfor
 return setadd(dbs, $help);
 .
-#59:31
+#59:30
 ":help_db_search(string,dblist)";
 "  searches each of the help db's in dblist for a topic matching string.";
 "  Returns  {db,topic}  or  {$ambiguous_match,{topic...}}  or {}";
@@ -80273,7 +80193,7 @@ else
 return {};
 endif
 .
-#59:32
+#59:31
 ":corify_object(object)  => string representing object";
 "  usually just returns tostr(object), but in the case of objects that have";
 "  corresponding #0 properties, return the appropriate $-string.";
@@ -80293,7 +80213,7 @@ endif
 endfor
 return tostr(object);
 .
-#59:33
+#59:32
 "See if the end of the string passed as args[1] ends 'inside' a doublequote.  Used by $code_utils:substitute.";
 {string} = args;
 quoted = 0;
@@ -80305,7 +80225,7 @@ string = string[i + 1..$];
 endwhile
 return quoted;
 .
-#59:34
+#59:33
 "verb_or_property(<obj>, <name> [, @<args>])";
 "Looks for a callable verb or property named <name> on <obj>.";
 "If <obj> has a callable verb named <name> then return <obj>:(<name>)(@<args>).";
@@ -80315,7 +80235,7 @@ set_task_perms(caller_perms());
 {object, name, @rest} = args;
 return `object:(name)(@rest) ! E_VERBNF, E_INVIND => `object.(name) ! ANY'';
 .
-#59:35
+#59:34
 "task_valid(INT id)";
 "Return true iff there is currently a valid task with the given id.";
 set_task_perms($no_one);
@@ -80323,7 +80243,7 @@ set_task_perms($no_one);
 t = $list_utils:slice(queued_tasks(), 1);
 return ((id == task_id()) || (id in t)) || (E_PERM == `kill_task(id) ! ANY');
 .
-#59:36
+#59:35
 ":task_owner(INT task_id) => returns the owner of the task belonging to the id.";
 if (a = $list_utils:assoc(args[1], queued_tasks()))
 return a[5];
@@ -80331,7 +80251,7 @@ else
 return E_INVARG;
 endif
 .
-#59:37
+#59:36
 ":argstr(verb,args[,argstr]) => what argstr should have been.  ";
 "Recall that the command line is parsed into a sequence of words; `verb' is";
 "assigned the first word, `args' is assigned the remaining words, and argstr";
@@ -80365,7 +80285,7 @@ qs = $string_utils:word_start("\"" + argstr);
 return argstr[qs[(length(qs) - length(args)) + 1][1] - 1..length(argstr)];
 endif
 .
-#59:38
+#59:37
 ":verbname_match(fullverbname,name) => TRUE iff `name' is a valid name for a verb with the given `fullname'";
 verblist = (" " + args[1]) + " ";
 if (index(verblist, (" " + (name = args[2])) + " ") && (!(index(name, "*") || index(name, " "))))
@@ -80384,7 +80304,7 @@ endwhile
 endif
 return 0;
 .
-#59:39
+#59:38
 "$code_utils:substitute(string,subs) => new line";
 "Subs are a list of lists, {{\"target\",\"sub\"},{...}...}";
 "Substitutes targets for subs in a delimited string fashion, avoiding substituting anything inside quotes, e.g. player:tell(\"don't sub here!\")";
@@ -80407,7 +80327,7 @@ s = prefix + s;
 endfor
 return s;
 .
-#59:40
+#59:39
 ":show_who_listing(players[,more_players])";
 " prints a listing of the indicated players.";
 " For players in the first list, idle/connected times are shown if the player is logged in, otherwise the last_disconnect_time is shown.  For players in the second list, last_disconnect_time is shown, no matter whether the player is logged in.";
@@ -80542,7 +80462,7 @@ endif
 caller:notify(tostr("Total: ", total, " player", active_str, " been active recently."));
 return total;
 .
-#59:41
+#59:40
 ":_egrep_verb_code_all(regexp,object,verbname[,casematters]) => list of lines number";
 "  returns list of all lines matching regexp in object:verbname code";
 set_task_perms(caller_perms());
@@ -80555,7 +80475,7 @@ endif
 endfor
 return lines;
 .
-#59:42
+#59:41
 ":_grep_verb_code_all(pattern,object,verbname[,casematters]) => list of lines";
 "  returns list of lines on which pattern occurs in code for object:verbname";
 set_task_perms(caller_perms());
@@ -80568,7 +80488,7 @@ endif
 endfor
 return lines;
 .
-#59:43
+#59:42
 ":verb_usage([object,verbname]) => usage string at beginning of verb code, if any";
 "default is the calling verb";
 set_task_perms(caller_perms());
@@ -80610,15 +80530,15 @@ endfor
 return doc;
 endif
 .
-#59:44
+#59:43
 "returns the callers() frame for the current verb.";
 return callers()[1];
 .
-#59:45
+#59:44
 "returns {this:verb_frame(), @callers()}.";
 return callers();
 .
-#59:46
+#59:45
 ":move_verb(OBJ from, STR verb name, OBJ to, [STR new verb name]) -> Moves the specified verb from one object to another. Returns {OBJ, Full verb name} where the verb now resides if successful, error if not. To succeed, caller_perms() must control both objects and own the verb, unless called with wizard perms. Supplying a fourth argument moves the verb to a new name.";
 "Should handle verbnames with aliases and wildcards correctly.";
 who = caller_perms();
@@ -80659,7 +80579,7 @@ return {to, vinfo[3]};
 endif
 endif
 .
-#59:47
+#59:46
 ":move_prop(OBJ from, STR prop name, OBJ to, [STR new prop name]) -> Moves the specified property and its contents from one object to another. Returns {OBJ, property name} where the property now resides if successful, error if not. To succeed, caller_perms() must control both objects and own the property, unless called with wizard perms. Supplying a fourth argument gives the property a new name on the new object.";
 who = caller_perms();
 {from, origprop, to, ?destprop = origprop} = args;
@@ -80693,15 +80613,15 @@ return {to, pname};
 endif
 endif
 .
-#59:48
+#59:47
 "Do not remove this verb!  This is an auxiliary verb for :eval_d().";
 .
-#59:49
+#59:48
 ":display_callers([callers() style list]) - displays the output of the given argument, assumed to be a callers() output. See `help callers()' for details. Will use callers() explicitly if no argument is passed.";
 call = (caller_perms() == player) ? "notify_lines" | "tell_lines";
 player:(call)(this:callers_text(@args));
 .
-#59:50
+#59:49
 ":callers_text([callers() style list]) - returns the output of the given argument, assumed to be a callers() output. See `help callers()' for details. Will use callers() explicitly if no argument is passed.";
 linelen = min(player:linelen(), 200);
 text = {};
@@ -80735,7 +80655,7 @@ endfor
 text = listappend(text, l);
 return text;
 .
-#59:51
+#59:50
 ":set_property_value(object, property, value)";
 " set_verb_or_property(same) -- similar to `verb_or_property'";
 "  -- attempts to set <object>.<property> to <value>.  If there exists <object>:set_<property>, then it is called and its returned value is returned.  If not, we try to set the property directly; the result of this is returned.";
@@ -80754,19 +80674,19 @@ else
 return o.(p) = args[3];
 endif
 .
-#59:52
+#59:51
 "$code_utils:owns_task(task_id, who)";
 "The purpose of this is to be faster than $code_utils:task_owner(task_id) in those cases where you are interested in whether a certain person owns the task rather than in determining the owner of a task where you have no preconceived notion of the owner.";
 return $list_utils:assoc(args[1], $wiz_utils:queued_tasks(args[2]));
 .
-#59:53
+#59:52
 "Syntax:  $code_utils:dflag_on()   => 0|1";
 "";
 "Returns true if the verb calling the verb that called this verb has the `d' flag set true. Returns false if it is !d. If there aren't that many callers, or the calling verb was a builtin such as eval, assume the debug flag is on for traceback purposes and return true.";
 "This is useful for determining whether the calling verb should return or raise an error to the verb that called it.";
 return (length(c = callers()) >= 2) ? `index(verb_info(c[2][4], c[2][2])[2], "d") && 1 ! E_INVARG => 1' | 1;
 .
-#59:54
+#59:53
 "type_str -- returns a string describing the type of args[1]";
 x = args[1];
 type_data = {1, 3.14, "", #0, E_NONE, {}};
@@ -80778,7 +80698,7 @@ endif
 endfor
 return "NONE";
 .
-#59:55
+#59:54
 ":dump_properties (object, create_flag): returns the list of strings representing the property information for this object and its ancestor objects in @dump format.";
 set_task_perms(caller_perms());
 {dobj, create, ?targname = tostr(dobj)} = args;
@@ -80828,7 +80748,7 @@ $command_utils:suspend_if_needed(1);
 endfor
 return result;
 .
-#59:56
+#59:55
 ":dump_preamble(object): produces the @create command necessary to dump this object.";
 dobj = args[1];
 parent = parent(dobj);
@@ -80840,7 +80760,7 @@ endif
 endfor
 return tostr("@create ", pstring, " named ", dobj.name, ":", $string_utils:from_list(dobj.aliases, ","));
 .
-#59:57
+#59:56
 ":dump_verbs (object, create_flag): returns the list of strings representing the verb information for this object in @dump format.";
 set_task_perms(caller_perms());
 {dobj, create, ?targname = tostr(dobj)} = args;
@@ -80895,7 +80815,7 @@ $command_utils:suspend_if_needed(0);
 endwhile
 return result;
 .
-#59:58
+#59:57
 ":_find_verb_lines_containing(pattern,object[,casematters])";
 ":_find_verb_lines_matching(regexp,object[,casematters])";
 "number of verbs in object with code having a line containing pattern or matching regexp";
@@ -80933,7 +80853,7 @@ endif
 endfor
 return count;
 .
-#59:59
+#59:58
 "Usage:  commentify(lines)";
 "";
 "Given lines of text, translate them into comment strings and return the list.";
@@ -80944,7 +80864,7 @@ out = {@out, $string_utils:print(line) + ";"};
 endfor
 return out;
 .
-#59:60
+#59:59
 "$code_utils:parse_sysobj_map(string)";
 "Attempt to parse a string into a map on $sysobj, allowing it to function as a poor man's namespace.";
 "Returns E_PROPNF if no map could be matched or the value of the given key's value if successful.";
@@ -80963,7 +80883,7 @@ endif
 endif
 return E_PROPNF;
 .
-#59:61
+#59:60
 " Usage:  uncommentify(lines)";
 "";
 " Given lines of comment code, translate them into text and return the list.";
