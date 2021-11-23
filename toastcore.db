@@ -9,7 +9,7 @@
 0 values pending finalization
 0 clocks
 1 queued tasks
-0 1 1637395200 743340675
+0 5 1637740800 1067699918
 0
 -111
 1
@@ -24,7 +24,7 @@ Parse
 Infos
 schedule_measurement_task
 schedule_measurement_task
-24 variables
+26 variables
 NUM
 0
 0
@@ -97,6 +97,12 @@ true
 false
 14
 0
+day
+0
+86400
+hour_of_day_GMT
+0
+8
 this:schedule_measurement_task();
 this.measurement_task_running = task_id();
 this:measurement_task(this.task_time_limit);
@@ -727,7 +733,7 @@ a 2018 LambdaCore
 2
 last_restart_time
 0
-1637295008
+1637631019
 2
 name
 2
@@ -888,7 +894,7 @@ The known universe.
 0
 37739
 0
-1637296108
+1637632184
 36
 1
 #1
@@ -1131,7 +1137,7 @@ object_size
 0
 32218
 0
-1637296108
+1637632184
 36
 1
 #2
@@ -1521,9 +1527,9 @@ time
 0
 50000
 0
-1129114
+1128921
 0
-1637296108
+1637632184
 0
 1100
 36
@@ -1596,7 +1602,7 @@ Wizard
 0
 6816
 0
-1637296108
+1637632184
 36
 1
 #3
@@ -1890,7 +1896,7 @@ generic room
 0
 43072
 0
-1637296108
+1637632184
 36
 1
 #4
@@ -2332,7 +2338,7 @@ You see a player who should type '@describe me as ...'.
 0
 48748
 0
-1637296108
+1637632184
 36
 1
 #5
@@ -2445,7 +2451,7 @@ generic thing
 0
 7011
 0
-1637296108
+1637632184
 36
 1
 #6
@@ -3100,7 +3106,7 @@ You see a player who should type '@describe me as ...'.
 0
 132036
 0
-1637296108
+1637632184
 36
 1
 #7
@@ -3226,7 +3232,7 @@ generic exit
 0
 10849
 0
-1637296108
+1637632184
 36
 1
 #8
@@ -3444,7 +3450,7 @@ generic container
 0
 14463
 0
-1637296108
+1637632184
 36
 1
 #9
@@ -3567,7 +3573,7 @@ There appears to be some writing on the note ...
 0
 9723
 0
-1637296108
+1637632184
 36
 1
 #10
@@ -3954,11 +3960,7 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 2
 0
 10
-1
-1
--2
 0
-2
 2
 5
 0
@@ -4065,9 +4067,9 @@ This provides everything needed by #0:do_login_command.  See `help $login' on $c
 4
 2
 0
-59885
+59701
 0
-1637296108
+1637632184
 36
 1
 #11
@@ -4121,7 +4123,7 @@ A repository of last-resort player verbs to be called by $player:last_huh
 0
 6454
 0
-1637296108
+1637632184
 36
 1
 #12
@@ -4184,7 +4186,7 @@ Guest Log
 0
 5510
 0
-1637296108
+1637632184
 36
 1
 #13
@@ -4520,7 +4522,7 @@ This is the Generic BigList Utilities utility package.  See `help $biglist' for 
 0
 30986
 0
-1637296108
+1637632184
 36
 1
 #14
@@ -4896,7 +4898,7 @@ Calling #OBJ:restore_from(...) COMPLETELY AND IRREVOCABLY REMOVES ALL MESSAGES f
 0
 53798
 0
-1637296108
+1637632184
 36
 1
 #15
@@ -4955,7 +4957,7 @@ The Body Bag
 0
 3784
 0
-1637296108
+1637632184
 36
 1
 #16
@@ -5087,7 +5089,7 @@ Registration Database
 0
 13392
 0
-1637296108
+1637632184
 36
 1
 #17
@@ -5281,7 +5283,7 @@ Log of player creations.
 0
 5701
 0
-1637296108
+1637632184
 36
 1
 #18
@@ -5384,7 +5386,7 @@ A `help database' that knows about all of the documented verbs.
 0
 5412
 0
-1637296108
+1637632184
 36
 1
 #19
@@ -8880,7 +8882,7 @@ Help database for LambdaCore utility objects and generics.
 0
 121534
 0
-1637296108
+1637632184
 36
 1
 #20
@@ -9476,7 +9478,7 @@ This is the string utilities utility package.  See `help $string_utils' for more
 0
 109318
 0
-1637296108
+1637632184
 36
 1
 #21
@@ -9646,7 +9648,7 @@ This is the building utilities utility package.  See `help $building_utils' for 
 0
 19146
 0
-1637296108
+1637632184
 36
 1
 #22
@@ -12461,7 +12463,7 @@ This provides help on the programmer commands available on $prog and related top
 0
 103085
 0
-1637296108
+1637632184
 36
 1
 #23
@@ -13600,7 +13602,7 @@ This describes the various commands available on $wiz.
 0
 36730
 0
-1637296108
+1637632184
 36
 1
 #24
@@ -14308,9 +14310,9 @@ This is the Wizard Utilities utility package.  See `help $wiz_utils' for more de
 4
 2
 0
-75214
+75226
 0
-1637296108
+1637632184
 36
 1
 #25
@@ -14455,7 +14457,7 @@ The site blacklist and the graylist live as well (see `help blacklist').
 0
 18428
 0
-1637296108
+1637632184
 36
 1
 #26
@@ -14472,7 +14474,7 @@ Math Utilities
 78
 4
 0
-44
+40
 xsin
 36
 173
@@ -14482,10 +14484,6 @@ xcos
 173
 -1
 factorial
-36
-173
--1
-pow
 36
 173
 -1
@@ -14517,10 +14515,6 @@ parts
 36
 173
 -1
-sqrt
-36
-173
--1
 div
 36
 173
@@ -14546,14 +14540,6 @@ random_range
 173
 -1
 is_prime
-36
-173
--1
-AND XOR
-36
-173
--1
-OR
 36
 173
 -1
@@ -14649,20 +14635,18 @@ to_percent
 36
 173
 -1
-12
+10
 base_alphabet
 tangents
 factor
 taylor
-and
-xor
 sines
 pi
 piscale
 phi
 e
 e_string
-17
+15
 2
 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
 36
@@ -14767,1102 +14751,6 @@ e_string
 5
 0
 100
-36
-5
-4
-16
-4
-16
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-4
-16
-0
-0
-0
-1
-0
-0
-0
-1
-0
-0
-0
-1
-0
-0
-0
-1
-0
-0
-0
-1
-0
-0
-0
-1
-0
-0
-0
-1
-0
-0
-0
-1
-4
-16
-0
-0
-0
-0
-0
-2
-0
-2
-0
-0
-0
-0
-0
-2
-0
-2
-0
-0
-0
-0
-0
-2
-0
-2
-0
-0
-0
-0
-0
-2
-0
-2
-4
-16
-0
-0
-0
-1
-0
-2
-0
-3
-0
-0
-0
-1
-0
-2
-0
-3
-0
-0
-0
-1
-0
-2
-0
-3
-0
-0
-0
-1
-0
-2
-0
-3
-4
-16
-0
-0
-0
-0
-0
-0
-0
-0
-0
-4
-0
-4
-0
-4
-0
-4
-0
-0
-0
-0
-0
-0
-0
-0
-0
-4
-0
-4
-0
-4
-0
-4
-4
-16
-0
-0
-0
-1
-0
-0
-0
-1
-0
-4
-0
-5
-0
-4
-0
-5
-0
-0
-0
-1
-0
-0
-0
-1
-0
-4
-0
-5
-0
-4
-0
-5
-4
-16
-0
-0
-0
-0
-0
-2
-0
-2
-0
-4
-0
-4
-0
-6
-0
-6
-0
-0
-0
-0
-0
-2
-0
-2
-0
-4
-0
-4
-0
-6
-0
-6
-4
-16
-0
-0
-0
-1
-0
-2
-0
-3
-0
-4
-0
-5
-0
-6
-0
-7
-0
-0
-0
-1
-0
-2
-0
-3
-0
-4
-0
-5
-0
-6
-0
-7
-4
-16
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-0
-8
-0
-8
-0
-8
-0
-8
-0
-8
-0
-8
-0
-8
-0
-8
-4
-16
-0
-0
-0
-1
-0
-0
-0
-1
-0
-0
-0
-1
-0
-0
-0
-1
-0
-8
-0
-9
-0
-8
-0
-9
-0
-8
-0
-9
-0
-8
-0
-9
-4
-16
-0
-0
-0
-0
-0
-2
-0
-2
-0
-0
-0
-0
-0
-2
-0
-2
-0
-8
-0
-8
-0
-10
-0
-10
-0
-8
-0
-8
-0
-10
-0
-10
-4
-16
-0
-0
-0
-1
-0
-2
-0
-3
-0
-0
-0
-1
-0
-2
-0
-3
-0
-8
-0
-9
-0
-10
-0
-11
-0
-8
-0
-9
-0
-10
-0
-11
-4
-16
-0
-0
-0
-0
-0
-0
-0
-0
-0
-4
-0
-4
-0
-4
-0
-4
-0
-8
-0
-8
-0
-8
-0
-8
-0
-12
-0
-12
-0
-12
-0
-12
-4
-16
-0
-0
-0
-1
-0
-0
-0
-1
-0
-4
-0
-5
-0
-4
-0
-5
-0
-8
-0
-9
-0
-8
-0
-9
-0
-12
-0
-13
-0
-12
-0
-13
-4
-16
-0
-0
-0
-0
-0
-2
-0
-2
-0
-4
-0
-4
-0
-6
-0
-6
-0
-8
-0
-8
-0
-10
-0
-10
-0
-12
-0
-12
-0
-14
-0
-14
-4
-16
-0
-0
-0
-1
-0
-2
-0
-3
-0
-4
-0
-5
-0
-6
-0
-7
-0
-8
-0
-9
-0
-10
-0
-11
-0
-12
-0
-13
-0
-14
-0
-15
-36
-5
-4
-16
-4
-16
-0
-0
-0
-1
-0
-2
-0
-3
-0
-4
-0
-5
-0
-6
-0
-7
-0
-8
-0
-9
-0
-10
-0
-11
-0
-12
-0
-13
-0
-14
-0
-15
-4
-16
-0
-1
-0
-0
-0
-3
-0
-2
-0
-5
-0
-4
-0
-7
-0
-6
-0
-9
-0
-8
-0
-11
-0
-10
-0
-13
-0
-12
-0
-15
-0
-14
-4
-16
-0
-2
-0
-3
-0
-0
-0
-1
-0
-6
-0
-7
-0
-4
-0
-5
-0
-10
-0
-11
-0
-8
-0
-9
-0
-14
-0
-15
-0
-12
-0
-13
-4
-16
-0
-3
-0
-2
-0
-1
-0
-0
-0
-7
-0
-6
-0
-5
-0
-4
-0
-11
-0
-10
-0
-9
-0
-8
-0
-15
-0
-14
-0
-13
-0
-12
-4
-16
-0
-4
-0
-5
-0
-6
-0
-7
-0
-0
-0
-1
-0
-2
-0
-3
-0
-12
-0
-13
-0
-14
-0
-15
-0
-8
-0
-9
-0
-10
-0
-11
-4
-16
-0
-5
-0
-4
-0
-7
-0
-6
-0
-1
-0
-0
-0
-3
-0
-2
-0
-13
-0
-12
-0
-15
-0
-14
-0
-9
-0
-8
-0
-11
-0
-10
-4
-16
-0
-6
-0
-7
-0
-4
-0
-5
-0
-2
-0
-3
-0
-0
-0
-1
-0
-14
-0
-15
-0
-12
-0
-13
-0
-10
-0
-11
-0
-8
-0
-9
-4
-16
-0
-7
-0
-6
-0
-5
-0
-4
-0
-3
-0
-2
-0
-1
-0
-0
-0
-15
-0
-14
-0
-13
-0
-12
-0
-11
-0
-10
-0
-9
-0
-8
-4
-16
-0
-8
-0
-9
-0
-10
-0
-11
-0
-12
-0
-13
-0
-14
-0
-15
-0
-0
-0
-1
-0
-2
-0
-3
-0
-4
-0
-5
-0
-6
-0
-7
-4
-16
-0
-9
-0
-8
-0
-11
-0
-10
-0
-13
-0
-12
-0
-15
-0
-14
-0
-1
-0
-0
-0
-3
-0
-2
-0
-5
-0
-4
-0
-7
-0
-6
-4
-16
-0
-10
-0
-11
-0
-8
-0
-9
-0
-14
-0
-15
-0
-12
-0
-13
-0
-2
-0
-3
-0
-0
-0
-1
-0
-6
-0
-7
-0
-4
-0
-5
-4
-16
-0
-11
-0
-10
-0
-9
-0
-8
-0
-15
-0
-14
-0
-13
-0
-12
-0
-3
-0
-2
-0
-1
-0
-0
-0
-7
-0
-6
-0
-5
-0
-4
-4
-16
-0
-12
-0
-13
-0
-14
-0
-15
-0
-8
-0
-9
-0
-10
-0
-11
-0
-4
-0
-5
-0
-6
-0
-7
-0
-0
-0
-1
-0
-2
-0
-3
-4
-16
-0
-13
-0
-12
-0
-15
-0
-14
-0
-9
-0
-8
-0
-11
-0
-10
-0
-5
-0
-4
-0
-7
-0
-6
-0
-1
-0
-0
-0
-3
-0
-2
-4
-16
-0
-14
-0
-15
-0
-12
-0
-13
-0
-10
-0
-11
-0
-8
-0
-9
-0
-6
-0
-7
-0
-4
-0
-5
-0
-2
-0
-3
-0
-0
-0
-1
-4
-16
-0
-15
-0
-14
-0
-13
-0
-12
-0
-11
-0
-10
-0
-9
-0
-8
-0
-7
-0
-6
-0
-5
-0
-4
-0
-3
-0
-2
-0
-1
-0
-0
 36
 5
 4
@@ -16612,7 +15500,7 @@ e_string
 36
 5
 4
-56
+51
 2
 Trigonometric/Exponential functions:
 2
@@ -16655,10 +15543,6 @@ Number decomposition:
 
 2
 Other math functions:
-2
-  sqrt(x)      -- returns the largest integer n <= the square root of x
-2
-  pow(x,n)     -- returns x^n
 2
   factorial(x) -- returns x!
 2
@@ -16708,12 +15592,6 @@ Miscellaneous:
 2
 Bitwise Arithmetic:
 2
-  AND(x,y) -- returns x AND y
-2
-  OR(x,y) -- returns x OR y
-2
-  XOR(x,y) -- returns x XOR y (XOR is the exclusive-or function)
-2
   NOT(x) -- returns the complement of x
 2
       All bitwise manipulation is of 32-bit values.
@@ -16751,9 +15629,9 @@ This is the Math Utilities utility package.  See `help $math_utils' for more det
 4
 2
 0
-57797
+44800
 0
-1637296108
+1637632184
 36
 1
 #27
@@ -16875,7 +15753,7 @@ This is the Set Utilities utility package.  See `help $set_utils' for more detai
 0
 8102
 0
-1637296108
+1637632184
 36
 1
 #28
@@ -19393,7 +18271,7 @@ For the {"*verb*",...} form, the current verbs available are
 0
 107206
 0
-1637296108
+1637632184
 36
 1
 #29
@@ -19557,7 +18435,7 @@ Record of who's been made a @programmer.
 0
 9347
 0
-1637296108
+1637632184
 36
 1
 #30
@@ -19677,7 +18555,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 13690
 0
-1637296108
+1637632184
 36
 1
 #31
@@ -20112,7 +18990,7 @@ By definition, guests appear nondescript.
 0
 22493
 0
-1637296108
+1637632184
 36
 1
 #32
@@ -20172,7 +19050,7 @@ For help on using the speller, use 'help spelling' and 'help @spell'.
 0
 6242
 0
-1637296108
+1637632184
 36
 1
 #33
@@ -20380,7 +19258,7 @@ This is the sequence utilities utility package.  See `help $seq_utils' for more 
 0
 23817
 0
-1637296108
+1637632184
 36
 1
 #34
@@ -20521,7 +19399,7 @@ Record of whose quota has been messed with and why.
 0
 2326
 0
-1637296108
+1637632184
 36
 1
 #35
@@ -20694,7 +19572,7 @@ An object useful for pronoun substitution for switching between third and second
 0
 9767
 0
-1637296108
+1637632184
 36
 1
 #36
@@ -20959,7 +19837,7 @@ init_for_core
 0
 100000008
 0
--28346208
+-28359276
 0
 1008125633
 0
@@ -21035,7 +19913,7 @@ A system character used to own non-wizardly system verbs , properties, and objec
 0
 4196
 0
-1637296108
+1637632184
 36
 1
 #37
@@ -21182,7 +20060,7 @@ A generic `database' (well, really more like a string-indexed array if you want 
 0
 24015
 0
-1637296108
+1637632184
 36
 1
 #38
@@ -21378,7 +20256,7 @@ Everyman ($no_one) can not receive mail.
 0
 0
 0
-1637292228
+1637631019
 0
 0
 36
@@ -21458,7 +20336,7 @@ The character used for "safe" evals.
 0
 8606
 0
-1637296108
+1637632184
 36
 1
 #39
@@ -21718,7 +20596,7 @@ See `help $player_db' for more information.
 0
 12464
 0
-1637296108
+1637632184
 36
 1
 #40
@@ -22210,7 +21088,7 @@ Generic Mail Receiving Player
 0
 99754
 0
-1637296108
+1637632184
 36
 1
 #41
@@ -22703,7 +21581,7 @@ This is the gender utilities utility package.  See `help $gender_utils' for more
 0
 18117
 0
-1637296108
+1637632184
 36
 1
 #42
@@ -22792,7 +21670,7 @@ This is the permissions utilities utility package.  See `help $perm_utils' for m
 0
 4950
 0
-1637296108
+1637632184
 36
 1
 #43
@@ -23387,7 +22265,7 @@ This is the time utilities utility package.  See `help $time_utils' for more det
 0
 31463
 0
-1637296108
+1637632184
 36
 1
 #44
@@ -24335,7 +23213,7 @@ Editor Help
 0
 26270
 0
-1637296108
+1637632184
 36
 1
 #45
@@ -24633,7 +23511,7 @@ This can either be a mailing list or a mail folder, depending on what mood you'r
 0
 45731
 0
-1637296108
+1637632184
 36
 1
 #46
@@ -24988,7 +23866,7 @@ Avaliable aliases:
 0
 71767
 0
-1637296108
+1637632184
 36
 1
 #47
@@ -25430,7 +24308,7 @@ Mail Room
 0
 31309
 0
-1637296108
+1637632184
 36
 1
 #48
@@ -25759,7 +24637,7 @@ nedit
 0
 15810
 0
-1637296108
+1637632184
 36
 1
 #49
@@ -26088,7 +24966,7 @@ verb edit
 0
 21037
 0
-1637296108
+1637632184
 36
 1
 #50
@@ -26727,7 +25605,7 @@ edit
 0
 77149
 0
-1637296108
+1637632184
 36
 1
 #51
@@ -26882,7 +25760,7 @@ matching utilities
 0
 12908
 0
-1637296108
+1637632184
 36
 1
 #52
@@ -27140,7 +26018,7 @@ This is the object utilities utility package.  See `help $object_utils' for more
 0
 31061
 0
-1637296108
+1637632184
 36
 1
 #53
@@ -27277,7 +26155,7 @@ This the lock utilities package, used by the MOOwide locking mechanisms. See `he
 0
 13652
 0
-1637296108
+1637632184
 36
 1
 #54
@@ -27381,7 +26259,7 @@ Some writing on the letter explains that you should 'read letter', and when you'
 0
 3699
 0
-1637296108
+1637632184
 36
 1
 #55
@@ -27687,7 +26565,7 @@ This is the list utilities utility package.  See `help $list_utils' for more det
 0
 42043
 0
-1637296108
+1637632184
 36
 1
 #56
@@ -27784,19 +26662,21 @@ feature_task
 4
 9
 0
-937276049
+433306530
 2
-@vsearch
-4
 1
+4
 2
-verbname_match
 2
-verbname_match
+|.
+2
+2
+2
+|. 2
 1
 -3
 2
-verbname_match
+|. 2
 2
 
 1
@@ -27900,9 +26780,9 @@ This is the command utilities utility package.  See `help $command_utils' for mo
 4
 2
 0
-26205
+26184
 0
-1637296108
+1637632184
 36
 1
 #57
@@ -28429,7 +27309,7 @@ You see a wizard who chooses not to reveal its true appearance.
 0
 85474
 0
-1637296108
+1637632184
 36
 1
 #58
@@ -28935,7 +27815,7 @@ You see a player who is too experienced to have any excuse for not having a desc
 0
 86428
 0
-1637296108
+1637632184
 36
 1
 #59
@@ -29683,7 +28563,7 @@ This is the code utilities utility package.  See `help $code_utils' for more det
 0
 83700
 0
-1637296108
+1637632184
 36
 1
 #60
@@ -32332,7 +31212,7 @@ See the description of $generic_help for more detail.
 0
 96515
 0
-1637296108
+1637632184
 36
 1
 #61
@@ -32852,7 +31732,7 @@ It's the current issue of the News, dated %d.
 0
 29103
 0
-1637296108
+1637632184
 36
 1
 #62
@@ -32951,7 +31831,7 @@ This is all there is right now.
 0
 6559
 0
-1637296108
+1637632184
 36
 1
 #63
@@ -33100,7 +31980,7 @@ Object reuse. Call $recycler:_create() to create an object (semantics the same a
 0
 13313
 0
-1637296108
+1637632184
 36
 1
 #64
@@ -33497,7 +32377,7 @@ Options for mailing
 0
 21303
 0
-1637296108
+1637632184
 36
 1
 #66
@@ -33606,7 +32486,7 @@ Edit Options
 0
 2904
 0
-1637296108
+1637632184
 36
 1
 #67
@@ -33691,7 +32571,7 @@ Display Options
 0
 1273
 0
-1637296108
+1637632184
 36
 1
 #68
@@ -33809,7 +32689,7 @@ an option package in need of a description.  See `help $generic_option'...
 0
 17483
 0
-1637296108
+1637632184
 36
 1
 #69
@@ -34007,7 +32887,7 @@ raise(error) actually raises the error.
 0
 12480
 0
-1637296108
+1637632184
 36
 1
 #70
@@ -34118,7 +32998,7 @@ Notes on annoying sites.
 0
 1864
 0
-1637296108
+1637632184
 36
 1
 #71
@@ -34571,7 +33451,7 @@ Impossible password to type
 0
 32307
 0
-1637292228
+1637296108
 0
 0
 36
@@ -34646,7 +33526,7 @@ A very clean, neat, tidy person who doesn't mind lugging players and their gear 
 0
 32307
 0
-1637296108
+1637632184
 36
 1
 #72
@@ -35080,7 +33960,7 @@ Parameters:
 0
 32197
 0
-1637296108
+1637632184
 36
 1
 #73
@@ -35167,7 +34047,7 @@ This is the object you want to use as a parent in order to @create a place for y
 0
 5624
 0
-1637296108
+1637632184
 36
 1
 #74
@@ -35309,7 +34189,7 @@ This is the Generic Feature Object.  It is not meant to be used as a feature obj
 0
 11423
 0
-1637296108
+1637632184
 36
 1
 #75
@@ -35611,7 +34491,7 @@ Option package for $prog commands.  See `help @prog-options'.
 0
 10468
 0
-1637296108
+1637632184
 36
 1
 #77
@@ -35740,7 +34620,7 @@ Option package for $builder commands.  See `help @build-options'.
 0
 6109
 0
-1637296108
+1637632184
 36
 1
 #78
@@ -35832,7 +34712,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 835
 0
-1637296108
+1637632184
 36
 1
 #79
@@ -36032,7 +34912,7 @@ measurement_task_running
 36
 5
 1
-98
+2
 36
 5
 0
@@ -36234,7 +35114,7 @@ This is the Byte Quota Utilities utility package.  See `help $quota_utils' for m
 0
 44035
 0
-1637296108
+1637632184
 36
 1
 #80
@@ -36358,7 +35238,7 @@ Internal:
 0
 9154
 0
-1637296108
+1637632184
 36
 1
 #81
@@ -36464,7 +35344,7 @@ This is the Object Quota Utilities utility package.  See `help $object_quota_uti
 0
 10488
 0
-1637296108
+1637632184
 36
 1
 #82
@@ -36672,7 +35552,7 @@ Server Options
 0
 9190
 0
-1637296108
+1637632184
 36
 1
 #83
@@ -36799,7 +35679,7 @@ warehouse
 0
 2626
 0
-1637296108
+1637632184
 36
 1
 #84
@@ -38112,7 +36992,7 @@ This help database contains topics about the generic builder and building comman
 0
 46326
 0
-1637296108
+1637632184
 36
 1
 #85
@@ -39345,7 +38225,7 @@ This help database contains topics relating to the general use of the mail syste
 0
 42114
 0
-1637296108
+1637632184
 36
 1
 #86
@@ -42045,7 +40925,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 94349
 0
-1637296108
+1637632184
 36
 1
 #87
@@ -42227,7 +41107,7 @@ The password verifier verifies passwords.
 0
 15188
 0
-1637296108
+1637632184
 36
 1
 #88
@@ -42906,7 +41786,7 @@ You see a player who should type '@describe me as ...'.
 0
 94403
 0
-1637296108
+1637632184
 36
 1
 #89
@@ -43016,7 +41896,7 @@ This feature contains various verbs used in stage talk, which allows players to 
 0
 6159
 0
-1637296108
+1637632184
 36
 1
 #90
@@ -43110,7 +41990,7 @@ Verbs useful to people using a windowing system to paste text at people.
 0
 5854
 0
-1637296108
+1637632184
 36
 1
 #91
@@ -43396,9 +42276,9 @@ This is a utilities package for dealing with lists as representations of vectors
 4
 2
 0
-39467
+39396
 0
-1637296108
+1637632184
 36
 1
 #92
@@ -44283,7 +43163,7 @@ Frand Help DB
 0
 30023
 0
-1637296108
+1637632184
 36
 1
 #93
@@ -46423,7 +45303,7 @@ This is a utilities package for converting from one unit of measurement to anoth
 0
 45582
 0
-1637296108
+1637632184
 36
 1
 #94
@@ -46533,7 +45413,7 @@ Generic Gendered Object
 0
 3044
 0
-1637296108
+1637632184
 36
 1
 #95
@@ -46847,7 +45727,7 @@ List Editor
 0
 17973
 0
-1637296108
+1637632184
 36
 1
 #96
@@ -47109,7 +45989,7 @@ impossible password to type
 0
 135523
 0
-1637292228
+1637296108
 0
 0
 36
@@ -47185,7 +46065,7 @@ This player owns all editor-related verbs.
 0
 3554
 0
-1637296108
+1637632184
 36
 1
 #97
@@ -47312,7 +46192,7 @@ HTTP Server
 0
 8359
 0
-1637296108
+1637632184
 36
 1
 #98
@@ -47593,7 +46473,7 @@ Core
 0
 239196
 0
-1637296108
+1637632184
 0
 100
 36
@@ -47663,7 +46543,7 @@ Core
 0
 3637
 0
-1637296108
+1637632184
 36
 1
 #99
@@ -48687,7 +47567,7 @@ au
 0
 77225
 0
-1637296108
+1637632184
 36
 1
 #100
@@ -48959,7 +47839,7 @@ A player with the ability to see things in [red]c[bold][yellow]o[green]l[blue]o[
 0
 29845
 0
-1637296108
+1637632184
 36
 1
 #101
@@ -49640,7 +48520,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 26826
 0
-1637296108
+1637632184
 36
 1
 #102
@@ -49859,7 +48739,7 @@ An option package for controlling and customizing the ANSI PC.
 0
 5739
 0
-1637296108
+1637632184
 36
 1
 #103
@@ -49923,7 +48803,7 @@ dispatch
 0
 5312
 0
-1637296108
+1637632184
 36
 1
 #104
@@ -50030,7 +48910,7 @@ package
 0
 7185
 0
-1637296108
+1637632184
 36
 1
 #105
@@ -50137,7 +49017,7 @@ negotiate
 0
 3348
 0
-1637296108
+1637632184
 36
 1
 #106
@@ -50299,7 +49179,7 @@ cord
 0
 7708
 0
-1637296108
+1637632184
 36
 1
 #107
@@ -50346,7 +49226,7 @@ next_datakey
 unquoted_string
 6
 0
-10143
+10145
 98
 1
 2
@@ -50373,7 +49253,7 @@ parser
 0
 6944
 0
-1637296108
+1637632184
 36
 1
 #108
@@ -50615,7 +49495,7 @@ registry
 0
 6696
 0
-1637296108
+1637632184
 36
 1
 #110
@@ -50774,7 +49654,7 @@ mcp
 0
 11136
 0
-1637296108
+1637632184
 36
 1
 #111
@@ -51053,7 +49933,7 @@ Non JHCore installations might choose to set .v_filter_in / .v_filter_out to fal
 0
 16249
 0
-1637296108
+1637632184
 36
 1
 #114
@@ -52049,7 +50929,7 @@ MCP Help Database
 0
 23287
 0
-1637296108
+1637632184
 36
 1
 #117
@@ -52247,7 +51127,7 @@ Generic Waif
 0
 7311
 0
-1637296108
+1637632184
 36
 1
 #119
@@ -52358,7 +51238,7 @@ client_stats
 4
 3
 0
-1637295012
+1637631023
 1
 2
 4
@@ -52451,7 +51331,7 @@ dns-com-vmoo-client
 0
 6665
 0
-1637296108
+1637632184
 36
 1
 #122
@@ -52548,7 +51428,7 @@ dns-com-awns-status
 0
 1394
 0
-1637296108
+1637632184
 36
 1
 #124
@@ -52975,7 +51855,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 52488
 0
-1637296108
+1637632184
 36
 1
 #125
@@ -53104,7 +51984,7 @@ Menu Utilities
 0
 8055
 0
-1637296108
+1637632184
 36
 1
 #127
@@ -53140,7 +52020,7 @@ text
 2
 5
 0
-1942
+1938
 #0:0
 "...This code should only be run as a server task...";
 if (callers())
@@ -64793,32 +63673,6 @@ endfor
 return fact;
 .
 #26:3
-"pow(INT|FLOAT x,(INT)|(INT|FLOAT) n) -- returns x raised to the nth power. n must be >= 0. If x is an integer, n must be an integer. If x is a floating point number, n can be either.";
-"This verb was revised on 2006-03-16 by Gary (#110811) to allow for floating input of the second argument.  The help documentation had said this was allowed but actually it caused a traceback.  How many people are actually using this, I wonder? ";
-{x, n} = args;
-"if (n < 0)";
-if (((typeof(n) == INT) && (n < 0)) || ((typeof(n) == FLOAT) && (n < 0.0)))
-return E_INVARG;
-elseif ((typeof(x) == INT) && (typeof(n) == FLOAT))
-return E_TYPE;
-endif
-return x ^ n;
-"old code below";
-n = args[1];
-if (power % 2)
-ret = n;
-else
-ret = 1;
-endif
-while (power = power / 2)
-n = n * n;
-if (power % 2)
-ret = ret * n;
-endif
-endwhile
-return ret;
-.
-#26:4
 "fibonacci(INT n) -- calculates the fibonacci numbers to the nth term";
 "and returns them in a list. n must be >= 0.";
 if (typeof(n = args[1]) != INT)
@@ -64835,7 +63689,7 @@ endfor
 return x;
 endif
 .
-#26:5
+#26:4
 "geometric(INT|FLOAT x [,INT n]) -- calculates the value of the geometric series at x to the nth term. i.e., approximates 1/(1-x) when |x| < 1. This, of course, is impossible in MOO, but someone may find it useful in some way.";
 "n defaults to 5. n must be >= 0.";
 "This verb was revised on 2006-03-16 by Gary (#110811) to allow for floating point input of the first argument.  The help documentation had said this was allowed but actually it caused a traceback.  How many people are actually using this, I wonder? ";
@@ -64851,7 +63705,7 @@ x = x + (n ^ i);
 endfor
 return x;
 .
-#26:6
+#26:5
 "divmod(INT n, INT d) => {q,r} such that n = dq + r";
 "  handles negative numbers correctly   0<=r<d if d>0, -d<r<=0 if d<0.";
 {n, d} = args;
@@ -64862,7 +63716,7 @@ r = ((n % d) + d) % d;
 q = (n - r) / d;
 return {q, r};
 .
-#26:7
+#26:6
 "combinations(INT n, INT r) -- returns the number of ways one can choose r";
 "objects from n distinct choices.";
 "C(n,r) = n!/[r!(n-r)!]";
@@ -64882,7 +63736,7 @@ endfor
 return c;
 endif
 .
-#26:8
+#26:7
 "permutations(INT n, INT r) -- returns the number of ways possible for one to";
 "order r distinct objects given n locations.";
 "P(n,r) = n!/(n-r)!";
@@ -64900,7 +63754,7 @@ endfor
 return p;
 endif
 .
-#26:9
+#26:8
 "simpson({a,b},{f(a),f((a+b)/2),f(b)} [,INT ret-float])";
 " -- given two endpoints, a and b, and the functions value at a, (a+b)/2, and b, this will calculate a numerical approximation of the integral using simpson's rule.";
 "Entries can either be all INT or all FLOAT. Don't mix!";
@@ -64914,7 +63768,7 @@ numer = tofloat(point[2] - point[1]) * ((tofloat(fcn[1]) + (4.0 * tofloat(fcn[2]
 return numer / 6.0;
 endif
 .
-#26:10
+#26:9
 "parts(INT n, INT q [,INT i]) -- returns a decomposition of n by q into integer and floating point parts with i = the number of digits after the decimal.";
 "i defaults to 5.";
 "warning: it is quite easy to hit maxint which results in unpredictable";
@@ -64926,28 +63780,11 @@ endif
 parts = {n / q, n % q};
 return {parts[1], (parts[2] * (10 ^ i)) / q};
 .
-#26:11
-"sqrt(INT|FLOAT n) => largest integer <= square root of n. Returns the same type as the input. (Backwards compatibility)";
-n = args[1];
-return (typeof(n) == INT) ? toint(sqrt(tofloat(n))) | sqrt(n);
-"Old code. Newton's method";
-if (n < 0)
-return E_RANGE;
-elseif (n)
-x1 = n;
-while (x1 > (x2 = (x1 + (n / x1)) / 2))
-x1 = x2;
-endwhile
-return x1;
-else
-return 0;
-endif
-.
-#26:12
+#26:10
 "div(INT n, INT d) => q such that n = dq + r and  (0<=r<d if d>0, -d<r<=0 if d<0).";
 return this:divmod(@args)[1];
 .
-#26:13
+#26:11
 "A correct mod function.";
 "mod(INT n, INT d) => r such that n = dq + r and (0<=r<d if d>0 or -d<r<=0 if d<0).";
 {n, d} = args;
@@ -64956,7 +63793,7 @@ return E_TYPE;
 endif
 return ((n % d) + d) % d;
 .
-#26:14
+#26:12
 "exp(INT|FLOAT x[,INT n]) -- calculates an nth order taylor approximation for e^x.";
 "n defaults to 5. Any n given must be >= 0. you need to divide the result";
 "the answer will be returned as {integer part,fractional part} if the input x was an integer. If it is floating point, so will the answer (and this uses the builtin function.)";
@@ -64973,7 +63810,7 @@ ex = (ex * x) + (nfact = nfact * j);
 endfor
 return this:parts(ex, nfact);
 .
-#26:15
+#26:13
 "returns 10000 exp (x/10000)";
 "The accuracy seems to be ~0.1% for 0<x<4";
 x = args[1];
@@ -65001,7 +63838,7 @@ else
 return ((10000 + x) + (((x * x) + 10000) / 20000)) + ((((x * x) * x) + 300000000) / 600000000);
 endif
 .
-#26:16
+#26:14
 "random(INT n): returns a random integer in the following manner:";
 "random(n > 0) will return a integer in the range 0 to n";
 "random(n < 0) will return a integer in the range n to 0";
@@ -65011,7 +63848,7 @@ endif
 mod = (prob < 0) ? -1 | 1;
 return (mod * random(abs(prob + mod))) - mod;
 .
-#26:17
+#26:15
 "random_range(INT range [,INT mean]): returns a random integer within the given range from the mean. if the mean isn't given, it defaults to 0";
 "e.g., random_range(10) => -10..10";
 "      random_range(10,4) => -6..14";
@@ -65021,7 +63858,7 @@ return E_TYPE;
 endif
 return mean + (((random(2) == 1) ? -1 | 1) * this:random(range));
 .
-#26:18
+#26:16
 "is_prime(INT number) returns 1 if the number is prime or 0 if it isn't.";
 "of course, only positive numbers are candidates for primality.";
 if (typeof(number = args[1]) != INT)
@@ -65046,37 +63883,7 @@ endwhile
 endif
 return 1;
 .
-#26:19
-"Only useful for integer input.";
-{x, y} = args;
-if ((typeof(x) != INT) && (typeof(y) != INT))
-return E_TYPE;
-endif
-table = this.(verb);
-if (xsgn = x < 0)
-x = x + $minint;
-endif
-if (ysgn = y < 0)
-y = y + $minint;
-endif
-power = 1;
-z = 0;
-while (x || y)
-z = z + (power * table[1 + (x % 16)][1 + (y % 16)]);
-x = x / 16;
-y = y / 16;
-power = power * 16;
-endwhile
-if (table[1 + xsgn][1 + ysgn])
-return z + $minint;
-else
-return z;
-endif
-.
-#26:20
-return this:NOT(this:AND(this:NOT(args[1]), this:NOT(args[2])));
-.
-#26:21
+#26:17
 return -(1 + args[1]);
 "";
 "... here's what it used to be ...";
@@ -65087,7 +63894,7 @@ blOut = {@blOut, !bl1[i]};
 endfor
 return this:IntFromBL(blOut);
 .
-#26:22
+#26:18
 "BlFromInt(INT x) => converts the number provided into a 32 bit binary number, which is returned via a 32 element LIST of 1's and 0's. Note that this verb was originally written to be used with the $math_utils verbs: AND, NOT, OR, XOR, but has since been taken out of them.";
 if (typeof(x = args[1]) != INT)
 return E_TYPE;
@@ -65103,7 +63910,7 @@ x = x / 2;
 endfor
 return {firstbit, @l};
 .
-#26:23
+#26:19
 "IntFromBl(LIST of 1's and 0's) => converts the 32 bit binary representation given by the list of 1's and 0's and converts it to a normal decimal number. Note that this verb was originally written to be used with the $math_utils verbs: AND, NOT, OR, XOR, but has since been taken out of them.";
 bl = args[1];
 x = 0;
@@ -65113,7 +63920,7 @@ x = x + l;
 endfor
 return x;
 .
-#26:24
+#26:20
 "gcd(INT num1,INT num2): find the greatest common divisor of the two numbers";
 "using the division algorithm. the absolute values of num1 and num2 are";
 "used without loss of generality.";
@@ -65131,7 +63938,7 @@ else
 return min;
 endif
 .
-#26:25
+#26:21
 "lcm(INT num1,INT num2): find the least common multiple of the two numbers.";
 "we shall use the positive lcm value without loss of generality.";
 "since we have gcd already, we'll just use lcm*gcd = num1*num2";
@@ -65139,7 +63946,7 @@ num1 = abs(args[1]);
 num2 = abs(args[2]);
 return (num1 * num2) / this:gcd(num1, num2);
 .
-#26:26
+#26:22
 "are_rel_prime(INT num1,INT num2): returns 1 if num1 and num2 are relatively";
 "prime.";
 "since we have gcd, this is pretty easy.";
@@ -65149,7 +63956,7 @@ else
 return 0;
 endif
 .
-#26:27
+#26:23
 "Synopsis:    :base_conversion(number, current_base, desired_base)";
 "---";
 "Call with first arg either a number or a string, being the number";
@@ -65197,7 +64004,7 @@ result = result / newbase;
 endwhile
 return thestring ? thestring | "0";
 .
-#26:28
+#26:24
 ":norm(a,b,c,d...) => sqrt(a^2+b^2+c^2+...)";
 m = max(max(@args), -min(@args));
 logm = length(tostr(m));
@@ -65217,7 +64024,7 @@ endfor
 return toint(sqrt(tofloat(s))) * factor;
 endif
 .
-#26:29
+#26:25
 "Copied from Trig_Utils (#25800):sin by Obvious (#54879) Fri Nov 17 06:07:39 1995 PST";
 theta = args[1];
 if (typeof(theta) == FLOAT)
@@ -65247,7 +64054,7 @@ delta = lim2 - lim1;
 result = (((delta * mintheta) + 30) / 60) + lim1;
 return result;
 .
-#26:30
+#26:26
 "Copied from Trig_Utils (#25800):cos by Obvious (#54879) Fri Nov 17 06:07:50 1995 PST";
 theta = args[1];
 if (typeof(theta) == FLOAT)
@@ -65263,7 +64070,7 @@ return;
 endif
 return this:sin({degtheta, mintheta});
 .
-#26:31
+#26:27
 "Copied from Trig_Utils (#25800):tan by Obvious (#54879) Fri Nov 17 06:07:53 1995 PST";
 {theta} = args;
 if (typeof(theta) == FLOAT)
@@ -65273,7 +64080,7 @@ sine = this:sin(theta);
 cosine = this:cos(theta);
 return ((sine * 10000) + ((cosine + 1) / 2)) / cosine;
 .
-#26:32
+#26:28
 "Copied from Trig_Utils (#25800):arcsin by Obvious (#54879) Fri Nov 17 06:08:01 1995 PST";
 {given} = args;
 if (typeof(given) == FLOAT)
@@ -65310,7 +64117,7 @@ minutes = -minutes;
 endif
 return {degrees, minutes};
 .
-#26:33
+#26:29
 "Copied from Trig_Utils (#25800):arccos by Obvious (#54879) Fri Nov 17 06:08:08 1995 PST";
 given = args[1];
 if (typeof(given) == FLOAT)
@@ -65326,7 +64133,7 @@ degrees = degrees + 1;
 endif
 return {degrees, minutes};
 .
-#26:34
+#26:30
 "Copied from Trig_Utils (#25800):arctan by Obvious (#54879) Fri Nov 17 06:08:18 1995 PST";
 given = args[1];
 if (typeof(given) == FLOAT)
@@ -65337,22 +64144,22 @@ reciprocal = sqrt(reciprocal * 10000);
 cosine = 100000000 / reciprocal;
 return this:arccos(cosine);
 .
-#26:35
+#26:31
 ":deg2rad(FLOAT Degrees) => FLOAT Radians";
 return tofloat(args[1]) * 0.0174532925199433;
 .
-#26:36
+#26:32
 ":rads2deg(FLOAT Radians) => FLOAT Degrees";
 return tofloat(args[1]) * 57.2957795130824;
 .
-#26:37
+#26:33
 ":precision(FLOAT Number, INT Digits of Precision) => FLOAT Number";
 "Cuts the given number to the given digits of precision.  Uses rounding.";
 {digits, pre} = args;
 mult = 10.0 ^ pre;
 return this:rint(digits * mult) / mult;
 .
-#26:38
+#26:34
 "Usage: round(INT number, INT round)";
 "Rounds 'number' off to the nearest multiple of 'round'.";
 "Rounds UP numbers exactly half way in between two round possibilities.";
@@ -65360,13 +64167,13 @@ return this:rint(digits * mult) / mult;
 low = (what / round) * round;
 return (what < (low + (round / 2))) ? low | (low + round);
 .
-#26:39
+#26:35
 "Usage: mean(INT, INT, ... )";
 "       mean({INT, INT, ...})";
 "Returns the average of all integers provided.";
 return this:sum(rlist = (typeof(args[1]) == LIST) ? args[1] | args) / length(rlist);
 .
-#26:40
+#26:36
 ":sum_float(FLOAT num, num, num ...) => Total of all arguments added together.";
 ":sum_float({num, num, num, ...}) will also work.";
 {?total = 0.0, @rest} = args;
@@ -65378,7 +64185,7 @@ total = total + number;
 endfor
 return total;
 .
-#26:41
+#26:37
 ":sum_int(INT num, num, num ...) => Total of all arguments added together.";
 ":sum_int({num, num, num, ...}) will also work.";
 "(...also named :sum for backward compatibility).";
@@ -65393,13 +64200,13 @@ endfor
 return total;
 "... N.B.  For the sake of backward compatibility this routine will also return the float sum of a non-empty lists of floats, but using it this way should not be encouraged.";
 .
-#26:42
+#26:38
 ":rint(FLOAT Number) => FLOAT Number";
 "Returns the given floating-point number rounded to the nearest integer, as a floating-point number.  In case of ties, rounds away from 0.";
 {f} = args;
 return trunc((f > 0.0) ? f + 0.5 | (f - 0.5));
 .
-#26:43
+#26:39
 {per1, per2} = args;
 return (tofloat(per1) / tofloat(per2)) * 100.0;
 .
@@ -86664,7 +85471,7 @@ result = {};
 for k in [1..i]
 sub = {};
 for l in [1..j]
-sub = {@sub, ($math_utils:pow((typeof(mat[1][1]) == INT) ? -1 | -1.0, k + l) * this:determinant(this:submatrix(l, k, mat))) / det};
+sub = {@sub, ((((typeof(mat[1][1]) == INT) ? -1 | -1.0) ^ (k + l)) * this:determinant(this:submatrix(l, k, mat))) / det};
 endfor
 result = {@result, sub};
 endfor

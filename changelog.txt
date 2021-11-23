@@ -190,3 +190,9 @@ Properly transform //-style comments when using @program (primarily for LambdaCo
 [$code_utils:verbname_match(new)] Removed.
 [$wiz_utils:show_netwho_listing] Take linelength into account. Remove unused variable. Move connection_hostname call.
 [$mail_editor:subscribe] Removed.
+[$math_utils.and] Removed.
+[$math_utils.xor] Removed.
+[$math_utils:AND XOR] Removed.
+[$math_utils:OR] Removed.
+[$math_utils:pow] Removed.
+[$math_utils:sqrt] Removed.
