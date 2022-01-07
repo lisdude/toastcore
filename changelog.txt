@@ -196,3 +196,4 @@ Properly transform //-style comments when using @program (primarily for LambdaCo
 [$math_utils:OR] Removed.
 [$math_utils:pow] Removed.
 [$math_utils:sqrt] Removed.
+[$string_utils:_toscalar] Add true and false
