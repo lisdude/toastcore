@@ -198,3 +198,4 @@ Properly transform //-style comments when using @program (primarily for LambdaCo
 [$math_utils:sqrt] Removed.
 [$string_utils:_toscalar] Add true and false.
 [#1:initialize] Add check for ANON.
+[$waif:eval_display] Removed.
