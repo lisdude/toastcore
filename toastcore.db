@@ -90199,7 +90199,7 @@ player:tell("The text has been successfully saved. To load it in for editing lat
 passthrough = $string_utils:from_list(state.arg, " ");
 force_input(player, passthrough);
 suspend(0);
-while ($player_utils:reading_input(player) && player:is_listening())
+while ($command_utils:reading_input(player) && player:is_listening())
 yin();
 endwhile
 .
