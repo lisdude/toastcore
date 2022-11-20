@@ -9,7 +9,7 @@
 0 values pending finalization
 0 clocks
 1 queued tasks
-0 1 1641542400 230657390
+0 5 1669017600 1164502810
 0
 -111
 1
@@ -24,7 +24,7 @@ Parse
 Infos
 schedule_measurement_task
 schedule_measurement_task
-24 variables
+26 variables
 NUM
 0
 0
@@ -97,6 +97,12 @@ true
 false
 14
 0
+day
+0
+86400
+hour_of_day_GMT
+0
+8
 this:schedule_measurement_task();
 this.measurement_task_running = task_id();
 this:measurement_task(this.task_time_limit);
@@ -226,7 +232,7 @@ s ies es
 2
 173
 -1
-110
+111
 builder
 login
 last_huh
@@ -337,7 +343,8 @@ edit_utils
 edit_state
 menu_utils
 edit_session
-114
+telnet
+115
 1
 4
 2
@@ -727,7 +734,7 @@ a 2018 LambdaCore
 2
 last_restart_time
 0
-1641541154
+1668931824
 2
 name
 2
@@ -870,6 +877,10 @@ prog
 127
 2
 5
+1
+64
+2
+5
 5
 2
 4
@@ -888,7 +899,7 @@ The known universe.
 0
 37739
 0
-1641541193
+1668931824
 36
 1
 #1
@@ -904,7 +915,7 @@ Root Class
 1
 -1
 4
-27
+28
 1
 3
 1
@@ -959,6 +970,8 @@ Root Class
 118
 1
 32
+1
+64
 37
 initialize
 2
@@ -1131,7 +1144,7 @@ object_size
 0
 32226
 0
-1641541193
+1668931824
 36
 1
 #2
@@ -1151,7 +1164,9 @@ time
 0
 1641148599
 4
-0
+1
+1
+64
 1
 57
 4
@@ -1357,7 +1372,7 @@ time
 36
 1
 4
-48
+49
 1
 0
 1
@@ -1414,6 +1429,8 @@ time
 57
 1
 58
+1
+64
 1
 70
 1
@@ -1512,16 +1529,7 @@ time
 5
 2
 1
-4
-4
-0
-50000
-0
-1128120
-0
-1641541193
-0
-1000
+5
 36
 0
 5
@@ -1587,12 +1595,7 @@ Wizard
 5
 2
 5
-4
-2
-0
-6816
-0
-1641541193
+5
 36
 1
 #3
@@ -1886,7 +1889,7 @@ generic room
 0
 43072
 0
-1641541193
+1668931824
 36
 1
 #4
@@ -2328,7 +2331,7 @@ You see a player who should type '@describe me as ...'.
 0
 48748
 0
-1641541193
+1668931824
 36
 1
 #5
@@ -2441,7 +2444,7 @@ generic thing
 0
 7011
 0
-1641541193
+1668931824
 36
 1
 #6
@@ -3096,7 +3099,7 @@ You see a player who should type '@describe me as ...'.
 0
 132036
 0
-1641541193
+1668931824
 36
 1
 #7
@@ -3222,7 +3225,7 @@ generic exit
 0
 10849
 0
-1641541193
+1668931824
 36
 1
 #8
@@ -3440,7 +3443,7 @@ generic container
 0
 14463
 0
-1641541193
+1668931824
 36
 1
 #9
@@ -3563,7 +3566,7 @@ There appears to be some writing on the note ...
 0
 9723
 0
-1641541193
+1668931824
 36
 1
 #10
@@ -3580,7 +3583,7 @@ Login Commands
 1
 4
 0
-48
+49
 ?
 2
 93
@@ -3773,6 +3776,10 @@ delete_name_lookup
 2
 173
 -1
+mssp-request
+2
+93
+-1
 40
 welcome_message
 newt_registration_string
@@ -3950,7 +3957,11 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 2
 0
 10
+1
+1
+-3
 0
+1
 2
 5
 0
@@ -4059,7 +4070,7 @@ This provides everything needed by #0:do_login_command.  See `help $login' on $c
 0
 59701
 0
-1641541193
+1668931824
 36
 1
 #11
@@ -4113,7 +4124,7 @@ A repository of last-resort player verbs to be called by $player:last_huh
 0
 6454
 0
-1641541193
+1668931824
 36
 1
 #12
@@ -4176,7 +4187,7 @@ Guest Log
 0
 5510
 0
-1641541193
+1668931824
 36
 1
 #13
@@ -4947,7 +4958,7 @@ The Body Bag
 0
 3784
 0
-1641541193
+1668931824
 36
 1
 #16
@@ -5273,7 +5284,7 @@ Log of player creations.
 0
 5701
 0
-1641541193
+1668931824
 36
 1
 #18
@@ -9468,7 +9479,7 @@ This is the string utilities utility package.  See `help $string_utils' for more
 0
 109381
 0
-1641541193
+1668931824
 36
 1
 #21
@@ -9638,7 +9649,7 @@ This is the building utilities utility package.  See `help $building_utils' for 
 0
 19173
 0
-1641541193
+1668931824
 36
 1
 #22
@@ -12471,7 +12482,7 @@ Wizard Help
 4
 0
 0
-52
+53
 @guests
 @log
 @egrep
@@ -12524,7 +12535,8 @@ routine_tasks
 @chown#
 @grepall
 @egrepall
-58
+mssp
+59
 4
 6
 2
@@ -13563,6 +13575,82 @@ $housekeeper:move_players_home
 @grep
 36
 5
+4
+36
+2
+The MUD Server Status Protocol is a telnet protocol that allows your MOO to send detailed information to interested clients or MUD crawlers. At the time of writing, details on the protocol are outlined here: https://tintin.mudhalla.net/protocols/mssp/
+2
+
+2
+The ToastCore MSSP implementation lives on the Telnet Handler ($telnet) object. To enable MSSP, set the '$telnet.mssp_active` property to 1. This is the default value.
+2
+
+2
+Some crawlers and clients don't support the MSSP telnet protocol, but they do support a plaintext fallback. ToastCore implements this fallback via the 'mssp-request' verb on $login. Note that it also obeys the '$telnet.mssp_active' setting.
+2
+
+2
+MSSP variables are stored in the map '$telnet.mssp_data'. To add a new value, simply add a new key with the name of the MSSP variable. The value can be one of:
+2
+
+2
+$nothing - For all intents and purposes, the variable does not exist and will not be sent.
+2
+1        - This indicates that the value should be derived from a verb on $telnet. Verb names should be in the form: "mssp_variableName"
+2
+<other>  - Any other value is returned literally.
+2
+
+2
+If you need the literal value 1, simply omit the verb. The value "1" will be used.
+2
+
+2
+Examples:
+2
+1. Implementing the "name" variable and returning '$network.moo_name'.
+2
+This would require a verb. First, add the variable to the 'mssp_data' property and indicate that it's a verb (by giving it a value of 1):
+2
+
+2
+>;$telnet.mssp_data["name"] = 1
+2
+
+2
+Now you would need to add a "mssp_name" verb to $telnet and program it.
+2
+
+2
+>@verb $telnet:mssp_name tnt
+2
+
+2
+>@prog $telnet:mssp_name
+2
+return $network.moo_name;
+2
+.
+2
+
+2
+You're done! Note that this is only an example. The name variable is already available by default.
+2
+
+2
+2. Implement the "genre" variable to indicate that your game is 'Science Fiction'.
+2
+This is simply a matter of adding a key -> value pair to the 'mssp_data' map:
+2
+
+2
+>;$telnet.mssp_data["genre"] = "Science Fiction"
+2
+
+2
+Done!
+36
+5
 5
 36
 5
@@ -14302,7 +14390,7 @@ This is the Wizard Utilities utility package.  See `help $wiz_utils' for more de
 0
 75226
 0
-1641541193
+1668931824
 36
 1
 #25
@@ -18425,7 +18513,7 @@ Record of who's been made a @programmer.
 0
 9347
 0
-1641541193
+1668931824
 36
 1
 #30
@@ -19389,7 +19477,7 @@ Record of whose quota has been messed with and why.
 0
 2326
 0
-1641541193
+1668931824
 36
 1
 #35
@@ -20246,7 +20334,7 @@ Everyman ($no_one) can not receive mail.
 0
 0
 0
-1641492295
+1668931824
 0
 0
 36
@@ -21078,7 +21166,7 @@ Generic Mail Receiving Player
 0
 99754
 0
-1641541193
+1668931824
 36
 1
 #41
@@ -21660,7 +21748,7 @@ This is the permissions utilities utility package.  See `help $perm_utils' for m
 0
 4950
 0
-1641541193
+1668931824
 36
 1
 #43
@@ -24627,7 +24715,7 @@ nedit
 0
 15810
 0
-1641541193
+1668931824
 36
 1
 #49
@@ -24956,7 +25044,7 @@ verb edit
 0
 21037
 0
-1641541193
+1668931824
 36
 1
 #50
@@ -25595,7 +25683,7 @@ edit
 0
 77149
 0
-1641541193
+1668931824
 36
 1
 #51
@@ -26008,7 +26096,7 @@ This is the object utilities utility package.  See `help $object_utils' for more
 0
 31061
 0
-1641541193
+1668931824
 36
 1
 #53
@@ -26145,7 +26233,7 @@ This the lock utilities package, used by the MOOwide locking mechanisms. See `he
 0
 13652
 0
-1641541193
+1668931824
 36
 1
 #54
@@ -26249,7 +26337,7 @@ Some writing on the letter explains that you should 'read letter', and when you'
 0
 3699
 0
-1641541193
+1668931824
 36
 1
 #55
@@ -26772,7 +26860,7 @@ This is the command utilities utility package.  See `help $command_utils' for mo
 0
 26184
 0
-1641541193
+1668931824
 36
 1
 #57
@@ -27299,7 +27387,7 @@ You see a wizard who chooses not to reveal its true appearance.
 0
 85474
 0
-1641541193
+1668931824
 36
 1
 #58
@@ -27805,7 +27893,7 @@ You see a player who is too experienced to have any excuse for not having a desc
 0
 86428
 0
-1641541193
+1668931824
 36
 1
 #59
@@ -31975,7 +32063,210 @@ Object reuse. Call $recycler:_create() to create an object (semantics the same a
 1641541193
 36
 1
-# 64 recycled
+#64
+Telnet Handler
+0
+2
+1
+2
+10
+2
+2
+source
+1
+-1
+2
+time
+0
+1668931905
+4
+0
+1
+1
+4
+0
+12
+init_for_core
+2
+173
+-1
+do_out_of_band_command doobc
+2
+173
+-1
+do_mssp
+2
+173
+-1
+send
+2
+173
+-1
+mssp_name
+2
+173
+-1
+mssp_codebase
+2
+173
+-1
+mssp_players
+2
+173
+-1
+new_connection
+2
+173
+-1
+_mssp_data
+2
+173
+-1
+mssp_uptime
+2
+173
+-1
+mssp_contact
+2
+173
+-1
+mssp_hostname
+2
+173
+-1
+4
+commands
+handled_commands
+mssp_data
+mssp_active
+8
+10
+14
+2
+DO
+0
+253
+2
+DONT
+0
+254
+2
+GMCP
+0
+201
+2
+IAC
+0
+255
+2
+MCCP
+0
+86
+2
+MSDP
+0
+69
+2
+MSSP
+0
+70
+2
+MSSP_VAL
+0
+2
+2
+MSSP_VAR
+0
+1
+2
+SB
+0
+250
+2
+SE
+0
+240
+2
+TTYPE
+0
+24
+2
+WILL
+0
+251
+2
+WONT
+0
+252
+2
+5
+10
+1
+0
+70
+2
+do_mssp
+2
+5
+10
+7
+2
+codebase
+0
+1
+2
+contact
+0
+1
+2
+family
+2
+MOO
+2
+hostname
+0
+1
+2
+name
+0
+1
+2
+players
+0
+1
+2
+uptime
+0
+1
+2
+5
+0
+1
+2
+5
+0
+0
+2
+4
+4
+2
+2
+Telnet Handler
+2
+Handler
+2
+5
+5
+2
+5
+4
+2
+0
+11545
+0
+1668932390
+36
+1
 #65
 Mail Options
 16
@@ -32966,7 +33257,7 @@ Notes on annoying sites.
 0
 1864
 0
-1641541193
+1668931824
 36
 1
 #71
@@ -33419,7 +33710,7 @@ Impossible password to type
 0
 32307
 0
-1641148629
+1668931824
 0
 0
 36
@@ -33494,7 +33785,7 @@ A very clean, neat, tidy person who doesn't mind lugging players and their gear 
 0
 32307
 0
-1641541193
+1668931824
 36
 1
 #72
@@ -33928,7 +34219,7 @@ Parameters:
 0
 32197
 0
-1641541193
+1668931824
 36
 1
 #73
@@ -34680,7 +34971,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 835
 0
-1641541193
+1668931824
 36
 1
 #79
@@ -34880,7 +35171,7 @@ measurement_task_running
 36
 5
 1
-38
+96
 36
 5
 0
@@ -35520,7 +35811,7 @@ Server Options
 0
 9190
 0
-1641541193
+1668931824
 36
 1
 #83
@@ -41366,7 +41657,7 @@ The password verifier verifies passwords.
 0
 15188
 0
-1641541193
+1668931824
 36
 1
 #88
@@ -45672,7 +45963,7 @@ Generic Gendered Object
 0
 3044
 0
-1641541193
+1668931824
 36
 1
 #95
@@ -45986,7 +46277,7 @@ List Editor
 0
 17973
 0
-1641541193
+1668931824
 36
 1
 #96
@@ -46248,7 +46539,7 @@ impossible password to type
 0
 135523
 0
-1641148629
+1668931824
 0
 0
 36
@@ -46324,7 +46615,7 @@ This player owns all editor-related verbs.
 0
 3554
 0
-1641541193
+1668931824
 36
 1
 #97
@@ -46451,7 +46742,7 @@ HTTP Server
 0
 8359
 0
-1641541193
+1668931824
 36
 1
 #98
@@ -46732,7 +47023,7 @@ Core
 0
 239212
 0
-1641541193
+1668931824
 0
 100
 36
@@ -46802,7 +47093,7 @@ Core
 0
 3637
 0
-1641541193
+1668931824
 36
 1
 #99
@@ -47828,7 +48119,7 @@ au
 0
 77241
 0
-1641541193
+1668931824
 36
 1
 #100
@@ -48100,7 +48391,7 @@ A player with the ability to see things in [red]c[bold][yellow]o[green]l[blue]o[
 0
 29845
 0
-1641541193
+1668931824
 36
 1
 #101
@@ -48781,7 +49072,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 26826
 0
-1641541193
+1668931824
 36
 1
 #102
@@ -49000,7 +49291,7 @@ An option package for controlling and customizing the ANSI PC.
 0
 5739
 0
-1641541193
+1668931824
 36
 1
 #103
@@ -49064,7 +49355,7 @@ dispatch
 0
 5312
 0
-1641541193
+1668931824
 36
 1
 #104
@@ -49171,7 +49462,7 @@ package
 0
 7185
 0
-1641541193
+1668931824
 36
 1
 #105
@@ -49278,7 +49569,7 @@ negotiate
 0
 3348
 0
-1641541193
+1668931824
 36
 1
 #106
@@ -49440,7 +49731,7 @@ cord
 0
 7708
 0
-1641541193
+1668931824
 36
 1
 #107
@@ -49487,7 +49778,7 @@ next_datakey
 unquoted_string
 6
 0
-10155
+10162
 98
 1
 2
@@ -49514,7 +49805,7 @@ parser
 0
 6944
 0
-1641541193
+1668931824
 36
 1
 #108
@@ -49756,7 +50047,7 @@ registry
 0
 6696
 0
-1641541193
+1668931824
 36
 1
 #110
@@ -49915,7 +50206,7 @@ mcp
 0
 11136
 0
-1641541193
+1668931824
 36
 1
 #111
@@ -50194,7 +50485,7 @@ Non JHCore installations might choose to set .v_filter_in / .v_filter_out to fal
 0
 16249
 0
-1641541193
+1668931824
 36
 1
 #114
@@ -51190,7 +51481,7 @@ MCP Help Database
 0
 23287
 0
-1641541193
+1668931824
 36
 1
 #117
@@ -51384,7 +51675,7 @@ Generic Waif
 0
 6412
 0
-1641541193
+1668931824
 36
 1
 #119
@@ -51495,7 +51786,7 @@ client_stats
 4
 3
 0
-1641541157
+1668931832
 1
 2
 4
@@ -51588,7 +51879,7 @@ dns-com-vmoo-client
 0
 6665
 0
-1641541193
+1668931824
 36
 1
 #122
@@ -51683,7 +51974,7 @@ dns-com-awns-status
 0
 1394
 0
-1641541193
+1668931824
 36
 1
 #124
@@ -52108,9 +52399,9 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 4
 2
 0
-52488
+52489
 0
-1641541193
+1668931824
 36
 1
 #125
@@ -52239,7 +52530,7 @@ Menu Utilities
 0
 8055
 0
-1641541193
+1668931824
 36
 1
 #127
@@ -52275,7 +52566,7 @@ text
 2
 5
 0
-1937
+1950
 #0:0
 "...This code should only be run as a server task...";
 if (callers())
@@ -52308,6 +52599,7 @@ except v (ANY)
 endtry
 "...checks to see if the login is spamming the server with too many commands...";
 if (!$login:maybe_limit_commands())
+$telnet:new_connection(player);
 args = $login:parse_command(@args);
 retval = $login:(args[1])(@listdelete(args, 1));
 if (typeof(retval) == OBJ)
@@ -52668,6 +52960,8 @@ if (valid(player) && is_player(player))
 $mcp:(verb)(@args);
 set_task_perms(player);
 $object_utils:has_callable_verb(player, "do_out_of_band_command") && player:do_out_of_band_command(@args);
+elseif ($telnet:(verb)(@args))
+return;
 else
 $login:do_out_of_band_command(@args);
 endif
@@ -58252,6 +58546,24 @@ return E_PERM;
 endif
 {connection} = args;
 this.name_lookup_players = setremove(this.name_lookup_players, connection);
+.
+#10:48
+"Return MSSP variables using the plaintext fallback protocol.";
+if ((caller != $sysobj) && (caller != this))
+return E_PERM;
+elseif (!$telnet.mssp_active)
+return 1;
+else
+tab = $string_utils.tab;
+mssp_data = $telnet:_mssp_data();
+notify(player, "");
+notify(player, "MSSP-REPLY-START");
+for value, key in (mssp_data)
+notify(player, tostr(key, tab, value));
+endfor
+notify(player, "MSSP-REPLY-END");
+return 0;
+endif
 .
 #11:0
 "{last_huh}  @<msg_name> <object> is [<text>]";
@@ -80596,6 +80908,133 @@ endif
 endfor
 endfor
 endfork
+endif
+.
+#64:0
+if (caller_perms().wizard)
+"Clear all MSSP values that don't have verbs and reset to defaults.";
+default = {"family"};
+for x in (mapkeys(this.mssp_data))
+if ($object_utils:has_callable_verb(this, tostr("mssp_", x)))
+this.mssp_data[x] = 1;
+elseif (!(x in default))
+this.mssp_data[x] = $nothing;
+endif
+endfor
+endif
+.
+#64:1
+"Process out of band data for telnet command sequences.";
+"As of right now, only 'IAC DO' command sequences are processed. You can, of course, extend this verb to support other telnet commands as needed.";
+if (caller != $sysobj)
+raise(E_PERM);
+endif
+cmd = decode_binary(args[1], 1);
+"Don't process commands that don't begin with 'IAC DO'.";
+if ((length(cmd) < 3) || (cmd[1..2] != {this.commands["IAC"], this.commands["DO"]}))
+return 0;
+endif
+".handled_commands maps telnet options to MOO verbs. e.g. '70' is the MSSP option, which maps to the 'do_mssp' verb.";
+if (cmd[3] in mapkeys(this.handled_commands))
+return this:(this.handled_commands[cmd[3]])(cmd[3..$]);
+else
+return 0;
+endif
+.
+#64:2
+":do_mssp(LIST <telnet commands>) => INT <successfully handled>";
+"Implements the MUD Server Status Protocol via telnet.";
+"'player' is sent binary data and this verb returns 1 if successful, 0 if not.";
+"See 'HELP MSSP' for details on how to populate MSSP variables.";
+if (caller != this)
+raise(E_PERM);
+endif
+{telnet_commands} = args;
+MSSP_VAR = this.commands["MSSP_VAR"];
+MSSP_VAL = this.commands["MSSP_VAL"];
+mssp = {this.commands["IAC"], this.commands["SB"], this.commands["MSSP"]};
+mssp_data = this:_mssp_data();
+for value, key in (mssp_data)
+mssp = {@mssp, MSSP_VAR, key, MSSP_VAL, tostr(value)};
+endfor
+mssp = {@mssp, this.commands["IAC"], this.commands["SE"]};
+return this:send(player, mssp);
+.
+#64:3
+":send(OBJ <player>, LIST <telnet commands>) => INT <success>";
+"Send binary encoded <telnet commands> to <player>.";
+{who, commands} = args;
+if (!(caller in {$sysobj, this}))
+raise(E_PERM);
+elseif (!(who in connected_players(1)))
+return E_INVARG;
+elseif (typeof(commands) != LIST)
+return E_INVARG;
+else
+try
+set_connection_option(who, "binary", 1);
+notify(who, encode_binary(commands));
+finally
+set_connection_option(who, "binary", 0);
+endtry
+return 1;
+endif
+.
+#64:4
+return $network.moo_name;
+.
+#64:5
+return "LambdaMOO-ToastStunt " + server_version();
+.
+#64:6
+return length(connected_players());
+.
+#64:7
+"Called by $sysobj:do_login_command().";
+if (caller != $sysobj)
+raise(E_PERM);
+endif
+{who} = args;
+if (this.mssp_active)
+"Notify the connection that MSSP is supported.";
+this:send(who, {this.commands["IAC"], this.commands["WILL"], this.commands["MSSP"]});
+endif
+.
+#64:8
+":_mssp_data() => MAP <mssp data>";
+"Return a map of the MSSP data that we actually have available.";
+mssp = [];
+for value, key in (this.mssp_data)
+if (value == $nothing)
+continue;
+elseif (value == 1)
+mssp_verb = tostr("mssp_", key);
+if ($object_utils:has_callable_verb(this, mssp_verb))
+value = `this:(mssp_verb)() ! ANY => $nothing';
+if (value == $nothing)
+continue;
+endif
+endif
+endif
+mssp[key] = toliteral(value);
+endfor
+return mssp;
+.
+#64:9
+return $server["last_restart_time"];
+.
+#64:10
+if ($network.postmaster != "postmastername@yourhost")
+return $network.postmaster;
+else
+return $nothing;
+endif
+.
+#64:11
+if ($network.site != "yoursite")
+return $network.site;
+else
+return $nothing;
 endif
 .
 #65:0
