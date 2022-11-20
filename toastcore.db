@@ -9,7 +9,7 @@
 0 values pending finalization
 0 clocks
 1 queued tasks
-0 5 1669017600 1164502810
+0 1 1669017600 1164502810
 0
 -111
 1
@@ -24,7 +24,7 @@ Parse
 Infos
 schedule_measurement_task
 schedule_measurement_task
-26 variables
+24 variables
 NUM
 0
 0
@@ -97,12 +97,6 @@ true
 false
 14
 0
-day
-0
-86400
-hour_of_day_GMT
-0
-8
 this:schedule_measurement_task();
 this.measurement_task_running = task_id();
 this:measurement_task(this.task_time_limit);
@@ -734,7 +728,7 @@ a 2018 LambdaCore
 2
 last_restart_time
 0
-1668931824
+1668941447
 2
 name
 2
@@ -1164,9 +1158,7 @@ time
 0
 1641148599
 4
-1
-1
-64
+0
 1
 57
 4
@@ -32068,17 +32060,17 @@ Telnet Handler
 0
 2
 1
-2
+-1
 10
 2
 2
 source
 1
--1
+2
 2
 time
 0
-1668931905
+1668941514
 4
 0
 1
@@ -49778,7 +49770,7 @@ next_datakey
 unquoted_string
 6
 0
-10162
+10164
 98
 1
 2
@@ -51786,7 +51778,7 @@ client_stats
 4
 3
 0
-1668931832
+1668941451
 1
 2
 4
@@ -80955,7 +80947,7 @@ MSSP_VAL = this.commands["MSSP_VAL"];
 mssp = {this.commands["IAC"], this.commands["SB"], this.commands["MSSP"]};
 mssp_data = this:_mssp_data();
 for value, key in (mssp_data)
-mssp = {@mssp, MSSP_VAR, key, MSSP_VAL, tostr(value)};
+mssp = {@mssp, MSSP_VAR, key, MSSP_VAL, value};
 endfor
 mssp = {@mssp, this.commands["IAC"], this.commands["SE"]};
 return this:send(player, mssp);

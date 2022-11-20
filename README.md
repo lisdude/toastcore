@@ -19,7 +19,7 @@ ToastCore is an updated version of the unofficial [2018 LambdaCore database](htt
     - e.g. `@edit $help_db["toaststunt"].argon2`
 - $recycler that uses recycle() and recreate() instead of $garbage objects
 - Network name lookups handled in-database in a separate thread
-- Basic telnet handler with MSSP protocol support
+- Basic telnet handler with MSSP support
 - General cleanup of antiquated / unused things in LambdaCore
 
 An exhaustive list of changes can be found in the [changelog](changelog.txt).
