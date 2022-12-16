@@ -199,3 +199,12 @@ Properly transform //-style comments when using @program (primarily for LambdaCo
 [$string_utils:_toscalar] Add true and false.
 [#1:initialize] Add check for ANON.
 [$waif:eval_display] Removed.
+[$edit_utils:cmd_pass] Fix wrong verb call. ($player_utils to $command_utils)
+[$telnet] Added.
+[$anon] '.a' flag set to allow programmers to create anonymous objects from $anon.
+[$string_utils:is_numeric] Remove junk. Change to return 1 or 0 rather than a match() list.
+[$string_utils:print] Remove junk.
+[#1:do_examine] Remove junk comments.
+[$wiz:@update-toaststunt-help] Updated to latest version. Help files also updated.
+[#0:bf_chparents] Added. Roughly follows the same checks as bf_chparent.
+[#2:@mcp, #2:@mcps] Removed.

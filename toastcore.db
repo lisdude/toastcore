@@ -9,7 +9,7 @@
 0 values pending finalization
 0 clocks
 1 queued tasks
-0 1 1669017600 1164502810
+0 1 1671264001 419331400
 0
 -111
 1
@@ -104,8 +104,7 @@ this.measurement_task_running = 0;
 .
 0 suspended tasks
 0 interrupted tasks
-1 active connections with listeners
-2 0
+0 active connections with listeners
 128
 #0
 The System Object
@@ -121,7 +120,7 @@ The System Object
 1
 4
 0
-26
+27
 do_login_command
 2
 173
@@ -223,6 +222,10 @@ sin
 173
 -1
 s ies es
+2
+173
+-1
+bf_chparents chparents
 2
 173
 -1
@@ -728,7 +731,7 @@ a 2018 LambdaCore
 2
 last_restart_time
 0
-1668941447
+1671224785
 2
 name
 2
@@ -891,9 +894,9 @@ The known universe.
 4
 2
 0
-37739
+37896
 0
-1668931824
+1671219241
 36
 1
 #1
@@ -1138,7 +1141,7 @@ object_size
 0
 32226
 0
-1668931824
+1671219241
 36
 1
 #2
@@ -1146,32 +1149,24 @@ Wizard
 7
 2
 1
-62
+15
 10
 2
 2
 source
 1
-49
+62
 2
 time
 0
-1641148599
+1671224834
 4
 0
 1
 57
 4
 0
-2
-@mcp
-2
-25
--1
-@mcps
-2
-9
--1
+0
 0
 104
 5
@@ -1297,7 +1292,8 @@ time
 5
 2
 5
-5
+4
+0
 2
 4
 5
@@ -1342,7 +1338,8 @@ time
 5
 2
 0
-5
+0
+1671224834
 2
 1
 5
@@ -1881,7 +1878,7 @@ generic room
 0
 43072
 0
-1668931824
+1671219241
 36
 1
 #4
@@ -2323,7 +2320,7 @@ You see a player who should type '@describe me as ...'.
 0
 48748
 0
-1668931824
+1671219241
 36
 1
 #5
@@ -2436,7 +2433,7 @@ generic thing
 0
 7011
 0
-1668931824
+1671219241
 36
 1
 #6
@@ -3091,7 +3088,7 @@ You see a player who should type '@describe me as ...'.
 0
 132036
 0
-1668931824
+1671219241
 36
 1
 #7
@@ -3217,7 +3214,7 @@ generic exit
 0
 10849
 0
-1668931824
+1671219241
 36
 1
 #8
@@ -3435,7 +3432,7 @@ generic container
 0
 14463
 0
-1668931824
+1671219241
 36
 1
 #9
@@ -3558,7 +3555,7 @@ There appears to be some writing on the note ...
 0
 9723
 0
-1668931824
+1671219241
 36
 1
 #10
@@ -3949,11 +3946,7 @@ Sorry, but there's no help here yet.  Type `?' for a list of commands.
 2
 0
 10
-1
-1
--3
 0
-1
 2
 5
 0
@@ -4060,9 +4053,9 @@ This provides everything needed by #0:do_login_command.  See `help $login' on $c
 4
 2
 0
-59701
+60702
 0
-1668931824
+1671219241
 36
 1
 #11
@@ -4116,7 +4109,7 @@ A repository of last-resort player verbs to be called by $player:last_huh
 0
 6454
 0
-1668931824
+1671219241
 36
 1
 #12
@@ -4179,7 +4172,7 @@ Guest Log
 0
 5510
 0
-1668931824
+1671219241
 36
 1
 #13
@@ -4903,9 +4896,11 @@ Limbo
 0
 0
 4
-1
+2
 1
 98
+1
+2
 1
 1
 4
@@ -4950,7 +4945,7 @@ The Body Bag
 0
 3784
 0
-1668931824
+1671219241
 36
 1
 #16
@@ -5276,7 +5271,7 @@ Log of player creations.
 0
 5701
 0
-1668931824
+1671219241
 36
 1
 #18
@@ -5577,7 +5572,7 @@ CUSTOMIZATIONS
 2
   .argon2
 2
-    -- parameters for hashing passwords. See HELP ARGON2 for information on the
+    -- parameters for hashing passwords. See HELP ARGON2() for information on the
 2
        options available. 
 2
@@ -9471,7 +9466,7 @@ This is the string utilities utility package.  See `help $string_utils' for more
 0
 109381
 0
-1668931824
+1671219241
 36
 1
 #21
@@ -9641,7 +9636,7 @@ This is the building utilities utility package.  See `help $building_utils' for 
 0
 19173
 0
-1668931824
+1671219241
 36
 1
 #22
@@ -14382,7 +14377,7 @@ This is the Wizard Utilities utility package.  See `help $wiz_utils' for more de
 0
 75226
 0
-1668931824
+1671219241
 36
 1
 #25
@@ -18505,7 +18500,7 @@ Record of who's been made a @programmer.
 0
 9347
 0
-1668931824
+1671219241
 36
 1
 #30
@@ -19469,7 +19464,7 @@ Record of whose quota has been messed with and why.
 0
 2326
 0
-1668931824
+1671219241
 36
 1
 #35
@@ -20326,7 +20321,7 @@ Everyman ($no_one) can not receive mail.
 0
 0
 0
-1668931824
+1671219241
 0
 0
 36
@@ -21158,7 +21153,7 @@ Generic Mail Receiving Player
 0
 99754
 0
-1668931824
+1671219241
 36
 1
 #41
@@ -21740,7 +21735,7 @@ This is the permissions utilities utility package.  See `help $perm_utils' for m
 0
 4950
 0
-1668931824
+1671219241
 36
 1
 #43
@@ -24707,7 +24702,7 @@ nedit
 0
 15810
 0
-1668931824
+1671219241
 36
 1
 #49
@@ -25036,7 +25031,7 @@ verb edit
 0
 21037
 0
-1668931824
+1671219241
 36
 1
 #50
@@ -25675,7 +25670,7 @@ edit
 0
 77149
 0
-1668931824
+1671219241
 36
 1
 #51
@@ -26088,7 +26083,7 @@ This is the object utilities utility package.  See `help $object_utils' for more
 0
 31061
 0
-1668931824
+1671219241
 36
 1
 #53
@@ -26225,7 +26220,7 @@ This the lock utilities package, used by the MOOwide locking mechanisms. See `he
 0
 13652
 0
-1668931824
+1671219241
 36
 1
 #54
@@ -26329,7 +26324,7 @@ Some writing on the letter explains that you should 'read letter', and when you'
 0
 3699
 0
-1668931824
+1671219241
 36
 1
 #55
@@ -26732,21 +26727,17 @@ feature_task
 4
 9
 0
-433306530
+813814921
 2
-1
+@generics
 4
+0
 2
-2
-|.
-2
-2
-2
-|. 2
+
 1
--3
+-1
 2
-|. 2
+
 2
 
 1
@@ -26852,7 +26843,7 @@ This is the command utilities utility package.  See `help $command_utils' for mo
 0
 26184
 0
-1668931824
+1671219241
 36
 1
 #57
@@ -27379,7 +27370,7 @@ You see a wizard who chooses not to reveal its true appearance.
 0
 85474
 0
-1668931824
+1671219241
 36
 1
 #58
@@ -27885,7 +27876,7 @@ You see a player who is too experienced to have any excuse for not having a desc
 0
 86428
 0
-1668931824
+1671219241
 36
 1
 #59
@@ -31816,9 +31807,7 @@ The First Room
 0
 0
 4
-1
-1
-2
+0
 1
 3
 4
@@ -32254,9 +32243,9 @@ Handler
 4
 2
 0
-11545
+11542
 0
-1668932390
+1671219241
 36
 1
 #65
@@ -33249,7 +33238,7 @@ Notes on annoying sites.
 0
 1864
 0
-1668931824
+1671219241
 36
 1
 #71
@@ -33702,7 +33691,7 @@ Impossible password to type
 0
 32307
 0
-1668931824
+1671219241
 0
 0
 36
@@ -33777,7 +33766,7 @@ A very clean, neat, tidy person who doesn't mind lugging players and their gear 
 0
 32307
 0
-1668931824
+1671219241
 36
 1
 #72
@@ -34211,7 +34200,7 @@ Parameters:
 0
 32197
 0
-1668931824
+1671219241
 36
 1
 #73
@@ -34963,7 +34952,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 835
 0
-1668931824
+1671219241
 36
 1
 #79
@@ -35163,7 +35152,7 @@ measurement_task_running
 36
 5
 1
-96
+98
 36
 5
 0
@@ -35621,7 +35610,7 @@ init_for_core
 2
 173
 -1
-18
+19
 protect_chparent
 protect_add_verb
 protect_add_property
@@ -35640,7 +35629,8 @@ boot_msg
 protect_read
 dump_interval
 no_name_lookup
-22
+protect_chparents
+23
 0
 1
 2
@@ -35786,6 +35776,10 @@ If those properties exist and are numbers, the server use them instead of the co
 2
 5
 0
+1
+2
+5
+0
 0
 2
 4
@@ -35803,7 +35797,7 @@ Server Options
 0
 9190
 0
-1668931824
+1671219241
 36
 1
 #83
@@ -38494,113 +38488,18 @@ ToastStunt Help Database
 4
 0
 0
-113
-binary_hmac
-string_hmac
-decode_base64
-encode_base64
-exec
-exp
-generate_json
-getenv
-mapdelete
-mapkeys
-mapvalues
-parse_json
-random_bytes
-read_http
-salt
-strtr
-value_hmac
-crypt
-argon2
-task_local
-set_task_local
-respond_to
-isa
-switch_player
+132
 stunt
-sqlite_open
-sqlite_close
-sqlite_handles
-sqlite_info
-sqlite_query
-sqlite_execute
-sqlite_last_insert_row_id
 sqlite
-pcre_replace
-frandom
-memory_usage
-ftime
-locate_by_name
-usage
-explode
-clear_ancestor_cache
-locations
-spellcheck
-threads
-thread_info
-waif_stats
 fio
 fileio
-file_open
-file_close
-file_name
-file_openmode
-file_readline
-file_readlines
-file_writeline
-file_read
-file_write
-file_tell
-file_seek
-file_eof
-file_rename
-file_remove
-file_mkdir
-file_rmdir
-file_list
-file_type
-file_mode
-file_chmod
-file_stat
-toaststunt-index
-occupants
-sort
-yin
-slice
-set_thread_mode
-recreate
 toaststunt
-chr
-recycled_objects
-next_recycled_object
-all_members
-pcre_match
-sqlite_limit
-curl
-connection_name_lookup
-connection_info
-argon2_verify
-maphaskey
-reseed_random
-finished_tasks
-owned_objects
-ancestors
-descendants
-panic
-thread_pool
 is_member()
 listen()
 move()
 open_network_connection()
-reverse
-sqlite_interrupt
 binary_hash()
 descendents()
-file_count_lines
-file_grep
-file_handles
 notify()
 queue_info()
 queued_tasks()
@@ -38608,675 +38507,123 @@ random()
 string_hash()
 task_stack()
 value_hash()
-119
+all_members()
+ancestors()
+argon2()
+argon2_verify()
+binary_hmac()
+chparent()
+chparents()
+chr()
+clear_ancestor_cache()
+connection_info()
+connection_name()
+connection_name_lookup()
+create()
+crypt()
+curl()
+decode_base64()
+delete_verb()
+descendants()
+disassemble()
+encode_base64()
+exec()
+exp()
+explode()
+file_chmod()
+file_close()
+file_count_lines()
+file_eof()
+file_grep()
+file_handles()
+file_list()
+file_mkdir()
+file_mode()
+file_name()
+file_open()
+file_openmode()
+file_read()
+file_readline()
+file_readlines()
+file_remove()
+file_rename()
+file_rmdir()
+file_seek()
+file_stat()
+file_tell()
+file_type()
+file_write()
+file_writeline()
+finished_tasks()
+frandom()
+ftime()
+generate_json()
+getenv()
+index()
+isa()
+locate_by_name()
+locations()
+log_cache_stats()
+mapdelete()
+maphaskey()
+mapkeys()
+mapvalues()
+memory_usage()
+new_waif()
+next_recycled_object()
+occupants()
+owned_objects()
+panic()
+parent()
+parents()
+parse_json()
+pcre_match()
+pcre_replace()
+random_bytes()
+read_http()
+recreate()
+recycled_objects()
+reseed_random()
+respond_to()
+reverse()
+rindex()
+salt()
+server_log()
+set_task_local()
+set_thread_mode()
+slice()
+sort()
+spellcheck()
+sqlite_close()
+sqlite_execute()
+sqlite_handles()
+sqlite_info()
+sqlite_interrupt()
+sqlite_last_insert_row_id()
+sqlite_limit()
+sqlite_open()
+sqlite_query()
+string_hmac()
+strtr()
+suspend()
+switch_player()
+task_local()
+thread_info()
+thread_pool()
+threads()
+toaststunt-index()
+typeof()
+usage()
+value_hmac()
+verb_args()
+verb_cache_stats()
+verb_code()
+verb_info()
+waif_stats()
+yin()
+138
 4
-8
-2
-Syntax:  string_hmac (STR text, STR key [, STR algo [, binary]])
-2
-         binary_hmac (STR bin-string, STR key [, STR algo [, binary]])
-2
-
-2
-Returns a string encoding the result of applying the HMAC-SHA256 cryptographically secure HMAC function to the contents of the string text or the binary string bin-string with the specified secret key. If algo is provided, it specifies the hashing algorithm to use. Currently, only "SHA1" and "SHA256" are supported. If binary is provided and true, the result is in MOO binary string format; by default the result is a hexidecimal string.
-2
-
-2
-All cryptographically secure HMACs have the property that, if string_hmac(x, a) == string_hmac(y, b) then, almost certainly, equal(x, y) and furthermore, equal(a, b)
-2
-
-2
- This can be useful, for example, in applications that need to verify both the integrity of the message (the text) and the authenticity of the sender (as demonstrated by the possession of the secret key).
-36
-5
-4
-2
-2
-*forward*
-2
-binary_hmac
-36
-5
-4
-6
-2
-Syntax:  decode_base64 (STR base64 [, safe])
-2
-
-2
-Returns the binary string representation of the supplied Base64 encoded string argument. Raises E_INVARG if base64 is not a properly-formed Base64 string. If safe is provide and is true, a URL-safe version of Base64 is used (see RFC4648).
-2
-
-2
-decode_base64("AAEC")       =>   "~00~01~02"
-2
-decode_base64("AAE", 1)     =>   "~00~01"
-36
-5
-4
-6
-2
-Syntax:  encode_base64 (STR binary [, safe])
-2
-
-2
-Returns the Base64 encoded string representation of the supplied binary string argument. Raises E_INVARG if binary is not a properly-formed binary string. If safe is provide and is true, a URL-safe version of Base64 is used (see RFC4648).
-2
-
-2
-encode_base64("~00~01~02")     =>   "AAEC"
-2
-encode_base64("~00~01", 1)     =>   "AAE"
-36
-5
-4
-27
-2
-Syntax: exec (LIST command[, STR input][, LIST environment variables])
-2
-
-2
-Asynchronously executes the specified external executable, optionally sending input. Returns the process return code, output and error. If the programmer is not a wizard, then E_PERM is raised.
-2
-
-2
-The first argument must be a list of strings, or E_INVARG is raised. The first string is the path to the executable and is required. The rest are command line arguments passed to the executable.
-2
-
-2
-The path to the executable may not start with a slash (/) or dot-dot (..), and it may not contain slash-dot (/.) or dot-slash (./), or E_INVARG is raised. If the specified executable does not exist or is not a regular file, E_INVARG is raised.
-2
-
-2
-If the string input is present, it is written to standard input of the executing process.
-2
-
-2
-Additionally, you can provide a list of environment variables to set in the shell.
-2
-
-2
-When the process exits, it returns a list of the form:
-2
-
-2
-{code, output, error}
-2
-
-2
-code is the integer process exit status or return code. output and error are strings of data that were written to the standard output and error of the process.
-2
-
-2
-The specified command is executed asynchronously. The function suspends the current task and allows other tasks to run until the command finishes. Tasks suspended this way can be killed with kill_task().
-2
-
-2
-The strings, input, output and error are all MOO binary strings.
-2
-
-2
-All external executables must reside in the executables directory.
-2
-
-2
-exec({"cat", "-?"})                                      {1, "", "cat: illegal option -- ?~0Ausage: cat [-benstuv] [file ...]~0A"}
-2
-exec({"cat"}, "foo")                                     {0, "foo", ""}
-2
-exec({"echo", "one", "two"})                             {0, "one two~0A", ""}
-36
-5
-4
-3
-2
-Syntax: exp (FLOAT x)
-2
-
-2
-Returns E (Eulers number) raised to the power of x. 
-36
-5
-4
-59
-2
-Syntax: generate_json (ANY value [, STR mode])
-2
-
-2
-Returns the JSON representation of the MOO value.
-2
-
-2
-MOO supports a richer set of values than JSON allows. The optional mode specifies how this function handles the conversion of MOO values into their JSON representation.
-2
-
-2
-The common subset mode, specified by the literal mode string "common-subset", is the default conversion mode. In this mode, only the common subset of types (strings and numbers) are translated with fidelity between MOO types and JSON types. All other types are treated as alternative representations of the string type. This mode is useful for integration with non-MOO applications.
-2
-
-2
-The embedded types mode, specified by the literal mode string "embedded-types", adds type information. Specifically, values other than strings and numbers, which carry implicit type information, are converted into strings with type information appended. The converted string consists of the string representation of the value (as if tostr() were applied) followed by the pipe (|) character and the type. This mode is useful for serializing/deserializing objects and collections of MOO values.
-2
-
-2
-generate_json([])                                           =>   "{}"
-2
-generate_json(["foo" -> "bar"])                             =>   "{\"foo\":\"bar\"}"
-2
-generate_json(["foo" -> "bar"], "common-subset")            =>   "{\"foo\":\"bar\"}"
-2
-generate_json(["foo" -> "bar"], "embedded-types")           =>   "{\"foo\":\"bar\"}"
-2
-generate_json(["foo" -> 1.1])                               =>   "{\"foo\":1.1}"
-2
-generate_json(["foo" -> 1.1], "common-subset")              =>   "{\"foo\":1.1}"
-2
-generate_json(["foo" -> 1.1], "embedded-types")             =>   "{\"foo\":1.1}"
-2
-generate_json(["foo" -> #1])                                =>   "{\"foo\":\"#1\"}"
-2
-generate_json(["foo" -> #1], "common-subset")               =>   "{\"foo\":\"#1\"}"
-2
-generate_json(["foo" -> #1], "embedded-types")              =>   "{\"foo\":\"#1|obj\"}"
-2
-generate_json(["foo" -> E_PERM])                            =>   "{\"foo\":\"E_PERM\"}"
-2
-generate_json(["foo" -> E_PERM], "common-subset")           =>   "{\"foo\":\"E_PERM\"}"
-2
-generate_json(["foo" -> E_PERM], "embedded-types")          =>   "{\"foo\":\"E_PERM|err\"}"
-2
-
-2
-JSON keys must be strings, so regardless of the mode, the key will be converted to a string value.
-2
-
-2
-generate_json([1 -> 2])                                     =>   "{\"1\":2}"
-2
-generate_json([1 -> 2], "common-subset")                    =>   "{\"1\":2}"
-2
-generate_json([1 -> 2], "embedded-types")                   =>   "{\"1|int\":2}"
-2
-generate_json([#1 -> 2], "embedded-types")                  =>   "{\"#1|obj\":2}"
-2
-
-2
-tion: value parse_json (str json [, str mode])
-2
-
-2
-Returns the MOO value representation of the JSON string. If the specified string is not valid JSON, E_INVARG is raised.
-2
-
-2
-The optional mode specifies how this function handles conversion of MOO values into their JSON representation. The options are the same as for generate_json().
-2
-
-2
-parse_json("{}")                                            =>   []
-2
-parse_json("{\"foo\":\"bar\"}")                             =>   ["foo" -> "bar"]
-2
-parse_json("{\"foo\":\"bar\"}", "common-subset")            =>   ["foo" -> "bar"]
-2
-parse_json("{\"foo\":\"bar\"}", "embedded-types")           =>   ["foo" -> "bar"]
-2
-parse_json("{\"foo\":1.1}")                                 =>   ["foo" -> 1.1]
-2
-parse_json("{\"foo\":1.1}", "common-subset")                =>   ["foo" -> 1.1]
-2
-parse_json("{\"foo\":1.1}", "embedded-types")               =>   ["foo" -> 1.1]
-2
-parse_json("{\"foo\":\"#1\"}")                              =>   ["foo" -> "#1"]
-2
-parse_json("{\"foo\":\"#1\"}", "common-subset")             =>   ["foo" -> "#1"]
-2
-parse_json("{\"foo\":\"#1|obj\"}", "embedded-types")        =>   ["foo" -> #1]
-2
-parse_json("{\"foo\":\"E_PERM\"}")                          =>   ["foo" -> "E_PERM"]
-2
-parse_json("{\"foo\":\"E_PERM\"}", "common-subset")         =>   ["foo" -> "E_PERM"]
-2
-parse_json("{\"foo\":\"E_PERM|err\"}", "embedded-types")    =>   ["foo" -> E_PERM]
-2
-
-2
-In embedded types mode, key values can be converted to MOO types by appending type information. The full set of supported types are obj, str, err, float and int.
-2
-
-2
-parse_json("{\"1\":2}")                                     =>   ["1" -> 2]
-2
-parse_json("{\"1\":2}", "common-subset")                    =>   ["1" -> 2]
-2
-parse_json("{\"1|int\":2}", "embedded-types")               =>   [1 -> 2]
-2
-parse_json("{\"#1|obj\":2}", "embedded-types")              =>   [#1 -> 2]
-2
-
-2
-JSON defines types that MOO (currently) does not support, such as boolean true and false, and null. These values are always converted to the strings "true", "false" and "null". 
-36
-5
-4
-6
-2
-Syntax: getenv (STR name)
-2
-
-2
-Returns the value of the named environment variable. If no such environment variable exists, 0 is returned. If the programmer is not a wizard, then E_PERM is raised.
-2
-
-2
-getenv("HOME")       =>  "/home/foobar"
-2
-getenv("XYZZY")      =>   0
-36
-5
-4
-6
-2
-Syntax: mapdelete (MAP map, ANY key)
-2
-
-2
-Returns a copy of map with the value corresponding to key removed. If key is not a valid key, then E_RANGE is raised.
-2
-
-2
-x = ["foo" -> 1, "bar" -> 2, "baz" -> 3];
-2
-mapdelete(x, "bar")       =>  ["baz" -> 3, "foo" -> 1]
-36
-5
-4
-6
-2
-Syntax: mapkeys (MAP map)
-2
-
-2
-Returns the keys of the elements of map.
-2
-
-2
-x = ["foo" -> 1, "bar" -> 2, "baz" -> 3];
-2
-mapkeys(x)    =>  {"bar", "baz", "foo"}
-36
-5
-4
-13
-2
-Syntax: mapvalues (MAP <map> [, ... STR <key>])
-2
-
-2
-Returns the values of the elements of map.
-2
-
-2
-If you only want the values of specific keys in the map, you can specify them as optional arguments. See examples below.
-2
-
-2
-Examples:  
-2
-x = ["foo" -> 1, "bar" -> 2, "baz" -> 3];
-2
-
-2
-;mapvalues(x)
-2
-=>  {2, 3, 1}
-2
-;mapvalues(x, "foo", "baz")
-2
-=> {1, 3}
-36
-5
-4
-28
-2
-Syntax: parse_json (STR json [, STR mode])
-2
-
-2
-Returns the MOO value representation of the JSON string. If the specified string is not valid JSON, E_INVARG is raised.
-2
-
-2
-The optional mode specifies how this function handles conversion of MOO values into their JSON representation. The options are the same as for generate_json().
-2
-
-2
-parse_json("{}")                                            =>   []
-2
-parse_json("{\"foo\":\"bar\"}")                             =>   ["foo" -> "bar"]
-2
-parse_json("{\"foo\":\"bar\"}", "common-subset")            =>   ["foo" -> "bar"]
-2
-parse_json("{\"foo\":\"bar\"}", "embedded-types")           =>   ["foo" -> "bar"]
-2
-parse_json("{\"foo\":1.1}")                                 =>   ["foo" -> 1.1]
-2
-parse_json("{\"foo\":1.1}", "common-subset")                =>   ["foo" -> 1.1]
-2
-parse_json("{\"foo\":1.1}", "embedded-types")               =>   ["foo" -> 1.1]
-2
-parse_json("{\"foo\":\"#1\"}")                              =>   ["foo" -> "#1"]
-2
-parse_json("{\"foo\":\"#1\"}", "common-subset")             =>   ["foo" -> "#1"]
-2
-parse_json("{\"foo\":\"#1|obj\"}", "embedded-types")        =>   ["foo" -> #1]
-2
-parse_json("{\"foo\":\"E_PERM\"}")                          =>   ["foo" -> "E_PERM"]
-2
-parse_json("{\"foo\":\"E_PERM\"}", "common-subset")         =>   ["foo" -> "E_PERM"]
-2
-parse_json("{\"foo\":\"E_PERM|err\"}", "embedded-types")    =>   ["foo" -> E_PERM]
-2
-
-2
-In embedded types mode, key values can be converted to MOO types by appending type information. The full set of supported types are obj, str, err, float and int.
-2
-
-2
-parse_json("{\"1\":2}")                                     =>   ["1" -> 2]
-2
-parse_json("{\"1\":2}", "common-subset")                    =>   ["1" -> 2]
-2
-parse_json("{\"1|int\":2}", "embedded-types")               =>   [1 -> 2]
-2
-parse_json("{\"#1|obj\":2}", "embedded-types")              =>   [#1 -> 2]
-2
-
-2
-JSON defines types that MOO (currently) does not support, such as boolean true and false, and null. These values are always converted to the strings "true", "false" and "null". 
-36
-5
-4
-3
-2
-Syntax: random_bytes (INT count)
-2
-
-2
-Returns a binary string composed of between one and 10000 random bytes. count specifies the number of bytes and must be a positive integer; otherwise, E_INVARG is raised. 
-36
-5
-4
-32
-2
-Syntax: read_http (request-or-response [, OBJ conn])
-2
-
-2
-Reads lines from the connection conn (or, if not provided, from the player that typed the command that initiated the current task) and attempts to parse the lines as if they are an HTTP request or response. request-or-response must be either the string "request" or "response". It dictates the type of parsing that will be done.
-2
-
-2
-Just like read(), if conn is provided, then the programmer must either be a wizard or the owner of conn; if conn is not provided, then read_http() may only be called by a wizard and only in the task that was last spawned by a command from the connection in question. Otherwise, E_PERM is raised. Likewise, if conn is not currently connected and has no pending lines of input, or if the connection is closed while a task is waiting for input but before any lines of input are received, then read_http() raises E_INVARG.
-2
-
-2
-If parsing fails because the request or response is syntactically incorrect, read_http() will return a map with the single key "error" and a list of values describing the reason for the error. If parsing succeeds, read_http() will return a map with an appropriate subset of the following keys, with values parsed from the HTTP request or response: "method", "uri", "headers", "body", "status" and "upgrade".
-2
-
-2
-    Fine point: read_http() assumes the input strings are binary strings. When called interactively, as in the example below, the programmer must insert the literal line terminators or parsing will fail. 
-2
-
-2
-The following example interactively reads an HTTP request from the players connection.
-2
-
-2
-read_http("request", player)
-2
-GET /path HTTP/1.1~0D~0A
-2
-Host: example.com~0D~0A
-2
-~0D~0A
-2
-
-2
-In this example, the string ~0D~0A ends the request. The call returns the following (the request has no body):
-2
-
-2
-["headers" -> ["Host" -> "example.com"], "method" -> "GET", "uri" -> "/path"]
-2
-
-2
-The following example interactively reads an HTTP response from the players connection.
-2
-
-2
-read_http("response", player)
-2
-HTTP/1.1 200 Ok~0D~0A
-2
-Content-Length: 10~0D~0A
-2
-~0D~0A
-2
-1234567890
-2
-
-2
-The call returns the following:
-2
-
-2
-["body" -> "1234567890", "headers" -> ["Content-Length" -> "10"], "status" -> 200]
-36
-5
-4
-13
-2
-Syntax: salt (STR format, STR input)
-2
-
-2
-Generate a crypt() compatible salt string for the specified salt format using the specified binary random input. The specific set of formats supported depends on the libraries used to build the server, but will always include the standard salt format, indicated by the format string "" (the empty string), and the BCrypt salt format, indicated by the format string "$2a$NN$" (where "NN" is the work factor). Other possible formats include MD5 ("$1$"), SHA256 ("$5$") and SHA512 ("$6$"). Both the SHA256 and SHA512 formats support optional rounds.
-2
-
-2
-salt("", ".M")                                           =>    "iB"
-2
-salt("$1$", "~183~1E~C6/~D1")                            =>    "$1$MAX54zGo"
-2
-salt("$5$", "x~F2~1Fv~ADj~92Y~9E~D4l~C3")                =>    "$5$s7z5qpeOGaZb"
-2
-salt("$5$rounds=2000$", "G~7E~A7~F5Q5~B7~0Aa~80T")       =>    "$5$rounds=2000$5trdp5JBreEM"
-2
-salt("$6$", "U7~EC!~E8~85~AB~CD~B5+~E1?")                =>    "$6$JR1vVUSVfqQhf2yD"
-2
-salt("$6$rounds=5000$", "~ED'~B0~BD~B9~DB^,\\~BD~E7")    =>    "$6$rounds=5000$hT0gxavqSl0L"
-2
-salt("$2a$08$", "|~99~86~DEq~94_~F3-~1A~D2#~8C~B5sx")    =>    "$2a$08$dHkE1lESV9KrErGhhJTxc."
-2
-
-2
-Note: To ensure proper security, the random input must be from a sufficiently random source. 
-36
-5
-4
-12
-2
-Syntax: strtr (STR source, STR str1, STR str2 [, case-matters])
-2
-
-2
-Transforms the string source by replacing the characters specified by str1 with the corresponding characters specified by str2. All other characters are not transformed. If str2 has fewer characters than str1 the unmatched characters are simply removed from source. By default the transformation is done on both upper and lower case characters no matter the case. If case-matters is provided and true, then case is treated as significant.
-2
-
-2
-strtr("foobar", "o", "i")           =>    "fiibar"
-2
-strtr("foobar", "ob", "bo")         =>    "fbboar"
-2
-strtr("foobar", "", "")             =>    "foobar"
-2
-strtr("foobar", "foba", "")         =>    "r"
-2
-strtr("5xX", "135x", "0aBB", 0)     =>    "BbB"
-2
-strtr("5xX", "135x", "0aBB", 1)     =>    "BBX"
-2
-strtr("xXxX", "xXxX", "1234", 0)    =>    "4444"
-2
-strtr("xXxX", "xXxX", "1234", 1)    =>    "3434"
-36
-5
-4
-3
-2
-Syntax: value_hmac (value, STR key [, STR algo [, binary]])
-2
-
-2
-Returns the same string as string_hmac(toliteral(value), key, ...); see the description of string_hmac() for details. 
-36
-5
-4
-15
-2
-Syntax: crypt (STR text [, STR salt])
-2
-
-2
-Encrypts (hashes) the given text using the standard UNIX encryption method. If provided, salt should be a string at least two characters long, and it may dictate a specific algorithm to use. By default, crypt uses the original, now insecure, DES algorithm. Stunt specifically includes the BCrypt algorithm (identified by salts that start with "$2a$"), and may include MD5, SHA256, and SHA512 algorithms depending on the libraries used to build the server. The salt used is returned as the first part of the resulting encrypted string.
-2
-
-2
-Aside from the possibly-random input in the salt, the encryption algorithms are entirely deterministic. In particular, you can test whether or not a given string is the same as the one used to produce a given piece of encrypted text; simply extract the salt from the front of the encrypted text and pass the candidate string and the salt to crypt(). If the result is identical to the given encrypted text, then youve got a match.
-2
-
-2
-crypt("foobar", "iB")                               =>    "iBhNpg2tYbVjw"
-2
-crypt("foobar", "$1$MAX54zGo")                      =>    "$1$MAX54zGo$UKU7XRUEEiKlB.qScC1SX0"
-2
-crypt("foobar", "$5$s7z5qpeOGaZb")                  =>    "$5$s7z5qpeOGaZb$xkxjnDdRGlPaP7Z ... .pgk/pXcdLpeVCYh0uL9"
-2
-crypt("foobar", "$5$rounds=2000$5trdp5JBreEM")      =>    "$5$rounds=2000$5trdp5JBreEM$Imi ... ckZPoh7APC0Mo6nPeCZ3"
-2
-crypt("foobar", "$6$JR1vVUSVfqQhf2yD")              =>    "$6$JR1vVUSVfqQhf2yD$/4vyLFcuPTz ... qI0w8m8az076yMTdl0h."
-2
-crypt("foobar", "$6$rounds=5000$hT0gxavqSl0L")      =>    "$6$rounds=5000$hT0gxavqSl0L$9/Y ... zpCATppeiBaDxqIbAN7/"
-2
-crypt("foobar", "$2a$08$dHkE1lESV9KrErGhhJTxc.")    =>    "$2a$08$dHkE1lESV9KrErGhhJTxc.QnrW/bHp8mmBl5vxGVUcsbjo3gcKlf6"
-2
-
-2
-Note: The specific set of supported algorithms depends on the libraries used to build the server. Only the BCrypt algorithm, which is distributed with the server source code, is guaranteed to exist. BCrypt is currently mature and well tested, and is recommended for new development.
-36
-5
-4
-9
-2
-Syntax:   argon2 (STR <password>, STR <salt> [, <iterations> 3] [, <memory usage in KB> 4096] [, <CPU threads> 1]) => STR
-2
-
-2
-The function `argon2()' hashes a password using the Argon2id password hashing algorithm. It is parametrized by three optional arguments:
-2
-
-2
- * Time: This is the number of times the hash will get run. This defines the amount of computation required and, as a result, how long the function will take to complete.
-2
- * Memory: This is how much RAM is reserved for hashing.
-2
- * Parallelism: This is the number of CPU threads that will run in parallel.
-2
-
-2
-The salt for the password should, at minimum, be 16 bytes for password hashing. It is recommended to use the random_bytes() function.
-36
-5
-4
-3
-2
-Syntax: task_local ()
-2
-
-2
-Returns the value associated with the current task. The value is set with the `set_task_local` function.
-36
-5
-4
-6
-2
-Syntax: set_task_local(ANY value)
-2
-
-2
-Sets a value that gets associated with the current running task. This value persists across verb calls and gets reset when the task is killed, making it suitable for securely passing sensitive intermediate data between verbs. The value can then later be retrieved using the `task_local` function.
-2
-
-2
-set_task_local("arbitrary data")
-2
-set_task_local({"list", "of", "arbitrary", "data"})
-36
-5
-4
-3
-2
-Syntax: respond_to(OBJ object, STR verb)
-2
-
-2
-Returns true if <verb> is callable on <object>, taking into account inheritance, wildcards (star verbs), etc. Otherwise, returns false.  If the caller is permitted to read the object (because the object's `r' flag is true, or the caller is the owner or a wizard) the true value is a list containing the object number of the object that defines the verb and the full verb name(s).  Otherwise, the numeric value `1' is returned.
-36
-5
-4
-11
-2
-Syntax:  isa(OBJ <object>, OBJ <parent>)
-2
-         isa(OBJ <object>, LIST <parent list> [, INT <return_parent>])
-2
-
-2
-Returns true if <object> is a descendant of <parent>, otherwise false.
-2
-
-2
-If a third argument is present and true, the return value will be the first parent that object1 descends from in the <parent list>.
-2
-
-2
-isa(#2, $wiz)                           => 1
-2
-isa(#2, {$thing, $wiz, $container})     => 1
-2
-isa(#2, {$thing, $wiz, $container}, 1)  => #57 (generic wizard)
-2
-isa(#2, {$thing, $room, $container}, 1) => #-1 <$nothing>
-36
-5
-4
-5
-2
-Syntax: switch_player(OBJ <object1>, OBJ <object2> [, INT <silent>])
-2
-
-2
-Silently switches the player associated with this connection from <object1> to <object2>. <object1> must be connected and <object2> must be a player. This can be used in do_login_command() verbs that read or suspend (which prevents the normal player selection mechanism from working.
-2
-
-2
-If <silent> is true, no connection messages will be printed.
-36
-5
-4
-74
+95
 2
 LambdaMOO-Stunt adds the following built-in functions:
 2
@@ -39425,388 +38772,74 @@ open_network_connection - Updated to support ipv6 & tls
 reseed_random           - Provide a new seed to the pseudo random number generator.
 2
 FileIO                  - See HELP fileio for details
-36
-5
-4
-18
 2
-Syntax:	  sqlite_open(STR <path to database>, [INT options]) => INT
+log_cache_stats
 2
-
+verb_cache_stats
 2
-The function `sqlite_open' will attempt to open the database at <path> for use with SQLite.
+create
 2
-
+value_hash
 2
-The second argument is a bitmask of options. Options are:
+index
 2
-
+rindex
 2
-	SQLITE_PARSE_OBJECTS [4]:    Determines whether strings beginning with a pound symbol (#) are interpreted as MOO object numbers or not.
+encode_base64
 2
-                                     The default is true, which means that any queries that would return a string (such as "#123") will be returned as objects.
+decode_base64
 2
-	SQLITE_PARSE_TYPES [2]:      If unset, no parsing of rows takes place and only strings are returned.
+string_hash
 2
-	SQLITE_SANITIZE_STRINGS [8]: If set, newlines (\n) are converted into tabs (\t) to avoid corrupting the MOO database. Default is unset.
+binary_hash
 2
-
+server_log
 2
-NOTE: If the MOO doesn't support bitmasking, you can still specify options. You'll just have to manipulate the int yourself. e.g. if you want to parse objects and types, arg[2] would be a 6. If you only want to parse types, arg[2] would be 2.
+new_waif
 2
-
+sqlite
 2
-If successful, the function will return the numeric handle for the open database.
+typeof
 2
-
+reverse
 2
-If unsuccessful, the function will return a helpful error message.
+locations
 2
-
+finished_tasks
 2
-If the database is already open, a traceback will be thrown that contains the already open database handle.
-36
-5
-4
-7
+explode
 2
-Syntax:	  sqlite_close(INT <database handle) => INT
+chparents
+2
+parents
 2
 
-2
-This function will close an open database.
-2
-
-2
-If successful, return 1;
-2
-
-2
-If unsuccessful, returns E_INVARG.
-36
-5
-4
-3
-2
-Syntax:	  sqlite_handles() => LIST
-2
-
-2
-Returns a list of open SQLite database handles.
-36
-5
-4
-9
-2
-Syntax:	  sqlite_info(INT <database handle>) => MAP
-2
-
-2
-This function returns a map of information about the database at <handle>
-2
-
-2
-The information returned is:
-2
-	Database Path
-2
-	Type parsing enabled?
-2
-	Object parsing enabled?
-2
-	String sanitation enabled?
 36
 5
 4
 11
 2
-Syntax:	  sqlite_query(INT <database handle>, STR <database query>[, INT <show columns>]) => [LIST or STR]
-2
-
-2
-This function will attempt to execute the query given in <query> on the database referred to by <handle>.
-2
-
-2
-On success, this function will return a list identifying the returned rows. If the query didn't return rows but was successful, an empty list is returned.
-2
-
-2
-If the query fails, a string will be returned identifying the SQLite error message.
-2
-
-2
-If <show columns> is true, the return list will include the name of the column before its results.
-2
-
-2
-WARNING: sqlite_query does NOT use prepared statements and should NOT be used on queries that contain user input.
-36
-5
-4
-12
-2
-Syntax:	  sqlite_execute(INT <database handle>, STR <SQL prepared statement query>, LIST <values>) => [LIST or STR]
-2
-
-2
-This function will attempt to create and execute the prepared statement query given in <query> on the database referred to by <handle> with the values <values>.
-2
-
-2
-On success, this function will return a list identifying the returned rows. If the query didn't return rows but was successful, an empty list is returned.
-2
-
-2
-If the query fails, a string will be returned identifying the SQLite error message.
-2
-
-2
-sqlite_execute uses prepared statements, so it's the preferred function to use for security and performance reasons.
-2
-
-2
-Example:
-2
-sqlite_execute(0, "INSERT INTO users VALUES (?, ?, ?);", {#7, "lisdude", "Albori Sninvel"})
-36
-5
-4
-3
-2
-Syntax:	  sqlite_last_insert_row_id(INT <database handle>)
-2
-
-2
-This function identifies the row ID of the last insert command executed on the database.
-36
-5
-4
-10
-2
 SQLite allows you to store information in locally hosted SQLite databases. The following functions (see HELP <function name> for detailed information) are available:
 2
 
 2
-sqlite_open         Opens an SQLite database.
+sqlite_open                Opens an SQLite database.
 2
-sqlite_close        Closes an SQLite database.
+sqlite_close               Closes an SQLite database.
 2
-sqlite_handles      Returns a list of open SQLite database handles.
+sqlite_handles             Returns a list of open SQLite database handles.
 2
-sqlite_info         Returns information about an open SQLite database.
+sqlite_info                Returns information about an open SQLite database.
 2
-sqlite_query        Runs a raw SQL query on the database.
+sqlite_query               Runs a raw SQL query on the database.
 2
-sqlite_execute      Executes an SQL prepared statement on the database.
+sqlite_execute             Executes an SQL prepared statement on the database.
 2
-sqlite_limit        Set limits on various SQL constructs.
+sqlite_limit               Set limits on various SQL constructs.
 2
-sqlite_interrupt    Abort a database operation.
-36
-5
-4
-22
+sqlite_interrupt           Abort a database operation.
 2
-Syntax:   pcre_replace (STR <subject>, STR <pattern>) => STR
-2
-
-2
-The function `pcre_replace()' replaces <subject> with replacements found in <pattern> using the Perl Compatible Regular Expressions library.
-2
-
-2
-The pattern string has a specific format that must be followed, which should be familiar if you have used the likes of Vim, Perl, or sed. The string is composed of four elements, each separated by a delimiter (typically a slash (/) or an exclaimation mark (!)), that tell PCRE how to parse your replacement. We'll break the string down and mention relevant options below:
-2
-
-2
-1. Type of search to perform. In MOO, only 's' is valid. This parameter is kept for the sake of consistency.
-2
-2. The text you want to search for a replacement.
-2
-3. The regular expression you want to use for your replacement text.
-2
-4. Optional modifiers:
-2
-    g: Global. This will replace all occurances in your string rather than stopping at the first.
-2
-    i: Case-insensitive. Uppercase, lowercase, it doesn't matter. All will be replaced.
-2
-    
-2
-Examples:
-2
-
-2
-Replace one word with another:
-2
-pcre_replace("I like banana pie. Do you like banana pie?", "s/banana/apple/g")
-2
-=> "I like apple pie. Do you like apple pie?"
-2
-
-2
-If you find yourself wanting to replace a string that contains slashes, it can be useful to change your delimiter to an exclaimation mark:
-2
-pcre_replace("Unix, wow! /bin/bash is a thing.", "s!/bin/bash!/bin/fish!g")
-2
-=> "Unix, wow! /bin/fish is a thing."
-36
-5
-4
-3
-2
-Syntax:  frandom (FLOAT <mod1> [, FLOAT <mod2>)   => FLOAT
-2
-
-2
-If only one argument is given, a floating point number is chosen randomly from the range `[1.0..<mod1>]` and returned. If two arguments are given, a floating point number is randomly chosen from the range `[<mod1>..<mod2>]`. 
-36
-5
-4
-5
-2
-Syntax:  memory_usage ()   => LIST
-2
-
-2
-Return statistics concerning the server's consumption of system memory. The result is a list in the following format:
-2
-
-2
-{total memory used, resident set size, shared pages, text, data + stack}
-36
-5
-4
-7
-2
-Syntax:  ftime ([INT monotonic])   => FLOAT
-2
-
-2
-Returns the current time represented as the number of seconds and nanoseconds that have elapsed since midnight on 1 January 1970, Greenwich Mean Time.
-2
-
-2
-If the <monotonic> argument is supplied and set to 1, the time returned will be monotonic. This means that will you will always get how much time has elapsed from an arbitrary, fixed point in the past that is unaffected by clock skew or other changes in the wall-clock. This is useful for benchmarking how long an operation takes, as it's unaffected by the actual system time.
-2
-
-2
-The general rule of thumb is that you should use ftime() with no arguments for telling time and ftime() with the monotonic clock argument for measuring the passage of time.
-36
-5
-4
-3
-2
-Syntax:  locate_by_name (STR <object name>)   => LIST
-2
-
-2
-This function searches every object in the database for those containing <object name> in their .name property.
-36
-5
-4
-5
-2
-Syntax:  usage ()   => LIST
-2
-
-2
-Return statistics concerning the server the MOO is running on. The result is a list in the following format:
-2
-
-2
-{load averages}, user time, system time, page reclaims, page faults, block input ops, block output ops, voluntary context switches, involuntary context switches, signals received
-36
-5
-4
-3
-2
-Syntax:  explode(<subject> [, <break>])   => LIST
-2
-
-2
-Returns a list of substrings of <subject> that are separated by <break>. <break> defaults to a space.
-36
-5
-4
-3
-2
-Syntax:  clear_ancestor_cache()   => none
-2
-
-2
-The ancestor cache contains a quick lookup of all of an object's ancestors which aids in expediant property lookups. This is an experimental feature and, as such, you may find that something has gone wrong. If that's that case, this function will completely clear the cache and it will be rebuilt as-needed.
-36
-5
-4
-10
-2
-Syntax:  locations(OBJ <object>)   => LIST
-2
-
-2
-Recursively build a list of an object's location, its location's location, and so forth until finally hitting $nothing.
-2
-
-2
-Example:
-2
-locations(me)
-2
-=> {#20381, #443, #104735}
-2
-
-2
-$string_utils:title_list(locations(me))
-2
-=> "\"Butterknife Ballet\" Control Room FelElk, the one-person celestial birther \"Butterknife Ballet\", and Uncharted Space: Empty Space"
-36
-5
-4
-3
-2
-Syntax:  spellcheck(STR <word>)   => INT or LIST
-2
-
-2
-This function checks the English spelling of <word>. If the spelling is correct, the function will return a 1. If the spelling is incorrect, a LIST of suggestions for correct spellings will be returned instead. If the spelling is incorrect and no suggestions can be found, an empty LIST is returned.
-36
-5
-4
-3
-2
-Syntax:  threads()   => LIST
-2
-
-2
-When one or more MOO processes are suspended and working in a separate thread, this function will return a LIST of handlers to those threads. These handlers can then be passed to `thread_info' for more information.
-36
-5
-4
-6
-2
-Syntax:  thread_info(INT <thread handler>)   => LIST
-2
-
-2
-If a MOO task is running in another thread, its thread handler will give you information about that thread. The information returned in a LIST will be:
-2
-
-2
-  English Name: This is the name the programmer of the builtin function has given to the task being executed.
-2
-  Active: 1 or 0 depending upon whether or not the MOO task has been killed. Not all threads cleanup immediately after the MOO task dies.
-36
-5
-4
-3
-2
-Syntax:  waif_stats()   => MAP
-2
-
-2
-Returns a MAP of statistics about instantiated waifs. Each waif class will be a key in the MAP and its value will be the number of waifs of that class currently instantiated. Additionally, there is a `total' key that will return the total number of instantiated waifs, and a `pending_recycle' key that will return the number of waifs that have been destroyed and are awaiting the call of their :recycle verb.
+sqlite_last_insert_row_id  Identifies row ID of the last insert command
 36
 5
 4
@@ -39908,620 +38941,6 @@ void file_stat(FHANDLE fh)
 36
 5
 4
-47
-2
- Function: FHANDLE file_open(STR pathname, STR mode)
-2
-
-2
-  Raises: E_INVARG if mode is not a valid mode, E_QUOTA if too many files are open.
-2
-  This opens a file specified by pathname and returns an FHANDLE for it.
-2
-  It ensures pathname is legal.  Mode is a string of characters indicating what mode the file is opened in. 
-2
-  The mode string is four characters.
-2
-
-2
-  The first character must be (r)ead, (w)rite, or (a)ppend.  The second must be '+' or '-'.  This modifies the previous argument.
-2
-
-2
-  o  r- opens the file for reading and fails if the file does not exist.
-2
-
-2
-  o  r+ opens the file for reading and writing and fails if the file
-2
-     does not exist.
-2
-
-2
-  o  w- opens the file for writing, truncating if it exists and creating
-2
-     if not.
-2
-
-2
-  o  w+ opens the file for reading and writing, truncating if it exists
-2
-     and creating if not.
-2
-
-2
-  o  a- opens a file for writing, creates it if it does not exist and
-2
-     positions the stream at the end of the file.
-2
-
-2
-  o  a+ opens the file for reading and writing, creates it if does not
-2
-     exist and positions the stream at the end of the file.
-2
-
-2
-     The third character is either (t)ext or (b)inary.  In text mode,
-2
-     data is written as-is from the MOO and data read in by the MOO is
-2
-     stripped of unprintable characters.  In binary mode, data is
-2
-     written filtered through the binary-string->raw-bytes conversion
-2
-     and data is read filtered through the raw-bytes->binary-string
-2
-     conversion.  For example, in text mode writing " 1B" means three
-2
-     bytes are written: ' ' Similarly, in text mode reading " 1B" means
-2
-     the characters ' ' '1' 'B' were present in the file.  In binary
-2
-     mode reading " 1B" means an ASCII ESC was in the file.  In text
-2
-     mode, reading an ESC from a file results in the ESC getting
-2
-     stripped.
-2
-
-2
-  It is not recommended that files containing unprintable ASCII  data be
-2
-  read in text mode, for obvious reasons.
-2
-
-2
-  The final character is either 'n' or 'f'.  If this character is 'f',
-2
-  whenever data is written to the file, the MOO will force it to finish
-2
-  writing to the physical disk before returning.  If it is 'n' then
-2
-  this won't happen.
-2
-
-2
-  This is implemented using fopen().
-36
-5
-4
-5
-2
- Function: void file_close(FHANDLE fh)
-2
-
-2
-  Closes the file associated with fh.
-2
-
-2
-  This is implemented using fclose().
-36
-5
-4
-5
-2
-Function: STR file_name(FHANDLE fh)
-2
-
-2
-  Returns the pathname originally associated with fh by file_open().
-2
-  This is not necessarily the file's current name if it was renamed or
-2
-  unlinked after the fh was opened.
-36
-5
-4
-3
-2
-Function: STR file_openmode(FHANDLE fh)
-2
-
-2
-  Returns the mode the file associated with fh was opened in.
-36
-5
-4
-7
-2
-Function: STR file_readline(FHANDLE fh)
-2
-
-2
-  Reads the next line in the file and returns it (without the newline).
-2
-
-2
-  Not recommended for use on files in binary mode.
-2
-
-2
-  This is implemented using fgetc().
-36
-5
-4
-9
-2
-  Function: LIST file_readlines(FHANDLE fh, INT start, INT end)
-2
-
-2
-  Rewinds the file and then reads the specified lines from the file,
-2
-  returning them as a list of strings.  After this operation, the stream
-2
-  is positioned right after the last line read.
-2
-
-2
-  Not recommended for use on files in binary mode.
-2
-
-2
-  This is implemented using fgetc().
-36
-5
-4
-7
-2
-  Function: void file_writeline(FHANDLE fh, STR line)
-2
-
-2
-  Writes the specified line to the file (adding a newline).
-2
-
-2
-  Not recommended for use on files in binary mode.
-2
-
-2
-  This is implemented using fputs()
-36
-5
-4
-8
-2
-Function: STR file_read(FHANDLE fh, INT bytes)
-2
-
-2
-  Reads up to the specified number of bytes from the file and returns
-2
-  them.
-2
-
-2
-  Not recommended for use on files in text mode.
-2
-
-2
-  This is implemented using fread().
-36
-5
-4
-8
-2
-Function: INT file_write(FHANDLE fh, STR data)
-2
-
-2
-  Writes the specified data to the file.  Returns number of bytes
-2
-  written.
-2
-
-2
-  Not recommended for use on files in text mode.
-2
-
-2
-  This is implemented using fwrite().
-36
-5
-4
-5
-2
-Function: INT file_tell(FHANDLE fh)
-2
-
-2
-  Returns position in file.
-2
-
-2
-  This is implemented using ftell().
-36
-5
-4
-12
-2
-Function: void file_seek(FHANDLE fh, INT loc, STR whence)
-2
-
-2
-  Seeks to a particular location in a file.  whence is one of the
-2
-  strings:
-2
-
-2
-  o  "SEEK_SET" - seek to location relative to beginning
-2
-
-2
-  o  "SEEK_CUR" - seek to location relative to current
-2
-
-2
-  o  "SEEK_END" - seek to location relative to end
-2
-
-2
-  This is implemented using fseek().
-36
-5
-4
-5
-2
-Function: INT file_eof(FHANDLE fh)
-2
-
-2
-  Returns true if and only if fh's stream is positioned at EOF.
-2
-
-2
-  This is implemented using feof().
-36
-5
-4
-5
-2
-Function: void file_rename(STR oldpath, STR newpath)
-2
-
-2
-  Attempts to rename the oldpath to newpath.
-2
-
-2
-  This is implemented using rename().
-36
-5
-4
-5
-2
-Function: void file_remove(STR pathname)
-2
-
-2
-  Attempts to remove the given file.
-2
-
-2
-  This is implemented using remove().
-36
-5
-4
-5
-2
-Function: void file_mkdir(STR pathname)
-2
-
-2
-  Attempts to create the given directory.
-2
-
-2
-  This is implemented using mkdir().
-36
-5
-4
-5
-2
-Function: void file_rmdir(STR pathname)
-2
-
-2
-  Attempts to remove the given directory.
-2
-
-2
-  This is implemented using rmdir().
-36
-5
-4
-13
-2
-Function: LIST file_list(STR pathname, [ANY detailed])
-2
-
-2
-  Attempts to list the contents of the given directory.  Returns a list
-2
-  of files in the directory.  If the detailed argument is provided and
-2
-  true, then the list contains detailed entries, otherwise it contains a
-2
-  simple list of names.
-2
-
-2
-  detailed entry:
-2
-    {STR filename, STR file type, STR file mode, INT file size}
-2
-  normal entry:
-2
-    STR filename
-2
-
-2
-  This is implemented using scandir().
-36
-5
-4
-6
-2
-Function: STR file_type(STR pathname)
-2
-
-2
-  Returns the type of the given pathname, one of "reg", "dir", "dev",
-2
-  "fifo", or "socket".
-2
-
-2
-  This is implemented using stat().
-36
-5
-4
-5
-2
- Function: STR file_mode(STR filename)
-2
-
-2
-  Returns octal mode for a file (e.g. "644").
-2
-
-2
-  This is implemented using stat().
-36
-5
-4
-6
-2
-Function: void file_chmod(STR filename, STR mode)
-2
-
-2
-  Attempts to set mode of a file using mode as an octal string of
-2
-  exactly three characters.
-2
-
-2
-  This is implemented using chmod().
-36
-5
-4
-16
-2
- Function: void file_stat(STR pathname)
-2
-  Function: void file_stat(FHANDLE fh)
-2
-
-2
-  Returns the result of stat() (or fstat()) on the given file.
-2
-  Specifically a list as follows:
-2
-
-2
-  {file size in bytes, file type, file access mode, owner, group,
-2
-       last access, last modify, and last change}
-2
-
-2
-  owner and group are always the empty string.
-2
-
-2
-  It is recommended that the specific information functions file_size,
-2
-  file_type, file_mode, file_last_access, file_last_modify, and
-2
-  file_last_change be used instead.  In most cases only one of these
-2
-  elements is desired and in those cases there's no reason to make and
-2
-  free a list.
-36
-5
-4
-2
-2
-*index*
-2
-Stunt / ToastStunt Functions
-36
-5
-4
-7
-2
-Syntax:  occupants(LIST <objects> [, OBJ | LIST <parent>, INT <player flag set?>])   => LIST
-2
-
-2
-Iterates through the list of <objects> and returns those matching a specific set of criteria:
-2
-
-2
-1. If only <objects> is specified, the occupants function will return a list of objects with the player flag set.
-2
-2. If the <parent> argument is specified, a list of <objects> descending from <parent> will be returned. If <parent> is a list, <object> must descend from at least one object in the list.
-2
-3. If both <parent> and <player flag set> are specified, occupants will check both that an object is descended from <parent> and also has the player flag set.
-36
-5
-4
-21
-2
-Syntax:  sort(LIST <list> [, LIST <keys>, INT <natural sort order?>, INT <reverse>])   => LIST
-2
-
-2
-Sorts <list> either by <keys> or using the list itself. When sorting <list> by itself, you can use an empty list ({}) for <keys> to specify additional optional arguments.
-2
-
-2
-If <natural sort order> is true, strings containing multi-digit numbers will consider those numbers to be a single character. So, for instance, this means that 'x2' would come before 'x11' when sorted naturally because 2 is less than 11. This argument defaults to 0.
-2
-
-2
-If <reverse> is true, the sort order is reversed. This argument defaults to 0.
-2
-
-2
-Examples:
-2
-
-2
-Sort a list by itself:
-2
->;sort({"a57", "a5", "a7", "a1", "a2", "a11"})
-2
-=> {"a1", "a11", "a2", "a5", "a57", "a7"}
-2
-
-2
-Sort a list by itself with natural sort order:
-2
->;sort({"a57", "a5", "a7", "a1", "a2", "a11"}, {}, 1)
-2
-=> {"a1", "a2", "a5", "a7", "a11", "a57"}
-2
-
-2
-Sort a list of strings by a list of numeric keys:
-2
->;sort({"foo", "bar", "baz"}, {123, 5, 8000})
-2
-=> {"bar", "foo", "baz"}
-36
-5
-4
-7
-2
-Syntax:  yin([INT <time>, INT <minimum ticks>, INT <minimum seconds>] )   => INT
-2
-
-2
-Suspend the current task if it's running out of ticks or seconds. This is meant to provide similar functionality to the LambdaCore-based suspend_if_needed verb or manually specifying something like: ticks_left() < 2000 && suspend(0)
-2
-
-2
-Time: How long to suspend the task. Default: 0
-2
-Minimum ticks: The minimum number of ticks the task has left before suspending.
-2
-Minimum seconds: The minimum number of seconds the task has left before suspending.
-36
-5
-4
-13
-2
-Syntax:  slice(LIST <alist> [, INT | LIST | STR <index>, ANY <default map value>])   => LIST
-2
-
-2
-Return the <index>-th elements of <alist>. By default, index will be 1. If index is a list of integers, the returned list will have those elements from <alist>. This is the built-in equivalent of LambdaCore's $list_utils:slice verb.
-2
-
-2
-If <alist> is a list of maps, index can be a string indicating a key to return from each map in <alist>.
-2
-
-2
-If <default map value> is specified, any maps not containing the key <index> will have <default map value> returned in their place. This is useful in situations where you need to maintain consistency with a list index and can't have gaps in your return list.
-2
-
-2
-Examples:
-2
- >slice({{"z", 1}, {"y", 2}, {"x",5}}, 2) => {1, 2, 5}.
-2
- >slice({{"z", 1, 3}, {"y", 2, 4}}, {2, 1}) => {{1, "z"}, {2, "y"}}
-2
- >;slice({["a" -> 1, "b" -> 2], ["a" -> 5, "b" -> 6]}, "a") => {1, 5}
-2
- >;slice({["a" -> 1, "b" -> 2], ["a" -> 5, "b" -> 6], ["b" -> 8]}, "a", 0) => {1, 5, 0}
-36
-5
-4
-9
-2
-Syntax:  set_thread_mode([INT <mode>])
-2
-
-2
-With no arguments specified, set_thread_mode will return the current thread mode for the verb. A value of 1 indicates that threading is enabled for functions that support it. A value of 0 indicates that threading is disabled and all functions will execute in the main MOO thread, as functions have done in default LambdaMOO since version 1.
-2
-
-2
-If you specify an argument, you can control the thread mode of the current verb. A <mode> of 1 will enable threading and a <mode> of 0 will disable it. You can invoke this function multiple times if you want to disable threading for a single function call and enable it for the rest.
-2
-
-2
-When should you disable threading? In general, threading should be disabled in verbs where it would be undesirable to suspend(). Each threaded function will immediately suspend the verb while the thread carries out its work. This can have a negative effect when you want to use these functions in verbs that cannot or should not suspend, like $sysobj:do_command or $sysobj:do_login_command.
-2
-
-2
-Note that the threading mode affects the current verb only and does NOT affect verbs called from within that verb.
-36
-5
-4
-5
-2
-Syntax:  recreate(OBJ <old>, OBJ <parent> [, OBJ <owner>])  => OBJ
-2
-
-2
-Recreate invalid object <old> (one that has previously been recycle()ed) as <parent>, optionally owned by <owner>. This has the effect of filling in holes created by recycle() that would normally require renumbering and resetting the maximum object.
-2
-
-2
-The normal rules apply to parent and owner. You either have to own <parent>, <parent> must be fertile, or you have to be a wizard. Similarly, to change <owner>, you should be a wizard. Otherwise it's superfluous.
-36
-5
-4
 2
 2
 *forward*
@@ -40530,433 +38949,9 @@ stunt
 36
 5
 4
-4
-2
-Syntax:  chr(INT <arg>, ...)  => STR
-2
-
-2
-This function translates integers into ASCII characters. Each argument must be an integer between 0 and 255.
-2
-If the programmer is not a wizard, and integers less than 32 are provided, E_INVARG is raised. This prevents control characters or newlines from being written to the database file by non-trusted individuals.
-36
-5
-4
-3
-2
-Syntax:  recycled_objects()  => LIST
-2
-
-2
-Return a list of all invalid objects in the database. An invalid object is one that has been destroyed with the recycle() function.
-36
-5
-4
-3
-2
-Syntax:  next_recycled_object(OBJ <start>)  => OBJ | INT
-2
-
-2
-Return the lowest invalid object. If <start> is specified, no object lower than <start> will be considered. If there are no invalid objects, this function will return 0.
-36
-5
-4
-6
-2
-Syntax:  all_members(ANY <value>, LIST <alist>)  => LIST
-2
-
-2
-Returns the indices of every instance of <value> in <alist>.
-2
-
-2
-Example:
-2
-;all_members("a", {"a", "b", "a", "c", "a", "d"}) => {1, 3, 5}
-36
-5
-4
-17
-2
-Syntax:	  pcre_match (STR <subject>, STR <pattern> [, <case matters> 0] [, <repeat until no matches> 1]	=> LIST
-2
-
-2
-The function `pcre_match()' searches <subject> for <pattern> using the Perl Compatible Regular Expressions library. The return value is a list of maps containing each match. Each returned map will have a key which corresponds to either a named capture group or the number of the capture group being matched. The full match is always found in the key "0". The value of each key will be another map containing the keys 'match' and 'position'. Match corresponds to the text that was matched and position will return the indices of the substring within <subject>.
-2
-
-2
-If <repeat until no matches> is 1, the expression will continue to be evaluated until no further matches can be found or it exhausts the iteration limit. This defaults to 1.
-2
-
-2
-Additionally, wizards can control how many iterations of the loop are possible by adding a property to $server_options. $server_options.pcre_match_max_iterations is the maximum number of loops allowed before giving up and allowing other tasks to proceed. CAUTION: It's recommended to keep this value fairly low. The default value is 1000. The minimum value is 100.
-2
-
-2
-Examples:
-2
-
-2
-Extract dates from a string:
-2
-pcre_match("09/12/1999 other random text 01/21/1952", "([0-9]{2})/([0-9]{2})/([0-9]{4})")
-2
-=> {["0" -> ["match" -> "09/12/1999", "position" -> {1, 10}], "1" -> ["match" -> "09", "position" -> {1, 2}], "2" -> ["match" -> "12", "position" -> {4, 5}], "3" -> ["match" -> "1999", "position" -> {7, 10}]], ["0" -> ["match" -> "01/21/1952", "position" -> {30, 39}], "1" -> ["match" -> "01", "position" -> {30, 31}], "2" -> ["match" -> "21", "position" -> {33, 34}], "3" -> ["match" -> "1952", "position" -> {36, 39}]]}
-2
-
-2
-Explode a string (albeit a contrived example):
-2
-;;ret = {}; for x in (pcre_match("This is a string of words, with punctuation, that should be exploded. By space. --zippy--", "[a-zA-Z]+", 0, 1)) ret = {@ret, x["0"]["match"]}; endfor return ret;
-2
-=> {"This", "is", "a", "string", "of", "words", "with", "punctuation", "that", "should", "be", "exploded", "By", "space", "zippy"}
-36
-5
-4
-47
-2
-Syntax:	  sqlite_limit(INT <database handle>, STR <category> INT <new value>) => INT
-2
-
-2
-This function allows you to specify various construct limitations on a per-database basis.
-2
-
-2
-If <new value> is a negative number, the limit is unchanged. Each limit category has a hardcoded upper bound. Attempts to increase a limit above its hard upper bound are silently truncated to the hard upper bound.
-2
-
-2
-Regardless of whether or not the limit was changed, the sqlite_limit() function returns the prior value of the limit. Hence, to find the current value of a limit without changing it, simply invoke this interface with the third parameter set to -1.
-2
-
-2
-As of this writing, the following limits exist:
-2
-
-2
-LIMIT_LENGTH
-2
-    The maximum size of any string or BLOB or table row, in bytes.
-2
-
-2
-LIMIT_SQL_LENGTH
-2
-    The maximum length of an SQL statement, in bytes.
-2
-
-2
-LIMIT_COLUMN
-2
-    The maximum number of columns in a table definition or in the result set of a SELECT or the maximum number of columns in an index or in an ORDER BY or GROUP BY clause.
-2
-
-2
-LIMIT_EXPR_DEPTH
-2
-    The maximum depth of the parse tree on any expression.
-2
-
-2
-LIMIT_COMPOUND_SELECT
-2
-    The maximum number of terms in a compound SELECT statement.
-2
-
-2
-LIMIT_VDBE_OP
-2
-    The maximum number of instructions in a virtual machine program used to implement an SQL statement. If sqlite3_prepare_v2() or the equivalent tries to allocate space for more than this many opcodes in a single prepared statement, an SQLITE_NOMEM error is returned.
-2
-
-2
-LIMIT_FUNCTION_ARG
-2
-    The maximum number of arguments on a function.
-2
-
-2
-LIMIT_ATTACHED
-2
-    The maximum number of attached databases.
-2
-
-2
-LIMIT_LIKE_PATTERN_LENGTH
-2
-    The maximum length of the pattern argument to the LIKE or GLOB operators.
-2
-
-2
-LIMIT_VARIABLE_NUMBER
-2
-    The maximum index number of any parameter in an SQL statement.
-2
-
-2
-LIMIT_TRIGGER_DEPTH
-2
-    The maximum depth of recursion for triggers.
-2
-
-2
-LIMIT_WORKER_THREADS
-2
-    The maximum number of auxiliary worker threads that a single prepared statement may start.
-2
-
-2
-For an up-to-date list of limits, see the SQLite documentation here: https://www.sqlite.org/c3ref/c_limit_attached.html
-36
-5
-4
-5
-2
-Syntax:	  curl(STR <url> [, INT <include_headers>]) => STR
-2
-
-2
-The curl builtin will download a webpage and return it as a string. If <include_headers> is true, the HTTP headers will be included in the return string.
-2
-
-2
-It's worth noting that the data you get back will be binary encoded. In particular, you will find that line breaks appear as ~0A. You can easily convert a page into a list by passing the return string into the decode_binary() function.
-36
-5
-4
-9
-2
-Syntax:  connection_name_lookup (OBJ <connection> [, INT record_result])   => STR
-2
-
-2
-This function performs a DNS name lookup on connection's IP address. If a hostname can't be resolved, the function simply returns the numeric IP address. Otherwise, it will return the resolved hostname.
-2
-
-2
-If record_result is true, the resolved hostname will be saved with the connection and will overwrite it's existing 'connection_name()'. This means that you can call 'connection_name_lookup()' a single time when a connection is created and then continue to use 'connection_name()' as you always have in the past.
-2
-
-2
-This function is primarily intended for use when the 'NO_NAME_LOOKUP' server option is set. Barring temporarily failures in your nameserver, very little will be gained by calling this when the server is performing DNS name lookups for you.
-2
-
-2
-NOTE: This function runs in a separate thread. While this is good for performance (long lookups won't lock your MOO like traditional pre-2.6.0 name lookups), it also means it will require slightly more work to create an entirely in-database DNS lookup solution. Because it explicitly suspends, you won't be able to use it in 'do_login_command()' without also using the 'switch_player()' function. For an example of how this can work, see '#0:do_login_command()' in ToastCore.
-36
-5
-4
-20
-2
-Syntax:  connection_info (OBJ <connection>)   => LIST
-2
-
-2
-Returns a MAP of network connection information for <connection>. At the time of writing, the following information is returned:
-2
-
-2
-destination_address: The hostname of the connection. For incoming connections, this is the hostname of the connected user.
-2
-                     For outbound connections, this is the hostname of the outbound connection's destination.
-2
-
-2
-destination_ip:      The unresolved numeric IP address of the connection.
-2
-
-2
-destination_port:    For incoming connections, this is the local port used to make the connection.
-2
-                     For outbound connections, this is the port the connection was made to.
-2
-
-2
-source_address:      This is the hostname of the interface an incoming connection was made on. For outbound connections, this value is meaningless.
-2
-
-2
-source_ip:           The unresolved numeric IP address of the interface a connection was made on. For outbound connections, this value is meaningless.
-2
-
-2
-source_port:         The local port a connection connected to. For outbound connections, this value is meaningless.
-2
-
-2
-protocol:            Describes the protocol used to make the connection. At the time of writing, this could be IPv4 or IPv6.
-2
-		       
-36
-5
-4
-3
-2
-Syntax:   argon2_verify (STR <hash>, STR <password>)  => INT
-2
-
-2
-Compares <password> to the previously hashed <hash>. Returns 1 if the two match or 0 if they don't.
-36
-5
-4
-3
-2
-Syntax: maphaskey (MAP <map>, STR <key>)   => INT
-2
-
-2
-Returns 1 if <key> exists in <map>. When not dealing with hundreds of keys, this function is faster (and easier to read) than something like: !(x in mapkeys(map))
-36
-5
-4
-3
-2
-Syntax: reseed_random()
-2
-
-2
-Provide a new seed to the pseudo random number generator.
-36
-5
-4
-20
-2
-Syntax:  finished_tasks ()   => LIST
-2
-
-2
-When enabled (via SAVE_FINISHED_TASKS in options.h), the server will keep track of the execution time of every task that passes through the interpreter. This data is then made available to the database in two ways.
-2
-
-2
-The first is the finished_tasks() function. This function will return a list of maps of the last several finished tasks (configurable via $server_options.finished_tasks_limit) with the following information:
-2
-
-2
-
-2
-Foreground:    True if this was a foreground task.
-2
-Fullverb:      The full name of the verb being executed.
-2
-Object:        The object the verb is defined on.
-2
-Player:        The result of the 'player' variable.
-2
-Programmer:    The player whose permissions the verb is running as.
-2
-Receiver:      The object that received the verb invocation. In the case of primitives, this is the primitive's object handler.
-2
-Suspended:     True if the task suspended instead of finishing.
-2
-This:          The result of the 'this' variable.
-2
-Time:          The total time the task took inside the interpreter.
-2
-Verb:          The verb name used to invoke the task.
-2
-
-2
-
-2
-The second is via the $handle_lagging_task verb. When the execution threshold defined in $server_options.task_lag_threshold is exceeded, the server will write an entry to the log file and call the $handle_lagging_task verb with the call stack of the task as well as the execution time.
-36
-5
-4
-3
-2
-Syntax:  owned_objects(OBJ owner)  => LIST
-2
-
-2
-Returns a list of all objects in the database owned by <owner>. Ownership is defined by the value of .owner on the object.
-36
-5
-4
-3
-2
-Syntax:  ancestors(OBJ <object> [, INT <full>])   => LIST
-2
-
-2
-Return a list of all ancestors of <object> in order ascending up the inheritance hiearchy. If <full> is true, <object> will be included in the list.
-36
-5
-4
-3
-2
-Syntax:  descendants(OBJ <object> [, INT <full>])   => LIST
-2
-
-2
-Return a list of all nested children of <object>. If <full> is true, <object> will be included in the list.
-36
-5
-4
-3
-2
-Syntax:  panic([STR <message>])
-2
-
-2
-Unceremoniously shut down the server, mimicking the behavior of a fatal error. The database will NOT be dumped to the file specified when starting the server. A new file will be created with the name of your database appended with .PANIC.
-36
-5
-4
-21
-2
-Syntax:  thread_pool(STR <function>, STR <pool> [, INT <value>])
-2
-
-2
-This function allows you to control any thread pools that the server created at startup. It should be used with care, as it has the potential to create disasterous consequences if used incorrectly.
-2
-
-2
-The <function> parameter is the function you wish to perform on the thread pool. The functions available are:
-2
-
-2
-   INIT: Control initialization of a thread pool.
-2
-
-2
-   
-2
-The <pool> parameter controls which thread pool you wish to apply the designated function to. At the time of writing, the server creates the following thread pool:
-2
-
-2
-   MAIN: The main thread pool where threaded built-in function work takes place.
-2
-
-2
-
-2
-Finally, <value> is the value you want to pass to the <function> of <pool>. The following functions accept the following values:
-2
-
-2
-   INIT: The number of threads to spawn. NOTE: When executing this function, the existing <pool> will be destroyed and a new one created in its place.
-2
-
-2
-
-2
-Examples:
-2
-;thread_pool("INIT", "MAIN", 1)     => Replace the existing main thread pool with a new pool consisting of a single thread.
-36
-5
-4
 10
 2
-Syntax:  is_member (ANY value, LIST list, INT case-sensitive)   => INT
+Syntax:  is_member (ANY value, LIST list [, INT case-sensitive])   => INT
 2
 
 2
@@ -41118,47 +39113,11 @@ Open a new connection to the IPv6 address 2607:5300:60:4be0:: on port 1234 using
 36
 5
 4
-7
-2
-Syntax:  reverse(LIST <alist>) => LIST
-2
-
-2
-Return a reversed list.
-2
-
-2
-Examples:
-2
-
-2
-;reverse({1,2,3,4}) => {4,3,2,1}
-36
-5
-4
-7
-2
-Syntax:	  sqlite_interrupt(INT <database handle>)
-2
-
-2
-This function causes any pending database operation to abort at its earliest opportunity. If the operation is nearly finished when sqlite_interrupt is called, it might not have an opportunity to be interrupted and could continue to completion.
-2
-
-2
-This can be useful when you execute a long-running query and want to abort it.
-2
-
-2
-NOTE: As of this writing (server version 2.7.0) the @kill command WILL NOT abort operations taking place in a helper thread. If you want to interrupt an SQLite query, you must use sqlite_interrupt and NOT the @kill command.
-36
-5
-4
 19
 2
-Function: str string_hash (str string, [, algo])
+Syntax:  string_hash (STR string, [, algo [, binary])
 2
-Function: str binary_hash (str bin-string, [, algo])
+         binary_hash (STR bin-string, [, algo [, binary])
 2
 
 2
@@ -41201,100 +39160,6 @@ This can be useful, for example, in certain networking applications: after sendi
 *forward*
 2
 descendants
-36
-5
-4
-6
-2
-Function: INT file_count_lines (FHANDLER fh)
-2
-
-2
-Count the lines in a file.
-2
-
-2
-
-2
-
-36
-5
-4
-31
-2
-Function: LIST file_grep(FHANDLER fh, STR search [,?match_all = 0])
-2
-
-2
-Search for a string in a file.
-2
-
-2
-Assume we have a file `test.txt` with the contents:
-2
-
-2
-asdf asdf 11
-2
-11
-2
-112
-2
-
-2
-And we have an open file handler from running:
-2
-
-2
-;file_open("test.txt", "r-tn")
-2
-
-2
-If we were to execute a file grep:
-2
-
-2
-;file_grep(1, "11")
-2
-
-2
-We would get the first result:
-2
-
-2
-{{"asdf asdf 11", 1}}
-2
-
-2
-The resulting LIST is of the form {{STR match, INT line-number}}
-2
-
-2
-If you pass in the optional third argument
-2
-
-2
-;file_grep(1, "11", 1)
-2
-
-2
-we will receive all the matching results:
-2
-
-2
-{{"asdf asdf 11", 1}, {"11", 2}, {"112", 3}}
-36
-5
-4
-4
-2
-Function: LIST file_handles()
-2
-
-2
-Return a list of open files.
-2
-
 36
 5
 4
@@ -41428,7 +39293,7 @@ If include-variables is passed and true, variables will be included with each fr
 4
 5
 2
-Function: str value_hash(value, [,STR algo])
+Function: str value_hash(value, [, STR algo [, binary])
 2
 
 2
@@ -41437,6 +39302,2832 @@ Returns the same string as string_hash(toliteral(value)).
 
 2
 See the description of string_hash() for details.
+36
+5
+4
+6
+2
+Syntax:  all_members(ANY <value>, LIST <alist>)  => LIST
+2
+
+2
+Returns the indices of every instance of <value> in <alist>.
+2
+
+2
+Example:
+2
+;all_members("a", {"a", "b", "a", "c", "a", "d"}) => {1, 3, 5}
+36
+5
+4
+3
+2
+Syntax:  ancestors(OBJ <object> [, INT <full>])   => LIST
+2
+
+2
+Return a list of all ancestors of <object> in order ascending up the inheritance hiearchy. If <full> is true, <object> will be included in the list.
+36
+5
+4
+9
+2
+Syntax:   argon2 (STR <password>, STR <salt> [, <iterations> 3] [, <memory usage in KB> 4096] [, <CPU threads> 1]) => STR
+2
+
+2
+The function `argon2()' hashes a password using the Argon2id password hashing algorithm. It is parametrized by three optional arguments:
+2
+
+2
+ * Time: This is the number of times the hash will get run. This defines the amount of computation required and, as a result, how long the function will take to complete.
+2
+ * Memory: This is how much RAM is reserved for hashing.
+2
+ * Parallelism: This is the number of CPU threads that will run in parallel.
+2
+
+2
+The salt for the password should, at minimum, be 16 bytes for password hashing. It is recommended to use the random_bytes() function.
+36
+5
+4
+3
+2
+Syntax:   argon2_verify (STR <hash>, STR <password>)  => INT
+2
+
+2
+Compares <password> to the previously hashed <hash>. Returns 1 if the two match or 0 if they don't.
+36
+5
+4
+8
+2
+Syntax:  string_hmac (STR text, STR key [, STR algo [, binary]])
+2
+         binary_hmac (STR bin-string, STR key [, STR algo [, binary]])
+2
+
+2
+Returns a string encoding the result of applying the HMAC-SHA256 cryptographically secure HMAC function to the contents of the string text or the binary string bin-string with the specified secret key. If algo is provided, it specifies the hashing algorithm to use. Currently, only "SHA1" and "SHA256" are supported. If binary is provided and true, the result is in MOO binary string format; by default the result is a hexidecimal string.
+2
+
+2
+All cryptographically secure HMACs have the property that, if string_hmac(x, a) == string_hmac(y, b) then, almost certainly, equal(x, y) and furthermore, equal(a, b)
+2
+
+2
+ This can be useful, for example, in applications that need to verify both the integrity of the message (the text) and the authenticity of the sender (as demonstrated by the possession of the secret key).
+36
+5
+4
+16
+2
+Syntax: chparent (OBJ object, OBJ new-parent)    => NONE
+2
+        chparents (OBJ object, LIST new-parents) => NONE
+2
+
+2
+chparent  -- Changes the parent of object to be new-parent.
+2
+chparents -- Changes the parent of object to be new-parents.
+2
+
+2
+If object is not valid, or if new-parent is neither valid nor equal to #-1, then E_INVARG is raised. If the programmer is neither a wizard or the owner of object, or if new-parent is not fertile (i.e., its f bit is not set) and the programmer is neither the owner of new-parent nor a wizard, then E_PERM is raised. If new-parent is equal to object or one of its current ancestors, E_RECMOVE is raised. If object or one of its descendants defines a property with the same name as one defined either on new-parent or on one of its ancestors, then E_INVARG is raised.
+2
+
+2
+Changing an object's parent can have the effect of removing some properties from and adding some other properties to that object and all of its descendants (i.e., its children and its children's children, etc.). Let common be the nearest ancestor that object and new-parent have in common before the parent of object is changed. Then all properties defined by ancestors of object under common (that is, those ancestors of object that are in turn descendants of common) are removed from object and all of its descendants. All properties defined by new-parent or its ancestors under common are added to object and all of its descendants. As with create(), the newly-added properties are given the same permission bits as they have on new-parent, the owner of each added property is either the owner of the object it's added to (if the c permissions bit is set) or the owner of that property on new-parent, and the value of each added property is clear; see the description of the built-in function clear_property() for details. All properties that are not removed or added in the reparenting process are completely unchanged.
+2
+
+2
+If new-parent is equal to #-1, then object is given no parent at all; it becomes a new root of the parent/child hierarchy. In this case, all formerly inherited properties on object are simply removed.
+2
+
+2
+If new-parents is equal to {}, then object is given no parent at all; it becomes a new root of the parent/child hierarchy. In this case, all formerly inherited properties on object are simply removed.
+2
+
+2
+Warning: On the subject of multiple inheritance, the author (Slither) thinks you should completely avoid it. Prefer composition over inheritance.
+2
+
+36
+5
+4
+2
+2
+*forward*
+2
+chparent()
+36
+5
+4
+4
+2
+Syntax:  chr(INT <arg>, ...)  => STR
+2
+
+2
+This function translates integers into ASCII characters. Each argument must be an integer between 0 and 255.
+2
+If the programmer is not a wizard, and integers less than 32 are provided, E_INVARG is raised. This prevents control characters or newlines from being written to the database file by non-trusted individuals.
+36
+5
+4
+3
+2
+Syntax:  clear_ancestor_cache()   => none
+2
+
+2
+The ancestor cache contains a quick lookup of all of an object's ancestors which aids in expediant property lookups. This is an experimental feature and, as such, you may find that something has gone wrong. If that's that case, this function will completely clear the cache and it will be rebuilt as-needed.
+36
+5
+4
+20
+2
+Syntax:  connection_info (OBJ <connection>)   => LIST
+2
+
+2
+Returns a MAP of network connection information for <connection>. At the time of writing, the following information is returned:
+2
+
+2
+destination_address: The hostname of the connection. For incoming connections, this is the hostname of the connected user.
+2
+                     For outbound connections, this is the hostname of the outbound connection's destination.
+2
+
+2
+destination_ip:      The unresolved numeric IP address of the connection.
+2
+
+2
+destination_port:    For incoming connections, this is the local port used to make the connection.
+2
+                     For outbound connections, this is the port the connection was made to.
+2
+
+2
+source_address:      This is the hostname of the interface an incoming connection was made on. For outbound connections, this value is meaningless.
+2
+
+2
+source_ip:           The unresolved numeric IP address of the interface a connection was made on. For outbound connections, this value is meaningless.
+2
+
+2
+source_port:         The local port a connection connected to. For outbound connections, this value is meaningless.
+2
+
+2
+protocol:            Describes the protocol used to make the connection. At the time of writing, this could be IPv4 or IPv6.
+2
+		       
+36
+5
+4
+29
+2
+Syntax:  connection_name (OBJ <player>, [INT method])   => STR
+2
+
+2
+When provided just a player object this function only returns obj's hostname (e.g. 1-2-3-6.someplace.com). An optional argument allows you to specify 1 if you want a numeric IP address, or 2 if you want to return the legacy connection_name string.
+2
+
+2
+Warning: If you are using a LambdaMOO core, this is a semi-breaking change. You'll want to update any code on your server that runs connection_name to pass in the argument for returning the legacy connection_name string if you want things to work exactly the same.
+2
+
+2
+If the programmer is not a wizard and not player, then E_PERM is raised. If player is not currently connected, then E_INVARG is raised.
+2
+
+2
+Legacy Connection String Information:
+2
+
+2
+For the TCP/IP networking configurations, for in-bound connections, the string has the form:
+2
+
+2
+"port lport from host, port port"
+2
+
+2
+where lport is the decimal TCP listening port on which the connection arrived, host is either the name or decimal TCP address of the host from which the player is connected, and port is the decimal TCP port of the connection on that host.
+2
+
+2
+For outbound TCP/IP connections, the string has the form
+2
+
+2
+"port lport to host, port port"
+2
+
+2
+where lport is the decimal local TCP port number from which the connection originated, host is either the name or decimal TCP address of the host to which the connection was opened, and port is the decimal TCP port of the connection on that host.
+2
+
+2
+For the System V 'local' networking configuration, the string is the UNIX login name of the connecting user or, if no such name can be found, something of the form:
+2
+
+2
+"User #number"
+2
+
+2
+where number is a UNIX numeric user ID.
+2
+
+2
+For the other networking configurations, the string is the same for all connections and, thus, useless.
+36
+5
+4
+9
+2
+Syntax:  connection_name_lookup (OBJ <connection> [, INT record_result])   => STR
+2
+
+2
+This function performs a DNS name lookup on connection's IP address. If a hostname can't be resolved, the function simply returns the numeric IP address. Otherwise, it will return the resolved hostname.
+2
+
+2
+If record_result is true, the resolved hostname will be saved with the connection and will overwrite it's existing 'connection_name()'. This means that you can call 'connection_name_lookup()' a single time when a connection is created and then continue to use 'connection_name()' as you always have in the past.
+2
+
+2
+This function is primarily intended for use when the 'NO_NAME_LOOKUP' server option is set. Barring temporarily failures in your nameserver, very little will be gained by calling this when the server is performing DNS name lookups for you.
+2
+
+2
+NOTE: This function runs in a separate thread. While this is good for performance (long lookups won't lock your MOO like traditional pre-2.6.0 name lookups), it also means it will require slightly more work to create an entirely in-database DNS lookup solution. Because it explicitly suspends, you won't be able to use it in 'do_login_command()' without also using the 'switch_player()' function. For an example of how this can work, see '#0:do_login_command()' in ToastCore.
+36
+5
+4
+31
+2
+Syntax: create (obj parent [, obj owner] [, int anon-flag] [, list init-args])   => OBJ
+2
+        create (list parents [, obj owner] [, int anon-flag] [, list init-args]) => OBJ
+2
+
+2
+Creates and returns a new object whose parents are parents (or whose parent is parent) and whose owner is as described below. If any of the given parents are not valid, or if the given parent is neither valid nor #-1, then E_INVARG is raised. The given parents objects must be valid and must be usable as a parent (i.e., their a or f bits must be true) or else the programmer must own parents or be a wizard; otherwise E_PERM is raised. Futhermore, if anon-flag is true then a must be true; and, if anon-flag is false or not present, then f must be true. Otherwise, E_PERM is raised unless the programmer owns parents or is a wizard. E_PERM is also raised if owner is provided and not the same as the programmer, unless the programmer is a wizard.
+2
+
+2
+After the new object is created, its initialize verb, if any, is called. If init-args were given, they are passed as args to initialize. The new object is assigned the least non-negative object number that has not yet been used for a created object. Note that no object number is ever reused, even if the object with that number is recycled.
+2
+
+2
+    Note: This is not strictly true, especially if you are using ToastCore and the $recycler, which is a great idea. If you don't, you end up with extremely high object numbers. However, if you plan on reusing object numbers you need to consider this carefully in your code. You do not want to include object numbers in your code if this is the case, as object numbers could change. Use corified references instead (IE: @prop #0.my_object #objnum allows you to use $my_object in your code. If the object number ever changes, you can change the reference without updating all of your code.)
+2
+
+2
+If anon-flag is false or not present, the new object is a permanent object and is assigned the least non-negative object number that has not yet been used for a created object. Note that no object number is ever reused, even if the object with that number is recycled.
+2
+
+2
+If anon-flag is true, the new object is an anonymous object and is not assigned an object number. Anonymous objects are automatically recycled when they are no longer used.
+2
+
+2
+The owner of the new object is either the programmer (if owner is not provided), the new object itself (if owner was given and is invalid, or owner (otherwise).
+2
+
+2
+The other built-in properties of the new object are initialized as follows:
+2
+
+2
+name         ""
+2
+location     #-1
+2
+contents     {}
+2
+programmer   0
+2
+wizard       0
+2
+r            0
+2
+w            0
+2
+f            0
+2
+
+2
+The function is_player() returns false for newly created objects.
+2
+
+2
+In addition, the new object inherits all of the other properties on its parents. These properties have the same permission bits as on the parents. If the c permissions bit is set, then the owner of the property on the new object is the same as the owner of the new object itself; otherwise, the owner of the property on the new object is the same as that on the parent. The initial value of every inherited property is clear; see the description of the built-in function clear_property() for details.
+2
+
+2
+If the intended owner of the new object has a property named ownership_quota and the value of that property is an integer, then create() treats that value as a quota. If the quota is less than or equal to zero, then the quota is considered to be exhausted and create() raises E_QUOTA instead of creating an object. Otherwise, the quota is decremented and stored back into the ownership_quota property as a part of the creation of the new object.
+36
+5
+4
+15
+2
+Syntax: crypt (STR text [, STR salt])
+2
+
+2
+Encrypts (hashes) the given text using the standard UNIX encryption method. If provided, salt should be a string at least two characters long, and it may dictate a specific algorithm to use. By default, crypt uses the original, now insecure, DES algorithm. Stunt specifically includes the BCrypt algorithm (identified by salts that start with "$2a$"), and may include MD5, SHA256, and SHA512 algorithms depending on the libraries used to build the server. The salt used is returned as the first part of the resulting encrypted string.
+2
+
+2
+Aside from the possibly-random input in the salt, the encryption algorithms are entirely deterministic. In particular, you can test whether or not a given string is the same as the one used to produce a given piece of encrypted text; simply extract the salt from the front of the encrypted text and pass the candidate string and the salt to crypt(). If the result is identical to the given encrypted text, then youve got a match.
+2
+
+2
+crypt("foobar", "iB")                               =>    "iBhNpg2tYbVjw"
+2
+crypt("foobar", "$1$MAX54zGo")                      =>    "$1$MAX54zGo$UKU7XRUEEiKlB.qScC1SX0"
+2
+crypt("foobar", "$5$s7z5qpeOGaZb")                  =>    "$5$s7z5qpeOGaZb$xkxjnDdRGlPaP7Z ... .pgk/pXcdLpeVCYh0uL9"
+2
+crypt("foobar", "$5$rounds=2000$5trdp5JBreEM")      =>    "$5$rounds=2000$5trdp5JBreEM$Imi ... ckZPoh7APC0Mo6nPeCZ3"
+2
+crypt("foobar", "$6$JR1vVUSVfqQhf2yD")              =>    "$6$JR1vVUSVfqQhf2yD$/4vyLFcuPTz ... qI0w8m8az076yMTdl0h."
+2
+crypt("foobar", "$6$rounds=5000$hT0gxavqSl0L")      =>    "$6$rounds=5000$hT0gxavqSl0L$9/Y ... zpCATppeiBaDxqIbAN7/"
+2
+crypt("foobar", "$2a$08$dHkE1lESV9KrErGhhJTxc.")    =>    "$2a$08$dHkE1lESV9KrErGhhJTxc.QnrW/bHp8mmBl5vxGVUcsbjo3gcKlf6"
+2
+
+2
+Note: The specific set of supported algorithms depends on the libraries used to build the server. Only the BCrypt algorithm, which is distributed with the server source code, is guaranteed to exist. BCrypt is currently mature and well tested, and is recommended for new development.
+36
+5
+4
+7
+2
+Syntax:	  curl(STR <url> [, INT <include_headers>, INT timeout]) => STR
+2
+
+2
+The curl builtin will download a webpage and return it as a string. If <include_headers> is true, the HTTP headers will be included in the return string.
+2
+
+2
+It's worth noting that the data you get back will be binary encoded. In particular, you will find that line breaks appear as ~0A. You can easily convert a page into a list by passing the return string into the decode_binary() function.
+2
+
+2
+CURL_TIMEOUT is defined in options.h to specify the maximum amount of time a CURL request can take before failing. For special circumstances, you can specify a longer or shorter timeout using the third argument of curl().
+36
+5
+4
+6
+2
+Syntax:  decode_base64 (STR base64 [, INT safe]) => STR
+2
+
+2
+Returns the binary string representation of the supplied Base64 encoded string argument. Raises E_INVARG if base64 is not a properly-formed Base64 string. If safe is provide and is true, a URL-safe version of Base64 is used (see RFC4648).
+2
+
+2
+decode_base64("AAEC")       =>   "~00~01~02"
+2
+decode_base64("AAE", 1)     =>   "~00~01"
+36
+5
+4
+5
+2
+Syntax:  delete_verb (OBJ <object>, STR|INT <verb-name>)   => NONE
+2
+
+2
+BE AWARE: verb-name can be the string name of the verb OR the index from verbs()
+2
+
+2
+Removes the verb named <verb-name> from the given <object>.  If <object> is not valid, then E_INVARG is raised.  If the programmer does not have write permission on <object>, then E_PERM is raised. If <object> does not define a verb named <verb-name>, then E_VERBNF is raised.
+36
+5
+4
+3
+2
+Syntax:  descendants(OBJ <object> [, INT <full>])   => LIST
+2
+
+2
+Return a list of all nested children of <object>. If <full> is true, <object> will be included in the list.
+36
+5
+4
+7
+2
+Syntax:  disassemble (OBJ object, STR|INT verb-desc)   => LIST
+2
+
+2
+BE AWARE: verb-name can be the string name of the verb OR the index from verbs()
+2
+
+2
+Returns a (longish) list of strings giving a listing of the server's internal "compiled" form of the verb as specified by <verb-desc> on <object>. This format is not documented and may indeed change from release to release, but some programmers may nonetheless find the output of `disassemble()' interesting to peruse as a way to gain a deeper appreciation of how the server works.
+2
+
+2
+If <object> is not valid, then E_INVARG is raised. If <object> does not define a verb as specified by <verb-desc>, then E_VERBNF is raised. If the programmer does not have read permission on the verb in question, then disassemble() raises E_PERM.
+36
+5
+4
+6
+2
+Syntax:  encode_base64 (STR binary [, INT safe]) => STR
+2
+
+2
+Returns the Base64 encoded string representation of the supplied binary string argument. Raises E_INVARG if binary is not a properly-formed binary string. If safe is provide and is true, a URL-safe version of Base64 is used (see RFC4648).
+2
+
+2
+encode_base64("~00~01~02")     =>   "AAEC"
+2
+encode_base64("~00~01", 1)     =>   "AAE"
+36
+5
+4
+27
+2
+Syntax: exec (LIST command[, STR input][, LIST environment variables])
+2
+
+2
+Asynchronously executes the specified external executable, optionally sending input. Returns the process return code, output and error. If the programmer is not a wizard, then E_PERM is raised.
+2
+
+2
+The first argument must be a list of strings, or E_INVARG is raised. The first string is the path to the executable and is required. The rest are command line arguments passed to the executable.
+2
+
+2
+The path to the executable may not start with a slash (/) or dot-dot (..), and it may not contain slash-dot (/.) or dot-slash (./), or E_INVARG is raised. If the specified executable does not exist or is not a regular file, E_INVARG is raised.
+2
+
+2
+If the string input is present, it is written to standard input of the executing process.
+2
+
+2
+Additionally, you can provide a list of environment variables to set in the shell.
+2
+
+2
+When the process exits, it returns a list of the form:
+2
+
+2
+{code, output, error}
+2
+
+2
+code is the integer process exit status or return code. output and error are strings of data that were written to the standard output and error of the process.
+2
+
+2
+The specified command is executed asynchronously. The function suspends the current task and allows other tasks to run until the command finishes. Tasks suspended this way can be killed with kill_task().
+2
+
+2
+The strings, input, output and error are all MOO binary strings.
+2
+
+2
+All external executables must reside in the executables directory.
+2
+
+2
+exec({"cat", "-?"})                                      {1, "", "cat: illegal option -- ?~0Ausage: cat [-benstuv] [file ...]~0A"}
+2
+exec({"cat"}, "foo")                                     {0, "foo", ""}
+2
+exec({"echo", "one", "two"})                             {0, "one two~0A", ""}
+36
+5
+4
+3
+2
+Syntax: exp (FLOAT x)
+2
+
+2
+Returns E (Eulers number) raised to the power of x. 
+36
+5
+4
+17
+2
+Syntax: explode(STR subject [, STR break [, INT include-sequential-occurrences]) => LIST
+2
+
+2
+Returns a list of substrings of subject that are separated by break. break defaults to a space.
+2
+
+2
+Only the first character of break is considered:
+2
+
+2
+explode("slither%is%wiz", "%")      => {"slither", "is", "wiz"}
+2
+explode("slither%is%%wiz", "%%")    => {"slither", "is", "wiz"}
+2
+
+2
+You can use include-sequential-occurrences to get back an empty string as part of your list if break appears multiple times with nothing between it, or there is a leading/trailing break in your string:
+2
+
+2
+explode("slither%is%%wiz", "%%", 1)  => {"slither", "is", "", "wiz"}
+2
+explode("slither%is%%wiz%", "%", 1)  => {"slither", "is", "", "wiz", ""}
+2
+explode("%slither%is%%wiz%", "%", 1) => {"", "slither", "is", "", "wiz", ""}
+2
+
+2
+Note: This can be used as a replacement for $string_utils:explode.
+2
+
+36
+5
+4
+6
+2
+Function: void file_chmod(STR filename, STR mode)
+2
+
+2
+  Attempts to set mode of a file using mode as an octal string of
+2
+  exactly three characters.
+2
+
+2
+  This is implemented using chmod().
+36
+5
+4
+5
+2
+ Function: void file_close(FHANDLE fh)
+2
+
+2
+  Closes the file associated with fh.
+2
+
+2
+  This is implemented using fclose().
+36
+5
+4
+6
+2
+Function: INT file_count_lines (FHANDLER fh)
+2
+
+2
+Count the lines in a file.
+2
+
+2
+
+2
+
+36
+5
+4
+5
+2
+Function: INT file_eof(FHANDLE fh)
+2
+
+2
+  Returns true if and only if fh's stream is positioned at EOF.
+2
+
+2
+  This is implemented using feof().
+36
+5
+4
+31
+2
+Function: LIST file_grep(FHANDLER fh, STR search [,?match_all = 0])
+2
+
+2
+Search for a string in a file.
+2
+
+2
+Assume we have a file `test.txt` with the contents:
+2
+
+2
+asdf asdf 11
+2
+11
+2
+112
+2
+
+2
+And we have an open file handler from running:
+2
+
+2
+;file_open("test.txt", "r-tn")
+2
+
+2
+If we were to execute a file grep:
+2
+
+2
+;file_grep(1, "11")
+2
+
+2
+We would get the first result:
+2
+
+2
+{{"asdf asdf 11", 1}}
+2
+
+2
+The resulting LIST is of the form {{STR match, INT line-number}}
+2
+
+2
+If you pass in the optional third argument
+2
+
+2
+;file_grep(1, "11", 1)
+2
+
+2
+we will receive all the matching results:
+2
+
+2
+{{"asdf asdf 11", 1}, {"11", 2}, {"112", 3}}
+36
+5
+4
+4
+2
+Function: LIST file_handles()
+2
+
+2
+Return a list of open files.
+2
+
+36
+5
+4
+13
+2
+Function: LIST file_list(STR pathname, [ANY detailed])
+2
+
+2
+  Attempts to list the contents of the given directory.  Returns a list
+2
+  of files in the directory.  If the detailed argument is provided and
+2
+  true, then the list contains detailed entries, otherwise it contains a
+2
+  simple list of names.
+2
+
+2
+  detailed entry:
+2
+    {STR filename, STR file type, STR file mode, INT file size}
+2
+  normal entry:
+2
+    STR filename
+2
+
+2
+  This is implemented using scandir().
+36
+5
+4
+5
+2
+Function: void file_mkdir(STR pathname)
+2
+
+2
+  Attempts to create the given directory.
+2
+
+2
+  This is implemented using mkdir().
+36
+5
+4
+5
+2
+ Function: STR file_mode(STR filename)
+2
+
+2
+  Returns octal mode for a file (e.g. "644").
+2
+
+2
+  This is implemented using stat().
+36
+5
+4
+5
+2
+Function: STR file_name(FHANDLE fh)
+2
+
+2
+  Returns the pathname originally associated with fh by file_open().
+2
+  This is not necessarily the file's current name if it was renamed or
+2
+  unlinked after the fh was opened.
+36
+5
+4
+47
+2
+ Function: FHANDLE file_open(STR pathname, STR mode)
+2
+
+2
+  Raises: E_INVARG if mode is not a valid mode, E_QUOTA if too many files are open.
+2
+  This opens a file specified by pathname and returns an FHANDLE for it.
+2
+  It ensures pathname is legal.  Mode is a string of characters indicating what mode the file is opened in. 
+2
+  The mode string is four characters.
+2
+
+2
+  The first character must be (r)ead, (w)rite, or (a)ppend.  The second must be '+' or '-'.  This modifies the previous argument.
+2
+
+2
+  o  r- opens the file for reading and fails if the file does not exist.
+2
+
+2
+  o  r+ opens the file for reading and writing and fails if the file
+2
+     does not exist.
+2
+
+2
+  o  w- opens the file for writing, truncating if it exists and creating
+2
+     if not.
+2
+
+2
+  o  w+ opens the file for reading and writing, truncating if it exists
+2
+     and creating if not.
+2
+
+2
+  o  a- opens a file for writing, creates it if it does not exist and
+2
+     positions the stream at the end of the file.
+2
+
+2
+  o  a+ opens the file for reading and writing, creates it if does not
+2
+     exist and positions the stream at the end of the file.
+2
+
+2
+     The third character is either (t)ext or (b)inary.  In text mode,
+2
+     data is written as-is from the MOO and data read in by the MOO is
+2
+     stripped of unprintable characters.  In binary mode, data is
+2
+     written filtered through the binary-string->raw-bytes conversion
+2
+     and data is read filtered through the raw-bytes->binary-string
+2
+     conversion.  For example, in text mode writing " 1B" means three
+2
+     bytes are written: ' ' Similarly, in text mode reading " 1B" means
+2
+     the characters ' ' '1' 'B' were present in the file.  In binary
+2
+     mode reading " 1B" means an ASCII ESC was in the file.  In text
+2
+     mode, reading an ESC from a file results in the ESC getting
+2
+     stripped.
+2
+
+2
+  It is not recommended that files containing unprintable ASCII  data be
+2
+  read in text mode, for obvious reasons.
+2
+
+2
+  The final character is either 'n' or 'f'.  If this character is 'f',
+2
+  whenever data is written to the file, the MOO will force it to finish
+2
+  writing to the physical disk before returning.  If it is 'n' then
+2
+  this won't happen.
+2
+
+2
+  This is implemented using fopen().
+36
+5
+4
+3
+2
+Function: STR file_openmode(FHANDLE fh)
+2
+
+2
+  Returns the mode the file associated with fh was opened in.
+36
+5
+4
+8
+2
+Function: STR file_read(FHANDLE fh, INT bytes)
+2
+
+2
+  Reads up to the specified number of bytes from the file and returns
+2
+  them.
+2
+
+2
+  Not recommended for use on files in text mode.
+2
+
+2
+  This is implemented using fread().
+36
+5
+4
+7
+2
+Function: STR file_readline(FHANDLE fh)
+2
+
+2
+  Reads the next line in the file and returns it (without the newline).
+2
+
+2
+  Not recommended for use on files in binary mode.
+2
+
+2
+  This is implemented using fgetc().
+36
+5
+4
+9
+2
+  Function: LIST file_readlines(FHANDLE fh, INT start, INT end)
+2
+
+2
+  Rewinds the file and then reads the specified lines from the file,
+2
+  returning them as a list of strings.  After this operation, the stream
+2
+  is positioned right after the last line read.
+2
+
+2
+  Not recommended for use on files in binary mode.
+2
+
+2
+  This is implemented using fgetc().
+36
+5
+4
+5
+2
+Function: void file_remove(STR pathname)
+2
+
+2
+  Attempts to remove the given file.
+2
+
+2
+  This is implemented using remove().
+36
+5
+4
+5
+2
+Function: void file_rename(STR oldpath, STR newpath)
+2
+
+2
+  Attempts to rename the oldpath to newpath.
+2
+
+2
+  This is implemented using rename().
+36
+5
+4
+5
+2
+Function: void file_rmdir(STR pathname)
+2
+
+2
+  Attempts to remove the given directory.
+2
+
+2
+  This is implemented using rmdir().
+36
+5
+4
+12
+2
+Function: void file_seek(FHANDLE fh, INT loc, STR whence)
+2
+
+2
+  Seeks to a particular location in a file.  whence is one of the
+2
+  strings:
+2
+
+2
+  o  "SEEK_SET" - seek to location relative to beginning
+2
+
+2
+  o  "SEEK_CUR" - seek to location relative to current
+2
+
+2
+  o  "SEEK_END" - seek to location relative to end
+2
+
+2
+  This is implemented using fseek().
+36
+5
+4
+16
+2
+ Function: void file_stat(STR pathname)
+2
+  Function: void file_stat(FHANDLE fh)
+2
+
+2
+  Returns the result of stat() (or fstat()) on the given file.
+2
+  Specifically a list as follows:
+2
+
+2
+  {file size in bytes, file type, file access mode, owner, group,
+2
+       last access, last modify, and last change}
+2
+
+2
+  owner and group are always the empty string.
+2
+
+2
+  It is recommended that the specific information functions file_size,
+2
+  file_type, file_mode, file_last_access, file_last_modify, and
+2
+  file_last_change be used instead.  In most cases only one of these
+2
+  elements is desired and in those cases there's no reason to make and
+2
+  free a list.
+36
+5
+4
+5
+2
+Function: INT file_tell(FHANDLE fh)
+2
+
+2
+  Returns position in file.
+2
+
+2
+  This is implemented using ftell().
+36
+5
+4
+6
+2
+Function: STR file_type(STR pathname)
+2
+
+2
+  Returns the type of the given pathname, one of "reg", "dir", "dev",
+2
+  "fifo", or "socket".
+2
+
+2
+  This is implemented using stat().
+36
+5
+4
+8
+2
+Function: INT file_write(FHANDLE fh, STR data)
+2
+
+2
+  Writes the specified data to the file.  Returns number of bytes
+2
+  written.
+2
+
+2
+  Not recommended for use on files in text mode.
+2
+
+2
+  This is implemented using fwrite().
+36
+5
+4
+7
+2
+  Function: void file_writeline(FHANDLE fh, STR line)
+2
+
+2
+  Writes the specified line to the file (adding a newline).
+2
+
+2
+  Not recommended for use on files in binary mode.
+2
+
+2
+  This is implemented using fputs()
+36
+5
+4
+20
+2
+Syntax:  finished_tasks ()   => LIST
+2
+
+2
+When enabled (via SAVE_FINISHED_TASKS in options.h), the server will keep track of the execution time of every task that passes through the interpreter. This data is then made available to the database in two ways.
+2
+
+2
+The first is the finished_tasks() function. This function will return a list of maps of the last several finished tasks (configurable via $server_options.finished_tasks_limit) with the following information:
+2
+
+2
+
+2
+Foreground:    True if this was a foreground task.
+2
+Fullverb:      The full name of the verb being executed.
+2
+Object:        The object the verb is defined on.
+2
+Player:        The result of the 'player' variable.
+2
+Programmer:    The player whose permissions the verb is running as.
+2
+Receiver:      The object that received the verb invocation. In the case of primitives, this is the primitive's object handler.
+2
+Suspended:     True if the task suspended instead of finishing.
+2
+This:          The result of the 'this' variable.
+2
+Time:          The total time the task took inside the interpreter.
+2
+Verb:          The verb name used to invoke the task.
+2
+
+2
+
+2
+The second is via the $handle_lagging_task verb. When the execution threshold defined in $server_options.task_lag_threshold is exceeded, the server will write an entry to the log file and call the $handle_lagging_task verb with the call stack of the task as well as the execution time.
+36
+5
+4
+3
+2
+Syntax:  frandom (FLOAT <mod1> [, FLOAT <mod2>)   => FLOAT
+2
+
+2
+If only one argument is given, a floating point number is chosen randomly from the range `[1.0..<mod1>]` and returned. If two arguments are given, a floating point number is randomly chosen from the range `[<mod1>..<mod2>]`. 
+36
+5
+4
+7
+2
+Syntax:  ftime ([INT monotonic])   => FLOAT
+2
+
+2
+Returns the current time represented as the number of seconds and nanoseconds that have elapsed since midnight on 1 January 1970, Greenwich Mean Time.
+2
+
+2
+If the <monotonic> argument is supplied and set to 1, the time returned will be monotonic. This means that will you will always get how much time has elapsed from an arbitrary, fixed point in the past that is unaffected by clock skew or other changes in the wall-clock. This is useful for benchmarking how long an operation takes, as it's unaffected by the actual system time.
+2
+
+2
+The general rule of thumb is that you should use ftime() with no arguments for telling time and ftime() with the monotonic clock argument for measuring the passage of time.
+36
+5
+4
+59
+2
+Syntax: generate_json (ANY value [, STR mode])
+2
+
+2
+Returns the JSON representation of the MOO value.
+2
+
+2
+MOO supports a richer set of values than JSON allows. The optional mode specifies how this function handles the conversion of MOO values into their JSON representation.
+2
+
+2
+The common subset mode, specified by the literal mode string "common-subset", is the default conversion mode. In this mode, only the common subset of types (strings and numbers) are translated with fidelity between MOO types and JSON types. All other types are treated as alternative representations of the string type. This mode is useful for integration with non-MOO applications.
+2
+
+2
+The embedded types mode, specified by the literal mode string "embedded-types", adds type information. Specifically, values other than strings and numbers, which carry implicit type information, are converted into strings with type information appended. The converted string consists of the string representation of the value (as if tostr() were applied) followed by the pipe (|) character and the type. This mode is useful for serializing/deserializing objects and collections of MOO values.
+2
+
+2
+generate_json([])                                           =>   "{}"
+2
+generate_json(["foo" -> "bar"])                             =>   "{\"foo\":\"bar\"}"
+2
+generate_json(["foo" -> "bar"], "common-subset")            =>   "{\"foo\":\"bar\"}"
+2
+generate_json(["foo" -> "bar"], "embedded-types")           =>   "{\"foo\":\"bar\"}"
+2
+generate_json(["foo" -> 1.1])                               =>   "{\"foo\":1.1}"
+2
+generate_json(["foo" -> 1.1], "common-subset")              =>   "{\"foo\":1.1}"
+2
+generate_json(["foo" -> 1.1], "embedded-types")             =>   "{\"foo\":1.1}"
+2
+generate_json(["foo" -> #1])                                =>   "{\"foo\":\"#1\"}"
+2
+generate_json(["foo" -> #1], "common-subset")               =>   "{\"foo\":\"#1\"}"
+2
+generate_json(["foo" -> #1], "embedded-types")              =>   "{\"foo\":\"#1|obj\"}"
+2
+generate_json(["foo" -> E_PERM])                            =>   "{\"foo\":\"E_PERM\"}"
+2
+generate_json(["foo" -> E_PERM], "common-subset")           =>   "{\"foo\":\"E_PERM\"}"
+2
+generate_json(["foo" -> E_PERM], "embedded-types")          =>   "{\"foo\":\"E_PERM|err\"}"
+2
+
+2
+JSON keys must be strings, so regardless of the mode, the key will be converted to a string value.
+2
+
+2
+generate_json([1 -> 2])                                     =>   "{\"1\":2}"
+2
+generate_json([1 -> 2], "common-subset")                    =>   "{\"1\":2}"
+2
+generate_json([1 -> 2], "embedded-types")                   =>   "{\"1|int\":2}"
+2
+generate_json([#1 -> 2], "embedded-types")                  =>   "{\"#1|obj\":2}"
+2
+
+2
+tion: value parse_json (str json [, str mode])
+2
+
+2
+Returns the MOO value representation of the JSON string. If the specified string is not valid JSON, E_INVARG is raised.
+2
+
+2
+The optional mode specifies how this function handles conversion of MOO values into their JSON representation. The options are the same as for generate_json().
+2
+
+2
+parse_json("{}")                                            =>   []
+2
+parse_json("{\"foo\":\"bar\"}")                             =>   ["foo" -> "bar"]
+2
+parse_json("{\"foo\":\"bar\"}", "common-subset")            =>   ["foo" -> "bar"]
+2
+parse_json("{\"foo\":\"bar\"}", "embedded-types")           =>   ["foo" -> "bar"]
+2
+parse_json("{\"foo\":1.1}")                                 =>   ["foo" -> 1.1]
+2
+parse_json("{\"foo\":1.1}", "common-subset")                =>   ["foo" -> 1.1]
+2
+parse_json("{\"foo\":1.1}", "embedded-types")               =>   ["foo" -> 1.1]
+2
+parse_json("{\"foo\":\"#1\"}")                              =>   ["foo" -> "#1"]
+2
+parse_json("{\"foo\":\"#1\"}", "common-subset")             =>   ["foo" -> "#1"]
+2
+parse_json("{\"foo\":\"#1|obj\"}", "embedded-types")        =>   ["foo" -> #1]
+2
+parse_json("{\"foo\":\"E_PERM\"}")                          =>   ["foo" -> "E_PERM"]
+2
+parse_json("{\"foo\":\"E_PERM\"}", "common-subset")         =>   ["foo" -> "E_PERM"]
+2
+parse_json("{\"foo\":\"E_PERM|err\"}", "embedded-types")    =>   ["foo" -> E_PERM]
+2
+
+2
+In embedded types mode, key values can be converted to MOO types by appending type information. The full set of supported types are obj, str, err, float and int.
+2
+
+2
+parse_json("{\"1\":2}")                                     =>   ["1" -> 2]
+2
+parse_json("{\"1\":2}", "common-subset")                    =>   ["1" -> 2]
+2
+parse_json("{\"1|int\":2}", "embedded-types")               =>   [1 -> 2]
+2
+parse_json("{\"#1|obj\":2}", "embedded-types")              =>   [#1 -> 2]
+2
+
+2
+JSON defines types that MOO (currently) does not support, such as boolean true and false, and null. These values are always converted to the strings "true", "false" and "null". 
+36
+5
+4
+6
+2
+Syntax: getenv (STR name)
+2
+
+2
+Returns the value of the named environment variable. If no such environment variable exists, 0 is returned. If the programmer is not a wizard, then E_PERM is raised.
+2
+
+2
+getenv("HOME")       =>  "/home/foobar"
+2
+getenv("XYZZY")      =>   0
+36
+5
+4
+23
+2
+Syntax: index (STR str1, STR str2, [, INT case-matters [, INT skip])  => INT
+2
+        rindex (STR str1, STR str2, [, INT case-matters [, INT skip]) => INT
+2
+
+2
+index -- Returns the index of the first character of the first occurrence of str2 in str1. 
+2
+
+2
+rindex -- Returns the index of the first character of the last occurrence of str2 in str1.
+2
+
+2
+These functions will return zero if str2 does not occur in str1 at all.
+2
+
+2
+By default the search for an occurrence of str2 is done while ignoring the upper/lower case distinction. If case-matters is provided and true, then case is treated as significant in all comparisons.
+2
+
+2
+By default the search starts at the beginning (end) of str1. If skip is provided, the search skips the first (last) skip characters and starts at an offset from the beginning (end) of str1. The skip must be a positive integer for index() and a negative integer for rindex(). The default value of skip is 0 (skip no characters).
+2
+
+2
+index("foobar", "o")               2
+2
+index("foobar", "o", 0, 0)         2
+2
+index("foobar", "o", 0, 2)         1
+2
+rindex("foobar", "o")              3
+2
+rindex("foobar", "o", 0, 0)        3
+2
+rindex("foobar", "o", 0, -4)       2
+2
+index("foobar", "x")               0
+2
+index("foobar", "oba")             3
+2
+index("Foobar", "foo", 1)          0
+2
+
+36
+5
+4
+11
+2
+Syntax:  isa(OBJ <object>, OBJ <parent>)
+2
+         isa(OBJ <object>, LIST <parent list> [, INT <return_parent>])
+2
+
+2
+Returns true if <object> is a descendant of <parent>, otherwise false.
+2
+
+2
+If a third argument is present and true, the return value will be the first parent that object1 descends from in the <parent list>.
+2
+
+2
+isa(#2, $wiz)                           => 1
+2
+isa(#2, {$thing, $wiz, $container})     => 1
+2
+isa(#2, {$thing, $wiz, $container}, 1)  => #57 (generic wizard)
+2
+isa(#2, {$thing, $room, $container}, 1) => #-1 <$nothing>
+36
+5
+4
+3
+2
+Syntax:  locate_by_name (STR <object name>)   => LIST
+2
+
+2
+This function searches every object in the database for those containing <object name> in their .name property.
+36
+5
+4
+14
+2
+Syntax: locations(OBJ object [, OBJ stop [, INT is-parent]]) => LIST
+2
+
+2
+Recursively build a list of an object's location, its location's location, and so forth until finally hitting $nothing.
+2
+
+2
+Example:
+2
+
+2
+locations(me) => {#20381, #443, #104735}
+2
+
+2
+$string_utils:title_list(locations(me)) => "\"Butterknife Ballet\" Control Room FelElk, the one-person celestial birther \"Butterknife Ballet\", and Uncharted Space: Empty Space"
+2
+
+2
+If stop is in the locations found, it will stop before there and return the list (exclusive of the stop object).
+2
+
+2
+If the third argument is true, stop is assumed to be a PARENT. And if any of your locations are children of that parent, it stops there.
+2
+
+36
+5
+4
+2
+2
+*forward*
+2
+verb_cache_stats()
+36
+5
+4
+6
+2
+Syntax: mapdelete (MAP map, ANY key)
+2
+
+2
+Returns a copy of map with the value corresponding to key removed. If key is not a valid key, then E_RANGE is raised.
+2
+
+2
+x = ["foo" -> 1, "bar" -> 2, "baz" -> 3];
+2
+mapdelete(x, "bar")       =>  ["baz" -> 3, "foo" -> 1]
+36
+5
+4
+3
+2
+Syntax: maphaskey (MAP <map>, STR <key>)   => INT
+2
+
+2
+Returns 1 if <key> exists in <map>. When not dealing with hundreds of keys, this function is faster (and easier to read) than something like: !(x in mapkeys(map))
+36
+5
+4
+6
+2
+Syntax: mapkeys (MAP map)
+2
+
+2
+Returns the keys of the elements of map.
+2
+
+2
+x = ["foo" -> 1, "bar" -> 2, "baz" -> 3];
+2
+mapkeys(x)    =>  {"bar", "baz", "foo"}
+36
+5
+4
+13
+2
+Syntax: mapvalues (MAP <map> [, ... STR <key>])
+2
+
+2
+Returns the values of the elements of map.
+2
+
+2
+If you only want the values of specific keys in the map, you can specify them as optional arguments. See examples below.
+2
+
+2
+Examples:  
+2
+x = ["foo" -> 1, "bar" -> 2, "baz" -> 3];
+2
+
+2
+;mapvalues(x)
+2
+=>  {2, 3, 1}
+2
+;mapvalues(x, "foo", "baz")
+2
+=> {1, 3}
+36
+5
+4
+5
+2
+Syntax:  memory_usage ()   => LIST
+2
+
+2
+Return statistics concerning the server's consumption of system memory. The result is a list in the following format:
+2
+
+2
+{total memory used, resident set size, shared pages, text, data + stack}
+36
+5
+4
+5
+2
+Syntax: new_waif() => WAIF
+2
+
+2
+The new_waif() builtin creates a new WAIF whose class is the calling object and whose owner is the perms of the calling verb.
+2
+
+2
+This wizardly version causes it to be owned by the caller of the verb.
+36
+5
+4
+3
+2
+Syntax:  next_recycled_object(OBJ <start>)  => OBJ | INT
+2
+
+2
+Return the lowest invalid object. If <start> is specified, no object lower than <start> will be considered. If there are no invalid objects, this function will return 0.
+36
+5
+4
+7
+2
+Syntax:  occupants(LIST <objects> [, OBJ | LIST <parent>, INT <player flag set?>])   => LIST
+2
+
+2
+Iterates through the list of <objects> and returns those matching a specific set of criteria:
+2
+
+2
+1. If only <objects> is specified, the occupants function will return a list of objects with the player flag set.
+2
+2. If the <parent> argument is specified, a list of <objects> descending from <parent> will be returned. If <parent> is a list, <object> must descend from at least one object in the list.
+2
+3. If both <parent> and <player flag set> are specified, occupants will check both that an object is descended from <parent> and also has the player flag set.
+36
+5
+4
+3
+2
+Syntax:  owned_objects(OBJ owner)  => LIST
+2
+
+2
+Returns a list of all objects in the database owned by <owner>. Ownership is defined by the value of .owner on the object.
+36
+5
+4
+3
+2
+Syntax:  panic([STR <message>])
+2
+
+2
+Unceremoniously shut down the server, mimicking the behavior of a fatal error. The database will NOT be dumped to the file specified when starting the server. A new file will be created with the name of your database appended with .PANIC.
+36
+5
+4
+5
+2
+Syntax: parent (OBJ object) => OBJ
+2
+        parents (OBJ object) => LIST
+2
+
+2
+parent -- return the parent of object
+2
+parents -- return the parents of object
+36
+5
+4
+2
+2
+*forward*
+2
+parent()
+36
+5
+4
+28
+2
+Syntax: parse_json (STR json [, STR mode])
+2
+
+2
+Returns the MOO value representation of the JSON string. If the specified string is not valid JSON, E_INVARG is raised.
+2
+
+2
+The optional mode specifies how this function handles conversion of MOO values into their JSON representation. The options are the same as for generate_json().
+2
+
+2
+parse_json("{}")                                            =>   []
+2
+parse_json("{\"foo\":\"bar\"}")                             =>   ["foo" -> "bar"]
+2
+parse_json("{\"foo\":\"bar\"}", "common-subset")            =>   ["foo" -> "bar"]
+2
+parse_json("{\"foo\":\"bar\"}", "embedded-types")           =>   ["foo" -> "bar"]
+2
+parse_json("{\"foo\":1.1}")                                 =>   ["foo" -> 1.1]
+2
+parse_json("{\"foo\":1.1}", "common-subset")                =>   ["foo" -> 1.1]
+2
+parse_json("{\"foo\":1.1}", "embedded-types")               =>   ["foo" -> 1.1]
+2
+parse_json("{\"foo\":\"#1\"}")                              =>   ["foo" -> "#1"]
+2
+parse_json("{\"foo\":\"#1\"}", "common-subset")             =>   ["foo" -> "#1"]
+2
+parse_json("{\"foo\":\"#1|obj\"}", "embedded-types")        =>   ["foo" -> #1]
+2
+parse_json("{\"foo\":\"E_PERM\"}")                          =>   ["foo" -> "E_PERM"]
+2
+parse_json("{\"foo\":\"E_PERM\"}", "common-subset")         =>   ["foo" -> "E_PERM"]
+2
+parse_json("{\"foo\":\"E_PERM|err\"}", "embedded-types")    =>   ["foo" -> E_PERM]
+2
+
+2
+In embedded types mode, key values can be converted to MOO types by appending type information. The full set of supported types are obj, str, err, float and int.
+2
+
+2
+parse_json("{\"1\":2}")                                     =>   ["1" -> 2]
+2
+parse_json("{\"1\":2}", "common-subset")                    =>   ["1" -> 2]
+2
+parse_json("{\"1|int\":2}", "embedded-types")               =>   [1 -> 2]
+2
+parse_json("{\"#1|obj\":2}", "embedded-types")              =>   [#1 -> 2]
+2
+
+2
+JSON defines types that MOO (currently) does not support, such as boolean true and false, and null. These values are always converted to the strings "true", "false" and "null". 
+36
+5
+4
+17
+2
+Syntax:	  pcre_match (STR <subject>, STR <pattern> [, <case matters> 0] [, <repeat until no matches> 1]	=> LIST
+2
+
+2
+The function `pcre_match()' searches <subject> for <pattern> using the Perl Compatible Regular Expressions library. The return value is a list of maps containing each match. Each returned map will have a key which corresponds to either a named capture group or the number of the capture group being matched. The full match is always found in the key "0". The value of each key will be another map containing the keys 'match' and 'position'. Match corresponds to the text that was matched and position will return the indices of the substring within <subject>.
+2
+
+2
+If <repeat until no matches> is 1, the expression will continue to be evaluated until no further matches can be found or it exhausts the iteration limit. This defaults to 1.
+2
+
+2
+Additionally, wizards can control how many iterations of the loop are possible by adding a property to $server_options. $server_options.pcre_match_max_iterations is the maximum number of loops allowed before giving up and allowing other tasks to proceed. CAUTION: It's recommended to keep this value fairly low. The default value is 1000. The minimum value is 100.
+2
+
+2
+Examples:
+2
+
+2
+Extract dates from a string:
+2
+pcre_match("09/12/1999 other random text 01/21/1952", "([0-9]{2})/([0-9]{2})/([0-9]{4})")
+2
+=> {["0" -> ["match" -> "09/12/1999", "position" -> {1, 10}], "1" -> ["match" -> "09", "position" -> {1, 2}], "2" -> ["match" -> "12", "position" -> {4, 5}], "3" -> ["match" -> "1999", "position" -> {7, 10}]], ["0" -> ["match" -> "01/21/1952", "position" -> {30, 39}], "1" -> ["match" -> "01", "position" -> {30, 31}], "2" -> ["match" -> "21", "position" -> {33, 34}], "3" -> ["match" -> "1952", "position" -> {36, 39}]]}
+2
+
+2
+Explode a string (albeit a contrived example):
+2
+;;ret = {}; for x in (pcre_match("This is a string of words, with punctuation, that should be exploded. By space. --zippy--", "[a-zA-Z]+", 0, 1)) ret = {@ret, x["0"]["match"]}; endfor return ret;
+2
+=> {"This", "is", "a", "string", "of", "words", "with", "punctuation", "that", "should", "be", "exploded", "By", "space", "zippy"}
+36
+5
+4
+28
+2
+Syntax:   pcre_replace (STR <subject>, STR <pattern>) => STR
+2
+
+2
+The function `pcre_replace()' replaces <subject> with replacements found in <pattern> using the Perl Compatible Regular Expressions library.
+2
+
+2
+The pattern string has a specific format that must be followed, which should be familiar if you have used the likes of Vim, Perl, or sed. The string is composed of four elements, each separated by a delimiter (typically a slash (/) or an exclamation mark (!)), that tell PCRE how to parse your replacement. We'll break the string down and mention relevant options below:
+2
+
+2
+1. Type of search to perform. In MOO, only 's' is valid. This parameter is kept for the sake of consistency.
+2
+2. The text you want to search for a replacement.
+2
+3. The regular expression you want to use for your replacement text.
+2
+4. Optional modifiers:
+2
+    g: Global. This will replace all occurrences in your string rather than stopping at the first.
+2
+    i: Case-insensitive. Uppercase, lowercase, it doesn't matter. All will be replaced.
+2
+    
+2
+The replacement text can use placeholders in the form of a dollar sign and a number corresponding to a capture group (e.g. $1 will be replaced with the text from the first capture group, $2 the second, etc).
+2
+
+2
+Examples:
+2
+
+2
+Replace one word with another:
+2
+pcre_replace("I like banana pie. Do you like banana pie?", "s/banana/apple/g")
+2
+=> "I like apple pie. Do you like apple pie?"
+2
+
+2
+Replace text from a capture group:
+2
+;pcre_replace("You can find it in objref #1234.", "s/objref (#\d*)/object $1/g")
+2
+=> "You can find it in object #1234."
+2
+
+2
+If you find yourself wanting to replace a string that contains slashes, it can be useful to change your delimiter to an exclamation mark:
+2
+pcre_replace("Unix, wow! /bin/bash is a thing.", "s!/bin/bash!/bin/fish!g")
+2
+=> "Unix, wow! /bin/fish is a thing."
+36
+5
+4
+3
+2
+Syntax: random_bytes (INT count)
+2
+
+2
+Returns a binary string composed of between one and 10000 random bytes. count specifies the number of bytes and must be a positive integer; otherwise, E_INVARG is raised. 
+36
+5
+4
+32
+2
+Syntax: read_http (request-or-response [, OBJ conn])
+2
+
+2
+Reads lines from the connection conn (or, if not provided, from the player that typed the command that initiated the current task) and attempts to parse the lines as if they are an HTTP request or response. request-or-response must be either the string "request" or "response". It dictates the type of parsing that will be done.
+2
+
+2
+Just like read(), if conn is provided, then the programmer must either be a wizard or the owner of conn; if conn is not provided, then read_http() may only be called by a wizard and only in the task that was last spawned by a command from the connection in question. Otherwise, E_PERM is raised. Likewise, if conn is not currently connected and has no pending lines of input, or if the connection is closed while a task is waiting for input but before any lines of input are received, then read_http() raises E_INVARG.
+2
+
+2
+If parsing fails because the request or response is syntactically incorrect, read_http() will return a map with the single key "error" and a list of values describing the reason for the error. If parsing succeeds, read_http() will return a map with an appropriate subset of the following keys, with values parsed from the HTTP request or response: "method", "uri", "headers", "body", "status" and "upgrade".
+2
+
+2
+    Fine point: read_http() assumes the input strings are binary strings. When called interactively, as in the example below, the programmer must insert the literal line terminators or parsing will fail. 
+2
+
+2
+The following example interactively reads an HTTP request from the players connection.
+2
+
+2
+read_http("request", player)
+2
+GET /path HTTP/1.1~0D~0A
+2
+Host: example.com~0D~0A
+2
+~0D~0A
+2
+
+2
+In this example, the string ~0D~0A ends the request. The call returns the following (the request has no body):
+2
+
+2
+["headers" -> ["Host" -> "example.com"], "method" -> "GET", "uri" -> "/path"]
+2
+
+2
+The following example interactively reads an HTTP response from the players connection.
+2
+
+2
+read_http("response", player)
+2
+HTTP/1.1 200 Ok~0D~0A
+2
+Content-Length: 10~0D~0A
+2
+~0D~0A
+2
+1234567890
+2
+
+2
+The call returns the following:
+2
+
+2
+["body" -> "1234567890", "headers" -> ["Content-Length" -> "10"], "status" -> 200]
+36
+5
+4
+5
+2
+Syntax:  recreate(OBJ <old>, OBJ <parent> [, OBJ <owner>])  => OBJ
+2
+
+2
+Recreate invalid object <old> (one that has previously been recycle()ed) as <parent>, optionally owned by <owner>. This has the effect of filling in holes created by recycle() that would normally require renumbering and resetting the maximum object.
+2
+
+2
+The normal rules apply to parent and owner. You either have to own <parent>, <parent> must be fertile, or you have to be a wizard. Similarly, to change <owner>, you should be a wizard. Otherwise it's superfluous.
+36
+5
+4
+3
+2
+Syntax:  recycled_objects()  => LIST
+2
+
+2
+Return a list of all invalid objects in the database. An invalid object is one that has been destroyed with the recycle() function.
+36
+5
+4
+3
+2
+Syntax: reseed_random()
+2
+
+2
+Provide a new seed to the pseudo random number generator.
+36
+5
+4
+3
+2
+Syntax: respond_to(OBJ object, STR verb)
+2
+
+2
+Returns true if <verb> is callable on <object>, taking into account inheritance, wildcards (star verbs), etc. Otherwise, returns false.  If the caller is permitted to read the object (because the object's `r' flag is true, or the caller is the owner or a wizard) the true value is a list containing the object number of the object that defines the verb and the full verb name(s).  Otherwise, the numeric value `1' is returned.
+36
+5
+4
+9
+2
+Syntax:  reverse(LIST <alist>) => LIST | STR
+2
+
+2
+Return a reversed list or string.
+2
+
+2
+Examples:
+2
+
+2
+;reverse({1,2,3,4}) => {4,3,2,1}
+2
+;reverse("asdf") => "fdsa"
+2
+
+36
+5
+4
+2
+2
+*forward*
+2
+index()
+36
+5
+4
+13
+2
+Syntax: salt (STR format, STR input)
+2
+
+2
+Generate a crypt() compatible salt string for the specified salt format using the specified binary random input. The specific set of formats supported depends on the libraries used to build the server, but will always include the standard salt format, indicated by the format string "" (the empty string), and the BCrypt salt format, indicated by the format string "$2a$NN$" (where "NN" is the work factor). Other possible formats include MD5 ("$1$"), SHA256 ("$5$") and SHA512 ("$6$"). Both the SHA256 and SHA512 formats support optional rounds.
+2
+
+2
+salt("", ".M")                                           =>    "iB"
+2
+salt("$1$", "~183~1E~C6/~D1")                            =>    "$1$MAX54zGo"
+2
+salt("$5$", "x~F2~1Fv~ADj~92Y~9E~D4l~C3")                =>    "$5$s7z5qpeOGaZb"
+2
+salt("$5$rounds=2000$", "G~7E~A7~F5Q5~B7~0Aa~80T")       =>    "$5$rounds=2000$5trdp5JBreEM"
+2
+salt("$6$", "U7~EC!~E8~85~AB~CD~B5+~E1?")                =>    "$6$JR1vVUSVfqQhf2yD"
+2
+salt("$6$rounds=5000$", "~ED'~B0~BD~B9~DB^,\\~BD~E7")    =>    "$6$rounds=5000$hT0gxavqSl0L"
+2
+salt("$2a$08$", "|~99~86~DEq~94_~F3-~1A~D2#~8C~B5sx")    =>    "$2a$08$dHkE1lESV9KrErGhhJTxc."
+2
+
+2
+Note: To ensure proper security, the random input must be from a sufficiently random source. 
+36
+5
+4
+7
+2
+Syntax: server_log (STR message [, INT level]) => NONE
+2
+
+2
+The text in message is sent to the server log with a distinctive prefix (so that it can be distinguished from server-generated messages)
+2
+
+2
+If the programmer is not a wizard, then E_PERM is raised.
+2
+
+2
+If level is provided and is an integer between 0 and 7 inclusive, then message is marked in the server log as one of eight predefined types, from simple log message to error message. Otherwise, if level is provided and true, then message is marked in the server log as an error.
+36
+5
+4
+6
+2
+Syntax: set_task_local(ANY value)
+2
+
+2
+Sets a value that gets associated with the current running task. This value persists across verb calls and gets reset when the task is killed, making it suitable for securely passing sensitive intermediate data between verbs. The value can then later be retrieved using the `task_local` function.
+2
+
+2
+set_task_local("arbitrary data")
+2
+set_task_local({"list", "of", "arbitrary", "data"})
+36
+5
+4
+9
+2
+Syntax:  set_thread_mode([INT <mode>])
+2
+
+2
+With no arguments specified, set_thread_mode will return the current thread mode for the verb. A value of 1 indicates that threading is enabled for functions that support it. A value of 0 indicates that threading is disabled and all functions will execute in the main MOO thread, as functions have done in default LambdaMOO since version 1.
+2
+
+2
+If you specify an argument, you can control the thread mode of the current verb. A <mode> of 1 will enable threading and a <mode> of 0 will disable it. You can invoke this function multiple times if you want to disable threading for a single function call and enable it for the rest.
+2
+
+2
+When should you disable threading? In general, threading should be disabled in verbs where it would be undesirable to suspend(). Each threaded function will immediately suspend the verb while the thread carries out its work. This can have a negative effect when you want to use these functions in verbs that cannot or should not suspend, like $sysobj:do_command or $sysobj:do_login_command.
+2
+
+2
+Note that the threading mode affects the current verb only and does NOT affect verbs called from within that verb.
+36
+5
+4
+13
+2
+Syntax:  slice(LIST <alist> [, INT | LIST | STR <index>, ANY <default map value>])   => LIST
+2
+
+2
+Return the <index>-th elements of <alist>. By default, index will be 1. If index is a list of integers, the returned list will have those elements from <alist>. This is the built-in equivalent of LambdaCore's $list_utils:slice verb.
+2
+
+2
+If <alist> is a list of maps, index can be a string indicating a key to return from each map in <alist>.
+2
+
+2
+If <default map value> is specified, any maps not containing the key <index> will have <default map value> returned in their place. This is useful in situations where you need to maintain consistency with a list index and can't have gaps in your return list.
+2
+
+2
+Examples:
+2
+ >slice({{"z", 1}, {"y", 2}, {"x",5}}, 2) => {1, 2, 5}.
+2
+ >slice({{"z", 1, 3}, {"y", 2, 4}}, {2, 1}) => {{1, "z"}, {2, "y"}}
+2
+ >;slice({["a" -> 1, "b" -> 2], ["a" -> 5, "b" -> 6]}, "a") => {1, 5}
+2
+ >;slice({["a" -> 1, "b" -> 2], ["a" -> 5, "b" -> 6], ["b" -> 8]}, "a", 0) => {1, 5, 0}
+36
+5
+4
+21
+2
+Syntax:  sort(LIST <list> [, LIST <keys>, INT <natural sort order?>, INT <reverse>])   => LIST
+2
+
+2
+Sorts <list> either by <keys> or using the list itself. When sorting <list> by itself, you can use an empty list ({}) for <keys> to specify additional optional arguments.
+2
+
+2
+If <natural sort order> is true, strings containing multi-digit numbers will consider those numbers to be a single character. So, for instance, this means that 'x2' would come before 'x11' when sorted naturally because 2 is less than 11. This argument defaults to 0.
+2
+
+2
+If <reverse> is true, the sort order is reversed. This argument defaults to 0.
+2
+
+2
+Examples:
+2
+
+2
+Sort a list by itself:
+2
+>;sort({"a57", "a5", "a7", "a1", "a2", "a11"})
+2
+=> {"a1", "a11", "a2", "a5", "a57", "a7"}
+2
+
+2
+Sort a list by itself with natural sort order:
+2
+>;sort({"a57", "a5", "a7", "a1", "a2", "a11"}, {}, 1)
+2
+=> {"a1", "a2", "a5", "a7", "a11", "a57"}
+2
+
+2
+Sort a list of strings by a list of numeric keys:
+2
+>;sort({"foo", "bar", "baz"}, {123, 5, 8000})
+2
+=> {"bar", "foo", "baz"}
+36
+5
+4
+3
+2
+Syntax:  spellcheck(STR <word>)   => INT or LIST
+2
+
+2
+This function checks the English spelling of <word>. If the spelling is correct, the function will return a 1. If the spelling is incorrect, a LIST of suggestions for correct spellings will be returned instead. If the spelling is incorrect and no suggestions can be found, an empty LIST is returned.
+36
+5
+4
+7
+2
+Syntax:	  sqlite_close(INT <database handle) => INT
+2
+
+2
+This function will close an open database.
+2
+
+2
+If successful, return 1;
+2
+
+2
+If unsuccessful, returns E_INVARG.
+36
+5
+4
+12
+2
+Syntax:	  sqlite_execute(INT <database handle>, STR <SQL prepared statement query>, LIST <values>) => [LIST or STR]
+2
+
+2
+This function will attempt to create and execute the prepared statement query given in <query> on the database referred to by <handle> with the values <values>.
+2
+
+2
+On success, this function will return a list identifying the returned rows. If the query didn't return rows but was successful, an empty list is returned.
+2
+
+2
+If the query fails, a string will be returned identifying the SQLite error message.
+2
+
+2
+sqlite_execute uses prepared statements, so it's the preferred function to use for security and performance reasons.
+2
+
+2
+Example:
+2
+sqlite_execute(0, "INSERT INTO users VALUES (?, ?, ?);", {#7, "lisdude", "Albori Sninvel"})
+36
+5
+4
+3
+2
+Syntax:	  sqlite_handles() => LIST
+2
+
+2
+Returns a list of open SQLite database handles.
+36
+5
+4
+9
+2
+Syntax:	  sqlite_info(INT <database handle>) => MAP
+2
+
+2
+This function returns a map of information about the database at <handle>
+2
+
+2
+The information returned is:
+2
+	Database Path
+2
+	Type parsing enabled?
+2
+	Object parsing enabled?
+2
+	String sanitation enabled?
+36
+5
+4
+7
+2
+Syntax:	  sqlite_interrupt(INT <database handle>)
+2
+
+2
+This function causes any pending database operation to abort at its earliest opportunity. If the operation is nearly finished when sqlite_interrupt is called, it might not have an opportunity to be interrupted and could continue to completion.
+2
+
+2
+This can be useful when you execute a long-running query and want to abort it.
+2
+
+2
+NOTE: As of this writing (server version 2.7.0) the @kill command WILL NOT abort operations taking place in a helper thread. If you want to interrupt an SQLite query, you must use sqlite_interrupt and NOT the @kill command.
+36
+5
+4
+3
+2
+Syntax:	  sqlite_last_insert_row_id(INT <database handle>)
+2
+
+2
+This function identifies the row ID of the last insert command executed on the database.
+36
+5
+4
+47
+2
+Syntax:	  sqlite_limit(INT <database handle>, STR <category> INT <new value>) => INT
+2
+
+2
+This function allows you to specify various construct limitations on a per-database basis.
+2
+
+2
+If <new value> is a negative number, the limit is unchanged. Each limit category has a hardcoded upper bound. Attempts to increase a limit above its hard upper bound are silently truncated to the hard upper bound.
+2
+
+2
+Regardless of whether or not the limit was changed, the sqlite_limit() function returns the prior value of the limit. Hence, to find the current value of a limit without changing it, simply invoke this interface with the third parameter set to -1.
+2
+
+2
+As of this writing, the following limits exist:
+2
+
+2
+LIMIT_LENGTH
+2
+    The maximum size of any string or BLOB or table row, in bytes.
+2
+
+2
+LIMIT_SQL_LENGTH
+2
+    The maximum length of an SQL statement, in bytes.
+2
+
+2
+LIMIT_COLUMN
+2
+    The maximum number of columns in a table definition or in the result set of a SELECT or the maximum number of columns in an index or in an ORDER BY or GROUP BY clause.
+2
+
+2
+LIMIT_EXPR_DEPTH
+2
+    The maximum depth of the parse tree on any expression.
+2
+
+2
+LIMIT_COMPOUND_SELECT
+2
+    The maximum number of terms in a compound SELECT statement.
+2
+
+2
+LIMIT_VDBE_OP
+2
+    The maximum number of instructions in a virtual machine program used to implement an SQL statement. If sqlite3_prepare_v2() or the equivalent tries to allocate space for more than this many opcodes in a single prepared statement, an SQLITE_NOMEM error is returned.
+2
+
+2
+LIMIT_FUNCTION_ARG
+2
+    The maximum number of arguments on a function.
+2
+
+2
+LIMIT_ATTACHED
+2
+    The maximum number of attached databases.
+2
+
+2
+LIMIT_LIKE_PATTERN_LENGTH
+2
+    The maximum length of the pattern argument to the LIKE or GLOB operators.
+2
+
+2
+LIMIT_VARIABLE_NUMBER
+2
+    The maximum index number of any parameter in an SQL statement.
+2
+
+2
+LIMIT_TRIGGER_DEPTH
+2
+    The maximum depth of recursion for triggers.
+2
+
+2
+LIMIT_WORKER_THREADS
+2
+    The maximum number of auxiliary worker threads that a single prepared statement may start.
+2
+
+2
+For an up-to-date list of limits, see the SQLite documentation here: https://www.sqlite.org/c3ref/c_limit_attached.html
+36
+5
+4
+18
+2
+Syntax:	  sqlite_open(STR <path to database>, [INT options]) => INT
+2
+
+2
+The function `sqlite_open' will attempt to open the database at <path> for use with SQLite.
+2
+
+2
+The second argument is a bitmask of options. Options are:
+2
+
+2
+	SQLITE_PARSE_OBJECTS [4]:    Determines whether strings beginning with a pound symbol (#) are interpreted as MOO object numbers or not.
+2
+                                     The default is true, which means that any queries that would return a string (such as "#123") will be returned as objects.
+2
+	SQLITE_PARSE_TYPES [2]:      If unset, no parsing of rows takes place and only strings are returned.
+2
+	SQLITE_SANITIZE_STRINGS [8]: If set, newlines (\n) are converted into tabs (\t) to avoid corrupting the MOO database. Default is unset.
+2
+
+2
+NOTE: If the MOO doesn't support bitmasking, you can still specify options. You'll just have to manipulate the int yourself. e.g. if you want to parse objects and types, arg[2] would be a 6. If you only want to parse types, arg[2] would be 2.
+2
+
+2
+If successful, the function will return the numeric handle for the open database.
+2
+
+2
+If unsuccessful, the function will return a helpful error message.
+2
+
+2
+If the database is already open, a traceback will be thrown that contains the already open database handle.
+36
+5
+4
+11
+2
+Syntax:	  sqlite_query(INT <database handle>, STR <database query>[, INT <show columns>]) => [LIST or STR]
+2
+
+2
+This function will attempt to execute the query given in <query> on the database referred to by <handle>.
+2
+
+2
+On success, this function will return a list identifying the returned rows. If the query didn't return rows but was successful, an empty list is returned.
+2
+
+2
+If the query fails, a string will be returned identifying the SQLite error message.
+2
+
+2
+If <show columns> is true, the return list will include the name of the column before its results.
+2
+
+2
+WARNING: sqlite_query does NOT use prepared statements and should NOT be used on queries that contain user input.
+36
+5
+4
+2
+2
+*forward*
+2
+binary_hmac
+36
+5
+4
+12
+2
+Syntax: strtr (STR source, STR str1, STR str2 [, case-matters])
+2
+
+2
+Transforms the string source by replacing the characters specified by str1 with the corresponding characters specified by str2. All other characters are not transformed. If str2 has fewer characters than str1 the unmatched characters are simply removed from source. By default the transformation is done on both upper and lower case characters no matter the case. If case-matters is provided and true, then case is treated as significant.
+2
+
+2
+strtr("foobar", "o", "i")           =>    "fiibar"
+2
+strtr("foobar", "ob", "bo")         =>    "fbboar"
+2
+strtr("foobar", "", "")             =>    "foobar"
+2
+strtr("foobar", "foba", "")         =>    "r"
+2
+strtr("5xX", "135x", "0aBB", 0)     =>    "BbB"
+2
+strtr("5xX", "135x", "0aBB", 1)     =>    "BBX"
+2
+strtr("xXxX", "xXxX", "1234", 0)    =>    "4444"
+2
+strtr("xXxX", "xXxX", "1234", 1)    =>    "3434"
+36
+5
+4
+57
+2
+Syntax:  suspend([INT|FLOAT seconds])  => VALUE
+2
+
+2
+Suspends the current task, and resumes it after at least <seconds> seconds. Sub-second suspend (IE: 0.1) is possible. (If <seconds> is not provided, the task is suspended indefinitely; such a task can only be resumed by use of the `resume()' function.) When the task is resumed, it will have a full quota of ticks and seconds.  This function is useful for programs that run for a long time or require a lot of ticks.  If <seconds> is negative, then E_INVARG is raised. `Suspend()' returns zero unless it was resumed via `resume()' in which case it returns the second argument given to that function.
+2
+
+2
+In some sense, this function forks the `rest' of the executing task.  However, there is a major difference between the use of `suspend(<seconds>)' and the use of the `fork (<seconds>)'.  The `fork' statement creates a new task (a "forked task") while the currently-running task still goes on to completion, but a `suspend()' suspends the currently-running task (thus making it into a "suspended task").  This difference may be best explained by the following examples, in which one verb calls another:
+2
+
+2
+
+2
+    .program   #0:caller_A
+2
+
+2
+    #0.prop = 1;
+2
+
+2
+    #0:callee_A();
+2
+
+2
+    #0.prop = 2;
+2
+
+2
+    .
+2
+
+2
+
+2
+    .program   #0:callee_A
+2
+
+2
+    fork(5)
+2
+
+2
+      #0.prop = 3;
+2
+
+2
+    endfork
+2
+
+2
+    .
+2
+
+2
+
+2
+    .program   #0:caller_B
+2
+
+2
+    #0.prop = 1;
+2
+
+2
+    #0:callee_B();
+2
+
+2
+    #0.prop = 2;
+2
+
+2
+    .
+2
+
+2
+
+2
+    .program   #0:callee_B
+2
+
+2
+    suspend(5);
+2
+
+2
+    #0.prop = 3;
+2
+
+2
+    .
+2
+
+2
+Consider `#0:caller_A', which calls `#0:callee_A'.  Such a task would assign 1 to `#0.prop', call `#0:callee_A', fork a new task, return to `#0:caller_A', and assign 2 to `#0.prop', ending this task.  Five seconds later, if the forked task had not been killed, then it would begin to run; it would assign 3 to `#0.prop' and then stop.  So, the final value of `#0.prop' (i.e., the value after more than 5 seconds) would be 3.
+2
+
+2
+Now consider `#0:caller_B', which calls `#0:callee_B' instead of `#0:callee_A'.  This task would assign 1 to `#0.prop', call `#0:callee_B', and suspend.  Five seconds later, if the suspended task had not been killed, then it would resume; it would assign 3 to `#0.prop', return to `#0:caller', and assign 2 to `#0.prop', ending the task. So, the final value of `#0.prop' (i.e., the value after more than 5 seconds) would be 2.
+2
+
+2
+A suspended task, like a forked task, can be described by the `queued_tasks()' function and killed by the `kill_task()' function. Suspending a task does not change its task id.  A task can be suspended again and again by successive calls to `suspend()'.
+2
+
+2
+Once `suspend()' has been used in a particular task, then the `read()' function will always raise E_PERM in that task.  For more details, see the description of `read()'.
+2
+
+2
+By default, there is no limit to the number of tasks any player may suspend, but such a limit can be imposed from within the database. See the chapter in the ToastStunt Programmers Manual on server assumptions about the database for details.
+36
+5
+4
+5
+2
+Syntax: switch_player(OBJ <object1>, OBJ <object2> [, INT <silent>])
+2
+
+2
+Silently switches the player associated with this connection from <object1> to <object2>. <object1> must be connected and <object2> must be a player. This can be used in do_login_command() verbs that read or suspend (which prevents the normal player selection mechanism from working.
+2
+
+2
+If <silent> is true, no connection messages will be printed.
+36
+5
+4
+3
+2
+Syntax: task_local ()
+2
+
+2
+Returns the value associated with the current task. The value is set with the `set_task_local` function.
+36
+5
+4
+6
+2
+Syntax:  thread_info(INT <thread handler>)   => LIST
+2
+
+2
+If a MOO task is running in another thread, its thread handler will give you information about that thread. The information returned in a LIST will be:
+2
+
+2
+  English Name: This is the name the programmer of the builtin function has given to the task being executed.
+2
+  Active: 1 or 0 depending upon whether or not the MOO task has been killed. Not all threads cleanup immediately after the MOO task dies.
+36
+5
+4
+21
+2
+Syntax:  thread_pool(STR <function>, STR <pool> [, INT <value>])
+2
+
+2
+This function allows you to control any thread pools that the server created at startup. It should be used with care, as it has the potential to create disasterous consequences if used incorrectly.
+2
+
+2
+The <function> parameter is the function you wish to perform on the thread pool. The functions available are:
+2
+
+2
+   INIT: Control initialization of a thread pool.
+2
+
+2
+   
+2
+The <pool> parameter controls which thread pool you wish to apply the designated function to. At the time of writing, the server creates the following thread pool:
+2
+
+2
+   MAIN: The main thread pool where threaded built-in function work takes place.
+2
+
+2
+
+2
+Finally, <value> is the value you want to pass to the <function> of <pool>. The following functions accept the following values:
+2
+
+2
+   INIT: The number of threads to spawn. NOTE: When executing this function, the existing <pool> will be destroyed and a new one created in its place.
+2
+
+2
+
+2
+Examples:
+2
+;thread_pool("INIT", "MAIN", 1)     => Replace the existing main thread pool with a new pool consisting of a single thread.
+36
+5
+4
+3
+2
+Syntax:  threads()   => LIST
+2
+
+2
+When one or more MOO processes are suspended and working in a separate thread, this function will return a LIST of handlers to those threads. These handlers can then be passed to `thread_info' for more information.
+36
+5
+4
+2
+2
+*index*
+2
+Stunt / ToastStunt Functions
+36
+5
+4
+15
+2
+Syntax: typeof (value) => INT
+2
+
+2
+Takes any MOO value and returns an integer representing the type of value.
+2
+
+2
+The result is the same as the initial value of one of these built-in variables: INT, FLOAT, STR, LIST, MAP, OBJ, or ERR, BOOL, MAP, WAIF, ANON. 
+2
+
+2
+Thus, one usually writes code like this:
+2
+
+2
+if (typeof(x) == LIST) ...
+2
+
+2
+and not like this:
+2
+
+2
+if (typeof(x) == 3) ...
+2
+
+2
+because the former is much more readable than the latter.
+36
+5
+4
+5
+2
+Syntax:  usage ()   => LIST
+2
+
+2
+Return statistics concerning the server the MOO is running on. The result is a list in the following format:
+2
+
+2
+{load averages}, user time, system time, page reclaims, page faults, block input ops, block output ops, voluntary context switches, involuntary context switches, signals received
+36
+5
+4
+3
+2
+Syntax: value_hmac (value, STR key [, STR algo [, binary]])
+2
+
+2
+Returns the same string as string_hmac(toliteral(value), key, ...); see the description of string_hmac() for details. 
+36
+5
+4
+15
+2
+Syntax:  verb_args (OBJ <object>, STR|INT <verb-name>)   => LIST
+2
+         set_verb_args (OBJ <object>, STR|INT <verb-name>, LIST <args>)   => none
+2
+
+2
+BE AWARE: verb-name can be the string name of the verb OR the index from verbs()
+2
+
+2
+These two functions get and set (respectively) the direct-object, preposition, and indirect-object specifications for the verb named <verb-name> on the given <object>.  If <object> is not valid, then E_INVARG is raised.  If <object> does not define a verb named <verb-name>, then E_VERBNF is raised.  If the programmer does not have read (write) permission on the verb in question, then `verb_args()' (`set_verb_args()') raises E_PERM.  Verb args specifications have the following form:
+2
+
+2
+    {<dobj>, <prep>, <iobj>}
+2
+
+2
+where <dobj> and <iobj> are strings drawn from the set `"this"', `"none"', and `"any"', and <prep> is a string that is either `"none"', `"any"', or one of the prepositional phrases listed much earlier in the description of verbs in the first chapter.  This is the kind of value returned by `verb_info()' and expected as the third argument to `set_verb_info()'.  Note that for `set_verb_args()', <prep> must be only one of the prepositional phrases, not (as is shown in that table) a set of such phrases separated by `/' characters.  `Set_verb_args()' raises E_INVARG if any of the <dobj>, <prep>, or <iobj> strings is illegal.
+2
+
+2
+    verb_args($container, "take")
+2
+                        =>   {"any", "out of/from inside/from", "this"}
+2
+
+2
+    set_verb_args($container, "take", {"any", "from", "this"})
+36
+5
+4
+8
+2
+Syntax: verb_cache_stats() => LIST
+2
+        log_cache_stats() => NONE
+2
+
+2
+The server caches verbname-to-program lookups to improve performance. These functions respectively return or write to the server log file the current cache statistics. For verb_cache_stats the return value will be a list of the form
+2
+
+2
+{hits, negative_hits, misses, table_clears, histogram},
+2
+
+2
+though this may change in future server releases. The cache is invalidated by any builtin function call that may have an effect on verb lookups (e.g., delete_verb()).
+36
+5
+4
+10
+2
+Syntax:  verb_code (OBJ <object>, STR|INT <verb-name> [, <fully-paren> [, <indent>]])   => LIST
+2
+         set_verb_code (OBJ <object>, STR|INT <verb-name>, LIST <code>)   => LIST
+2
+
+2
+BE AWARE: verb-name can be the string name of the verb OR the index from verbs()
+2
+
+2
+These functions get and set (respectively) the MOO-code program associated with the verb named <verb-name> on <object>.  The program is represented as a list of strings, one for each line of the program; this is the kind of value returned by `verb_code()' and expected as the third argument to `set_verb_code()'.  For `verb_code()', the expressions in the returned code are usually written with the minimum-necessary parenthesization; if <full-paren> is true, then all expressions are fully parenthesized. Also for `verb_code()', the lines in the returned code are usually not indented at all; if <indent> is true, each line is indented to better show the nesting of statements.
+2
+
+2
+If <object> is not valid, then E_INVARG is raised.  If <object> does not define a verb named <verb-name>, then E_VERBNF is raised.  If the programmer does not have read (write) permission on the verb in question, then `verb_code()' (`set_verb_code()') raises E_PERM.  If the programmer is not, in fact, a programmer, then E_PERM is raised.
+2
+
+2
+For `set_verb_code()', the result is a list of strings, the error messages generated by the MOO-code compiler during processing of <code>.  If the list is non-empty, then `set_verb_code()' did not install <code>; the program associated with the verb in question is unchanged.
+36
+5
+4
+10
+2
+Syntax:  verb_info (OBJ <object>, STR|INT <verb-name>)   => LIST
+2
+         set_verb_info (OBJ <object>, STR|INT <verb-name>, LIST <info>)   => none
+2
+
+2
+BE AWARE: verb-name can be the string name of the verb OR the index from verbs()
+2
+
+2
+These two functions get and set (respectively) the owner, permission bits, and name(s) for the verb named <verb-name> on the given <object>.  If <object> is not valid, then E_INVARG is raised.  If <object> does not define a verb named <verb-name>, then E_VERBNF is raised. If the programmer does not have read (write) permission on the verb in question, then `verb_info()' (`set_verb_info()') raises E_PERM.  Verb info has the following form:
+2
+
+2
+    {<owner>, <perms>, <names>}
+2
+
+2
+where <owner> is an object, <perms> is a string containing only characters from the set `r', `w', `x', and `d', and <names> is a string.  This is the kind of value returned by `verb_info()' and expected as the third argument to `set_verb_info()'. The latter function raises E_INVARG if <owner> is not valid, if <perms> contains any illegal characters, or if <names> is the empty string or consists entirely of spaces; it raises E_PERM if <owner> is not the programmer and the programmer is not a wizard.
+36
+5
+4
+3
+2
+Syntax:  waif_stats()   => MAP
+2
+
+2
+Returns a MAP of statistics about instantiated waifs. Each waif class will be a key in the MAP and its value will be the number of waifs of that class currently instantiated. Additionally, there is a `total' key that will return the total number of instantiated waifs, and a `pending_recycle' key that will return the number of waifs that have been destroyed and are awaiting the call of their :recycle verb.
+36
+5
+4
+7
+2
+Syntax:  yin([INT <time>, INT <minimum ticks>, INT <minimum seconds>] )   => INT
+2
+
+2
+Suspend the current task if it's running out of ticks or seconds. This is meant to provide similar functionality to the LambdaCore-based suspend_if_needed verb or manually specifying something like: ticks_left() < 2000 && suspend(0)
+2
+
+2
+Time: How long to suspend the task. Default: 0
+2
+Minimum ticks: The minimum number of ticks the task has left before suspending.
+2
+Minimum seconds: The minimum number of seconds the task has left before suspending.
 36
 5
 5
@@ -41649,7 +42340,7 @@ The password verifier verifies passwords.
 0
 15188
 0
-1668931824
+1671219241
 36
 1
 #88
@@ -45955,7 +46646,7 @@ Generic Gendered Object
 0
 3044
 0
-1668931824
+1671219241
 36
 1
 #95
@@ -46269,7 +46960,7 @@ List Editor
 0
 17973
 0
-1668931824
+1671219241
 36
 1
 #96
@@ -46531,7 +47222,7 @@ impossible password to type
 0
 135523
 0
-1668931824
+1671219241
 0
 0
 36
@@ -46607,7 +47298,7 @@ This player owns all editor-related verbs.
 0
 3554
 0
-1668931824
+1671219241
 36
 1
 #97
@@ -46734,7 +47425,7 @@ HTTP Server
 0
 8359
 0
-1668931824
+1671219241
 36
 1
 #98
@@ -47015,7 +47706,7 @@ Core
 0
 239212
 0
-1668931824
+1671219241
 0
 100
 36
@@ -47085,7 +47776,7 @@ Core
 0
 3637
 0
-1668931824
+1671219241
 36
 1
 #99
@@ -48111,7 +48802,7 @@ au
 0
 77241
 0
-1668931824
+1671219241
 36
 1
 #100
@@ -48383,7 +49074,7 @@ A player with the ability to see things in [red]c[bold][yellow]o[green]l[blue]o[
 0
 29845
 0
-1668931824
+1671219241
 36
 1
 #101
@@ -49064,7 +49755,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 26826
 0
-1668931824
+1671219241
 36
 1
 #102
@@ -49283,7 +49974,7 @@ An option package for controlling and customizing the ANSI PC.
 0
 5739
 0
-1668931824
+1671219241
 36
 1
 #103
@@ -49347,7 +50038,7 @@ dispatch
 0
 5312
 0
-1668931824
+1671219241
 36
 1
 #104
@@ -49454,7 +50145,7 @@ package
 0
 7185
 0
-1668931824
+1671219241
 36
 1
 #105
@@ -49561,7 +50252,7 @@ negotiate
 0
 3348
 0
-1668931824
+1671219241
 36
 1
 #106
@@ -49723,7 +50414,7 @@ cord
 0
 7708
 0
-1668931824
+1671219241
 36
 1
 #107
@@ -49770,7 +50461,7 @@ next_datakey
 unquoted_string
 6
 0
-10164
+10176
 98
 1
 2
@@ -49797,7 +50488,7 @@ parser
 0
 6944
 0
-1668931824
+1671219241
 36
 1
 #108
@@ -50039,7 +50730,7 @@ registry
 0
 6696
 0
-1668931824
+1671219241
 36
 1
 #110
@@ -50198,7 +50889,7 @@ mcp
 0
 11136
 0
-1668931824
+1671219241
 36
 1
 #111
@@ -50477,7 +51168,7 @@ Non JHCore installations might choose to set .v_filter_in / .v_filter_out to fal
 0
 16249
 0
-1668931824
+1671219241
 36
 1
 #114
@@ -51473,7 +52164,7 @@ MCP Help Database
 0
 23287
 0
-1668931824
+1671219241
 36
 1
 #117
@@ -51667,7 +52358,7 @@ Generic Waif
 0
 6412
 0
-1668931824
+1671219241
 36
 1
 #119
@@ -51778,7 +52469,7 @@ client_stats
 4
 3
 0
-1668941451
+1671224789
 1
 2
 4
@@ -51871,12 +52562,12 @@ dns-com-vmoo-client
 0
 6665
 0
-1668931824
+1671219241
 36
 1
 #122
 Generic Anonymous Object
-0
+256
 2
 1
 -1
@@ -51966,7 +52657,7 @@ dns-com-awns-status
 0
 1394
 0
-1668931824
+1671219241
 36
 1
 #124
@@ -52393,7 +53084,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 52489
 0
-1668931824
+1671219241
 36
 1
 #125
@@ -52522,7 +53213,7 @@ Menu Utilities
 0
 8055
 0
-1668931824
+1671219241
 36
 1
 #127
@@ -52558,7 +53249,7 @@ text
 2
 5
 0
-1950
+1949
 #0:0
 "...This code should only be run as a server task...";
 if (callers())
@@ -53053,6 +53744,38 @@ return $command_utils:suspend_if_needed(time, @ann);
 {word, value} = args;
 return (value in {1, 1.0}) ? word | (((verb == "ies") ? word[1..$ - 1] | word) + verb);
 .
+#0:26
+who = caller_perms();
+{what, papas, ?anon_kids = {}} = args;
+if (typeof(what) != OBJ)
+retval = E_TYPE;
+elseif (!valid(what))
+retval = E_INVARG;
+elseif (typeof(papas) != LIST)
+retval = E_TYPE;
+elseif (!$perm_utils:controls(who, what))
+retval = E_PERM;
+elseif ((is_player(what) && (!occupants(papas, $player_class))) && (!who.wizard))
+retval = E_PERM;
+elseif ((children(what) && $object_utils:isa(what, $player_class)) && (!occupants(papas, $player_class)))
+retval = E_PERM;
+elseif ((is_player(what) && (what in $wiz_utils.chparent_restricted)) && (!who.wizard))
+retval = E_PERM;
+elseif ((((what.location == $mail_agent) && $object_utils:isa(what, $mail_recipient)) && (!$object_utils:isa(papa, $mail_recipient))) && (!who.wizard))
+retval = E_PERM;
+else
+for x in (papas)
+if ((!$perm_utils:controls(who, x)) && (!x.f))
+retval = E_PERM;
+break;
+endif
+endfor
+if (`typeof(retval) ! ANY => 0' != ERR)
+retval = `chparents(@args) ! ANY';
+endif
+endif
+return ((typeof(retval) == ERR) && $code_utils:dflag_on()) ? raise(retval) | retval;
+.
 #1:0
 if ((typeof(this) != ANON) && (typeof(this.owner.owned_objects) == LIST))
 this.owner.owned_objects = setadd(this.owner.owned_objects, this);
@@ -53227,17 +53950,11 @@ endif
 "the guts of examine";
 "call a series of verbs and report their return values to the player";
 who = args[1];
-"if (caller == this || caller == who)";
 if (caller == who)
-"set_task_perms();";
 who:notify_lines(this:examine_names(who) || {});
-"this:examine_names(who);";
 who:notify_lines(this:examine_owner(who) || {});
-"this:examine_owner(who);";
 who:notify_lines(this:examine_desc(who) || {});
-"this:examine_desc(who);";
 who:notify_lines(this:examine_key(who) || {});
-"this:examine_key(who);";
 who:notify_lines(this:examine_contents(who) || {});
 who:notify_lines(this:examine_verbs(who) || {});
 else
@@ -53454,28 +54171,6 @@ endif
 return 0;
 "intended as a 'quiet' way to determine if :accept will succeed. Currently, some objects have a noisy :accept verb since it is the only thing that a builtin move() call is guaranteed to call.";
 "if you want to tell, before trying, whether :accept will fail, use :acceptable instead. Normally, they'll do the same thing.";
-.
-#2:0
-if (!valid(who = player:my_match_object(dobjstr)))
-who = player;
-endif
-session = $mcp:session_for(who);
-packages = session.packages;
-player:tell("session: ", session);
-player:tell("key: ", session.authentication_key);
-for p in (packages)
-player:tell(p[1].name, " (", p[1], ") ", p[2][1], ".", p[2][2]);
-endfor
-player:tell("---");
-.
-#2:1
-for p in (connected_players())
-session = $mcp:session_for(p);
-if (session:handles_package($mcp:match_package("mcp-negotiate")))
-player:tell(p.name);
-endif
-endfor
-player:tell("---");
 .
 #3:0
 if ((((cp = caller_perms()) == player) || $perm_utils:controls(cp, player)) || (caller == this))
@@ -60981,20 +61676,7 @@ return (m = match(@args)) ? m[3][1][2] + 1 | 0;
 "        is_integer(string)";
 "Is string numeric (composed of one or more digits possibly preceded by a minus sign)? This won't catch floating points.";
 "Return true or false";
-return match(args[1], "^ *[-+]?[0-9]+ *$");
-digits = "1234567890";
-if (!(string = args[1]))
-return 0;
-endif
-if (string[1] == "-")
-string = string[2..length(string)];
-endif
-for i in [1..length(string)]
-if (!index(digits, string[i]))
-return 0;
-endif
-endfor
-return 1;
+return match(args[1], "^ *[-+]?[0-9]+ *$") ? 1 | 0;
 .
 #20:25
 ":short_ordinal(1) => \"1st\",:short_ordinal(2) => \"2nd\",etc...";
@@ -61710,24 +62392,6 @@ endif
 "$string_utils:print(value)";
 "Print the given value into a string. == from_value(value,1,-1)";
 return toliteral(args[1]);
-value = args[1];
-if (typeof(value) == LIST)
-if (value)
-result = "{" + this:print(value[1]);
-for val in (listdelete(value, 1))
-result = tostr(result, ", ", this:print(val));
-endfor
-return result + "}";
-else
-return "{}";
-endif
-elseif (typeof(value) == STR)
-return tostr("\"", strsub(strsub(value, "\\", "\\\\"), "\"", "\\\""), "\"");
-elseif (typeof(value) == ERR)
-return $code_utils:error_name(value);
-else
-return tostr(value);
-endif
 .
 #20:49
 ":reverse(string) => \"gnirts\"";
@@ -77020,6 +77684,10 @@ return player:tell("Aborted.");
 endif
 .
 #57:39
+"Automatically updates ToastStunt documentation to the latest version.";
+"Optional arguments:";
+"   -y: Answer yes to all prompts that update the help database.";
+"   <database>: The name, or object number, of the help database object that you want to update. The verb itself typically finds, or creates, an appropriate database for you, so this argument is generally not necessary.";
 if (player != this)
 return E_PERM;
 endif
@@ -77048,15 +77716,33 @@ else
 "Not a fatal error, but we won't be able to check our priority";
 builtin_function_help = $failed_match;
 endif
+"In lieu of proper flag parsing, we'll simply look for the only flag(s) we know exist.";
+yes_to_all = 0;
+pcre_yes_match = "\\s?-y\\s?";
+pcre_yes_replacement = tostr("s/", pcre_yes_match, "//g");
+if (args && pcre_match(argstr, pcre_yes_match))
+yes_to_all = 1;
+argstr = pcre_replace(argstr, pcre_yes_replacement);
+if (argstr == "")
+args = 0;
+endif
+endif
 "Check if the update verb itself needs updated. (This does its own prerequisite checking because these functions aren't, strictly speaking, required for the main help update to succeed.)";
 if ((typeof(`verb_info($list_utils, "setremove_all") ! E_VERBNF') != ERR) && (typeof(`verb_info($object_utils, "has_verb") ! E_VERBNF') != ERR))
 verb_loc = $object_utils:has_verb(this, verb)[1];
 if (player.wizard || (verb_info(verb_loc, verb)[1] == player))
 update_url = "https://raw.githubusercontent.com/lisdude/toaststunt-documentation/master/update_verb.moo";
-new_verb = $list_utils:setremove_all(decode_binary(call_function("curl", update_url)), 10)[3..$ - 1];
-if ((new_verb != verb_code(verb_loc, verb)) && ($command_utils:yes_or_no(tostr("There is an update available for this verb. Would you like to apply it? You can review the updated code here: ", update_url)) == 1))
+downloaded_data = call_function("curl", update_url);
+if (typeof(downloaded_data) == MAP)
+player:tell("Update check failed: ", downloaded_data["message"]);
+elseif (!index(downloaded_data, "@update-toaststunt-help"))
+player:tell("Update check failed: The update data does not appear to be valid.");
+else
+new_verb = $list_utils:setremove_all(decode_binary(downloaded_data), 10)[3..$ - 1];
+if (((new_verb != {}) && (new_verb != verb_code(verb_loc, verb))) && ($command_utils:yes_or_no(tostr("There is an update available for this verb. Would you like to apply it? You can review the updated code here: ", update_url)) == 1))
 set_verb_code(verb_loc, verb, new_verb);
 return player:tell("This verb has been updated. Please run it again.");
+endif
 endif
 endif
 endif
@@ -77099,7 +77785,7 @@ $prog.help = {db, @$prog.help};
 endif
 endif
 "Finally, actually update the help files.";
-if ($command_utils:yes_or_no(tostr("Do you want to update the help database ", $string_utils:nn(db), "?")) != 1)
+if ((!yes_to_all) && ($command_utils:yes_or_no(tostr("Do you want to update the help database ", $string_utils:nn(db), "?")) != 1))
 return player:tell("Not updating.");
 endif
 if ((!player.wizard) && (db.owner != player))
@@ -77115,11 +77801,12 @@ data = decode_binary(data);
 added = removed = updated = {};
 properties = [];
 for x in (data)
-yin();
 if (typeof(x) != STR)
 continue;
 endif
 if (match = pcre_match(x, regex))
+"As there's no guarantee that to_value will suspend (and, in the core, it will not), and since we have no way of knowing how many ticks any given help entry will require to parse, we give ourselves the best possible chance of having enough ticks by staring over for each entry. Fortunately, speed is not a requirement.";
+suspend(0);
 {property, value} = {match[1]["property"]["match"], $string_utils:to_value(match[1]["value"]["match"])};
 if (value[1] != 1)
 player:tell("Error parsing value for `", property, "'.");
@@ -77134,7 +77821,7 @@ endfor
 for local_prop in (properties(db))
 yin();
 if (!maphaskey(properties, local_prop))
-if ($command_utils:yes_or_no(tostr("The property `", local_prop, "' no longer exists in the remote repository. Do you wish to delete the local version?")) == 1)
+if (yes_to_all || ($command_utils:yes_or_no(tostr("The property `", local_prop, "' no longer exists in the remote repository. Do you wish to delete the local version?")) == 1))
 removed = setadd(removed, local_prop);
 delete_property(db, local_prop);
 endif
