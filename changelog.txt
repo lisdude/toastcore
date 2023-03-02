@@ -208,3 +208,4 @@ Properly transform //-style comments when using @program (primarily for LambdaCo
 [$wiz:@update-toaststunt-help] Updated to latest version. Help files also updated.
 [#0:bf_chparents] Added. Roughly follows the same checks as bf_chparent.
 [#2:@mcp, #2:@mcps] Removed.
+[$network:close, :incoming_connection, :is_outgoing_connection] Fix outgoing connection checks.

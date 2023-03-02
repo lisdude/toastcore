@@ -82910,7 +82910,7 @@ if (!this:trust(caller_perms()))
 return E_PERM;
 endif
 con = args[1];
-if (!index(`connection_name(con) ! ANY => ""', " to "))
+if (!this:is_outgoing_connection(con))
 return E_INVARG;
 endif
 boot_player(con);
@@ -83125,7 +83125,7 @@ return;
 endif
 what = args[1];
 "this code for unix servers >= 1.7.5 only";
-if (index(`connection_name(what) ! ANY => ""', " to "))
+if (this:is_outgoing_connection(what))
 "outbound connection";
 if (ct = $list_utils:assoc(what, this.connect_connections_to))
 this.connect_connections_to = setremove(this.connect_connections_to, ct);
@@ -83154,7 +83154,7 @@ endif
 this.connect_connections_to = {};
 .
 #72:16
-return index(`connection_name(args[1]) ! ANY => ""', " to ");
+return `connection_info(args[1])["outbound"] ! ANY => 0';
 .
 #72:17
 "for trusted players, they can write to connections";
