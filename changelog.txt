@@ -209,3 +209,12 @@ Properly transform //-style comments when using @program (primarily for LambdaCo
 [#0:bf_chparents] Added. Roughly follows the same checks as bf_chparent.
 [#2:@mcp, #2:@mcps] Removed.
 [$network:close, :incoming_connection, :is_outgoing_connection] Fix outgoing connection checks.
+[$time_utils.timezones] Add UTC
+[$login:connection_name_lookup] Add error catching so it doesn't prevent login.
+[$gender_utils:get_pronoun] Fix tracebacks when using 'she' and add support for they/them/their/theirs/themself.
+[$player_class:@nn] Port LambdaMOO @nn fix for potential same-second message bug. (See *Bug-Reports on LambdaMOO)
+[$ansi_utils:add_code] Fix a traceback due to 'n' not existing.
+[$wiz_utils.new_core_message] Slightly updated to point to the current MOO mailing list and ToastStunt Discord.
+ANSI: Add tags for [strike] and [italic].
+(2024-04-24) This version (and future versions) is made with `make-core-database`. Note: This means object numbers will be different from previous versions going forward.
+

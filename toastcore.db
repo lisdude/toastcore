@@ -8,23 +8,23 @@
 98
 0 values pending finalization
 0 clocks
-1 queued tasks
-0 1 1671264001 419331400
+4 queued tasks
+0 47 1713940027 553013412
 0
 -111
 1
-79
+46
 1
-79
+46
 1
-79 -7 -8 2 -9 2 79 -10 1
+46 -7 -8 2 -9 2 46 -10 1
 No
 More
 Parse
 Infos
-schedule_measurement_task
-schedule_measurement_task
-24 variables
+raw_send
+raw_send
+39 variables
 NUM
 0
 0
@@ -45,13 +45,786 @@ player
 2
 this
 1
-79
+46
 caller
 1
-79
+46
 verb
 2
-schedule_measurement_task
+raw_send
+args
+4
+3
+4
+153
+0
+1713940026
+2
+Wizard (#2)
+2
+*News (#61)
+2
+Welcome to ToastCore
+2
+
+2
+Getting Started with your ToastCore MOO
+2
+========================================
+2
+
+2
+Thank you for choosing ToastCore! ToastCore is derived from LambdaCore, so similarities are no coincidence.
+2
+
+2
+Initial Setup Notes
+2
+-------------------
+2
+
+2
+The "welcome" screen, seen when a player connects.
+2
+  -- this is stored in $login.welcome_message
+2
+
+2
+Do you want on-line character creation?
+2
+  -- this is stored in $login.create_enabled
+2
+     for more detailed information, edit $login:player_creation_enabled
+2
+
+2
+Do you want to limit the number of players on the MOO at once?
+2
+  -- look at $login.max_connections
+2
+     the `connection_limit' message on $login is the message printed
+2
+     when this limit is reached.
+2
+
+2
+Do you want a different default player class?
+2
+  -- set $player_class to a different value
+2
+     *do not* change $player
+2
+
+2
+You should also set the following:
+2
+  $network.postmaster
+2
+    -- your email address, or the email address of the person who will 
+2
+       handle your email
+2
+  $network.site
+2
+    -- the machine your MOO is running on (e.g. "lambda.moo.mud.org")
+2
+  $network.port
+2
+    -- the port your MOO is running on (e.g. 8888)
+2
+  $network.MOO_Name
+2
+    -- the name of your MOO (e.g. "LambdaMOO")
+2
+  $site_db.domain
+2
+    -- this is set to the `domain' of your address
+2
+       (eg `foo.com' for `moo.foo.com')
+2
+
+2
+If you compiled the server with open_network_connection() enabled (allowing the MOO to open up connections with other computers on the network), then you should set
+2
+  $network.active = 1
+2
+     This will enable @newpassword, @registerme, @password, @mailme, @netforward, and others to send mail from the MOO.
+2
+
+2
+-------------------------------------------------------------------
+2
+
+2
+Setting Yourself Up
+2
+-------------------
+2
+
+2
+Set a password for yourself.
+2
+  -- @password <new-password>
+2
+
+2
+Set a description for yourself.
+2
+  -- @describe me as <anything>
+2
+
+2
+Set a gender for yourself.
+2
+  -- @gender <gender>
+2
+
+2
+There are, also, a large number of messages you can set on yourself.  Setting them will enhance the virtual reality.
+2
+
+2
+-------------------------------------------------------------------
+2
+
+2
+About Guests
+2
+------------
+2
+
+2
+To make a new Guest character:
+2
+  -- @make-guest <guestname>
+2
+     will make a new guest with the name you specify with `_Guest' appended
+2
+     and some other standard but useful aliases
+2
+
+2
+This is the easiest way to make Guest characters.  The most important things to remember about Guests, if you want to make them yourself, are:
+2
+  -- make them owned by nonwizards, and not owned by themselves
+2
+  -- make sure they've got .password == 0, and that .password is nonclear
+2
+  -- at least one Guest must always be named `Guest'; this can be an alias
+2
+
+2
+To set the default description and gender for a guest:
+2
+  -- set .default_description to the description the guest should start with
+2
+  -- set .default_gender to the gender the guest should start with
+2
+  -- remember to set .description and .gender too, for the guest's first use
+2
+
+2
+-------------------------------------------------------------------
+2
+
+2
+Adding to the Newspaper
+2
+-----------------------
+2
+
+2
+The newspaper is a special mailing list.  To add a post to the newspaper, send mail to it (as *News or $news), and then note the number of your post (let's call it <x> and:
+2
+  -- @addnews <x> to *News
+2
+... in general, `@addnews $ to *News' will work as well.
+2
+
+2
+-------------------------------------------------------------------
+2
+
+2
+Quota
+2
+-----
+2
+
+2
+By default, ToastCore runs with byte-based quota, an in-DB quota system, limiting users by total database space as opposed to total objects.  You'll need to do two things:
+2
+  -- decide on the default quota:
+2
+     ;$byte_quota_utils.default_quota[1] = <a number of bytes>
+2
+  -- start the measurement task; see `help routine_tasks' for more information (Note: this help topic contains information about more than just the quota task; it should be read regardless of how quota is set).
+2
+
+2
+If you prefer the quota system documented in the LambdaMOO / ToastStunt Programmer's Manual, directly supported by the server, you can enable object-based quota:
+2
+  -- set $quota_utils to $object_quota_utils
+2
+
+2
+It's best that you make this switch before users start, because converting existing users is an awkward (and inherently arbitrary and political) move.
+2
+
+2
+-------------------------------------------------------------------
+2
+
+2
+Making Programmers
+2
+------------------
+2
+
+2
+The command to turn someone into a programmer is `@programmer'  Its syntax is `@programmer <user>'.  For example:
+2
+  -- @programmer Haakon
+2
+The `@programmer' verb will prompt you if the user isn't set up with a description and a gender.
+2
+
+2
+No code to automatically grant programmer bits is included with ToastCore.
+2
+
+2
+Making Wizards
+2
+--------------
+2
+
+2
+THINK CAREFULLY.
+2
+
+2
+Be very careful before giving someone a wizard bit.  That person can do gross damage to your database, and fixable but serious damage to the machine it runs on.  That person can quite possibly open outbound network connections from your machine, and thus commit acts for which your host system will be blamed.  That person can ruin your MOO's as-yet-untarnished reputation.
+2
+
+2
+Wizards have technical power, the ability to change anything within the database, to create anything within the database.  Be careful with the idea of a `Social Wizard' -- a nontechnical person holding a wizard bit is fairly likely to, at some point, accidentally do something destructive.  It's a good idea not to socialize as your wizard character, for the same reason, to make it less likely to be accidentally destructive.
+2
+
+2
+That said, in general you don't turn an existing character into a wizard, you make a -new- character to be the wizard.  This is because the existing character probably owns code and objects which could be destructive if suddenly made wizardly; it's a good security measure to make a fresh player.  So, to make a fresh player:
+2
+  -- @make-player (see `help @make-player' for more information)
+2
+     this will make you a new player. for this example, #123
+2
+
+2
+To make #123 a wizard:
+2
+  -- @programmer #123
+2
+     (a nonprogrammer wizard is a truly strange beast)
+2
+  -- ;#123.wizard = 1;
+2
+  -- @chparent #123 to $wiz
+2
+  -- ;#123.public_identity = <the player's nonwizard character's object number>
+2
+
+2
+-------------------------------------------------------------------
+2
+
+2
+Good luck with your new ToastCore database!
+2
+
+2
+Visit us at LambdaMOO: lambda.moo.mud.org 8888
+2
+
+2
+Join the international mailing list for MOO coders: https://groups.google.com/g/MOO-talk
+2
+
+2
+Join the ToastStunt / MOO Discord: https://discord.gg/JUz3zwZamW
+2
+
+2
+Do good things.
+2
+
+2
+The LambdaMOO Wizards
+2
+[authored February 15, 1999]
+2
+[edited April 24, 2024 for ToastCore]
+1
+61
+1
+2
+argstr
+2
+
+dobj
+1
+-1
+dobjstr
+2
+
+prepstr
+2
+
+iobj
+1
+-1
+iobjstr
+2
+
+INT
+0
+0
+FLOAT
+0
+9
+MAP
+0
+10
+ANON
+0
+12
+WAIF
+0
+13
+BOOL
+0
+14
+true
+14
+1
+false
+14
+0
+text
+4
+153
+0
+1713940026
+2
+Wizard (#2)
+2
+*News (#61)
+2
+Welcome to ToastCore
+2
+
+2
+Getting Started with your ToastCore MOO
+2
+========================================
+2
+
+2
+Thank you for choosing ToastCore! ToastCore is derived from LambdaCore, so similarities are no coincidence.
+2
+
+2
+Initial Setup Notes
+2
+-------------------
+2
+
+2
+The "welcome" screen, seen when a player connects.
+2
+  -- this is stored in $login.welcome_message
+2
+
+2
+Do you want on-line character creation?
+2
+  -- this is stored in $login.create_enabled
+2
+     for more detailed information, edit $login:player_creation_enabled
+2
+
+2
+Do you want to limit the number of players on the MOO at once?
+2
+  -- look at $login.max_connections
+2
+     the `connection_limit' message on $login is the message printed
+2
+     when this limit is reached.
+2
+
+2
+Do you want a different default player class?
+2
+  -- set $player_class to a different value
+2
+     *do not* change $player
+2
+
+2
+You should also set the following:
+2
+  $network.postmaster
+2
+    -- your email address, or the email address of the person who will 
+2
+       handle your email
+2
+  $network.site
+2
+    -- the machine your MOO is running on (e.g. "lambda.moo.mud.org")
+2
+  $network.port
+2
+    -- the port your MOO is running on (e.g. 8888)
+2
+  $network.MOO_Name
+2
+    -- the name of your MOO (e.g. "LambdaMOO")
+2
+  $site_db.domain
+2
+    -- this is set to the `domain' of your address
+2
+       (eg `foo.com' for `moo.foo.com')
+2
+
+2
+If you compiled the server with open_network_connection() enabled (allowing the MOO to open up connections with other computers on the network), then you should set
+2
+  $network.active = 1
+2
+     This will enable @newpassword, @registerme, @password, @mailme, @netforward, and others to send mail from the MOO.
+2
+
+2
+-------------------------------------------------------------------
+2
+
+2
+Setting Yourself Up
+2
+-------------------
+2
+
+2
+Set a password for yourself.
+2
+  -- @password <new-password>
+2
+
+2
+Set a description for yourself.
+2
+  -- @describe me as <anything>
+2
+
+2
+Set a gender for yourself.
+2
+  -- @gender <gender>
+2
+
+2
+There are, also, a large number of messages you can set on yourself.  Setting them will enhance the virtual reality.
+2
+
+2
+-------------------------------------------------------------------
+2
+
+2
+About Guests
+2
+------------
+2
+
+2
+To make a new Guest character:
+2
+  -- @make-guest <guestname>
+2
+     will make a new guest with the name you specify with `_Guest' appended
+2
+     and some other standard but useful aliases
+2
+
+2
+This is the easiest way to make Guest characters.  The most important things to remember about Guests, if you want to make them yourself, are:
+2
+  -- make them owned by nonwizards, and not owned by themselves
+2
+  -- make sure they've got .password == 0, and that .password is nonclear
+2
+  -- at least one Guest must always be named `Guest'; this can be an alias
+2
+
+2
+To set the default description and gender for a guest:
+2
+  -- set .default_description to the description the guest should start with
+2
+  -- set .default_gender to the gender the guest should start with
+2
+  -- remember to set .description and .gender too, for the guest's first use
+2
+
+2
+-------------------------------------------------------------------
+2
+
+2
+Adding to the Newspaper
+2
+-----------------------
+2
+
+2
+The newspaper is a special mailing list.  To add a post to the newspaper, send mail to it (as *News or $news), and then note the number of your post (let's call it <x> and:
+2
+  -- @addnews <x> to *News
+2
+... in general, `@addnews $ to *News' will work as well.
+2
+
+2
+-------------------------------------------------------------------
+2
+
+2
+Quota
+2
+-----
+2
+
+2
+By default, ToastCore runs with byte-based quota, an in-DB quota system, limiting users by total database space as opposed to total objects.  You'll need to do two things:
+2
+  -- decide on the default quota:
+2
+     ;$byte_quota_utils.default_quota[1] = <a number of bytes>
+2
+  -- start the measurement task; see `help routine_tasks' for more information (Note: this help topic contains information about more than just the quota task; it should be read regardless of how quota is set).
+2
+
+2
+If you prefer the quota system documented in the LambdaMOO / ToastStunt Programmer's Manual, directly supported by the server, you can enable object-based quota:
+2
+  -- set $quota_utils to $object_quota_utils
+2
+
+2
+It's best that you make this switch before users start, because converting existing users is an awkward (and inherently arbitrary and political) move.
+2
+
+2
+-------------------------------------------------------------------
+2
+
+2
+Making Programmers
+2
+------------------
+2
+
+2
+The command to turn someone into a programmer is `@programmer'  Its syntax is `@programmer <user>'.  For example:
+2
+  -- @programmer Haakon
+2
+The `@programmer' verb will prompt you if the user isn't set up with a description and a gender.
+2
+
+2
+No code to automatically grant programmer bits is included with ToastCore.
+2
+
+2
+Making Wizards
+2
+--------------
+2
+
+2
+THINK CAREFULLY.
+2
+
+2
+Be very careful before giving someone a wizard bit.  That person can do gross damage to your database, and fixable but serious damage to the machine it runs on.  That person can quite possibly open outbound network connections from your machine, and thus commit acts for which your host system will be blamed.  That person can ruin your MOO's as-yet-untarnished reputation.
+2
+
+2
+Wizards have technical power, the ability to change anything within the database, to create anything within the database.  Be careful with the idea of a `Social Wizard' -- a nontechnical person holding a wizard bit is fairly likely to, at some point, accidentally do something destructive.  It's a good idea not to socialize as your wizard character, for the same reason, to make it less likely to be accidentally destructive.
+2
+
+2
+That said, in general you don't turn an existing character into a wizard, you make a -new- character to be the wizard.  This is because the existing character probably owns code and objects which could be destructive if suddenly made wizardly; it's a good security measure to make a fresh player.  So, to make a fresh player:
+2
+  -- @make-player (see `help @make-player' for more information)
+2
+     this will make you a new player. for this example, #123
+2
+
+2
+To make #123 a wizard:
+2
+  -- @programmer #123
+2
+     (a nonprogrammer wizard is a truly strange beast)
+2
+  -- ;#123.wizard = 1;
+2
+  -- @chparent #123 to $wiz
+2
+  -- ;#123.public_identity = <the player's nonwizard character's object number>
+2
+
+2
+-------------------------------------------------------------------
+2
+
+2
+Good luck with your new ToastCore database!
+2
+
+2
+Visit us at LambdaMOO: lambda.moo.mud.org 8888
+2
+
+2
+Join the international mailing list for MOO coders: https://groups.google.com/g/MOO-talk
+2
+
+2
+Join the ToastStunt / MOO Discord: https://discord.gg/JUz3zwZamW
+2
+
+2
+Do good things.
+2
+
+2
+The LambdaMOO Wizards
+2
+[authored February 15, 1999]
+2
+[edited April 24, 2024 for ToastCore]
+rcpts
+4
+1
+1
+61
+from
+1
+2
+bogus
+4
+0
+resolve
+4
+3
+4
+0
+4
+1
+1
+61
+4
+0
+actual_rcpts
+4
+1
+1
+61
+biffs
+4
+0
+results
+4
+1
+0
+1
+recip
+1
+61
+e
+0
+1
+i
+6
+b
+6
+mnums
+6
+rn
+6
+r
+6
+for b in (biffs)
+if ((ticks_left() < 10000) || (seconds_left() < 2))
+suspend(1);
+endif
+if ($object_utils:has_callable_verb(b[1], "notify_mail"))
+mnums = {};
+for r in (listdelete(b, 1))
+mnums = {@mnums, (rn = r in actual_rcpts) && results[rn]};
+endfor
+b[1]:notify_mail(from, listdelete(b, 1), mnums);
+endif
+endfor
+.
+0 6 1713940027 431254431
+0
+-111
+1
+61
+1
+61
+1
+61 -7 -8 2 -9 2 61 -10 1
+No
+More
+Parse
+Infos
+touch
+touch
+26 variables
+NUM
+0
+0
+OBJ
+0
+1
+STR
+0
+2
+LIST
+0
+4
+ERR
+0
+3
+player
+1
+2
+this
+1
+61
+caller
+1
+61
+verb
+2
+touch
 args
 4
 0
@@ -97,15 +870,251 @@ true
 false
 14
 0
-this:schedule_measurement_task();
-this.measurement_task_running = task_id();
-this:measurement_task(this.task_time_limit);
-this.measurement_task_running = 0;
+who
+1
+36
+p
+6
+for p in (connected_players())
+$command_utils:suspend_if_needed(0);
+if ((p:get_current_message(this) || {0, 0})[2] < this.last_news_time)
+p:notify("There's a new edition of the newspaper.  Type 'news new' to see the new article(s).");
+endif
+endfor
+.
+0 9 1713940027 1377418387
+0
+-111
+1
+2
+1
+88
+1
+2 -7 -8 2 -9 2 88 -10 1
+No
+More
+Parse
+Infos
+disfunc
+disfunc
+26 variables
+NUM
+0
+0
+OBJ
+0
+1
+STR
+0
+2
+LIST
+0
+4
+ERR
+0
+3
+player
+1
+2
+this
+1
+2
+caller
+1
+0
+verb
+2
+disfunc
+args
+4
+0
+argstr
+2
+
+dobj
+1
+-1
+dobjstr
+2
+
+prepstr
+2
+
+iobj
+1
+-1
+iobjstr
+2
+
+INT
+0
+0
+FLOAT
+0
+9
+MAP
+0
+10
+ANON
+0
+12
+WAIF
+0
+13
+BOOL
+0
+14
+true
+14
+1
+false
+14
+0
+cp
+1
+2
+feature
+6
+for feature in (this.features)
+try
+feature:player_disconnected(player, @args);
+except (ANY)
+continue feature;
+endtry
+endfor
+.
+0 27 1713940027 1071279834
+0
+-111
+1
+17
+1
+14
+1
+17 -7 -8 2 -9 36 14 -10 1
+No
+More
+Parse
+Infos
+rm_message_seq
+rm_message_seq
+37 variables
+NUM
+0
+0
+OBJ
+0
+1
+STR
+0
+2
+LIST
+0
+4
+ERR
+0
+3
+player
+1
+2
+this
+1
+17
+caller
+1
+17
+verb
+2
+rm_message_seq
+args
+4
+1
+4
+0
+argstr
+2
+
+dobj
+1
+-1
+dobjstr
+2
+
+prepstr
+2
+
+iobj
+1
+-1
+iobjstr
+2
+
+INT
+0
+0
+FLOAT
+0
+9
+MAP
+0
+10
+ANON
+0
+12
+WAIF
+0
+13
+BOOL
+0
+14
+true
+14
+1
+false
+14
+0
+seq
+4
+0
+msgtree
+4
+0
+save
+4
+0
+nums
+4
+0
+onext
+0
+1
+rmmed
+0
+0
+start
+6
+i
+6
+next
+6
+zmsgs
+6
+tmg
+4
+0
+save_kept
+4
+0
+s
+6
+for s in (tmg)
+this._mgr:kill(s[2], "_killmsg");
+endfor
 .
 0 suspended tasks
 0 interrupted tasks
 0 active connections with listeners
-128
+127
 #0
 The System Object
 24
@@ -707,11 +1716,11 @@ telnet
 2
 5
 1
-118
+112
 2
 5
 1
-122
+118
 2
 5
 10
@@ -719,7 +1728,15 @@ telnet
 2
 core_history
 4
-1
+2
+4
+3
+2
+ToastCore
+2
+2.7.1
+0
+1713940026
 4
 3
 2
@@ -731,7 +1748,7 @@ a 2018 LambdaCore
 2
 last_restart_time
 0
-1671224785
+1713940020
 2
 name
 2
@@ -743,7 +1760,7 @@ shutdown_time
 2
 5
 10
-11
+12
 2
 ansi
 1
@@ -772,6 +1789,10 @@ frand
 mail
 1
 85
+2
+mcp
+1
+116
 2
 prog
 1
@@ -859,6 +1880,10 @@ prog
 2
 5
 1
+122
+2
+1
+1
 124
 2
 1
@@ -868,10 +1893,6 @@ prog
 1
 1
 126
-2
-1
-1
-127
 2
 5
 1
@@ -894,9 +1915,9 @@ The known universe.
 4
 2
 0
-37896
+39488
 0
-1671219241
+1713940026
 36
 1
 #1
@@ -964,7 +1985,7 @@ Root Class
 1
 110
 1
-118
+112
 1
 32
 1
@@ -1139,9 +2160,9 @@ object_size
 4
 2
 0
-32226
+31960
 0
-1671219241
+1713940026
 36
 1
 #2
@@ -1159,7 +2180,7 @@ source
 2
 time
 0
-1671224834
+1713940026
 4
 0
 1
@@ -1305,7 +2326,8 @@ time
 5
 2
 5
-5
+4
+0
 2
 5
 5
@@ -1314,7 +2336,44 @@ time
 5
 2
 5
-5
+4
+6
+0
+0
+0
+0
+4
+3
+1
+17
+0
+0
+0
+0
+4
+3
+1
+29
+0
+0
+0
+0
+4
+3
+1
+34
+0
+0
+0
+0
+4
+3
+1
+70
+0
+0
+0
+0
 2
 4
 5
@@ -1329,7 +2388,12 @@ time
 5
 98
 1
-5
+4
+2
+1
+90
+1
+89
 36
 1
 5
@@ -1339,10 +2403,11 @@ time
 2
 0
 0
-1671224834
+1713940026
 2
 1
-5
+0
+0
 2
 5
 5
@@ -1439,6 +2504,8 @@ time
 1
 111
 1
+112
+1
 114
 1
 115
@@ -1458,8 +2525,6 @@ time
 125
 1
 126
-1
-127
 2
 1
 5
@@ -1499,7 +2564,8 @@ time
 100
 36
 0
-5
+1
+62
 2
 5
 0
@@ -1515,13 +2581,24 @@ time
 5
 2
 5
-5
+0
+9223372036854775807
 2
 1
-5
+4
+4
+0
+50000
+0
+1146428
+0
+1713940026
+0
+1000
 36
 0
-5
+0
+0
 2
 0
 5
@@ -1539,40 +2616,51 @@ time
 5
 2
 5
+2
+Its
+2
 5
+2
+its
+2
+5
+2
+Its
+2
+5
+2
+its
+2
+5
+2
+Itself
+2
+5
+2
+itself
+2
+5
+2
+It
+2
+5
+2
+it
+2
+5
+2
+It
+2
+5
+2
+it
 2
 5
 5
 2
 5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
-2
-5
-5
+0
+0
 2
 4
 4
@@ -1581,10 +2669,16 @@ time
 Wizard
 2
 1
-5
+2
+
 2
 5
-5
+4
+2
+0
+11107
+0
+1713940026
 36
 1
 #3
@@ -1878,7 +2972,7 @@ generic room
 0
 43072
 0
-1671219241
+1713940026
 36
 1
 #4
@@ -2320,7 +3414,7 @@ You see a player who should type '@describe me as ...'.
 0
 48748
 0
-1671219241
+1713940026
 36
 1
 #5
@@ -2433,7 +3527,7 @@ generic thing
 0
 7011
 0
-1671219241
+1713940026
 36
 1
 #6
@@ -3086,9 +4180,9 @@ You see a player who should type '@describe me as ...'.
 4
 2
 0
-132036
+132097
 0
-1671219241
+1713940026
 36
 1
 #7
@@ -3214,7 +4308,7 @@ generic exit
 0
 10849
 0
-1671219241
+1713940026
 36
 1
 #8
@@ -3432,7 +4526,7 @@ generic container
 0
 14463
 0
-1671219241
+1713940026
 36
 1
 #9
@@ -3555,7 +4649,7 @@ There appears to be some writing on the note ...
 0
 9723
 0
-1671219241
+1713940026
 36
 1
 #10
@@ -3838,7 +4932,7 @@ Character creation is disabled.
 2
 5
 0
-0
+1
 2
 5
 2
@@ -4053,9 +5147,9 @@ This provides everything needed by #0:do_login_command.  See `help $login' on $c
 4
 2
 0
-60702
+60754
 0
-1671219241
+1713940026
 36
 1
 #11
@@ -4109,7 +5203,7 @@ A repository of last-resort player verbs to be called by $player:last_huh
 0
 6454
 0
-1671219241
+1713940026
 36
 1
 #12
@@ -4172,7 +5266,7 @@ Guest Log
 0
 5510
 0
-1671219241
+1713940026
 36
 1
 #13
@@ -4508,7 +5602,7 @@ This is the Generic BigList Utilities utility package.  See `help $biglist' for 
 0
 30986
 0
-1641541193
+1713940026
 36
 1
 #14
@@ -4884,7 +5978,7 @@ Calling #OBJ:restore_from(...) COMPLETELY AND IRREVOCABLY REMOVES ALL MESSAGES f
 0
 53798
 0
-1641541193
+1713940026
 36
 1
 #15
@@ -4896,9 +5990,7 @@ Limbo
 0
 0
 4
-2
 1
-98
 1
 2
 1
@@ -4945,7 +6037,7 @@ The Body Bag
 0
 3784
 0
-1671219241
+1713940026
 36
 1
 #16
@@ -5077,7 +6169,7 @@ Registration Database
 0
 13392
 0
-1641541193
+1713940026
 36
 1
 #17
@@ -5086,8 +6178,16 @@ Player-Creation-Log
 2
 1
 46
+10
+2
+2
+source
+1
+-1
+2
+time
 0
-0
+1713940026
 4
 0
 1
@@ -5115,38 +6215,8 @@ expire_old_messages
 2
 13
 -1
-2
- a
- b
-28
-4
-1
-2
-none
-36
 0
-4
-2
-0
-0
-4
-1
-4
-6
-2
- a
-0
-1
-0
-1541028130
-2
-Wizard (#2)
-2
-*Player-Creation-Log (#17)
-2
-Anti-Wizard (#98)
-36
-0
+26
 0
 1
 2
@@ -5160,7 +6230,7 @@ Anti-Wizard (#98)
 36
 1
 2
-b
+
 36
 1
 4
@@ -5172,23 +6242,7 @@ b
 36
 1
 4
-1
-4
-2
 0
-0
-4
-3
-2
- b
-0
-1
-4
-2
-0
-1
-0
-1541028130
 36
 0
 4
@@ -5224,7 +6278,7 @@ b
 36
 1
 0
-1541028130
+0
 36
 1
 4
@@ -5269,9 +6323,9 @@ Log of player creations.
 4
 2
 0
-5701
+5130
 0
-1671219241
+1713940026
 36
 1
 #18
@@ -5374,7 +6428,7 @@ A `help database' that knows about all of the documented verbs.
 0
 5412
 0
-1641541193
+1713940026
 36
 1
 #19
@@ -8868,9 +9922,9 @@ Help database for LambdaCore utility objects and generics.
 4
 2
 0
-121534
+121536
 0
-1641541193
+1713940026
 36
 1
 #20
@@ -9464,9 +10518,9 @@ This is the string utilities utility package.  See `help $string_utils' for more
 4
 2
 0
-109381
+108808
 0
-1671219241
+1713940026
 36
 1
 #21
@@ -9636,7 +10690,7 @@ This is the building utilities utility package.  See `help $building_utils' for 
 0
 19173
 0
-1671219241
+1713940026
 36
 1
 #22
@@ -12451,7 +13505,7 @@ This provides help on the programmer commands available on $prog and related top
 0
 103085
 0
-1641541193
+1713940026
 36
 1
 #23
@@ -13665,9 +14719,9 @@ This describes the various commands available on $wiz.
 4
 2
 0
-36730
+39291
 0
-1641541193
+1713940026
 36
 1
 #24
@@ -13952,15 +15006,15 @@ You don't *really* want to commit suicide, do you?
 2
 5
 4
-145
+148
 2
-Getting Started with your LambdaCore MOO
+Getting Started with your ToastCore MOO
 2
 ========================================
 2
 
 2
-Thank you for choosing LambdaCore!
+Thank you for choosing ToastCore! ToastCore is derived from LambdaCore, so similarities are no coincidence.
 2
 
 2
@@ -14024,9 +15078,9 @@ You should also set the following:
 2
   $site_db.domain
 2
-  -- this is set to the `domain' of your address
+    -- this is set to the `domain' of your address
 2
-     (eg `foo.com' for `moo.foo.com')
+       (eg `foo.com' for `moo.foo.com')
 2
 
 2
@@ -14138,7 +15192,7 @@ Quota
 2
 
 2
-By default, LambdaCore runs with byte-based quota, an in-DB quota system, limiting users by total database space as opposed to total objects.  You'll need to do two things:
+By default, ToastCore runs with byte-based quota, an in-DB quota system, limiting users by total database space as opposed to total objects.  You'll need to do two things:
 2
   -- decide on the default quota:
 2
@@ -14148,7 +15202,7 @@ By default, LambdaCore runs with byte-based quota, an in-DB quota system, limiti
 2
 
 2
-If you prefer the quota system documented in the LambdaMOO Programmer's Manual, directly supported by the server, you can enable object-based quota:
+If you prefer the quota system documented in the LambdaMOO / ToastStunt Programmer's Manual, directly supported by the server, you can enable object-based quota:
 2
   -- set $quota_utils to $object_quota_utils
 2
@@ -14176,7 +15230,7 @@ The `@programmer' verb will prompt you if the user isn't set up with a descripti
 2
 
 2
-No code to automatically grant programmer bits is included with LambdaCore.
+No code to automatically grant programmer bits is included with ToastCore.
 2
 
 2
@@ -14224,7 +15278,7 @@ To make #123 a wizard:
 2
 
 2
-Good luck with your new LambdaCore database!
+Good luck with your new ToastCore database!
 2
 
 2
@@ -14232,7 +15286,11 @@ Visit us at LambdaMOO: lambda.moo.mud.org 8888
 2
 
 2
-Join the international mailing list for MOO coders: send an email message to moo-cows-request@the-b.org with the word `subscribe' as the body of your message.
+Join the international mailing list for MOO coders: https://groups.google.com/g/MOO-talk
+2
+
+2
+Join the ToastStunt / MOO Discord: https://discord.gg/JUz3zwZamW
 2
 
 2
@@ -14243,6 +15301,8 @@ Do good things.
 The LambdaMOO Wizards
 2
 [authored February 15, 1999]
+2
+[edited April 24, 2024 for ToastCore]
 2
 1
 4
@@ -14375,9 +15435,9 @@ This is the Wizard Utilities utility package.  See `help $wiz_utils' for more de
 4
 2
 0
-75226
+75394
 0
-1671219241
+1713940026
 36
 1
 #25
@@ -14522,7 +15582,7 @@ The site blacklist and the graylist live as well (see `help blacklist').
 0
 18428
 0
-1641541193
+1713940026
 36
 1
 #26
@@ -15696,7 +16756,7 @@ This is the Math Utilities utility package.  See `help $math_utils' for more det
 0
 44800
 0
-1641541193
+1713940026
 36
 1
 #27
@@ -15818,7 +16878,7 @@ This is the Set Utilities utility package.  See `help $set_utils' for more detai
 0
 8102
 0
-1641541193
+1713940026
 36
 1
 #28
@@ -18336,7 +19396,7 @@ For the {"*verb*",...} form, the current verbs available are
 0
 107206
 0
-1641541193
+1713940026
 36
 1
 #29
@@ -18345,8 +19405,16 @@ New-Prog-Log
 2
 1
 46
+10
+2
+2
+source
+1
+-1
+2
+time
 0
-0
+1713940026
 4
 0
 1
@@ -18398,27 +19466,7 @@ PROGRAMMER
 36
 1
 4
-1
-4
-2
 0
-0
-4
-1
-4
-2
-0
-1
-4
-4
-0
-1541028136
-1
-2
-1
-98
-2
-Anti-Wizard
 36
 0
 0
@@ -18452,7 +19500,7 @@ Anti-Wizard
 36
 1
 0
-1541028136
+0
 36
 1
 4
@@ -18498,9 +19546,9 @@ Record of who's been made a @programmer.
 4
 2
 0
-9347
+9111
 0
-1671219241
+1713940026
 36
 1
 #30
@@ -18620,7 +19668,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 13690
 0
-1641541193
+1713940026
 36
 1
 #31
@@ -19055,7 +20103,7 @@ By definition, guests appear nondescript.
 0
 22493
 0
-1641541193
+1713940026
 36
 1
 #32
@@ -19115,7 +20163,7 @@ For help on using the speller, use 'help spelling' and 'help @spell'.
 0
 6242
 0
-1641541193
+1713940026
 36
 1
 #33
@@ -19323,7 +20371,7 @@ This is the sequence utilities utility package.  See `help $seq_utils' for more 
 0
 23817
 0
-1641541193
+1713940026
 36
 1
 #34
@@ -19332,8 +20380,16 @@ Quota-Log
 2
 1
 46
+10
+2
+2
+source
+1
+-1
+2
+time
 0
-0
+1713940026
 4
 0
 1
@@ -19356,31 +20412,7 @@ init_for_core
 36
 1
 4
-1
-4
-2
 0
-0
-4
-1
-4
-2
-0
-1
-4
-6
-0
-1541028153
-2
-Wizard (#2)
-2
-*Quota-Log (#34)
-2
-@quota Anti-Wizard (#98) 1000000 (from 20000)
-2
-
-2
-Reason for quota increase: (none).
 36
 0
 0
@@ -19414,7 +20446,7 @@ Reason for quota increase: (none).
 36
 1
 0
-1541028153
+0
 36
 1
 4
@@ -19462,9 +20494,9 @@ Record of whose quota has been messed with and why.
 4
 2
 0
-2326
+1959
 0
-1671219241
+1713940026
 36
 1
 #35
@@ -19637,7 +20669,7 @@ An object useful for pronoun substitution for switching between third and second
 0
 9767
 0
-1641541193
+1713940026
 36
 1
 #36
@@ -19814,7 +20846,7 @@ init_for_core
 2
 0
 0
-2147483647
+9223372036854775807
 2
 1
 0
@@ -19894,7 +20926,7 @@ init_for_core
 36
 5
 0
-2147483647
+9223372036854775807
 2
 1
 4
@@ -19902,11 +20934,11 @@ init_for_core
 0
 100000008
 0
--28350490
+-28312869
 0
 1008125633
 0
-1510998
+1510997
 36
 0
 5
@@ -19978,7 +21010,7 @@ A system character used to own non-wizardly system verbs , properties, and objec
 0
 4196
 0
-1641541193
+1713940026
 36
 1
 #37
@@ -20125,7 +21157,7 @@ A generic `database' (well, really more like a string-indexed array if you want 
 0
 24015
 0
-1641541193
+1713940026
 36
 1
 #38
@@ -20230,7 +21262,7 @@ Everyman ($no_one) can not receive mail.
 2
 0
 0
-2147483647
+9223372036854775807
 2
 1
 0
@@ -20311,7 +21343,7 @@ Everyman ($no_one) can not receive mail.
 36
 5
 0
-2147483647
+9223372036854775807
 2
 1
 4
@@ -20321,7 +21353,7 @@ Everyman ($no_one) can not receive mail.
 0
 0
 0
-1671219241
+1713937221
 0
 0
 36
@@ -20401,7 +21433,7 @@ The character used for "safe" evals.
 0
 8606
 0
-1641541193
+1713940026
 36
 1
 #39
@@ -20661,7 +21693,7 @@ See `help $player_db' for more information.
 0
 12464
 0
-1641541193
+1713940026
 36
 1
 #40
@@ -21151,9 +22183,9 @@ Generic Mail Receiving Player
 4
 2
 0
-99754
+100020
 0
-1671219241
+1713940026
 36
 1
 #41
@@ -21644,9 +22676,9 @@ This is the gender utilities utility package.  See `help $gender_utils' for more
 4
 2
 0
-18117
+18249
 0
-1641541193
+1713940026
 36
 1
 #42
@@ -21735,7 +22767,7 @@ This is the permissions utilities utility package.  See `help $perm_utils' for m
 0
 4950
 0
-1671219241
+1713940026
 36
 1
 #43
@@ -21873,7 +22905,7 @@ month
 36
 5
 4
-15
+16
 4
 2
 2
@@ -21964,6 +22996,12 @@ PST
 HST
 0
 10
+4
+2
+2
+UTC
+0
+0
 36
 5
 0
@@ -22328,9 +23366,9 @@ This is the time utilities utility package.  See `help $time_utils' for more det
 4
 2
 0
-31463
+31531
 0
-1641541193
+1713940026
 36
 1
 #44
@@ -23278,7 +24316,7 @@ Editor Help
 0
 26270
 0
-1641541193
+1713940026
 36
 1
 #45
@@ -23576,7 +24614,7 @@ This can either be a mailing list or a mail folder, depending on what mood you'r
 0
 45731
 0
-1641541193
+1713940026
 36
 1
 #46
@@ -23931,7 +24969,7 @@ Avaliable aliases:
 0
 71767
 0
-1641541193
+1713940026
 36
 1
 #47
@@ -24373,7 +25411,7 @@ Mail Room
 0
 31309
 0
-1641541193
+1713940026
 36
 1
 #48
@@ -24702,7 +25740,7 @@ nedit
 0
 15810
 0
-1671219241
+1713940026
 36
 1
 #49
@@ -25031,7 +26069,7 @@ verb edit
 0
 21037
 0
-1671219241
+1713940026
 36
 1
 #50
@@ -25670,7 +26708,7 @@ edit
 0
 77149
 0
-1671219241
+1713940026
 36
 1
 #51
@@ -25825,7 +26863,7 @@ matching utilities
 0
 12908
 0
-1641541193
+1713940026
 36
 1
 #52
@@ -26083,7 +27121,7 @@ This is the object utilities utility package.  See `help $object_utils' for more
 0
 31061
 0
-1671219241
+1713940026
 36
 1
 #53
@@ -26220,7 +27258,7 @@ This the lock utilities package, used by the MOOwide locking mechanisms. See `he
 0
 13652
 0
-1671219241
+1713940026
 36
 1
 #54
@@ -26324,7 +27362,7 @@ Some writing on the letter explains that you should 'read letter', and when you'
 0
 3699
 0
-1671219241
+1713940026
 36
 1
 #55
@@ -26630,7 +27668,7 @@ This is the list utilities utility package.  See `help $list_utils' for more det
 0
 42043
 0
-1641541193
+1713940026
 36
 1
 #56
@@ -26724,26 +27762,8 @@ feature_task
 0
 2
 1
-4
-9
-0
-813814921
 2
-@generics
-4
-0
-2
-
-1
--1
-2
-
-2
-
-1
--1
-2
-
+hey, neat, no feature verbs have been run yet!
 36
 0
 4
@@ -26841,9 +27861,9 @@ This is the command utilities utility package.  See `help $command_utils' for mo
 4
 2
 0
-26184
+26004
 0
-1671219241
+1713940026
 36
 1
 #57
@@ -27368,9 +28388,9 @@ You see a wizard who chooses not to reveal its true appearance.
 4
 2
 0
-85474
+86841
 0
-1671219241
+1713940026
 36
 1
 #58
@@ -27713,9 +28733,7 @@ here=player.location;me=player
 2
 1
 4
-6
-1
-86
+5
 1
 22
 1
@@ -27725,7 +28743,7 @@ here=player.location;me=player
 1
 19
 1
-116
+86
 2
 5
 5
@@ -27874,9 +28892,9 @@ You see a player who is too experienced to have any excuse for not having a desc
 4
 2
 0
-86428
+86412
 0
-1671219241
+1713940026
 36
 1
 #59
@@ -28626,7 +29644,7 @@ This is the code utilities utility package.  See `help $code_utils' for more det
 0
 83718
 0
-1641541193
+1713940026
 36
 1
 #60
@@ -31275,7 +32293,7 @@ See the description of $generic_help for more detail.
 0
 96515
 0
-1641541193
+1713940026
 36
 1
 #61
@@ -31284,8 +32302,16 @@ News
 36
 1
 46
+10
+2
+2
+source
+1
+-1
+2
+time
 0
-0
+1713940026
 4
 0
 1
@@ -31392,7 +32418,7 @@ archive_news
 36
 5
 0
-1084848652
+1713940026
 36
 5
 4
@@ -31408,7 +32434,7 @@ archive_news
 36
 5
 0
-1084848652
+1713940026
 36
 1
 4
@@ -31444,7 +32470,7 @@ archive_news
 36
 1
 0
-1084848652
+1713940026
 36
 1
 4
@@ -31454,25 +32480,25 @@ archive_news
 0
 1
 4
-150
+153
 0
-1084848652
+1713940026
 2
 Wizard (#2)
 2
 *News (#61)
 2
-Welcome to LambdaCore
+Welcome to ToastCore
 2
 
 2
-Getting Started with your LambdaCore MOO
+Getting Started with your ToastCore MOO
 2
 ========================================
 2
 
 2
-Thank you for choosing LambdaCore!
+Thank you for choosing ToastCore! ToastCore is derived from LambdaCore, so similarities are no coincidence.
 2
 
 2
@@ -31536,9 +32562,9 @@ You should also set the following:
 2
   $site_db.domain
 2
-  -- this is set to the `domain' of your address
+    -- this is set to the `domain' of your address
 2
-     (eg `foo.com' for `moo.foo.com')
+       (eg `foo.com' for `moo.foo.com')
 2
 
 2
@@ -31650,7 +32676,7 @@ Quota
 2
 
 2
-By default, LambdaCore runs with byte-based quota, an in-DB quota system, limiting users by total database space as opposed to total objects.  You'll need to do two things:
+By default, ToastCore runs with byte-based quota, an in-DB quota system, limiting users by total database space as opposed to total objects.  You'll need to do two things:
 2
   -- decide on the default quota:
 2
@@ -31660,7 +32686,7 @@ By default, LambdaCore runs with byte-based quota, an in-DB quota system, limiti
 2
 
 2
-If you prefer the quota system documented in the LambdaMOO Programmer's Manual, directly supported by the server, you can enable object-based quota:
+If you prefer the quota system documented in the LambdaMOO / ToastStunt Programmer's Manual, directly supported by the server, you can enable object-based quota:
 2
   -- set $quota_utils to $object_quota_utils
 2
@@ -31688,7 +32714,7 @@ The `@programmer' verb will prompt you if the user isn't set up with a descripti
 2
 
 2
-No code to automatically grant programmer bits is included with LambdaCore.
+No code to automatically grant programmer bits is included with ToastCore.
 2
 
 2
@@ -31736,7 +32762,7 @@ To make #123 a wizard:
 2
 
 2
-Good luck with your new LambdaCore database!
+Good luck with your new ToastCore database!
 2
 
 2
@@ -31744,7 +32770,11 @@ Visit us at LambdaMOO: lambda.moo.mud.org 8888
 2
 
 2
-Join the international mailing list for MOO coders: send an email message to moo-cows-request@the-b.org with the word `subscribe' as the body of your message.
+Join the international mailing list for MOO coders: https://groups.google.com/g/MOO-talk
+2
+
+2
+Join the ToastStunt / MOO Discord: https://discord.gg/JUz3zwZamW
 2
 
 2
@@ -31755,6 +32785,8 @@ Do good things.
 The LambdaMOO Wizards
 2
 [authored February 15, 1999]
+2
+[edited April 24, 2024 for ToastCore]
 36
 0
 5
@@ -31793,9 +32825,9 @@ It's the current issue of the News, dated %d.
 4
 2
 0
-29103
+29269
 0
-1641541193
+1713940026
 36
 1
 #62
@@ -31890,9 +32922,9 @@ This is all there is right now.
 4
 2
 0
-6559
+6511
 0
-1641541193
+1713940026
 36
 1
 #63
@@ -32041,7 +33073,7 @@ Object reuse. Call $recycler:_create() to create an object (semantics the same a
 0
 13313
 0
-1641541193
+1713940026
 36
 1
 #64
@@ -32245,7 +33277,7 @@ Handler
 0
 11542
 0
-1671219241
+1713940026
 36
 1
 #65
@@ -32617,7 +33649,7 @@ Options for mailing
 0
 21303
 0
-1641541193
+1713940026
 36
 1
 #66
@@ -32726,7 +33758,7 @@ Edit Options
 0
 2904
 0
-1641541193
+1713940026
 36
 1
 #67
@@ -32811,7 +33843,7 @@ Display Options
 0
 1273
 0
-1641541193
+1713940026
 36
 1
 #68
@@ -32929,7 +33961,7 @@ an option package in need of a description.  See `help $generic_option'...
 0
 17483
 0
-1641541193
+1713940026
 36
 1
 #69
@@ -33127,7 +34159,7 @@ raise(error) actually raises the error.
 0
 12480
 0
-1641541193
+1713940026
 36
 1
 #70
@@ -33136,8 +34168,16 @@ Site-Locks
 2
 1
 46
+10
+2
+2
+source
+1
+-1
+2
+time
 0
-0
+1713940026
 4
 0
 1
@@ -33238,7 +34278,7 @@ Notes on annoying sites.
 0
 1864
 0
-1671219241
+1713940026
 36
 1
 #71
@@ -33596,7 +34636,7 @@ here=player.location;me=player
 2
 0
 0
-2147483647
+9223372036854775807
 2
 1
 0
@@ -33681,7 +34721,7 @@ Impossible password to type
 71
 5
 0
-2147483647
+9223372036854775807
 2
 1
 4
@@ -33691,7 +34731,7 @@ Impossible password to type
 0
 32307
 0
-1671219241
+1713937221
 0
 0
 36
@@ -33766,7 +34806,7 @@ A very clean, neat, tidy person who doesn't mind lugging players and their gear 
 0
 32307
 0
-1671219241
+1713940026
 36
 1
 #72
@@ -34198,9 +35238,9 @@ Parameters:
 4
 2
 0
-32197
+32150
 0
-1671219241
+1713940026
 36
 1
 #73
@@ -34287,7 +35327,7 @@ This is the object you want to use as a parent in order to @create a place for y
 0
 5624
 0
-1641541193
+1713940026
 36
 1
 #74
@@ -34429,7 +35469,7 @@ This is the Generic Feature Object.  It is not meant to be used as a feature obj
 0
 11423
 0
-1641541193
+1713940026
 36
 1
 #75
@@ -34731,7 +35771,7 @@ Option package for $prog commands.  See `help @prog-options'.
 0
 10468
 0
-1641541193
+1713940026
 36
 1
 #77
@@ -34860,7 +35900,7 @@ Option package for $builder commands.  See `help @build-options'.
 0
 6109
 0
-1641541193
+1713940026
 36
 1
 #78
@@ -34920,9 +35960,9 @@ Generic Utilities Package
 1
 99
 1
-124
+122
 1
-126
+125
 0
 1
 help_msg
@@ -34952,7 +35992,7 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 835
 0
-1671219241
+1713940026
 36
 1
 #79
@@ -35130,7 +36170,7 @@ measurement_task_running
 4
 4
 0
-20000
+100000
 0
 0
 0
@@ -35152,7 +36192,7 @@ measurement_task_running
 36
 5
 1
-98
+2
 36
 5
 0
@@ -35184,13 +36224,13 @@ measurement_task_running
 36
 5
 4
-1
-1
-32
+0
 36
 5
 4
-0
+1
+1
+2
 36
 5
 0
@@ -35354,7 +36394,7 @@ This is the Byte Quota Utilities utility package.  See `help $quota_utils' for m
 0
 44035
 0
-1641541193
+1713940026
 36
 1
 #80
@@ -35478,7 +36518,7 @@ Internal:
 0
 9154
 0
-1641541193
+1713940026
 36
 1
 #81
@@ -35584,7 +36624,7 @@ This is the Object Quota Utilities utility package.  See `help $object_quota_uti
 0
 10488
 0
-1641541193
+1713940026
 36
 1
 #82
@@ -35795,9 +36835,9 @@ Server Options
 4
 2
 0
-9190
+9256
 0
-1671219241
+1713940026
 36
 1
 #83
@@ -35924,7 +36964,7 @@ warehouse
 0
 2626
 0
-1641541193
+1713940026
 36
 1
 #84
@@ -36358,9 +37398,9 @@ If byte-based quota is enabled, also prints the total usage by all objects at la
 4
 2
 2
-*pass*
+*forward*
 2
-@quota
+object-quota
 36
 1
 4
@@ -37235,9 +38275,9 @@ This help database contains topics about the generic builder and building comman
 4
 2
 0
-46326
+46335
 0
-1641541193
+1713940026
 36
 1
 #85
@@ -38470,7 +39510,7 @@ This help database contains topics relating to the general use of the mail syste
 0
 42114
 0
-1641541193
+1713940026
 36
 1
 #86
@@ -42156,9 +43196,9 @@ A help database of the standard form in need of a description. See `help $generi
 4
 2
 0
-103117
+131289
 0
-1641541193
+1713940026
 36
 1
 #87
@@ -42340,7 +43380,7 @@ The password verifier verifies passwords.
 0
 15188
 0
-1671219241
+1713940026
 36
 1
 #88
@@ -43019,7 +44059,7 @@ You see a player who should type '@describe me as ...'.
 0
 94403
 0
-1641541193
+1713940026
 36
 1
 #89
@@ -43129,7 +44169,7 @@ This feature contains various verbs used in stage talk, which allows players to 
 0
 6159
 0
-1641541193
+1713940026
 36
 1
 #90
@@ -43223,7 +44263,7 @@ Verbs useful to people using a windowing system to paste text at people.
 0
 5854
 0
-1641541193
+1713940026
 36
 1
 #91
@@ -43511,7 +44551,7 @@ This is a utilities package for dealing with lists as representations of vectors
 0
 39396
 0
-1641541193
+1713940026
 36
 1
 #92
@@ -44396,7 +45436,7 @@ Frand Help DB
 0
 30023
 0
-1641541193
+1713940026
 36
 1
 #93
@@ -46536,7 +47576,7 @@ This is a utilities package for converting from one unit of measurement to anoth
 0
 45582
 0
-1641541193
+1713940026
 36
 1
 #94
@@ -46646,7 +47686,7 @@ Generic Gendered Object
 0
 3044
 0
-1671219241
+1713940026
 36
 1
 #95
@@ -46960,7 +48000,7 @@ List Editor
 0
 17973
 0
-1671219241
+1713940026
 36
 1
 #96
@@ -47121,7 +48161,7 @@ Editor_Owner
 2
 0
 0
-2147483647
+9223372036854775807
 2
 1
 0
@@ -47212,7 +48252,7 @@ impossible password to type
 96
 5
 0
-2147483647
+9223372036854775807
 2
 1
 4
@@ -47222,7 +48262,7 @@ impossible password to type
 0
 135523
 0
-1671219241
+1713937221
 0
 0
 36
@@ -47298,7 +48338,7 @@ This player owns all editor-related verbs.
 0
 3554
 0
-1671219241
+1713940026
 36
 1
 #97
@@ -47425,7 +48465,7 @@ HTTP Server
 0
 8359
 0
-1671219241
+1713940026
 36
 1
 #98
@@ -47433,9 +48473,17 @@ Core
 3
 98
 1
+-1
+10
+2
+2
+source
+1
 15
+2
+time
 0
-0
+1713940026
 4
 0
 1
@@ -47553,7 +48601,8 @@ Core
 5
 98
 5
-5
+4
+0
 98
 5
 5
@@ -47574,10 +48623,16 @@ Core
 5
 98
 1
-5
+4
+0
 98
 1
-5
+4
+2
+1
+90
+1
+89
 36
 1
 5
@@ -47586,10 +48641,12 @@ Core
 5
 2
 0
-5
+0
+9223372036854775807
 2
 1
-5
+0
+0
 98
 5
 5
@@ -47681,7 +48738,8 @@ Core
 5
 36
 0
-5
+1
+62
 98
 5
 5
@@ -47696,7 +48754,8 @@ Core
 5
 98
 5
-5
+0
+9223372036854775807
 2
 1
 4
@@ -47704,9 +48763,9 @@ Core
 0
 50000
 0
-239212
+239830
 0
-1671219241
+1713937221
 0
 100
 36
@@ -47774,9 +48833,9 @@ Core
 4
 2
 0
-3637
+3717
 0
-1671219241
+1713940026
 36
 1
 #99
@@ -47946,7 +49005,7 @@ hr_to_code
 98
 173
 -1
-69
+71
 escape
 code_red
 code_green
@@ -48016,7 +49075,9 @@ reset_guest_props
 ge_fill_string
 plr_db_insert
 xterm_256_regexp
-74
+code_strike
+code_italic
+76
 2
 
 98
@@ -48146,11 +49207,15 @@ e[22m
 98
 1
 4
-2
+4
 2
 underline
 2
 inverse
+2
+strike
+2
+italic
 98
 1
 2
@@ -48200,7 +49265,7 @@ e[37m
 98
 1
 4
-22
+24
 2
 random
 2
@@ -48240,6 +49305,10 @@ underline
 2
 inverse
 2
+strike
+2
+italic
+2
 blink
 2
 unblink
@@ -48248,7 +49317,7 @@ beep
 98
 1
 2
-%[%(b:%)?%(random%|normal%|null%|bold%|unbold%|bright%|unbright%|red%|green%|yellow%|blue%|purple%|cyan%|gray%|grey%|magenta%|white%|underline%|inverse%|blink%|unblink%|beep%|:%([01][0-9][0-9]%|2[0-4][0-9]%|25[0-5]%)%|:random%|%([0-9]+%):%([0-9]+%):%([0-9]+%)%)%]
+%[%(b:%)?%(random%|normal%|null%|bold%|unbold%|bright%|unbright%|red%|green%|yellow%|blue%|purple%|cyan%|gray%|grey%|magenta%|white%|underline%|inverse%|strike%|italic%|blink%|unblink%|beep%|:%([01][0-9][0-9]%|2[0-4][0-9]%|25[0-5]%)%|:random%|%([0-9]+%):%([0-9]+%):%([0-9]+%)%)%]
 98
 1
 2
@@ -48260,7 +49329,7 @@ beep
 98
 1
 2
-%[%(underline%|inverse%)%]
+%[%(underline%|inverse%|strike%|italic%)%]
 98
 1
 2
@@ -48272,7 +49341,7 @@ beep
 98
 1
 2
-2.6
+2.7
 98
 1
 2
@@ -48284,7 +49353,7 @@ e[1;30m
 98
 1
 4
-37
+41
 2
 Colors        [red]red[normal]          Bold Colors   [bold][red]red[normal]
 2
@@ -48350,6 +49419,14 @@ Underline  - [underline]This should be underlined.[normal]
 2
 
 2
+Strike     - [strike]This should have a line through it.[normal]
+2
+
+2
+Italic     - [italic]This should be italicized.[normal]
+2
+
+2
 Random     - [random]All [random]of [random]these [random]words [random]should [random]be [random]written [random]in [random]a [random]different [random]color.[normal]
 2
 
@@ -48396,7 +49473,23 @@ white
 98
 1
 4
-19
+20
+4
+4
+2
+2.7
+0
+1713938968
+2
+[bold][yellow]l[normal][yellow]i[green]s[bold]d[red]u[normal][red]d[purple]e[normal]
+4
+3
+2
+Fix a traceback in $ansi_utils:add_code()
+2
+Add [strike[null]] for strikethrough text.
+2
+Add [italic[null]] for italicized text.
 4
 4
 2
@@ -48728,7 +49821,7 @@ beep
 98
 1
 2
-%[%(b:%)?%(random%|normal%|bold%|bright%|unbright%|red%|green%|yellow%|blue%|purple%|cyan%|gray%|grey%|magenta%|underline%|inverse%|blink%|:%([01][0-9][0-9]%|2[0-4][0-9]%|25[0-5]%)%|:random%|%([0-9]+%):%([0-9]+%):%([0-9]+%)%)%]
+%[%(b:%)?%(random%|normal%|bold%|bright%|unbright%|red%|green%|yellow%|blue%|purple%|cyan%|gray%|grey%|magenta%|underline%|inverse%|strike%|italic%|blink%|:%([01][0-9][0-9]%|2[0-4][0-9]%|25[0-5]%)%|:random%|%([0-9]+%):%([0-9]+%):%([0-9]+%)%)%]
 98
 5
 4
@@ -48736,7 +49829,7 @@ beep
 98
 1
 2
-%[%(b:%)?%(random%|normal%|bold%|unbold%|bright%|unbright%|red%|green%|yellow%|blue%|purple%|cyan%|gray%|grey%|magenta%|white%|underline%|inverse%|blink%|unblink%|beep%|:%([01][0-9][0-9]%|2[0-4][0-9]%|25[0-5]%)%|:random%|%([0-9]+%):%([0-9]+%):%([0-9]+%)%)%]
+%[%(b:%)?%(random%|normal%|bold%|unbold%|bright%|unbright%|red%|green%|yellow%|blue%|purple%|cyan%|gray%|grey%|magenta%|white%|underline%|inverse%|strike%|italic%|blink%|unblink%|beep%|:%([01][0-9][0-9]%|2[0-4][0-9]%|25[0-5]%)%|:random%|%([0-9]+%):%([0-9]+%):%([0-9]+%)%)%]
 98
 5
 4
@@ -48775,6 +49868,14 @@ return pass(@args);
 :%([01][0-9][0-9]%|2[0-4][0-9]%|25[0-5]%)%|:random
 98
 5
+2
+e[9m
+98
+1
+2
+e[3m
+98
+1
 4
 1
 2
@@ -48800,9 +49901,9 @@ au
 4
 2
 0
-77241
+78078
 0
-1671219241
+1713940026
 36
 1
 #100
@@ -48981,7 +50082,8 @@ replace_codes
 5
 36
 0
-5
+1
+62
 98
 5
 5
@@ -49074,7 +50176,7 @@ A player with the ability to see things in [red]c[bold][yellow]o[green]l[blue]o[
 0
 29845
 0
-1671219241
+1713940026
 36
 1
 #101
@@ -49755,7 +50857,7 @@ A help database of the standard form in need of a description. See `help $generi
 0
 26826
 0
-1671219241
+1713940026
 36
 1
 #102
@@ -49974,7 +51076,7 @@ An option package for controlling and customizing the ANSI PC.
 0
 5739
 0
-1671219241
+1713940026
 36
 1
 #103
@@ -50038,7 +51140,7 @@ dispatch
 0
 5312
 0
-1671219241
+1713940026
 36
 1
 #104
@@ -50145,7 +51247,7 @@ package
 0
 7185
 0
-1671219241
+1713940026
 36
 1
 #105
@@ -50252,7 +51354,7 @@ negotiate
 0
 3348
 0
-1671219241
+1713940026
 36
 1
 #106
@@ -50414,7 +51516,7 @@ cord
 0
 7708
 0
-1671219241
+1713940026
 36
 1
 #107
@@ -50461,7 +51563,7 @@ next_datakey
 unquoted_string
 6
 0
-10176
+10194
 98
 1
 2
@@ -50488,7 +51590,7 @@ parser
 0
 6944
 0
-1671219241
+1713940026
 36
 1
 #108
@@ -50502,7 +51604,7 @@ generic MCP 2.1 session
 4
 0
 1
-122
+118
 4
 0
 22
@@ -50730,7 +51832,7 @@ registry
 0
 6696
 0
-1671219241
+1713940026
 36
 1
 #110
@@ -50887,9 +51989,9 @@ mcp
 4
 2
 0
-11136
+11161
 0
-1671219241
+1713940026
 36
 1
 #111
@@ -50913,7 +52015,162 @@ tell notify
 -1
 0
 0
-# 112 recycled
+#112
+Generic Waif
+0
+2
+1
+-1
+0
+0
+4
+0
+1
+1
+4
+0
+2
+:initialize
+2
+173
+-1
+new
+2
+173
+-1
+2
+:wizard
+help_msg
+6
+0
+0
+2
+0
+4
+50
+2
+A waif is a kind of datatype in the MOO programming language, akin to integers, floating point numbers, strings, lists, objects and errors.
+2
+
+2
+Waifs are like objects in that they have inherited properties and verbs.  They are unlike objects in that they do not have object numbers, and do not ordinarily have a name, aliases, a location, or a description -- although they could.
+2
+
+2
+For those who program in C, it may be helpful to think of a waif as being like the 'struct' datatype:  A waif is a collection of named values.  (A list is a collection of ordered values.)
+2
+
+2
+Every waif inherits its properties and verbs from its 'class', which is an actual object that is a descendant of $waif.  Only properties and verbs whose names begin with a colon are inherited by the instantiated waif.  To create a waif, you invoke the verb <class>:new(), which returns the newly-minted waif as it's value.
+2
+
+2
+A logical time to consider using waifs is in lieu of storing data as a list of lists.  Let's consider an example.  Suppose I want to create a bot that serves drinks and canapes, and for reasons of my own I want to specify what drinks are available rather than let some lout order a glass of diesel fuel at my tea party.  So I am going to create a list of drinks, the kind of container the drink comes in, and the number of sips in each, such that a cup of tea might have more sips (and thus take longer to drink) than a glass of sherry.
+2
+
+2
+If I were to implement my drink list as a list of lists, I might do
+2
+
+2
+  @prop bot.drink_options {{"tea", "cup", 10}, {"sherry", "glass", 4}, {"milk", "glass", 15}}
+2
+
+2
+You can see that a glass of milk has more in it than a glass of sherry.  BUT, if you were looking at this code for the first time, you might not know that the third number in that list refers to quantity.  For longer sublists, it can get very confusing, indeed.
+2
+
+2
+To implement this using waifs, you would first make an object, a kid of $waif, that you would use as a drink specification:
+2
+
+2
+  @create $waif named "drink specification","dspec"
+2
+
+2
+You would then own an object with the generic waif as its parent.  Next you would add properties to this object that the waifs are to inherit:
+2
+
+2
+  @prop dspec.:drink_name "" rc
+2
+  @prop dspec.:drink_container "" rc
+2
+  @prop dspec.:sips_per_container 0 rc
+2
+
+2
+Notice that each property name begins with a colon.  Property names that don't begin with a colon are not inherited by the waifs (.name, for example).
+2
+
+2
+Since your drink specification is a kid of $waif, it inherits the verb :new that can be used to create a waif.  Here is how we would make a few:
+2
+
+2
+  @prop bot.drink_options {} rc
+2
+  @prop bot.drink_spec <dspec> rc
+2
+
+2
+  @verb bot:add_drink tnt rxd
+2
+
+2
+  @program bot:add_drink
+2
+  "Adds a drink specification to this bot's .drink_options property.";
+2
+  "Maybe put in some code only to let the owner do this, but that is not germaine to this example.";
+2
+  {drink_name, drink_container, sips_per_container} = args;
+2
+  new_spec = this.drink_spec:new();
+2
+  new_spec.drink_name = drink_name;
+2
+  new_spec.drink_container = drink_container;
+2
+  new_spec.sips_per_container = sips_per_container;
+2
+  this.drink_options = {@this.drink_options, new_spec};
+2
+  "A robust version of this verb would check for proper data types in the args, maybe look for duplicates first, etc.";
+2
+  .
+2
+
+2
+Later on you might want to specify a color for each drink, so that if it comes in a dribble glass, you can say what color the stain on your poor victim's tie is.  You would add the property (.:color -- remember the colon) to the drink spec object, and voila, it would exist on all the waifs.  You would need to set the individual values, of course, but you wouldn't have to do gymnastics on sublists in lists, which can be a delicate operation indeed.
+2
+
+2
+Further information about waifs is available at http://www.ben.com/MOO/waif.html and http://www.ben.com/MOO/waif-progman.html
+2
+5
+0
+0
+2
+4
+4
+1
+2
+Generic Waif
+2
+5
+5
+2
+5
+4
+2
+0
+6412
+0
+1713940026
+36
+1
 #113
 dns-org-mud-moo-simpleedit
 0
@@ -51168,7 +52425,7 @@ Non JHCore installations might choose to set .v_filter_in / .v_filter_out to fal
 0
 16249
 0
-1671219241
+1713940026
 36
 1
 #114
@@ -52164,7 +53421,7 @@ MCP Help Database
 0
 23287
 0
-1671219241
+1713940026
 36
 1
 #117
@@ -52206,8 +53463,8 @@ __prototype__
 2
 5
 #118
-Generic Waif
-0
+Generic Anonymous Object
+256
 2
 1
 -1
@@ -52216,151 +53473,22 @@ Generic Waif
 4
 0
 1
-1
-4
-0
-2
-:initialize
-2
-173
 -1
+4
+3
+1
+108
+1
+124
+1
+126
+1
 new
 2
 173
 -1
-2
-:wizard
-help_msg
-6
 0
 0
-2
-0
-4
-50
-2
-A waif is a kind of datatype in the MOO programming language, akin to integers, floating point numbers, strings, lists, objects and errors.
-2
-
-2
-Waifs are like objects in that they have inherited properties and verbs.  They are unlike objects in that they do not have object numbers, and do not ordinarily have a name, aliases, a location, or a description -- although they could.
-2
-
-2
-For those who program in C, it may be helpful to think of a waif as being like the 'struct' datatype:  A waif is a collection of named values.  (A list is a collection of ordered values.)
-2
-
-2
-Every waif inherits its properties and verbs from its 'class', which is an actual object that is a descendant of $waif.  Only properties and verbs whose names begin with a colon are inherited by the instantiated waif.  To create a waif, you invoke the verb <class>:new(), which returns the newly-minted waif as it's value.
-2
-
-2
-A logical time to consider using waifs is in lieu of storing data as a list of lists.  Let's consider an example.  Suppose I want to create a bot that serves drinks and canapes, and for reasons of my own I want to specify what drinks are available rather than let some lout order a glass of diesel fuel at my tea party.  So I am going to create a list of drinks, the kind of container the drink comes in, and the number of sips in each, such that a cup of tea might have more sips (and thus take longer to drink) than a glass of sherry.
-2
-
-2
-If I were to implement my drink list as a list of lists, I might do
-2
-
-2
-  @prop bot.drink_options {{"tea", "cup", 10}, {"sherry", "glass", 4}, {"milk", "glass", 15}}
-2
-
-2
-You can see that a glass of milk has more in it than a glass of sherry.  BUT, if you were looking at this code for the first time, you might not know that the third number in that list refers to quantity.  For longer sublists, it can get very confusing, indeed.
-2
-
-2
-To implement this using waifs, you would first make an object, a kid of $waif, that you would use as a drink specification:
-2
-
-2
-  @create $waif named "drink specification","dspec"
-2
-
-2
-You would then own an object with the generic waif as its parent.  Next you would add properties to this object that the waifs are to inherit:
-2
-
-2
-  @prop dspec.:drink_name "" rc
-2
-  @prop dspec.:drink_container "" rc
-2
-  @prop dspec.:sips_per_container 0 rc
-2
-
-2
-Notice that each property name begins with a colon.  Property names that don't begin with a colon are not inherited by the waifs (.name, for example).
-2
-
-2
-Since your drink specification is a kid of $waif, it inherits the verb :new that can be used to create a waif.  Here is how we would make a few:
-2
-
-2
-  @prop bot.drink_options {} rc
-2
-  @prop bot.drink_spec <dspec> rc
-2
-
-2
-  @verb bot:add_drink tnt rxd
-2
-
-2
-  @program bot:add_drink
-2
-  "Adds a drink specification to this bot's .drink_options property.";
-2
-  "Maybe put in some code only to let the owner do this, but that is not germaine to this example.";
-2
-  {drink_name, drink_container, sips_per_container} = args;
-2
-  new_spec = this.drink_spec:new();
-2
-  new_spec.drink_name = drink_name;
-2
-  new_spec.drink_container = drink_container;
-2
-  new_spec.sips_per_container = sips_per_container;
-2
-  this.drink_options = {@this.drink_options, new_spec};
-2
-  "A robust version of this verb would check for proper data types in the args, maybe look for duplicates first, etc.";
-2
-  .
-2
-
-2
-Later on you might want to specify a color for each drink, so that if it comes in a dribble glass, you can say what color the stain on your poor victim's tie is.  You would add the property (.:color -- remember the colon) to the drink spec object, and voila, it would exist on all the waifs.  You would need to set the individual values, of course, but you wouldn't have to do gymnastics on sublists in lists, which can be a delicate operation indeed.
-2
-
-2
-Further information about waifs is available at http://www.ben.com/MOO/waif.html and http://www.ben.com/MOO/waif-progman.html
-2
-5
-0
-0
-2
-4
-4
-1
-2
-Generic Waif
-2
-5
-5
-2
-5
-4
-2
-0
-6412
-0
-1671219241
-36
-1
 #119
 String Prototype
 0
@@ -52465,35 +53593,7 @@ client_info
 client_stats
 10
 4
-2
-4
-3
 0
-1671224789
-1
-2
-4
-3
-2
-RMOO (Emacs)
-2
-1.3b
-2
-0
-4
-3
-0
-1550351436
-1
-98
-4
-3
-2
-wxpymoo
-2
-0.2
-2
-0.2
 98
 0
 4
@@ -52560,107 +53660,12 @@ dns-com-vmoo-client
 4
 2
 0
-6665
+6341
 0
-1671219241
+1713940026
 36
 1
 #122
-Generic Anonymous Object
-256
-2
-1
--1
-0
-0
-4
-0
-1
--1
-4
-3
-1
-108
-1
-125
-1
-127
-1
-new
-2
-173
--1
-0
-0
-#123
-dns-com-awns-status
-0
-98
-1
--1
-0
-0
-4
-0
-1
-104
-4
-0
-1
-status
-98
-173
--1
-0
-8
-4
-2
-2
-1.0
-2
-1.0
-98
-1
-5
-98
-1
-5
-98
-1
-4
-1
-4
-2
-2
-
-4
-1
-2
-text
-98
-1
-0
-0
-98
-4
-4
-1
-2
-dns-com-awns-status
-98
-5
-5
-98
-5
-4
-2
-0
-1394
-0
-1671219241
-36
-1
-#124
 Generic Editor Utilities
 0
 2
@@ -53084,10 +54089,78 @@ This is a placeholder parent for all the $..._utils packages, to more easily fin
 0
 52489
 0
-1671219241
+1713940026
 36
 1
-#125
+#123
+dns-com-awns-status
+0
+98
+1
+-1
+0
+0
+4
+0
+1
+104
+4
+0
+1
+status
+98
+173
+-1
+0
+8
+4
+2
+2
+1.0
+2
+1.0
+98
+1
+5
+98
+1
+5
+98
+1
+4
+1
+4
+2
+2
+
+4
+1
+2
+text
+98
+1
+0
+0
+98
+4
+4
+1
+2
+dns-com-awns-status
+98
+5
+5
+98
+5
+4
+2
+0
+1394
+0
+1713940026
+36
+1
+#124
 Generic Editing State Anon
 0
 2
@@ -53098,7 +54171,7 @@ Generic Editing State Anon
 4
 0
 1
-122
+118
 4
 0
 1
@@ -53163,7 +54236,7 @@ traceback_line
 0
 2
 5
-#126
+#125
 Menu Utilities
 0
 2
@@ -53213,10 +54286,10 @@ Menu Utilities
 0
 8055
 0
-1671219241
+1713940026
 36
 1
-#127
+#126
 Generic Editor Session
 0
 2
@@ -53227,7 +54300,7 @@ Generic Editor Session
 4
 0
 1
-122
+118
 4
 0
 0
@@ -55673,7 +56746,7 @@ endif
 if (caller_perms().wizard)
 pass(@args);
 this.home = (this in {$no_one, $hacker, $generic_editor.owner}) ? $nothing | $player_start;
-if (a = $list_utils:assoc(this, {{$prog, {$help_db["prog"], $help_db["builtin_function"], $help_db["verb"], $help_db["core"], $help_db["toaststunt"]}}, {$wiz, $help_db["wiz"]}, {$mail_recipient_class, $help_db["mail"]}, {$builder, $help_db["builder"]}, {$frand_class, $help_db["frand"]}}))
+if (a = $list_utils:assoc(this, {{$prog, {$help_db["prog"], $help_db["builtin_function"], $help_db["verb"], $help_db["core"], $help_db["toaststunt"]}}, {$wiz, $help_db["wiz"]}, {$mail_recipient_class, $help_db["mail"]}, {$builder, $help_db["builder"]}, {$frand_class, $help_db["frand"]}, {$ansi_pc, $help_db["ansi"]}}))
 this.help = a[2];
 else
 this.help = 0;
@@ -58738,7 +59811,7 @@ this.create_enabled = 1;
 this.registration_address = "";
 this.registration_string = "Character creation is disabled.";
 this.newt_registration_string = "Your character is temporarily hosed.";
-this.welcome_message = {"Welcome to the LambdaCore database.", "", "Type 'connect wizard' to log in.", "", "You will probably want to change this text and the output of the `help' command, which are stored in $login.welcome_message and $login.help_message, respectively."};
+this.welcome_message = {"Welcome to the ToastCore database.", "", "Type 'connect wizard' to log in.", "", "You will probably want to change this text and the output of the `help' command, which are stored in $login.welcome_message and $login.help_message, respectively."};
 this.help_message = {"Sorry, but there's no help here yet.  Type `?' for a list of commands."};
 this.redlist = this.blacklist = this.graylist = this.spooflist = {{}, {}};
 this.temporary_redlist = this.temporary_blacklist = this.temporary_graylist = this.temporary_spooflist = {{}, {}};
@@ -59222,7 +60295,11 @@ endif
 {connection} = args;
 if (!(connection in this.name_lookup_players))
 this.name_lookup_players = setadd(this.name_lookup_players, connection);
+try
 connection_name_lookup(connection, 1);
+except (E_INVARG)
+"Not a critical error, but you may want to do something with it here.";
+endtry
 endif
 .
 #10:47
@@ -68730,8 +69807,13 @@ cm = this.current_message;
 cm[1..2] = {{this, @cm[1..2]}};
 for n in (cm)
 if ($mail_agent:is_recipient(n[1]))
-if (new = n[1]:length_date_gt(n[3]))
-next = (n[1]:length_all_msgs() - new) + 1;
+old = n[1]:length_num_le(n[2]);
+olddate = n[1]:length_date_le(n[3]);
+"Make sure that we don't skip messages sent in the same second, and also handle issue when messages were renumbered by checking both date AND message number.";
+old = min(old, olddate);
+leng_all = n[1]:length_all_msgs();
+if (old < leng_all)
+next = old + 1;
 this:set_current_folder(folder = n[1]);
 this._mail_task = task_id();
 cur = folder:display_seq_full({next, next + 1}, tostr("Message %d", " on ", $mail_agent:name(folder), ":"));
@@ -69272,7 +70354,7 @@ endif
 if ((length(key) == 1) && (i = index("sopqrSOPQR", key, 1)))
 prop = this.pronouns[i];
 else
-search = "$1:he$s:she$1:he/she$2:him$2:him/her$3:his/her$4:hers$4:his/hers$5:himself$5:herself$5:himself/herself";
+search = "$1:he$1:she$1:they$1:he/she$1:he/she/they$2:him$2:them$2:him/her$2:him/her/them$3:their$3:his/her$3:his/her/their$4:hers$4:theirs$4:his/hers$4:his/hers/theirs$5:himself$5:herself$5:themself$5:himself/herself$5:himself/herself/themself";
 i = index(search, (":" + key) + "$");
 if (!i)
 return "";
@@ -81260,7 +82342,7 @@ this.last_news_time = 0;
 this.readers = 1;
 this.expire_period = 0;
 this.archive_news = {};
-$mail_agent:send_message(#2, this, "Welcome to LambdaCore", $wiz_utils.new_core_message);
+$mail_agent:send_message(#2, this, "Welcome to ToastCore", $wiz_utils.new_core_message);
 this:add_news("$");
 else
 return E_PERM;
@@ -88120,7 +89202,7 @@ return E_INVARG;
 else
 code = args[2];
 if (typeof(code) == NUM)
-code = tostr("e[", n, "m");
+code = tostr("e[", code, "m");
 endif
 arg = {this, cn, code, {$code_utils:verb_perms(), "r"}};
 if ($object_utils:has_verb(#0, "add_property"))
@@ -90380,7 +91462,7 @@ return session:(verb)(@rest);
 endif
 .
 #110:14
-return {"parser", "session", "package", "negotiate", "registry", "cord", "simpleedit", "client", "status", "dispatch"};
+return {"parser", "session", "package", "negotiate", "registry", "cord", "simpleedit", "client", "status", "dispatch", "owner"};
 .
 #111:0
 "Notify a connection of something.";
@@ -90390,6 +91472,22 @@ return notify(this, @args);
 else
 return this:(verb)(@args);
 endif
+.
+#112:0
+"the perms check you want is probably:";
+if ((caller == this) || (caller == this.class))
+"allows pass() and :new()";
+else
+raise(E_PERM);
+endif
+.
+#112:1
+"WIZARDLY";
+set_task_perms(caller_perms());
+player = caller_perms();
+w = new_waif();
+w:initialize(@args);
+return w;
 .
 #113:0
 "Usage:  :send_content()";
@@ -90760,20 +91858,13 @@ endif
 return pass(@args);
 .
 #118:0
-"the perms check you want is probably:";
-if ((caller == this) || (caller == this.class))
-"allows pass() and :new()";
-else
-raise(E_PERM);
+{?owner = caller_perms()} = args;
+if ((owner != caller_perms()) && (!caller_perms().wizard))
+return E_PERM;
 endif
-.
-#118:1
-"WIZARDLY";
-set_task_perms(caller_perms());
-player = caller_perms();
-w = new_waif();
-w:initialize(@args);
-return w;
+return create(this, owner, 1);
+"This could potentially allow people to skirt quota since we're not tracking it.";
+"I'm not sure of the best fix, though. Maybe make bf_create handle it?";
 .
 #119:0
 if (verb in {"init_for_core", "exitfunc", "enterfunc", "moveto"})
@@ -90887,21 +91978,6 @@ endfor
 this.client_stats = {clients, users};
 .
 #122:0
-{?owner = caller_perms()} = args;
-if ((owner != caller_perms()) && (!caller_perms().wizard))
-return E_PERM;
-endif
-return create(this, owner, 1);
-"This could potentially allow people to skirt quota since we're not tracking it.";
-"I'm not sure of the best fix, though. Maybe make bf_create handle it?";
-.
-#123:0
-{session, text} = args;
-if ((caller == this) || $perm_utils:controls(caller_perms(), session.connection))
-return this:send_(session, text);
-endif
-.
-#124:0
 {?text = {}, ?prompt = "[Type lines of input; use `.' to end.]", ?commandchar = this:get_opt("cmd_char", player), ?verb = 0, ?extra = {}} = args;
 "Arguments:";
 "  text: The text to be edited.";
@@ -91037,7 +92113,7 @@ continue;
 endtry
 endwhile
 .
-#124:1
+#122:1
 {arg, maxrange, insertion} = args;
 if (typeof(arg) == LIST)
 arg = $string_utils:from_list(arg, " ");
@@ -91089,7 +92165,7 @@ return tostr("Garbled Range: ", arg);
 endif
 return range;
 .
-#124:2
+#122:2
 "-1 == option not found";
 {option, ?player = player} = args;
 opt = `player.inline_editor_options[option] ! ANY => $nothing';
@@ -91099,7 +92175,7 @@ else
 return $edit_utils.default_options[option];
 endif
 .
-#124:3
+#122:3
 {?argstr = 0} = args;
 options = {};
 options = {@options, ["name" -> "Set Command Prefix", "identifier" -> "prefix", "state" -> tostr(this:get_option("cmd_char"))]};
@@ -91180,7 +92256,7 @@ player:tell("Color cleared.");
 endif
 endif
 .
-#124:4
+#122:4
 {player, task} = args;
 this:refresh_last_edits();
 if (pos = player in $list_utils:slice(this.last_edits))
@@ -91190,11 +92266,11 @@ else
 this.last_edits = setadd(this.last_edits, {player, task, ftime()});
 endif
 .
-#124:5
+#122:5
 {player} = args;
 return `this.last_edits[player in $list_utils:slice(this.last_edits)][3] ! ANY => 0';
 .
-#124:6
+#122:6
 edits = this.last_edits;
 "Clear out invalid editor sessions.";
 for x in (edits)
@@ -91204,7 +92280,7 @@ endif
 endfor
 this.last_edits = edits;
 .
-#124:8
+#122:8
 {player, ?create = 0} = args;
 if (!caller_perms().wizard)
 return E_PERM;
@@ -91226,11 +92302,11 @@ return session;
 endif
 return $nothing;
 .
-#124:9
+#122:9
 {player} = args;
 return `$code_utils:task_valid(this.last_edits[player in $list_utils:slice(this.last_edits)][2]) ! ANY => 0';
 .
-#124:10
+#122:10
 {object, verbname, state} = args;
 ret = 0;
 try
@@ -91260,7 +92336,7 @@ player:notify(error[2]);
 player:notify("Verb not programmed.");
 endtry
 .
-#124:11
+#122:11
 {state} = args;
 if (!state.arg)
 player:tell("Insert where? (Use a positive integer or '$' for the last line.)");
@@ -91278,7 +92354,7 @@ endif
 (state.ins <= length(state.text)) && this:list_line(state, state.ins);
 player:tell("Now inserting before line ", state.ins, ".");
 .
-#124:12
+#122:12
 {state} = args;
 if (this:session_for(player) == $nothing)
 player:tell("You have no text saved.");
@@ -91291,7 +92367,7 @@ endif
 state.text = this:session_for(player).text;
 player:tell("Saved text loaded.");
 .
-#124:13
+#122:13
 {state} = args;
 if (this:session_for(player, 1).text && ($command_utils:yes_or_no("You already have text saved. Do you wish to overwrite it?") == 0))
 player:tell("Aborted.");
@@ -91312,7 +92388,7 @@ this:session_for(player, 1).text = text;
 this:session_for(player).last_modified = time();
 player:tell("The text has been successfully saved. To load it in for editing later, type ", this:get_opt("cmd_char"), "paste.");
 .
-#124:14
+#122:14
 {state} = args;
 passthrough = $string_utils:from_list(state.arg, " ");
 force_input(player, passthrough);
@@ -91321,7 +92397,7 @@ while ($command_utils:reading_input(player) && player:is_listening())
 yin();
 endwhile
 .
-#124:15
+#122:15
 text = args[$].text;
 args = args[1..$ - 1];
 player:tell("Reloading...");
@@ -91331,7 +92407,7 @@ args[1] = text;
 endif
 return this:editor(@args);
 .
-#124:16
+#122:16
 {state} = args;
 if (length(state.arg) < 2)
 player:tell("Usage: ", this:get_option("cmd_char"), "", state.command, " <line-number> <new-text>");
@@ -91357,7 +92433,7 @@ player:tell("Line ", NUM, " changed.");
 endif
 endif
 .
-#124:17
+#122:17
 {state} = args;
 if (!state.text)
 player:tell("There is no text to search.");
@@ -91383,7 +92459,7 @@ endif
 state.ins = found + 1;
 player:tell(found, ": ", state.text[found]);
 .
-#124:18
+#122:18
 {state} = args;
 if (state.verb && state.extra)
 {object, verbname} = state.extra[1];
@@ -91394,7 +92470,7 @@ endif
 program = this:program_verb(object, verbname, state);
 endif
 .
-#124:19
+#122:19
 {state} = args;
 if (!state.text)
 player:tell("There is no text to delete.");
@@ -91423,7 +92499,7 @@ endif
 player:tell("---Line", (end > start) ? "s" | "", " deleted. Insertion point is before line ", state.ins, ".");
 endif
 .
-#124:20
+#122:20
 {state} = args;
 if (!state.text)
 player:tell("No text to list.");
@@ -91472,7 +92548,7 @@ endif
 endfor
 endif
 .
-#124:21
+#122:21
 {state} = args;
 if (((length(state.arg) == 1) && (state.arg[1] in {"line", "lines"})) || (!state.arg))
 player:tell("Lines: ", length(state.text));
@@ -91492,7 +92568,7 @@ endfor
 player:tell("Words: ", words);
 endif
 .
-#124:22
+#122:22
 {state} = args;
 player:tell("Command Help");
 player:tell(dashes = "-------------");
@@ -91547,7 +92623,7 @@ player:tell("/delete 1 -- Erases line 1.");
 player:tell("/list 40+40 -- Lists the contents of line 80.");
 endif
 .
-#124:23
+#122:23
 {state} = args;
 letters = {};
 for x in (player.contents)
@@ -91570,7 +92646,7 @@ player:tell("Text inserted.");
 endif
 endif
 .
-#124:24
+#122:24
 {state} = args;
 if (!state.arg)
 player:tell("You must include what lines you wish to comment.");
@@ -91587,7 +92663,7 @@ state.text[x] = ("" + toliteral(state.text[x])) + ";";
 endfor
 player:tell("Line", (end < start) ? "s" | "", " commented.");
 .
-#124:25
+#122:25
 {state} = args;
 if (!state.arg)
 player:tell("You must include what lines you wish to uncomment.");
@@ -91612,7 +92688,7 @@ if (bogus)
 player:tell("---", length(bogus), " ", $s("line", length(bogus)), " ", (start < end) ? "were" | "was", " not comments.");
 endif
 .
-#124:26
+#122:26
 {state} = args;
 if (!state.traceback_line)
 player:tell("There are no recorded tracebacks.");
@@ -91626,7 +92702,7 @@ player:tell("The recorded traceback line is no longer valid.");
 endif
 endif
 .
-#124:27
+#122:27
 {state} = args;
 if (!state.traceback)
 player:tell("There are no recorded tracebacks.");
@@ -91636,7 +92712,7 @@ player:tell("Last recorded traceback:");
 player:tell_lines(state.traceback);
 endif
 .
-#124:28
+#122:28
 {state} = args;
 if (!state.text)
 player:tell("No text to format.");
@@ -91657,7 +92733,7 @@ endfor
 state.text = reformatted;
 player:tell("Done.");
 .
-#124:29
+#122:29
 {state, line} = args;
 if (`line[1] == this:get_option("escape_char") ! ANY' && (length(line) > 1))
 line = line[2..$];
@@ -91671,7 +92747,7 @@ endif
 this:log_last_edit(player, task_id());
 state.ins = state.ins + 1;
 .
-#124:30
+#122:30
 {player, option, value} = args;
 if (!caller_perms().wizard)
 return E_PERM;
@@ -91694,7 +92770,7 @@ return value;
 endif
 return -1;
 .
-#124:31
+#122:31
 {state} = args;
 saved = this:session_for(player, 1);
 if (!saved.text)
@@ -91708,7 +92784,7 @@ player:tell();
 player:tell("(end of saved text)");
 endif
 .
-#124:32
+#122:32
 {state} = args;
 oldoption = this:get_option("edit_verbs");
 this:set_option(player, "edit_verbs", 0);
@@ -91716,7 +92792,7 @@ $verb_editor:invoke((tostr(state.extra[1][1]) + ":") + state.extra[1][2], "@prog
 this:set_option(player, "edit_verbs", oldoption);
 kill_task(task_id());
 .
-#124:33
+#122:33
 {state} = args;
 if (length(state.arg) < 1)
 player:tell("Usage: ", this:get_option("cmd_char"), "", state.command, " <PCRE replacement>");
@@ -91749,14 +92825,14 @@ endfor
 player:tell("Replacement ", success ? "complete" | "failed", ". ", changed, " ", $s("line", changed), " affected.");
 endif
 .
-#124:34
+#122:34
 if (caller_perms().wizard)
 this.last_edits = {};
 this.sessions = {};
 pass(@args);
 endif
 .
-#124:35
+#122:35
 $ansi_utils:add_noansi();
 {state, line} = args;
 f = 1 + (line in {(ins = state.ins) - 1, ins});
@@ -91764,7 +92840,13 @@ text = state.text[line];
 player:tell($string_utils:right(line, 3, " _^"[f]), ":_^"[f], " ", text);
 $ansi_utils:remove_noansi();
 .
-#125:0
+#123:0
+{session, text} = args;
+if ((caller == this) || $perm_utils:controls(caller_perms(), session.connection))
+return this:send_(session, text);
+endif
+.
+#124:0
 {text, verb, extra, @overflow} = args;
 new = pass(player);
 new.text = text;
@@ -91772,7 +92854,7 @@ new.verb = verb;
 new.extra = extra;
 return new;
 .
-#126:0
+#125:0
 "Usage: $menu_utils:menu(menu, options)";
 "Menu: Should be a list of strings.";
 "Options: A map containing option modifiers.";
@@ -91933,11 +93015,11 @@ return -1;
 endif
 endif
 .
-#126:1
+#125:1
 {OBJ, verb} = args;
 return `OBJ:(verb)() ! ANY => "Unknown"';
 .
-#126:2
+#125:2
 "$menu_utils:options_menu(options[,input[,  menu_op]])";
 "This is a menu verb, specifically intended for option menus that need complexity and robustness not provided by $option_utils.";
 "It's only real purpose is option matching, not setting. Setting is left as an exercise to the programmer.";
