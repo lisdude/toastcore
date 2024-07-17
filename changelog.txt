@@ -217,4 +217,11 @@ Properly transform //-style comments when using @program (primarily for LambdaCo
 [$wiz_utils.new_core_message] Slightly updated to point to the current MOO mailing list and ToastStunt Discord.
 ANSI: Add tags for [strike] and [italic].
 (2024-04-24) This version (and future versions) is made with `make-core-database`. Note: This means object numbers will be different from previous versions going forward.
-
+[$builder:@classes] Added back with some additions for objects that have no parent.
+[#0:init_for_core] Added $class_registry back.
+[#0.class_registry] Updated with new ToastCore classes. A fourth argument has also been added to filter uninteresting categories by player class.
+[$player:init_for_core] Add the MCP and editor help databases to $player.
+[$network.valid_host_regexp] Pulled the latest from LambdaMOO.
+[$login:connection_name_lookup] Include E_QUOTA to account for threading errors. Also mail $wiz_utils.gripe_recipients with name lookup errors.
+[$code_utils:_find_verbs_containing] Add an additional check to make sure the argument is an object before checking if it's valid(). This fixes a traceback in @grep.
+[...] Apply consistent capitalization to object names.
