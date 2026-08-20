@@ -1,3 +1,10 @@
+# 06/11/26
+* fixed typo in #10:connection_name_lookup (calling `:send_messsage` instead of `:send_message`)
+* fixed reference to $cu in #58:@remove-option (should have been $command_utils)
+* standardized changelog to include dated updates
+* added CONTRIBUTING.md
+
+# Previous changes (not tracked by date)
 ANSI 2.5
 MCP 2.1
 [#0:bf_read] to set reading_input property
