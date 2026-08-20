@@ -30,3 +30,10 @@ An exhaustive list of changes can be found in the [changelog](changelog.txt).
 ## Notes
 
 - **WARNING**: Be aware that, if you are running the MOO database on your local machine, ToastStunt [will not display the welcome screen due to the way proxy rewriting works](https://github.com/lisdude/toaststunt#login-screen-not-showing). To connect to your fresh ToastCore's primary wizard character, type: `connect wizard`
+
+## Making a core database
+
+1. Ensure the MOO is compiled with outbound network connections disabled
+2. Load the MOO with toastcore.db
+3. Make your changes
+4. As `wizard` run the verb `make-core-database`
